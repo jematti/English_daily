@@ -4,6 +4,7 @@ import 'package:english_drops_daily/features/dashboard/widgets/progress_summary_
 import 'package:english_drops_daily/features/dashboard/widgets/quick_actions_grid.dart';
 import 'package:english_drops_daily/features/dashboard/widgets/streak_card.dart';
 import 'package:english_drops_daily/features/word_of_day/screens/word_of_day_screen.dart';
+import 'package:english_drops_daily/services/notifications/notification_service.dart';
 import 'package:flutter/material.dart';
 
 class DashboardScreen extends StatefulWidget {
@@ -57,12 +58,38 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   const SizedBox(height: 16),
                   const StreakCard(),
                   const SizedBox(height: 16),
+                  _NotificationTestButton(),
+                  const SizedBox(height: 16),
                   const QuickActionsGrid(),
                 ],
               ),
             );
           },
         ),
+      ),
+    );
+  }
+}
+
+class _NotificationTestButton extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: double.infinity,
+      child: FilledButton.icon(
+        onPressed: () async {
+          await NotificationService.instance.showTestNotification();
+
+          if (!context.mounted) {
+            return;
+          }
+
+          ScaffoldMessenger.of(
+            context,
+          ).showSnackBar(const SnackBar(content: Text('Notificacion enviada')));
+        },
+        icon: const Icon(Icons.notifications_active_outlined),
+        label: const Text('Probar notificacion'),
       ),
     );
   }

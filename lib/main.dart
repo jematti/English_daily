@@ -1,7 +1,12 @@
 import 'package:english_drops_daily/features/dashboard/screens/dashboard_screen.dart';
+import 'package:english_drops_daily/services/notifications/notification_service.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await NotificationService.instance.init();
+  await NotificationService.instance.scheduleDailyReminder();
+
   runApp(const MyApp());
 }
 
