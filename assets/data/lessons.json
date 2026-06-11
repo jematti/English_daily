@@ -1,0 +1,327 @@
+[
+  {
+    "id": "lesson_001",
+    "word": "actually",
+    "meaningEs": "en realidad / de hecho",
+    "pronunciation": "Ak-shu-a-li",
+    "exampleEn": "Actually, I prefer coffee in the morning.",
+    "exampleEs": "En realidad, prefiero cafe por la manana.",
+    "usage": "Se usa para corregir, aclarar o dar informacion mas precisa.",
+    "grammar": "Usually works as an adverb at the beginning or middle of a sentence.",
+    "commonMistakes": [
+      "No significa 'actualmente'.",
+      "No usar como traduccion directa de 'actualmente'."
+    ],
+    "dailyUse": [
+      "Actually, I need help.",
+      "Actually, that is not correct."
+    ],
+    "exercises": [
+      {
+        "id": "ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'actually' mean in Spanish?",
+        "options": ["Actualmente", "En realidad", "Rapidamente", "Casi"],
+        "correctAnswer": "En realidad",
+        "explanation": "'Actually' significa 'en realidad' o 'de hecho', no 'actualmente'."
+      }
+    ]
+  },
+  {
+    "id": "lesson_002",
+    "word": "usually",
+    "meaningEs": "normalmente / por lo general",
+    "pronunciation": "Yu-zhu-a-li",
+    "exampleEn": "I usually study English after dinner.",
+    "exampleEs": "Normalmente estudio ingles despues de cenar.",
+    "usage": "Se usa para hablar de habitos o acciones que pasan con frecuencia.",
+    "grammar": "Usually is an adverb of frequency. It often goes before the main verb.",
+    "commonMistakes": [
+      "No poner siempre al final de la frase.",
+      "No confundir con 'usefully', que significa 'utilmente'."
+    ],
+    "dailyUse": [
+      "I usually wake up early.",
+      "She usually takes the bus."
+    ],
+    "exercises": [
+      {
+        "id": "ex_002",
+        "type": "multiple_choice",
+        "question": "Choose the best translation: I usually cook at home.",
+        "options": [
+          "Yo cocino en casa normalmente",
+          "Yo cocino en casa actualmente",
+          "Yo cocino en casa rapidamente",
+          "Yo nunca cocino en casa"
+        ],
+        "correctAnswer": "Yo cocino en casa normalmente",
+        "explanation": "'Usually' expresa frecuencia y se traduce como 'normalmente' o 'por lo general'."
+      }
+    ]
+  },
+  {
+    "id": "lesson_003",
+    "word": "improve",
+    "meaningEs": "mejorar",
+    "pronunciation": "Im-pruv",
+    "exampleEn": "I want to improve my pronunciation.",
+    "exampleEs": "Quiero mejorar mi pronunciacion.",
+    "usage": "Se usa cuando algo se vuelve mejor o cuando una persona practica para avanzar.",
+    "grammar": "Improve is a regular verb: improve, improved, improved.",
+    "commonMistakes": [
+      "No decir 'improve in English' cuando quieres decir 'improve my English'.",
+      "No confundir con 'prove', que significa 'probar' o 'demostrar'."
+    ],
+    "dailyUse": [
+      "I need to improve my listening.",
+      "This app helps me improve."
+    ],
+    "exercises": [
+      {
+        "id": "ex_003",
+        "type": "multiple_choice",
+        "question": "What sentence uses 'improve' correctly?",
+        "options": [
+          "I want to improve my English.",
+          "I want improve my English.",
+          "I improve to my English.",
+          "I want to prove my English better."
+        ],
+        "correctAnswer": "I want to improve my English.",
+        "explanation": "Despues de 'want' se usa 'to improve', y el objeto puede ser 'my English'."
+      }
+    ]
+  },
+  {
+    "id": "lesson_004",
+    "word": "enough",
+    "meaningEs": "suficiente / lo suficiente",
+    "pronunciation": "I-naf",
+    "exampleEn": "I do not have enough time today.",
+    "exampleEs": "No tengo suficiente tiempo hoy.",
+    "usage": "Se usa para decir que hay la cantidad necesaria de algo.",
+    "grammar": "Enough goes before nouns, but after adjectives: enough money, good enough.",
+    "commonMistakes": [
+      "No decir 'time enough' cuando hablas de cantidad.",
+      "Recordar que con adjetivos va despues: 'good enough'."
+    ],
+    "dailyUse": [
+      "That is enough for today.",
+      "This coffee is not hot enough."
+    ],
+    "exercises": [
+      {
+        "id": "ex_004",
+        "type": "multiple_choice",
+        "question": "Which phrase is correct?",
+        "options": [
+          "enough money",
+          "money enough",
+          "enough tired",
+          "enough good"
+        ],
+        "correctAnswer": "enough money",
+        "explanation": "Con sustantivos, 'enough' normalmente va antes: 'enough money'."
+      }
+    ]
+  },
+  {
+    "id": "lesson_005",
+    "word": "borrow",
+    "meaningEs": "pedir prestado",
+    "pronunciation": "Ba-ro",
+    "exampleEn": "Can I borrow your pen for a minute?",
+    "exampleEs": "Puedo pedir prestado tu boligrafo por un minuto?",
+    "usage": "Se usa cuando tu recibes algo prestado de otra persona.",
+    "grammar": "Borrow focuses on the person who receives the item.",
+    "commonMistakes": [
+      "No usar 'borrow' cuando tu das algo prestado.",
+      "No confundir con 'lend', que significa prestar a alguien."
+    ],
+    "dailyUse": [
+      "Can I borrow your charger?",
+      "I borrowed a book from Ana."
+    ],
+    "exercises": [
+      {
+        "id": "ex_005",
+        "type": "multiple_choice",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "Can I borrow your phone?",
+          "Can I lend your phone?",
+          "Can I borrow you my phone?",
+          "Can I borrowed your phone?"
+        ],
+        "correctAnswer": "Can I borrow your phone?",
+        "explanation": "Si tu recibes el telefono por un momento, usas 'borrow'."
+      }
+    ]
+  },
+  {
+    "id": "lesson_006",
+    "word": "lend",
+    "meaningEs": "prestar",
+    "pronunciation": "Lend",
+    "exampleEn": "I can lend you my notes after class.",
+    "exampleEs": "Puedo prestarte mis apuntes despues de clase.",
+    "usage": "Se usa cuando tu das algo a otra persona por un tiempo.",
+    "grammar": "Lend focuses on the person who gives the item temporarily.",
+    "commonMistakes": [
+      "No usar 'lend' cuando tu pides algo prestado.",
+      "No olvidar el objeto: 'lend you my pen'."
+    ],
+    "dailyUse": [
+      "Can you lend me five dollars?",
+      "I can lend you my umbrella."
+    ],
+    "exercises": [
+      {
+        "id": "ex_006",
+        "type": "multiple_choice",
+        "question": "What does 'lend' mean in this sentence: I can lend you my umbrella?",
+        "options": [
+          "Puedo prestarte mi paraguas",
+          "Puedo pedirte prestado mi paraguas",
+          "Puedo comprar tu paraguas",
+          "Puedo olvidar tu paraguas"
+        ],
+        "correctAnswer": "Puedo prestarte mi paraguas",
+        "explanation": "'Lend' significa dar algo prestado a otra persona por un tiempo."
+      }
+    ]
+  },
+  {
+    "id": "lesson_007",
+    "word": "advice",
+    "meaningEs": "consejo / consejos",
+    "pronunciation": "Ad-vais",
+    "exampleEn": "My teacher gave me useful advice.",
+    "exampleEs": "Mi profesor me dio consejos utiles.",
+    "usage": "Se usa para hablar de recomendaciones o sugerencias.",
+    "grammar": "Advice is an uncountable noun in English. Use 'some advice' or 'a piece of advice'.",
+    "commonMistakes": [
+      "No decir 'an advice'.",
+      "No agregar plural: 'advices' no es correcto en ingles comun."
+    ],
+    "dailyUse": [
+      "Can you give me some advice?",
+      "That is good advice."
+    ],
+    "exercises": [
+      {
+        "id": "ex_007",
+        "type": "multiple_choice",
+        "question": "Which phrase is correct?",
+        "options": [
+          "some advice",
+          "an advice",
+          "many advices",
+          "one advices"
+        ],
+        "correctAnswer": "some advice",
+        "explanation": "'Advice' es incontable; puedes decir 'some advice' o 'a piece of advice'."
+      }
+    ]
+  },
+  {
+    "id": "lesson_008",
+    "word": "make",
+    "meaningEs": "hacer / crear / preparar",
+    "pronunciation": "Meik",
+    "exampleEn": "I need to make breakfast before work.",
+    "exampleEs": "Necesito preparar el desayuno antes del trabajo.",
+    "usage": "Se usa cuando produces, creas o preparas algo.",
+    "grammar": "Make is an irregular verb: make, made, made.",
+    "commonMistakes": [
+      "No usar siempre 'do' para traducir 'hacer'.",
+      "Usar 'make' para resultados concretos como food, plans, mistakes or decisions."
+    ],
+    "dailyUse": [
+      "I made a mistake.",
+      "Let's make a plan."
+    ],
+    "exercises": [
+      {
+        "id": "ex_008",
+        "type": "multiple_choice",
+        "question": "Choose the natural phrase.",
+        "options": [
+          "make a decision",
+          "do a decision",
+          "make homework",
+          "do a mistake"
+        ],
+        "correctAnswer": "make a decision",
+        "explanation": "En ingles se dice 'make a decision' porque hablas de crear o tomar una decision."
+      }
+    ]
+  },
+  {
+    "id": "lesson_009",
+    "word": "do",
+    "meaningEs": "hacer / realizar",
+    "pronunciation": "Du",
+    "exampleEn": "I do my homework after lunch.",
+    "exampleEs": "Hago mi tarea despues del almuerzo.",
+    "usage": "Se usa para acciones, tareas, trabajos y actividades generales.",
+    "grammar": "Do is an irregular verb: do, did, done. It is also used as an auxiliary verb in questions and negatives.",
+    "commonMistakes": [
+      "No usar 'make homework'.",
+      "No confundir el verbo principal 'do' con el auxiliar en preguntas."
+    ],
+    "dailyUse": [
+      "I need to do the dishes.",
+      "What do you do on weekends?"
+    ],
+    "exercises": [
+      {
+        "id": "ex_009",
+        "type": "multiple_choice",
+        "question": "Which phrase is correct?",
+        "options": [
+          "do homework",
+          "make homework",
+          "do a cake",
+          "make exercise"
+        ],
+        "correctAnswer": "do homework",
+        "explanation": "Con tareas como 'homework' se usa 'do'."
+      }
+    ]
+  },
+  {
+    "id": "lesson_010",
+    "word": "get",
+    "meaningEs": "obtener / recibir / llegar / entender",
+    "pronunciation": "Get",
+    "exampleEn": "I usually get home at six.",
+    "exampleEs": "Normalmente llego a casa a las seis.",
+    "usage": "Se usa en muchos contextos: recibir algo, llegar a un lugar o entender una idea.",
+    "grammar": "Get is an irregular verb: get, got, got or gotten depending on the variety of English.",
+    "commonMistakes": [
+      "No traducir 'get' siempre de la misma forma.",
+      "Mirar el contexto antes de elegir entre obtener, llegar, recibir o entender."
+    ],
+    "dailyUse": [
+      "I got your message.",
+      "Did you get it?"
+    ],
+    "exercises": [
+      {
+        "id": "ex_010",
+        "type": "multiple_choice",
+        "question": "What does 'get' mean in 'I get home at six'?",
+        "options": [
+          "Llego",
+          "Compro",
+          "Presto",
+          "Mejoro"
+        ],
+        "correctAnswer": "Llego",
+        "explanation": "En este contexto, 'get home' significa 'llegar a casa'."
+      }
+    ]
+  }
+]
