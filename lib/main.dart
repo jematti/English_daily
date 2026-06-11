@@ -1,4 +1,4 @@
-import 'package:english_drops_daily/features/word_of_day/screens/word_of_day_screen.dart';
+import 'package:english_drops_daily/features/dashboard/screens/dashboard_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
         useMaterial3: true,
       ),
-      home: const WordOfDayScreen(),
+      home: const DashboardScreen(),
     );
   }
 }
