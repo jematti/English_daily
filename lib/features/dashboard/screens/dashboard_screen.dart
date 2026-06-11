@@ -78,7 +78,23 @@ class _NotificationTestButton extends StatelessWidget {
       width: double.infinity,
       child: FilledButton.icon(
         onPressed: () async {
-          await NotificationService.instance.showTestNotification();
+          final notificationService = NotificationService();
+          final granted = await notificationService.requestPermissions();
+
+          if (!context.mounted) {
+            return;
+          }
+
+          if (!granted) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(
+                content: Text('Permiso de notificaciones no concedido'),
+              ),
+            );
+            return;
+          }
+
+          await notificationService.showTestNotification();
 
           if (!context.mounted) {
             return;

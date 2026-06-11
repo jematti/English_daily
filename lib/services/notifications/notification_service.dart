@@ -2,9 +2,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 class NotificationService {
+  factory NotificationService() => _instance;
+
   NotificationService._();
 
-  static final NotificationService instance = NotificationService._();
+  static final NotificationService _instance = NotificationService._();
 
   final FlutterLocalNotificationsPlugin _notifications =
       FlutterLocalNotificationsPlugin();
@@ -17,6 +19,14 @@ class NotificationService {
   static const String _notificationBody =
       'Tu gota de ingles del dia te espera.';
 
+  static const AndroidNotificationChannel _androidChannel =
+      AndroidNotificationChannel(
+        _channelId,
+        _channelName,
+        description: _channelDescription,
+        importance: Importance.high,
+      );
+
   static const NotificationDetails _notificationDetails = NotificationDetails(
     android: AndroidNotificationDetails(
       _channelId,
@@ -28,7 +38,7 @@ class NotificationService {
   );
 
   Future<void> init() async {
-    if (kIsWeb) {
+    if (!_isAndroid) {
       return;
     }
 
@@ -40,10 +50,26 @@ class NotificationService {
     );
 
     await _notifications.initialize(settings: initializationSettings);
-    await _requestAndroidNotificationPermission();
+    await _createAndroidNotificationChannel();
+  }
+
+  Future<bool> requestPermissions() async {
+    if (!_isAndroid) {
+      return false;
+    }
+
+    final androidImplementation = _androidImplementation;
+    final granted = await androidImplementation
+        ?.requestNotificationsPermission();
+
+    return granted ?? false;
   }
 
   Future<void> showTestNotification() async {
+    if (!_isAndroid) {
+      return;
+    }
+
     await _notifications.show(
       id: 1,
       title: _notificationTitle,
@@ -52,23 +78,16 @@ class NotificationService {
     );
   }
 
-  Future<void> scheduleDailyReminder() async {
-    await _notifications.periodicallyShow(
-      id: 2,
-      title: _notificationTitle,
-      body: _notificationBody,
-      repeatInterval: RepeatInterval.daily,
-      notificationDetails: _notificationDetails,
-      androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
-    );
+  Future<void> _createAndroidNotificationChannel() async {
+    await _androidImplementation?.createNotificationChannel(_androidChannel);
   }
 
-  Future<void> _requestAndroidNotificationPermission() async {
-    final androidImplementation = _notifications
-        .resolvePlatformSpecificImplementation<
-          AndroidFlutterLocalNotificationsPlugin
-        >();
+  AndroidFlutterLocalNotificationsPlugin? get _androidImplementation =>
+      _notifications
+          .resolvePlatformSpecificImplementation<
+            AndroidFlutterLocalNotificationsPlugin
+          >();
 
-    await androidImplementation?.requestNotificationsPermission();
-  }
+  bool get _isAndroid =>
+      !kIsWeb && defaultTargetPlatform == TargetPlatform.android;
 }
