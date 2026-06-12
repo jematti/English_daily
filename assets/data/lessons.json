@@ -8,6 +8,13 @@
     "exampleEs": "En realidad, prefiero cafe por la manana.",
     "usage": "Se usa para corregir, aclarar o dar informacion mas precisa.",
     "grammar": "Usually works as an adverb at the beginning or middle of a sentence.",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "shortNotificationText": "Uso: para aclarar o corregir una idea. Example: Actually, I need help.",
     "commonMistakes": [
       "No significa 'actualmente'.",
       "No usar como traduccion directa de 'actualmente'."
@@ -36,6 +43,13 @@
     "exampleEs": "Normalmente estudio ingles despues de cenar.",
     "usage": "Se usa para hablar de habitos o acciones que pasan con frecuencia.",
     "grammar": "Usually is an adverb of frequency. It often goes before the main verb.",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "shortNotificationText": "Uso: para hablar de habitos o frecuencia. Example: I usually wake up early.",
     "commonMistakes": [
       "No poner siempre al final de la frase.",
       "No confundir con 'usefully', que significa 'utilmente'."
@@ -69,6 +83,13 @@
     "exampleEs": "Quiero mejorar mi pronunciacion.",
     "usage": "Se usa cuando algo se vuelve mejor o cuando una persona practica para avanzar.",
     "grammar": "Improve is a regular verb: improve, improved, improved.",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "improve",
+    "pastSimple": "improved",
+    "pastParticiple": "improved",
+    "shortNotificationText": "Regular: improve / improved / improved. Example: I want to improve my pronunciation.",
     "commonMistakes": [
       "No decir 'improve in English' cuando quieres decir 'improve my English'.",
       "No confundir con 'prove', que significa 'probar' o 'demostrar'."
@@ -102,6 +123,13 @@
     "exampleEs": "No tengo suficiente tiempo hoy.",
     "usage": "Se usa para decir que hay la cantidad necesaria de algo.",
     "grammar": "Enough goes before nouns, but after adjectives: enough money, good enough.",
+    "partOfSpeech": "determiner/adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "shortNotificationText": "Uso: para decir que hay la cantidad necesaria. Example: I do not have enough time today.",
     "commonMistakes": [
       "No decir 'time enough' cuando hablas de cantidad.",
       "Recordar que con adjetivos va despues: 'good enough'."
@@ -135,6 +163,13 @@
     "exampleEs": "Puedo pedir prestado tu boligrafo por un minuto?",
     "usage": "Se usa cuando tu recibes algo prestado de otra persona.",
     "grammar": "Borrow focuses on the person who receives the item.",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "borrow",
+    "pastSimple": "borrowed",
+    "pastParticiple": "borrowed",
+    "shortNotificationText": "Regular: borrow / borrowed / borrowed. Example: Can I borrow your pen?",
     "commonMistakes": [
       "No usar 'borrow' cuando tu das algo prestado.",
       "No confundir con 'lend', que significa prestar a alguien."
@@ -168,6 +203,13 @@
     "exampleEs": "Puedo prestarte mis apuntes despues de clase.",
     "usage": "Se usa cuando tu das algo a otra persona por un tiempo.",
     "grammar": "Lend focuses on the person who gives the item temporarily.",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "lend",
+    "pastSimple": "lent",
+    "pastParticiple": "lent",
+    "shortNotificationText": "Irregular: lend / lent / lent. Example: I can lend you my notes.",
     "commonMistakes": [
       "No usar 'lend' cuando tu pides algo prestado.",
       "No olvidar el objeto: 'lend you my pen'."
@@ -201,6 +243,13 @@
     "exampleEs": "Mi profesor me dio consejos utiles.",
     "usage": "Se usa para hablar de recomendaciones o sugerencias.",
     "grammar": "Advice is an uncountable noun in English. Use 'some advice' or 'a piece of advice'.",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "shortNotificationText": "Uso: para hablar de recomendaciones. Example: Can you give me some advice?",
     "commonMistakes": [
       "No decir 'an advice'.",
       "No agregar plural: 'advices' no es correcto en ingles comun."
@@ -234,6 +283,13 @@
     "exampleEs": "Necesito preparar el desayuno antes del trabajo.",
     "usage": "Se usa cuando produces, creas o preparas algo.",
     "grammar": "Make is an irregular verb: make, made, made.",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "make",
+    "pastSimple": "made",
+    "pastParticiple": "made",
+    "shortNotificationText": "Irregular: make / made / made. Example: Let's make a plan.",
     "commonMistakes": [
       "No usar siempre 'do' para traducir 'hacer'.",
       "Usar 'make' para resultados concretos como food, plans, mistakes or decisions."
@@ -267,6 +323,13 @@
     "exampleEs": "Hago mi tarea despues del almuerzo.",
     "usage": "Se usa para acciones, tareas, trabajos y actividades generales.",
     "grammar": "Do is an irregular verb: do, did, done. It is also used as an auxiliary verb in questions and negatives.",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "do",
+    "pastSimple": "did",
+    "pastParticiple": "done",
+    "shortNotificationText": "Irregular: do / did / done. Example: I do my homework after lunch.",
     "commonMistakes": [
       "No usar 'make homework'.",
       "No confundir el verbo principal 'do' con el auxiliar en preguntas."
@@ -300,6 +363,13 @@
     "exampleEs": "Normalmente llego a casa a las seis.",
     "usage": "Se usa en muchos contextos: recibir algo, llegar a un lugar o entender una idea.",
     "grammar": "Get is an irregular verb: get, got, got or gotten depending on the variety of English.",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "get",
+    "pastSimple": "got",
+    "pastParticiple": "got/gotten",
+    "shortNotificationText": "Irregular: get / got / got or gotten. Example: I usually get home at six.",
     "commonMistakes": [
       "No traducir 'get' siempre de la misma forma.",
       "Mirar el contexto antes de elegir entre obtener, llegar, recibir o entender."

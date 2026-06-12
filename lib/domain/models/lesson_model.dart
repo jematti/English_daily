@@ -10,6 +10,13 @@ class LessonModel {
     required this.exampleEs,
     required this.usage,
     required this.grammar,
+    required this.partOfSpeech,
+    required this.isVerb,
+    required this.verbType,
+    required this.baseForm,
+    required this.pastSimple,
+    required this.pastParticiple,
+    required this.shortNotificationText,
     required this.commonMistakes,
     required this.dailyUse,
     required this.exercises,
@@ -23,6 +30,13 @@ class LessonModel {
   final String exampleEs;
   final String usage;
   final String grammar;
+  final String? partOfSpeech;
+  final bool isVerb;
+  final String? verbType;
+  final String? baseForm;
+  final String? pastSimple;
+  final String? pastParticiple;
+  final String? shortNotificationText;
   final List<String> commonMistakes;
   final List<String> dailyUse;
   final List<ExerciseModel> exercises;
@@ -37,6 +51,13 @@ class LessonModel {
       exampleEs: json['exampleEs'] as String,
       usage: json['usage'] as String,
       grammar: json['grammar'] as String,
+      partOfSpeech: json['partOfSpeech'] as String?,
+      isVerb: json['isVerb'] as bool? ?? false,
+      verbType: json['verbType'] as String?,
+      baseForm: json['baseForm'] as String?,
+      pastSimple: json['pastSimple'] as String?,
+      pastParticiple: json['pastParticiple'] as String?,
+      shortNotificationText: json['shortNotificationText'] as String?,
       commonMistakes: List<String>.from(
         json['commonMistakes'] as List<dynamic>? ?? const [],
       ),
@@ -61,6 +82,13 @@ class LessonModel {
       'exampleEs': exampleEs,
       'usage': usage,
       'grammar': grammar,
+      'partOfSpeech': partOfSpeech,
+      'isVerb': isVerb,
+      'verbType': verbType,
+      'baseForm': baseForm,
+      'pastSimple': pastSimple,
+      'pastParticiple': pastParticiple,
+      'shortNotificationText': shortNotificationText,
       'commonMistakes': commonMistakes,
       'dailyUse': dailyUse,
       'exercises': exercises.map((exercise) => exercise.toJson()).toList(),
