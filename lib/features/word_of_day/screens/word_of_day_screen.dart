@@ -4,7 +4,9 @@ import 'package:english_drops_daily/features/word_of_day/widgets/lesson_card.dar
 import 'package:flutter/material.dart';
 
 class WordOfDayScreen extends StatefulWidget {
-  const WordOfDayScreen({super.key});
+  const WordOfDayScreen({super.key, this.initialLessonId});
+
+  final String? initialLessonId;
 
   @override
   State<WordOfDayScreen> createState() => _WordOfDayScreenState();
@@ -44,14 +46,28 @@ class _WordOfDayScreenState extends State<WordOfDayScreen> {
             );
           }
 
+          final selectedLesson = _findSelectedLesson(lessons);
+
           return SafeArea(
             child: SingleChildScrollView(
               padding: const EdgeInsets.all(16),
-              child: LessonCard(lesson: lessons.first),
+              child: LessonCard(lesson: selectedLesson),
             ),
           );
         },
       ),
+    );
+  }
+
+  LessonModel _findSelectedLesson(List<LessonModel> lessons) {
+    final lessonId = widget.initialLessonId;
+    if (lessonId == null) {
+      return lessons.first;
+    }
+
+    return lessons.firstWhere(
+      (lesson) => lesson.id == lessonId,
+      orElse: () => lessons.first,
     );
   }
 }

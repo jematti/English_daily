@@ -1,5 +1,6 @@
 import 'package:english_drops_daily/features/progress/screens/review_screen.dart';
 import 'package:english_drops_daily/features/exercises/screens/exercises_screen.dart';
+import 'package:english_drops_daily/features/settings/screens/notification_settings_screen.dart';
 import 'package:flutter/material.dart';
 
 class QuickActionsGrid extends StatelessWidget {
@@ -50,6 +51,15 @@ class QuickActionsGrid extends StatelessWidget {
                       Navigator.of(context).push(
                         MaterialPageRoute<void>(
                           builder: (_) => const ReviewScreen(),
+                        ),
+                      );
+                      return;
+                    }
+
+                    if (action.label == 'Configuracion') {
+                      Navigator.of(context).push(
+                        MaterialPageRoute<void>(
+                          builder: (_) => const NotificationSettingsScreen(),
                         ),
                       );
                       return;

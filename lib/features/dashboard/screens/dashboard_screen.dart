@@ -5,6 +5,7 @@ import 'package:english_drops_daily/features/dashboard/widgets/quick_actions_gri
 import 'package:english_drops_daily/features/dashboard/widgets/streak_card.dart';
 import 'package:english_drops_daily/features/word_of_day/screens/word_of_day_screen.dart';
 import 'package:english_drops_daily/services/notifications/notification_service.dart';
+import 'package:english_drops_daily/services/storage/settings_storage_service.dart';
 import 'package:flutter/material.dart';
 
 class DashboardScreen extends StatefulWidget {
@@ -58,7 +59,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   const SizedBox(height: 16),
                   const StreakCard(),
                   const SizedBox(height: 16),
-                  _NotificationTestButton(),
+                  _NotificationTestButton(lesson: lesson),
                   const SizedBox(height: 16),
                   const QuickActionsGrid(),
                 ],
@@ -72,42 +73,92 @@ class _DashboardScreenState extends State<DashboardScreen> {
 }
 
 class _NotificationTestButton extends StatelessWidget {
+  const _NotificationTestButton({required this.lesson});
+
+  final LessonModel? lesson;
+
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      width: double.infinity,
-      child: FilledButton.icon(
-        onPressed: () async {
-          final notificationService = NotificationService();
-          final granted = await notificationService.requestPermissions();
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.all(18),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            FutureBuilder(
+              future: const SettingsStorageService().getNotificationSettings(),
+              builder: (context, snapshot) {
+                final settings = snapshot.data;
+                final text = settings == null
+                    ? 'Frecuencia inicial: 1 al dia'
+                    : _settingsLabel(settings.optionKey);
 
-          if (!context.mounted) {
-            return;
-          }
+                return Text(text, style: Theme.of(context).textTheme.bodySmall);
+              },
+            ),
+            const SizedBox(height: 12),
+            SizedBox(
+              width: double.infinity,
+              child: FilledButton.icon(
+                onPressed: () async {
+                  final notificationService = NotificationService();
+                  final granted = await notificationService
+                      .requestPermissions();
 
-          if (!granted) {
-            ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(
-                content: Text('Permiso de notificaciones no concedido'),
+                  if (!context.mounted) {
+                    return;
+                  }
+
+                  if (!granted) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(
+                        content: Text(
+                          'No se pudieron activar las notificaciones. Revisa los permisos del dispositivo.',
+                        ),
+                      ),
+                    );
+                    return;
+                  }
+
+                  final wordOfDay = lesson;
+                  if (wordOfDay == null) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(
+                        content: Text('No hay palabra del dia para notificar'),
+                      ),
+                    );
+                    return;
+                  }
+
+                  await notificationService.showLessonNotification(wordOfDay);
+
+                  if (!context.mounted) {
+                    return;
+                  }
+
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(content: Text('Notificacion enviada')),
+                  );
+                },
+                icon: const Icon(Icons.notifications_active_outlined),
+                label: const Text('Probar notificacion'),
               ),
-            );
-            return;
-          }
-
-          await notificationService.showTestNotification();
-
-          if (!context.mounted) {
-            return;
-          }
-
-          ScaffoldMessenger.of(
-            context,
-          ).showSnackBar(const SnackBar(content: Text('Notificacion enviada')));
-        },
-        icon: const Icon(Icons.notifications_active_outlined),
-        label: const Text('Probar notificacion'),
+            ),
+          ],
+        ),
       ),
     );
+  }
+
+  String _settingsLabel(String optionKey) {
+    return switch (optionKey) {
+      'off' => 'Notificaciones desactivadas',
+      'three_daily' => 'Frecuencia actual: 3 al dia',
+      'five_daily' => 'Frecuencia actual: 5 al dia',
+      'ten_daily' => 'Frecuencia actual: 10 al dia',
+      'hourly' => 'Frecuencia actual: 1 cada hora',
+      _ => 'Frecuencia actual: 1 al dia',
+    };
   }
 }
 

@@ -1,9 +1,13 @@
-import 'package:english_drops_daily/data/datasources/lesson_local_datasource.dart';
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
+import 'package:english_drops_daily/domain/models/notification_settings_model.dart';
 import 'package:english_drops_daily/features/word_of_day/screens/word_of_day_screen.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:timezone/data/latest.dart' as timezone_data;
+import 'package:timezone/timezone.dart' as timezone;
 
 class NotificationService {
   factory NotificationService() => _instance;
@@ -19,6 +23,8 @@ class NotificationService {
       FlutterLocalNotificationsPlugin();
 
   bool _shouldOpenWordOfDay = false;
+  String? _pendingLessonId;
+  bool _timeZonesInitialized = false;
 
   static const String _channelId = 'daily_word_channel';
   static const String _channelName = 'Daily word reminders';
@@ -28,6 +34,7 @@ class NotificationService {
   static const String _notificationBody =
       'Tu gota de ingles del dia te espera.';
   static const String _wordOfDayPayload = 'word_of_day';
+  static const int _scheduledNotificationStartId = 1000;
 
   static const AndroidNotificationChannel _androidChannel =
       AndroidNotificationChannel(
@@ -73,7 +80,8 @@ class NotificationService {
     }
 
     _shouldOpenWordOfDay = false;
-    _openWordOfDay();
+    _openWordOfDay(_pendingLessonId);
+    _pendingLessonId = null;
   }
 
   Future<bool> requestPermissions() async {
@@ -93,90 +101,177 @@ class NotificationService {
       return;
     }
 
-    final lesson = await _getWordOfDay();
-    final content = lesson == null
-        ? const _NotificationContent(
-            title: _notificationTitle,
-            body: _notificationBody,
-          )
-        : _buildLessonNotificationContent(lesson);
+    await _notifications.show(
+      id: 1,
+      title: _notificationTitle,
+      body: _notificationBody,
+      notificationDetails: _notificationDetails,
+      payload: _wordOfDayPayload,
+    );
+  }
+
+  Future<void> showLessonNotification(LessonModel lesson) async {
+    if (!_isAndroid) {
+      return;
+    }
+
+    final content = _buildLessonNotificationContent(lesson);
 
     await _notifications.show(
       id: 1,
       title: content.title,
       body: content.body,
       notificationDetails: _notificationDetails,
-      payload: _wordOfDayPayload,
+      payload: _payloadForLesson(lesson),
     );
   }
 
-  Future<LessonModel?> _getWordOfDay() async {
+  Future<void> cancelAllNotifications() async {
     try {
-      final lessons = await const LessonLocalDatasource().getLessons();
-      return lessons.isEmpty ? null : lessons.first;
+      await _notifications.cancelAllPendingNotifications();
+      await _notifications.cancelAll();
     } on Object {
-      return null;
+      return;
+    }
+  }
+
+  Future<void> scheduleNotificationsBySettings(
+    NotificationSettingsModel settings,
+    List<LessonModel> lessons,
+  ) async {
+    if (!_isAndroid || !settings.enabled || lessons.isEmpty) {
+      return;
+    }
+
+    await scheduleMultipleDailyLessonNotifications(settings, lessons);
+  }
+
+  Future<void> scheduleMultipleDailyLessonNotifications(
+    NotificationSettingsModel settings,
+    List<LessonModel> lessons,
+  ) async {
+    if (!_isAndroid || lessons.isEmpty) {
+      return;
+    }
+
+    _initializeTimeZones();
+
+    final hours = _hoursForSettings(settings);
+    for (var index = 0; index < hours.length; index++) {
+      final lesson = lessons[index % lessons.length];
+      final content = _buildLessonNotificationContent(lesson);
+
+      await _notifications.zonedSchedule(
+        id: _scheduledNotificationStartId + index,
+        title: content.title,
+        body: content.body,
+        scheduledDate: _nextTimeAtHour(hours[index]),
+        notificationDetails: _notificationDetails,
+        androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
+        matchDateTimeComponents: DateTimeComponents.time,
+        payload: _payloadForLesson(lesson),
+      );
     }
   }
 
   _NotificationContent _buildLessonNotificationContent(LessonModel lesson) {
     return _NotificationContent(
-      title: '${_capitalize(lesson.word)} - ${lesson.meaningEs}',
+      title: '${lesson.word} - ${lesson.meaningEs}',
       body: lesson.shortNotificationText ?? _buildFallbackBody(lesson),
     );
   }
 
   String _buildFallbackBody(LessonModel lesson) {
-    if (lesson.isVerb) {
-      final verbType = lesson.verbType == null
-          ? 'Verb'
-          : _capitalize(lesson.verbType!);
-      final forms = [
-        lesson.baseForm ?? lesson.word,
-        lesson.pastSimple,
-        lesson.pastParticiple,
-      ].whereType<String>().join(' / ');
-
-      return '$verbType: $forms. Example: ${lesson.exampleEn}';
-    }
-
-    final usage = lesson.usage
-        .replaceFirst('Se usa ', '')
-        .replaceFirst('para ', 'para ');
-
-    return 'Uso: $usage Example: ${lesson.exampleEn}';
+    return 'Example: ${lesson.exampleEn}';
   }
 
-  String _capitalize(String value) {
-    if (value.isEmpty) {
-      return value;
+  List<int> _hoursForSettings(NotificationSettingsModel settings) {
+    if (settings.frequencyType == 'hourly') {
+      return [
+        for (var hour = settings.startHour; hour <= settings.endHour; hour++)
+          hour,
+      ];
     }
 
-    return value[0].toUpperCase() + value.substring(1);
+    return switch (settings.notificationsPerDay) {
+      3 => const [8, 14, 20],
+      5 => const [8, 11, 14, 17, 20],
+      10 => const [8, 9, 10, 11, 12, 14, 15, 16, 18, 20],
+      _ => const [8],
+    };
+  }
+
+  timezone.TZDateTime _nextTimeAtHour(int hour) {
+    final now = timezone.TZDateTime.now(timezone.local);
+    var scheduledDate = timezone.TZDateTime(
+      timezone.local,
+      now.year,
+      now.month,
+      now.day,
+      hour,
+    );
+
+    if (!scheduledDate.isAfter(now)) {
+      scheduledDate = scheduledDate.add(const Duration(days: 1));
+    }
+
+    return scheduledDate;
+  }
+
+  void _initializeTimeZones() {
+    if (_timeZonesInitialized) {
+      return;
+    }
+
+    timezone_data.initializeTimeZones();
+    _timeZonesInitialized = true;
+  }
+
+  String _payloadForLesson(LessonModel lesson) {
+    return '$_wordOfDayPayload:${lesson.id}';
+  }
+
+  String? _lessonIdFromPayload(String? payload) {
+    if (payload == null) {
+      return null;
+    }
+
+    if (!payload.startsWith(_wordOfDayPayload)) {
+      return null;
+    }
+
+    final parts = payload.split(':');
+    return parts.length > 1 ? parts[1] : null;
   }
 
   Future<void> _handleLaunchFromNotification() async {
     final details = await _notifications.getNotificationAppLaunchDetails();
     if (details?.didNotificationLaunchApp ?? false) {
-      _openWordOfDay();
+      _openWordOfDay(
+        _lessonIdFromPayload(details?.notificationResponse?.payload),
+      );
     }
   }
 
   void _handleNotificationTap(NotificationResponse response) {
-    if (response.payload == _wordOfDayPayload) {
-      _openWordOfDay();
+    final lessonId = _lessonIdFromPayload(response.payload);
+    if (response.payload?.startsWith(_wordOfDayPayload) ?? false) {
+      _openWordOfDay(lessonId);
     }
   }
 
-  void _openWordOfDay() {
+  void _openWordOfDay(String? lessonId) {
     final navigator = navigatorKey.currentState;
     if (navigator == null) {
       _shouldOpenWordOfDay = true;
+      _pendingLessonId = lessonId;
       return;
     }
 
     navigator.push(
-      MaterialPageRoute<void>(builder: (_) => const WordOfDayScreen()),
+      MaterialPageRoute<void>(
+        builder: (_) => WordOfDayScreen(initialLessonId: lessonId),
+      ),
     );
   }
 
