@@ -1,4 +1,5 @@
 import 'package:english_drops_daily/features/progress/screens/review_screen.dart';
+import 'package:english_drops_daily/features/exercises/screens/exercises_screen.dart';
 import 'package:flutter/material.dart';
 
 class QuickActionsGrid extends StatelessWidget {
@@ -36,6 +37,15 @@ class QuickActionsGrid extends StatelessWidget {
               children: actions.map((action) {
                 return OutlinedButton.icon(
                   onPressed: () {
+                    if (action.label == 'Ejercicios') {
+                      Navigator.of(context).push(
+                        MaterialPageRoute<void>(
+                          builder: (_) => const ExercisesScreen(),
+                        ),
+                      );
+                      return;
+                    }
+
                     if (action.label == 'Repasos') {
                       Navigator.of(context).push(
                         MaterialPageRoute<void>(
