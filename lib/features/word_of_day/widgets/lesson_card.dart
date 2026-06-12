@@ -1,11 +1,27 @@
 import 'package:english_drops_daily/domain/models/exercise_model.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
+import 'package:english_drops_daily/services/tts/tts_service.dart';
 import 'package:flutter/material.dart';
 
-class LessonCard extends StatelessWidget {
+class LessonCard extends StatefulWidget {
   const LessonCard({super.key, required this.lesson});
 
   final LessonModel lesson;
+
+  @override
+  State<LessonCard> createState() => _LessonCardState();
+}
+
+class _LessonCardState extends State<LessonCard> {
+  final TtsService _ttsService = TtsService();
+
+  LessonModel get lesson => widget.lesson;
+
+  @override
+  void dispose() {
+    _ttsService.stop();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -40,6 +56,30 @@ class LessonCard extends StatelessWidget {
                 fontWeight: FontWeight.w600,
               ),
             ),
+            const SizedBox(height: 12),
+            Wrap(
+              spacing: 8,
+              runSpacing: 8,
+              children: [
+                ElevatedButton.icon(
+                  onPressed: () => _speakWord(context),
+                  icon: const Icon(Icons.volume_up_outlined),
+                  label: const Text('Escuchar palabra'),
+                ),
+                ElevatedButton.icon(
+                  onPressed: () => _speakExample(context),
+                  icon: const Icon(Icons.record_voice_over_outlined),
+                  label: const Text('Escuchar ejemplo'),
+                ),
+              ],
+            ),
+            const SizedBox(height: 8),
+            Text(
+              'El audio depende del motor de texto a voz del dispositivo.',
+              style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                color: Theme.of(context).colorScheme.onSurfaceVariant,
+              ),
+            ),
             const SizedBox(height: 20),
             _Section(
               title: 'Ejemplo',
@@ -58,6 +98,35 @@ class LessonCard extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  Future<void> _speakWord(BuildContext context) async {
+    await _speak(context, () => _ttsService.speakWord(lesson.word));
+  }
+
+  Future<void> _speakExample(BuildContext context) async {
+    await _speak(context, () => _ttsService.speakSentence(lesson.exampleEn));
+  }
+
+  Future<void> _speak(
+    BuildContext context,
+    Future<void> Function() action,
+  ) async {
+    try {
+      await action();
+    } on Object {
+      if (!context.mounted) {
+        return;
+      }
+
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text(
+            'No se pudo reproducir audio en este dispositivo. Prueba en un celular físico o revisa el motor de texto a voz.',
+          ),
+        ),
+      );
+    }
   }
 }
 
