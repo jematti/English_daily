@@ -1,5 +1,6 @@
 import 'package:english_drops_daily/domain/models/exercise_model.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
+import 'package:english_drops_daily/services/storage/favorites_storage_service.dart';
 import 'package:english_drops_daily/services/tts/tts_service.dart';
 import 'package:flutter/material.dart';
 
@@ -14,12 +15,32 @@ class LessonCard extends StatefulWidget {
 
 class _LessonCardState extends State<LessonCard> {
   final TtsService _ttsService = TtsService();
+  final FavoritesStorageService _favoritesStorage =
+      const FavoritesStorageService();
+  final TextEditingController _noteController = TextEditingController();
+  bool _isFavorite = false;
+  bool _isLoadingFavoriteData = true;
 
   LessonModel get lesson => widget.lesson;
 
   @override
+  void initState() {
+    super.initState();
+    _loadFavoriteData();
+  }
+
+  @override
+  void didUpdateWidget(covariant LessonCard oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.lesson.id != widget.lesson.id) {
+      _loadFavoriteData();
+    }
+  }
+
+  @override
   void dispose() {
     _ttsService.stop();
+    _noteController.dispose();
     super.dispose();
   }
 
@@ -81,6 +102,14 @@ class _LessonCardState extends State<LessonCard> {
               ),
             ),
             const SizedBox(height: 20),
+            _FavoriteNoteSection(
+              isFavorite: _isFavorite,
+              isLoading: _isLoadingFavoriteData,
+              noteController: _noteController,
+              onToggleFavorite: _toggleFavorite,
+              onSaveNote: _saveNote,
+            ),
+            const SizedBox(height: 20),
             _Section(
               title: 'Ejemplo',
               child: _ExampleBlock(lesson: lesson),
@@ -127,6 +156,109 @@ class _LessonCardState extends State<LessonCard> {
         ),
       );
     }
+  }
+
+  Future<void> _loadFavoriteData() async {
+    setState(() {
+      _isLoadingFavoriteData = true;
+    });
+
+    final isFavorite = await _favoritesStorage.isFavorite(lesson.id);
+    final note = await _favoritesStorage.getNote(lesson.id);
+
+    if (!mounted) {
+      return;
+    }
+
+    setState(() {
+      _isFavorite = isFavorite;
+      _noteController.text = note ?? '';
+      _isLoadingFavoriteData = false;
+    });
+  }
+
+  Future<void> _toggleFavorite() async {
+    await _favoritesStorage.toggleFavorite(lesson.id);
+    final isFavorite = await _favoritesStorage.isFavorite(lesson.id);
+
+    if (!mounted) {
+      return;
+    }
+
+    setState(() {
+      _isFavorite = isFavorite;
+    });
+
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(
+          isFavorite ? 'Agregado a favoritos' : 'Quitado de favoritos',
+        ),
+      ),
+    );
+  }
+
+  Future<void> _saveNote() async {
+    await _favoritesStorage.saveNote(lesson.id, _noteController.text.trim());
+
+    if (!mounted) {
+      return;
+    }
+
+    ScaffoldMessenger.of(
+      context,
+    ).showSnackBar(const SnackBar(content: Text('Nota guardada')));
+  }
+}
+
+class _FavoriteNoteSection extends StatelessWidget {
+  const _FavoriteNoteSection({
+    required this.isFavorite,
+    required this.isLoading,
+    required this.noteController,
+    required this.onToggleFavorite,
+    required this.onSaveNote,
+  });
+
+  final bool isFavorite;
+  final bool isLoading;
+  final TextEditingController noteController;
+  final VoidCallback onToggleFavorite;
+  final VoidCallback onSaveNote;
+
+  @override
+  Widget build(BuildContext context) {
+    return _Section(
+      title: 'Cuaderno personal',
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          OutlinedButton.icon(
+            onPressed: isLoading ? null : onToggleFavorite,
+            icon: Icon(isFavorite ? Icons.favorite : Icons.favorite_border),
+            label: Text(isFavorite ? 'Favorito activo' : 'Agregar favorito'),
+          ),
+          const SizedBox(height: 12),
+          TextField(
+            controller: noteController,
+            maxLines: 3,
+            decoration: const InputDecoration(
+              border: OutlineInputBorder(),
+              labelText: 'Nota personal',
+            ),
+          ),
+          const SizedBox(height: 8),
+          Align(
+            alignment: Alignment.centerLeft,
+            child: FilledButton.icon(
+              onPressed: isLoading ? null : onSaveNote,
+              icon: const Icon(Icons.save_outlined),
+              label: const Text('Guardar nota'),
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
 
