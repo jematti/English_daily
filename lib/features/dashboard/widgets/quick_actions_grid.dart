@@ -1,3 +1,4 @@
+import 'package:english_drops_daily/features/progress/screens/review_screen.dart';
 import 'package:flutter/material.dart';
 
 class QuickActionsGrid extends StatelessWidget {
@@ -8,7 +9,7 @@ class QuickActionsGrid extends StatelessWidget {
     const actions = [
       _QuickAction(label: 'Ejercicios', icon: Icons.quiz_outlined),
       _QuickAction(label: 'Favoritos', icon: Icons.favorite_border),
-      _QuickAction(label: 'Progreso', icon: Icons.insights_outlined),
+      _QuickAction(label: 'Repasos', icon: Icons.replay_outlined),
       _QuickAction(label: 'Configuracion', icon: Icons.settings_outlined),
     ];
 
@@ -35,6 +36,15 @@ class QuickActionsGrid extends StatelessWidget {
               children: actions.map((action) {
                 return OutlinedButton.icon(
                   onPressed: () {
+                    if (action.label == 'Repasos') {
+                      Navigator.of(context).push(
+                        MaterialPageRoute<void>(
+                          builder: (_) => const ReviewScreen(),
+                        ),
+                      );
+                      return;
+                    }
+
                     ScaffoldMessenger.of(context).showSnackBar(
                       const SnackBar(
                         content: Text('Disponible en proxima fase'),
