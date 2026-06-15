@@ -1,3 +1,4 @@
+import 'package:english_drops_daily/core/theme/app_theme.dart';
 import 'package:english_drops_daily/features/dashboard/screens/dashboard_screen.dart';
 import 'package:english_drops_daily/services/notifications/notification_service.dart';
 import 'package:english_drops_daily/domain/models/app_settings_model.dart';
@@ -29,17 +30,8 @@ class MyApp extends StatelessWidget {
           title: 'English Drops Daily',
           debugShowCheckedModeBanner: false,
           navigatorKey: NotificationService.navigatorKey,
-          theme: ThemeData(
-            colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
-            useMaterial3: true,
-          ),
-          darkTheme: ThemeData(
-            colorScheme: ColorScheme.fromSeed(
-              seedColor: Colors.teal,
-              brightness: Brightness.dark,
-            ),
-            useMaterial3: true,
-          ),
+          theme: AppTheme.light,
+          darkTheme: AppTheme.dark,
           themeMode: switch (settings.themePreference) {
             AppThemePreference.light => ThemeMode.light,
             AppThemePreference.dark => ThemeMode.dark,

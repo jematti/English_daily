@@ -1,3 +1,8 @@
+import 'package:english_drops_daily/core/constants/app_colors.dart';
+import 'package:english_drops_daily/core/constants/app_text_styles.dart';
+import 'package:english_drops_daily/core/widgets/app_button.dart';
+import 'package:english_drops_daily/core/widgets/primary_card.dart';
+import 'package:english_drops_daily/core/widgets/section_title.dart';
 import 'package:english_drops_daily/data/datasources/lesson_local_datasource.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/features/dashboard/widgets/progress_summary_card.dart';
@@ -35,12 +40,18 @@ class _DashboardScreenState extends State<DashboardScreen> {
             final lesson = lessons.isNotEmpty ? lessons.first : null;
 
             return SingleChildScrollView(
-              padding: const EdgeInsets.all(16),
+              padding: const EdgeInsets.fromLTRB(18, 14, 18, 28),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const _DashboardHeader(),
-                  const SizedBox(height: 20),
+                  const SizedBox(height: 24),
+                  const SectionTitle(
+                    title: 'Tu leccion de hoy',
+                    subtitle: 'Una palabra breve para avanzar cada dia.',
+                    icon: Icons.auto_stories_outlined,
+                  ),
+                  const SizedBox(height: 12),
                   if (snapshot.connectionState == ConnectionState.waiting)
                     const Center(child: CircularProgressIndicator())
                   else if (snapshot.hasError)
@@ -54,13 +65,19 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     )
                   else
                     _WordOfDayPreview(lesson: lesson),
-                  const SizedBox(height: 16),
+                  const SizedBox(height: 20),
+                  const SectionTitle(
+                    title: 'Tu progreso',
+                    subtitle: 'Sigue construyendo el habito paso a paso.',
+                    icon: Icons.insights_outlined,
+                  ),
+                  const SizedBox(height: 12),
                   const ProgressSummaryCard(),
-                  const SizedBox(height: 16),
+                  const SizedBox(height: 12),
                   const StreakCard(),
-                  const SizedBox(height: 16),
+                  const SizedBox(height: 20),
                   _NotificationTestButton(lesson: lesson),
-                  const SizedBox(height: 16),
+                  const SizedBox(height: 20),
                   const QuickActionsGrid(),
                 ],
               ),
@@ -79,73 +96,72 @@ class _NotificationTestButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      child: Padding(
-        padding: const EdgeInsets.all(18),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            FutureBuilder(
-              future: const SettingsStorageService().getNotificationSettings(),
-              builder: (context, snapshot) {
-                final settings = snapshot.data;
-                final text = settings == null
-                    ? 'Frecuencia inicial: 1 al dia'
-                    : _settingsLabel(settings.optionKey);
+    return PrimaryCard(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const SectionTitle(
+            title: 'Recordatorio diario',
+            subtitle: 'Prueba como llegara tu proxima palabra.',
+            icon: Icons.notifications_active_outlined,
+          ),
+          const SizedBox(height: 14),
+          FutureBuilder(
+            future: const SettingsStorageService().getNotificationSettings(),
+            builder: (context, snapshot) {
+              final settings = snapshot.data;
+              final text = settings == null
+                  ? 'Frecuencia inicial: 1 al dia'
+                  : _settingsLabel(settings.optionKey);
 
-                return Text(text, style: Theme.of(context).textTheme.bodySmall);
-              },
-            ),
-            const SizedBox(height: 12),
-            SizedBox(
-              width: double.infinity,
-              child: FilledButton.icon(
-                onPressed: () async {
-                  final notificationService = NotificationService();
-                  final granted = await notificationService
-                      .requestPermissions();
+              return Text(text, style: Theme.of(context).textTheme.bodySmall);
+            },
+          ),
+          const SizedBox(height: 12),
+          AppButton(
+            label: 'Probar notificacion',
+            icon: Icons.notifications_active_outlined,
+            onPressed: () async {
+              final notificationService = NotificationService();
+              final granted = await notificationService.requestPermissions();
 
-                  if (!context.mounted) {
-                    return;
-                  }
+              if (!context.mounted) {
+                return;
+              }
 
-                  if (!granted) {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(
-                        content: Text(
-                          'No se pudieron activar las notificaciones. Revisa los permisos del dispositivo.',
-                        ),
-                      ),
-                    );
-                    return;
-                  }
+              if (!granted) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(
+                    content: Text(
+                      'No se pudieron activar las notificaciones. Revisa los permisos del dispositivo.',
+                    ),
+                  ),
+                );
+                return;
+              }
 
-                  final wordOfDay = lesson;
-                  if (wordOfDay == null) {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(
-                        content: Text('No hay palabra del dia para notificar'),
-                      ),
-                    );
-                    return;
-                  }
+              final wordOfDay = lesson;
+              if (wordOfDay == null) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(
+                    content: Text('No hay palabra del dia para notificar'),
+                  ),
+                );
+                return;
+              }
 
-                  await notificationService.showLessonNotification(wordOfDay);
+              await notificationService.showLessonNotification(wordOfDay);
 
-                  if (!context.mounted) {
-                    return;
-                  }
+              if (!context.mounted) {
+                return;
+              }
 
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(content: Text('Notificacion enviada')),
-                  );
-                },
-                icon: const Icon(Icons.notifications_active_outlined),
-                label: const Text('Probar notificacion'),
-              ),
-            ),
-          ],
-        ),
+              ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(content: Text('Notificacion enviada')),
+              );
+            },
+          ),
+        ],
       ),
     );
   }
@@ -167,21 +183,58 @@ class _DashboardHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Text(
-          'English Drops Daily',
-          style: Theme.of(
-            context,
-          ).textTheme.headlineMedium?.copyWith(fontWeight: FontWeight.bold),
+    final colorScheme = Theme.of(context).colorScheme;
+
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(22),
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: [
+            colorScheme.primary,
+            Color.lerp(colorScheme.primary, AppColors.secondary, 0.45)!,
+          ],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
         ),
-        const SizedBox(height: 6),
-        Text(
-          'Aprende ingles en gotas diarias',
-          style: Theme.of(context).textTheme.bodyLarge,
-        ),
-      ],
+        borderRadius: BorderRadius.circular(24),
+      ),
+      child: Row(
+        children: [
+          Container(
+            width: 52,
+            height: 52,
+            decoration: BoxDecoration(
+              color: Colors.white.withValues(alpha: 0.16),
+              borderRadius: BorderRadius.circular(16),
+            ),
+            child: const Icon(
+              Icons.water_drop_outlined,
+              color: Colors.white,
+              size: 28,
+            ),
+          ),
+          const SizedBox(width: 16),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'English Drops Daily',
+                  style: AppTextStyles.pageTitle.copyWith(color: Colors.white),
+                ),
+                const SizedBox(height: 5),
+                Text(
+                  'Aprende ingles en gotas diarias',
+                  style: AppTextStyles.body.copyWith(
+                    color: Colors.white.withValues(alpha: 0.88),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
@@ -193,50 +246,54 @@ class _WordOfDayPreview extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      child: Padding(
-        padding: const EdgeInsets.all(18),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              'Palabra del dia',
-              style: Theme.of(
-                context,
-              ).textTheme.titleSmall?.copyWith(fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 10),
-            Text(
-              lesson.word,
-              style: Theme.of(
-                context,
-              ).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 4),
-            Text(lesson.meaningEs),
-            const SizedBox(height: 10),
-            Text(
-              lesson.exampleEn,
-              style: const TextStyle(fontWeight: FontWeight.w600),
-            ),
-            const SizedBox(height: 4),
-            Text(lesson.exampleEs),
-            const SizedBox(height: 14),
-            Align(
-              alignment: Alignment.centerLeft,
-              child: FilledButton(
-                onPressed: () {
-                  Navigator.of(context).push(
-                    MaterialPageRoute<void>(
-                      builder: (_) => const WordOfDayScreen(),
-                    ),
-                  );
-                },
-                child: const Text('Ver microleccion'),
+    final colorScheme = Theme.of(context).colorScheme;
+
+    return PrimaryCard(
+      color: colorScheme.primaryContainer.withValues(alpha: 0.55),
+      padding: const EdgeInsets.all(22),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Icon(Icons.lightbulb_outline, color: colorScheme.primary),
+              const SizedBox(width: 8),
+              Text(
+                'PALABRA DEL DIA',
+                style: AppTextStyles.label.copyWith(
+                  color: colorScheme.primary,
+                  letterSpacing: 0.7,
+                ),
               ),
-            ),
-          ],
-        ),
+            ],
+          ),
+          const SizedBox(height: 16),
+          Text(lesson.word, style: AppTextStyles.display),
+          const SizedBox(height: 5),
+          Text(
+            lesson.meaningEs,
+            style: Theme.of(context).textTheme.titleMedium,
+          ),
+          const SizedBox(height: 16),
+          Text(
+            lesson.exampleEn,
+            style: AppTextStyles.body.copyWith(fontWeight: FontWeight.w700),
+          ),
+          const SizedBox(height: 4),
+          Text(lesson.exampleEs, style: Theme.of(context).textTheme.bodySmall),
+          const SizedBox(height: 18),
+          AppButton(
+            label: 'Ver microleccion',
+            icon: Icons.arrow_forward,
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute<void>(
+                  builder: (_) => const WordOfDayScreen(),
+                ),
+              );
+            },
+          ),
+        ],
       ),
     );
   }
@@ -249,8 +306,6 @@ class _MessageCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      child: Padding(padding: const EdgeInsets.all(18), child: Text(message)),
-    );
+    return PrimaryCard(child: Text(message));
   }
 }

@@ -1,3 +1,8 @@
+import 'package:english_drops_daily/core/constants/app_colors.dart';
+import 'package:english_drops_daily/core/constants/app_text_styles.dart';
+import 'package:english_drops_daily/core/widgets/app_button.dart';
+import 'package:english_drops_daily/core/widgets/primary_card.dart';
+import 'package:english_drops_daily/core/widgets/section_title.dart';
 import 'package:english_drops_daily/domain/models/exercise_model.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/features/word_of_day/widgets/word_link_suggestions.dart';
@@ -63,90 +68,78 @@ class _LessonCardState extends State<LessonCard> {
         ? lesson.exercises.first
         : null;
 
-    return Card(
-      elevation: 0,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
-      child: Padding(
-        padding: const EdgeInsets.all(20),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            if (widget.showHeader) ...[
-              Text(
-                lesson.word,
-                style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              const SizedBox(height: 6),
-              Text(
-                lesson.meaningEs,
-                style: Theme.of(context).textTheme.titleMedium,
-              ),
-              const SizedBox(height: 8),
-              Text(
-                lesson.pronunciation,
-                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                  color: Theme.of(context).colorScheme.primary,
-                  fontWeight: FontWeight.w600,
-                ),
-              ),
-              const SizedBox(height: 12),
-            ],
-            Wrap(
-              spacing: 8,
-              runSpacing: 8,
-              children: [
-                ElevatedButton.icon(
-                  onPressed: () => _speakWord(context),
-                  icon: const Icon(Icons.volume_up_outlined),
-                  label: const Text('Escuchar palabra'),
-                ),
-                ElevatedButton.icon(
-                  onPressed: () => _speakExample(context),
-                  icon: const Icon(Icons.record_voice_over_outlined),
-                  label: const Text('Escuchar ejemplo'),
-                ),
-              ],
+    return PrimaryCard(
+      padding: const EdgeInsets.all(22),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          if (widget.showHeader) ...[
+            Text(lesson.word, style: AppTextStyles.display),
+            const SizedBox(height: 6),
+            Text(
+              lesson.meaningEs,
+              style: Theme.of(context).textTheme.titleMedium,
             ),
             const SizedBox(height: 8),
             Text(
-              'El audio depende del motor de texto a voz del dispositivo.',
-              style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                color: Theme.of(context).colorScheme.onSurfaceVariant,
+              lesson.pronunciation,
+              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                color: Theme.of(context).colorScheme.primary,
+                fontWeight: FontWeight.w700,
               ),
             ),
-            const SizedBox(height: 20),
-            _FavoriteNoteSection(
-              isFavorite: _isFavorite,
-              isLoading: _isLoadingFavoriteData,
-              noteController: _noteController,
-              onToggleFavorite: _toggleFavorite,
-              onSaveNote: _saveNote,
-            ),
-            const SizedBox(height: 20),
-            _Section(
-              title: 'Ejemplo',
-              child: _ExampleBlock(lesson: lesson),
-            ),
-            _TextSection(title: 'Uso', text: lesson.usage),
-            _TextSection(title: 'Mini gramatica', text: lesson.grammar),
-            _ListSection(
-              title: 'Errores comunes',
-              items: lesson.commonMistakes,
-            ),
-            _ListSection(title: 'Uso diario', items: lesson.dailyUse),
-            if (firstExercise != null)
-              _ExerciseSection(exercise: firstExercise),
-            WordLinkSuggestions(
-              currentLesson: lesson,
-              lessons: widget.lessons,
-              onLessonSelected: (selectedLesson) {
-                widget.onLessonSelected?.call(selectedLesson);
-              },
-            ),
+            const SizedBox(height: 16),
           ],
-        ),
+          Wrap(
+            spacing: 8,
+            runSpacing: 8,
+            children: [
+              AppButton(
+                label: 'Escuchar palabra',
+                icon: Icons.volume_up_outlined,
+                expanded: false,
+                onPressed: () => _speakWord(context),
+              ),
+              AppButton(
+                label: 'Escuchar ejemplo',
+                icon: Icons.record_voice_over_outlined,
+                variant: AppButtonVariant.tonal,
+                expanded: false,
+                onPressed: () => _speakExample(context),
+              ),
+            ],
+          ),
+          const SizedBox(height: 8),
+          Text(
+            'El audio depende del motor de texto a voz del dispositivo.',
+            style: Theme.of(context).textTheme.bodySmall,
+          ),
+          const SizedBox(height: 24),
+          _FavoriteNoteSection(
+            isFavorite: _isFavorite,
+            isLoading: _isLoadingFavoriteData,
+            noteController: _noteController,
+            onToggleFavorite: _toggleFavorite,
+            onSaveNote: _saveNote,
+          ),
+          const SizedBox(height: 24),
+          _Section(
+            title: 'Ejemplo',
+            child: _ExampleBlock(lesson: lesson),
+          ),
+          _TextSection(title: 'Uso', text: lesson.usage),
+          _TextSection(title: 'Mini gramatica', text: lesson.grammar),
+          _ListSection(title: 'Errores comunes', items: lesson.commonMistakes),
+          _ListSection(title: 'Uso diario', items: lesson.dailyUse),
+          if (firstExercise != null) _ExerciseSection(exercise: firstExercise),
+          WordLinkSuggestions(
+            currentLesson: lesson,
+            lessons: widget.lessons,
+            onLessonSelected: (selectedLesson) {
+              widget.onLessonSelected?.call(selectedLesson);
+            },
+          ),
+        ],
       ),
     );
   }
@@ -173,7 +166,7 @@ class _LessonCardState extends State<LessonCard> {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
           content: Text(
-            'No se pudo reproducir audio en este dispositivo. Prueba en un celular físico o revisa el motor de texto a voz.',
+            'No se pudo reproducir audio en este dispositivo. Prueba en un celular fisico o revisa el motor de texto a voz.',
           ),
         ),
       );
@@ -255,28 +248,28 @@ class _FavoriteNoteSection extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          OutlinedButton.icon(
+          AppButton(
+            label: isFavorite ? 'Favorito activo' : 'Agregar favorito',
+            icon: isFavorite ? Icons.favorite : Icons.favorite_border,
+            variant: AppButtonVariant.outlined,
+            expanded: false,
             onPressed: isLoading ? null : onToggleFavorite,
-            icon: Icon(isFavorite ? Icons.favorite : Icons.favorite_border),
-            label: Text(isFavorite ? 'Favorito activo' : 'Agregar favorito'),
           ),
           const SizedBox(height: 12),
           TextField(
             controller: noteController,
             maxLines: 3,
             decoration: const InputDecoration(
-              border: OutlineInputBorder(),
               labelText: 'Nota personal',
+              hintText: 'Escribe una idea para recordar esta palabra.',
             ),
           ),
-          const SizedBox(height: 8),
-          Align(
-            alignment: Alignment.centerLeft,
-            child: FilledButton.icon(
-              onPressed: isLoading ? null : onSaveNote,
-              icon: const Icon(Icons.save_outlined),
-              label: const Text('Guardar nota'),
-            ),
+          const SizedBox(height: 10),
+          AppButton(
+            label: 'Guardar nota',
+            icon: Icons.save_outlined,
+            expanded: false,
+            onPressed: isLoading ? null : onSaveNote,
           ),
         ],
       ),
@@ -293,17 +286,12 @@ class _Section extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(bottom: 18),
+      padding: const EdgeInsets.only(bottom: 22),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            title,
-            style: Theme.of(
-              context,
-            ).textTheme.titleSmall?.copyWith(fontWeight: FontWeight.bold),
-          ),
-          const SizedBox(height: 8),
+          SectionTitle(title: title),
+          const SizedBox(height: 10),
           child,
         ],
       ),
@@ -319,7 +307,10 @@ class _TextSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return _Section(title: title, child: Text(text));
+    return _Section(
+      title: title,
+      child: Text(text, style: AppTextStyles.body),
+    );
   }
 }
 
@@ -337,8 +328,25 @@ class _ListSection extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: items.map((item) {
           return Padding(
-            padding: const EdgeInsets.only(bottom: 6),
-            child: Text('- $item'),
+            padding: const EdgeInsets.only(bottom: 8),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.only(top: 7),
+                  child: Container(
+                    width: 6,
+                    height: 6,
+                    decoration: BoxDecoration(
+                      color: Theme.of(context).colorScheme.primary,
+                      shape: BoxShape.circle,
+                    ),
+                  ),
+                ),
+                const SizedBox(width: 10),
+                Expanded(child: Text(item, style: AppTextStyles.body)),
+              ],
+            ),
           );
         }).toList(),
       ),
@@ -353,16 +361,26 @@ class _ExampleBlock extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Text(
-          lesson.exampleEn,
-          style: const TextStyle(fontWeight: FontWeight.w600),
-        ),
-        const SizedBox(height: 6),
-        Text(lesson.exampleEs),
-      ],
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: Theme.of(
+          context,
+        ).colorScheme.primaryContainer.withValues(alpha: 0.42),
+        borderRadius: BorderRadius.circular(16),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            lesson.exampleEn,
+            style: AppTextStyles.body.copyWith(fontWeight: FontWeight.w700),
+          ),
+          const SizedBox(height: 6),
+          Text(lesson.exampleEs),
+        ],
+      ),
     );
   }
 }
@@ -374,33 +392,50 @@ class _ExerciseSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+
     return _Section(
       title: 'Ejercicio',
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            exercise.question,
-            style: const TextStyle(fontWeight: FontWeight.w600),
-          ),
-          const SizedBox(height: 8),
-          ...exercise.options.map((option) {
-            final isCorrect = option == exercise.correctAnswer;
+      child: Container(
+        width: double.infinity,
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: AppColors.softWarm.withValues(alpha: isDark ? 0.12 : 1),
+          borderRadius: BorderRadius.circular(16),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              exercise.question,
+              style: AppTextStyles.body.copyWith(fontWeight: FontWeight.w700),
+            ),
+            const SizedBox(height: 10),
+            ...exercise.options.map((option) {
+              final isCorrect = option == exercise.correctAnswer;
 
-            return Padding(
-              padding: const EdgeInsets.only(bottom: 6),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(isCorrect ? 'Correct: ' : '- '),
-                  Expanded(child: Text(option)),
-                ],
-              ),
-            );
-          }),
-          const SizedBox(height: 8),
-          Text(exercise.explanation),
-        ],
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 8),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Icon(
+                      isCorrect ? Icons.check_circle_outline : Icons.circle,
+                      size: isCorrect ? 18 : 8,
+                      color: isCorrect
+                          ? AppColors.success
+                          : Theme.of(context).colorScheme.onSurfaceVariant,
+                    ),
+                    const SizedBox(width: 8),
+                    Expanded(child: Text(option)),
+                  ],
+                ),
+              );
+            }),
+            const SizedBox(height: 6),
+            Text(exercise.explanation),
+          ],
+        ),
       ),
     );
   }

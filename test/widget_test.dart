@@ -1,4 +1,7 @@
+import 'package:english_drops_daily/core/theme/app_theme.dart';
 import 'package:english_drops_daily/domain/models/app_settings_model.dart';
+import 'package:english_drops_daily/domain/models/exercise_model.dart';
+import 'package:english_drops_daily/features/exercises/widgets/exercise_card.dart';
 import 'package:english_drops_daily/services/storage/app_settings_storage_service.dart';
 import 'package:english_drops_daily/services/storage/favorites_storage_service.dart';
 import 'package:flutter/material.dart';
@@ -36,6 +39,32 @@ void main() {
     expect(await favoritesStorage.getNotes(), isEmpty);
   });
 
+  testWidgets('exercise card shows clear answer feedback', (
+    WidgetTester tester,
+  ) async {
+    const exercise = ExerciseModel(
+      id: 'test_exercise',
+      type: 'multiple_choice',
+      question: 'Choose the correct answer',
+      options: ['Correct answer', 'Wrong answer'],
+      correctAnswer: 'Correct answer',
+      explanation: 'This is the expected option.',
+    );
+
+    await tester.pumpWidget(
+      MaterialApp(
+        theme: AppTheme.light,
+        home: const Scaffold(body: ExerciseCard(exercise: exercise)),
+      ),
+    );
+
+    await tester.tap(find.text('Correct answer'));
+    await tester.pump();
+
+    expect(find.text('Correcto'), findsOneWidget);
+    expect(find.text('This is the expected option.'), findsOneWidget);
+  });
+
   testWidgets('opens settings and navigates the offline lessons', (
     WidgetTester tester,
   ) async {
@@ -52,17 +81,23 @@ void main() {
 
     expect(find.text('Tema visual'), findsOneWidget);
     expect(find.text('Mostrar ayuda de gestos'), findsOneWidget);
+
+    await tester.scrollUntilVisible(
+      find.text('Reiniciar favoritos y notas'),
+      300,
+      scrollable: find.byType(Scrollable).last,
+    );
     expect(find.text('Reiniciar progreso'), findsOneWidget);
     expect(find.text('Reiniciar favoritos y notas'), findsOneWidget);
 
     await tester.scrollUntilVisible(
       find.text('Configurar notificaciones'),
-      250,
+      -250,
       scrollable: find.byType(Scrollable).last,
     );
     await tester.tap(find.text('Configurar notificaciones'));
     await _pumpUntilFound(tester, find.text('Frecuencia de aprendizaje'));
-    expect(find.text('Notificaciones'), findsOneWidget);
+    expect(find.text('Notificaciones'), findsWidgets);
 
     tester.state<NavigatorState>(find.byType(Navigator)).pop();
     await tester.pumpAndSettle();
@@ -78,9 +113,9 @@ void main() {
     await tester.tap(find.text('Ver microleccion'));
     await _pumpUntilFound(tester, find.text('Anterior'));
 
-    expect(find.text('Anterior'), findsOneWidget);
-    expect(find.text('Pasar'), findsOneWidget);
-    expect(find.text('Guardar'), findsOneWidget);
+    expect(find.text('Anterior'), findsWidgets);
+    expect(find.text('Pasar'), findsWidgets);
+    expect(find.text('Guardar'), findsWidgets);
     expect(find.text('Relacionada'), findsWidgets);
 
     await tester.drag(find.text('actually').last, const Offset(-120, 0));

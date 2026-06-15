@@ -1,3 +1,6 @@
+import 'package:english_drops_daily/core/widgets/app_button.dart';
+import 'package:english_drops_daily/core/widgets/primary_card.dart';
+import 'package:english_drops_daily/core/widgets/section_title.dart';
 import 'package:english_drops_daily/domain/models/app_settings_model.dart';
 import 'package:english_drops_daily/features/settings/screens/notification_settings_screen.dart';
 import 'package:english_drops_daily/services/storage/app_settings_storage_service.dart';
@@ -43,15 +46,21 @@ class _AppSettingsScreenState extends State<AppSettingsScreen> {
       body: settings == null
           ? const Center(child: CircularProgressIndicator())
           : ListView(
-              padding: const EdgeInsets.all(16),
+              padding: const EdgeInsets.fromLTRB(18, 8, 18, 28),
               children: [
+                Text(
+                  'Personaliza tu experiencia sin perder tus avances.',
+                  style: Theme.of(context).textTheme.bodyLarge,
+                ),
+                const SizedBox(height: 18),
                 _SettingsSection(
                   title: 'Pronunciacion',
+                  subtitle: 'Ajusta el ritmo del audio en ingles.',
+                  icon: Icons.record_voice_over_outlined,
                   child: DropdownButtonFormField<PronunciationSpeed>(
                     initialValue: settings.pronunciationSpeed,
                     decoration: const InputDecoration(
                       labelText: 'Velocidad de pronunciacion',
-                      border: OutlineInputBorder(),
                     ),
                     items: PronunciationSpeed.values.map((speed) {
                       return DropdownMenuItem(
@@ -70,14 +79,14 @@ class _AppSettingsScreenState extends State<AppSettingsScreen> {
                           },
                   ),
                 ),
+                const SizedBox(height: 14),
                 _SettingsSection(
                   title: 'Apariencia',
+                  subtitle: 'Elige como quieres ver la aplicacion.',
+                  icon: Icons.palette_outlined,
                   child: DropdownButtonFormField<AppThemePreference>(
                     initialValue: settings.themePreference,
-                    decoration: const InputDecoration(
-                      labelText: 'Tema visual',
-                      border: OutlineInputBorder(),
-                    ),
+                    decoration: const InputDecoration(labelText: 'Tema visual'),
                     items: AppThemePreference.values.map((theme) {
                       return DropdownMenuItem(
                         value: theme,
@@ -93,49 +102,79 @@ class _AppSettingsScreenState extends State<AppSettingsScreen> {
                           },
                   ),
                 ),
-                SwitchListTile(
-                  contentPadding: EdgeInsets.zero,
-                  title: const Text('Mostrar ayuda de gestos'),
-                  subtitle: const Text('Muestra las flechas sobre la tarjeta.'),
-                  value: settings.showSwipeHints,
-                  onChanged: _isSaving
-                      ? null
-                      : (value) {
-                          _save(settings.copyWith(showSwipeHints: value));
-                        },
-                ),
-                const Divider(height: 32),
-                ListTile(
-                  contentPadding: EdgeInsets.zero,
-                  leading: const Icon(Icons.notifications_outlined),
-                  title: const Text('Configurar notificaciones'),
-                  trailing: const Icon(Icons.chevron_right),
-                  onTap: () {
-                    Navigator.of(context).push(
-                      MaterialPageRoute<void>(
-                        builder: (_) => const NotificationSettingsScreen(),
-                      ),
-                    );
-                  },
-                ),
-                const Divider(height: 32),
-                Text(
-                  'Datos locales',
-                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                    fontWeight: FontWeight.bold,
+                const SizedBox(height: 14),
+                PrimaryCard(
+                  child: SwitchListTile(
+                    contentPadding: EdgeInsets.zero,
+                    secondary: Icon(
+                      Icons.swipe_outlined,
+                      color: Theme.of(context).colorScheme.primary,
+                    ),
+                    title: const Text('Mostrar ayuda de gestos'),
+                    subtitle: const Text(
+                      'Muestra las direcciones disponibles sobre la tarjeta.',
+                    ),
+                    value: settings.showSwipeHints,
+                    onChanged: _isSaving
+                        ? null
+                        : (value) {
+                            _save(settings.copyWith(showSwipeHints: value));
+                          },
                   ),
                 ),
-                const SizedBox(height: 12),
-                OutlinedButton.icon(
-                  onPressed: _isSaving ? null : _confirmResetProgress,
-                  icon: const Icon(Icons.restart_alt),
-                  label: const Text('Reiniciar progreso'),
+                const SizedBox(height: 14),
+                PrimaryCard(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const SectionTitle(
+                        title: 'Notificaciones',
+                        subtitle: 'Elige cuando recibir nuevas palabras.',
+                        icon: Icons.notifications_outlined,
+                      ),
+                      const SizedBox(height: 16),
+                      AppButton(
+                        label: 'Configurar notificaciones',
+                        icon: Icons.arrow_forward,
+                        variant: AppButtonVariant.tonal,
+                        onPressed: () {
+                          Navigator.of(context).push(
+                            MaterialPageRoute<void>(
+                              builder: (_) =>
+                                  const NotificationSettingsScreen(),
+                            ),
+                          );
+                        },
+                      ),
+                    ],
+                  ),
                 ),
-                const SizedBox(height: 8),
-                OutlinedButton.icon(
-                  onPressed: _isSaving ? null : _confirmResetFavorites,
-                  icon: const Icon(Icons.delete_outline),
-                  label: const Text('Reiniciar favoritos y notas'),
+                const SizedBox(height: 14),
+                PrimaryCard(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const SectionTitle(
+                        title: 'Datos locales',
+                        subtitle: 'Estas acciones requieren confirmacion.',
+                        icon: Icons.storage_outlined,
+                      ),
+                      const SizedBox(height: 16),
+                      AppButton(
+                        label: 'Reiniciar progreso',
+                        icon: Icons.restart_alt,
+                        variant: AppButtonVariant.outlined,
+                        onPressed: _isSaving ? null : _confirmResetProgress,
+                      ),
+                      const SizedBox(height: 10),
+                      AppButton(
+                        label: 'Reiniciar favoritos y notas',
+                        icon: Icons.delete_outline,
+                        variant: AppButtonVariant.danger,
+                        onPressed: _isSaving ? null : _confirmResetFavorites,
+                      ),
+                    ],
+                  ),
                 ),
               ],
             ),
@@ -233,25 +272,26 @@ class _AppSettingsScreenState extends State<AppSettingsScreen> {
 }
 
 class _SettingsSection extends StatelessWidget {
-  const _SettingsSection({required this.title, required this.child});
+  const _SettingsSection({
+    required this.title,
+    required this.subtitle,
+    required this.icon,
+    required this.child,
+  });
 
   final String title;
+  final String subtitle;
+  final IconData icon;
   final Widget child;
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 24),
+    return PrimaryCard(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            title,
-            style: Theme.of(
-              context,
-            ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
-          ),
-          const SizedBox(height: 10),
+          SectionTitle(title: title, subtitle: subtitle, icon: icon),
+          const SizedBox(height: 16),
           child,
         ],
       ),
