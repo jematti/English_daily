@@ -1,13 +1,25 @@
 import 'package:english_drops_daily/domain/models/exercise_model.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
+import 'package:english_drops_daily/features/word_of_day/widgets/word_link_suggestions.dart';
 import 'package:english_drops_daily/services/storage/favorites_storage_service.dart';
 import 'package:english_drops_daily/services/tts/tts_service.dart';
 import 'package:flutter/material.dart';
 
 class LessonCard extends StatefulWidget {
-  const LessonCard({super.key, required this.lesson});
+  const LessonCard({
+    super.key,
+    required this.lesson,
+    this.lessons = const [],
+    this.onLessonSelected,
+    this.showHeader = true,
+    this.favoriteRefreshToken = 0,
+  });
 
   final LessonModel lesson;
+  final List<LessonModel> lessons;
+  final ValueChanged<LessonModel>? onLessonSelected;
+  final bool showHeader;
+  final int favoriteRefreshToken;
 
   @override
   State<LessonCard> createState() => _LessonCardState();
@@ -32,7 +44,8 @@ class _LessonCardState extends State<LessonCard> {
   @override
   void didUpdateWidget(covariant LessonCard oldWidget) {
     super.didUpdateWidget(oldWidget);
-    if (oldWidget.lesson.id != widget.lesson.id) {
+    if (oldWidget.lesson.id != widget.lesson.id ||
+        oldWidget.favoriteRefreshToken != widget.favoriteRefreshToken) {
       _loadFavoriteData();
     }
   }
@@ -58,26 +71,28 @@ class _LessonCardState extends State<LessonCard> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              lesson.word,
-              style: Theme.of(
-                context,
-              ).textTheme.headlineMedium?.copyWith(fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 6),
-            Text(
-              lesson.meaningEs,
-              style: Theme.of(context).textTheme.titleMedium,
-            ),
-            const SizedBox(height: 8),
-            Text(
-              lesson.pronunciation,
-              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: Theme.of(context).colorScheme.primary,
-                fontWeight: FontWeight.w600,
+            if (widget.showHeader) ...[
+              Text(
+                lesson.word,
+                style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
               ),
-            ),
-            const SizedBox(height: 12),
+              const SizedBox(height: 6),
+              Text(
+                lesson.meaningEs,
+                style: Theme.of(context).textTheme.titleMedium,
+              ),
+              const SizedBox(height: 8),
+              Text(
+                lesson.pronunciation,
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                  color: Theme.of(context).colorScheme.primary,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+              const SizedBox(height: 12),
+            ],
             Wrap(
               spacing: 8,
               runSpacing: 8,
@@ -123,6 +138,13 @@ class _LessonCardState extends State<LessonCard> {
             _ListSection(title: 'Uso diario', items: lesson.dailyUse),
             if (firstExercise != null)
               _ExerciseSection(exercise: firstExercise),
+            WordLinkSuggestions(
+              currentLesson: lesson,
+              lessons: widget.lessons,
+              onLessonSelected: (selectedLesson) {
+                widget.onLessonSelected?.call(selectedLesson);
+              },
+            ),
           ],
         ),
       ),

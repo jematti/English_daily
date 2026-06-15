@@ -32,6 +32,20 @@
         "correctAnswer": "En realidad",
         "explanation": "'Actually' significa 'en realidad' o 'de hecho', no 'actualmente'."
       }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_002",
+        "label": "usually",
+        "type": "related",
+        "reason": "Otro adverbio muy comun para sonar natural."
+      },
+      {
+        "targetLessonId": "lesson_007",
+        "label": "advice",
+        "type": "next",
+        "reason": "Sirve para dar o aclarar ideas con mas precision."
+      }
     ]
   },
   {
@@ -71,6 +85,20 @@
         ],
         "correctAnswer": "Yo cocino en casa normalmente",
         "explanation": "'Usually' expresa frecuencia y se traduce como 'normalmente' o 'por lo general'."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_001",
+        "label": "actually",
+        "type": "related",
+        "reason": "Tambien es un adverbio frecuente en conversacion diaria."
+      },
+      {
+        "targetLessonId": "lesson_009",
+        "label": "do",
+        "type": "next",
+        "reason": "Combina bien con rutinas: I usually do homework."
       }
     ]
   },
@@ -112,6 +140,20 @@
         "correctAnswer": "I want to improve my English.",
         "explanation": "Despues de 'want' se usa 'to improve', y el objeto puede ser 'my English'."
       }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_010",
+        "label": "get",
+        "type": "related",
+        "reason": "Ambas palabras cambian mucho segun el contexto."
+      },
+      {
+        "targetLessonId": "lesson_004",
+        "label": "enough",
+        "type": "next",
+        "reason": "Te ayuda a decir si algo mejora lo suficiente."
+      }
     ]
   },
   {
@@ -151,6 +193,20 @@
         ],
         "correctAnswer": "enough money",
         "explanation": "Con sustantivos, 'enough' normalmente va antes: 'enough money'."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_003",
+        "label": "improve",
+        "type": "related",
+        "reason": "Puedes combinar: improve enough para hablar de avance."
+      },
+      {
+        "targetLessonId": "lesson_008",
+        "label": "make",
+        "type": "next",
+        "reason": "Otra palabra comun con reglas de uso frecuentes."
       }
     ]
   },
@@ -192,6 +248,20 @@
         "correctAnswer": "Can I borrow your phone?",
         "explanation": "Si tu recibes el telefono por un momento, usas 'borrow'."
       }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_006",
+        "label": "lend",
+        "type": "antonym",
+        "reason": "Borrow es recibir prestado; lend es dar prestado."
+      },
+      {
+        "targetLessonId": "lesson_010",
+        "label": "get",
+        "type": "related",
+        "reason": "Ambas pueden hablar de recibir algo."
+      }
     ]
   },
   {
@@ -231,6 +301,20 @@
         ],
         "correctAnswer": "Puedo prestarte mi paraguas",
         "explanation": "'Lend' significa dar algo prestado a otra persona por un tiempo."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_005",
+        "label": "borrow",
+        "type": "antonym",
+        "reason": "Es el otro lado de prestar: quien recibe usa borrow."
+      },
+      {
+        "targetLessonId": "lesson_007",
+        "label": "advice",
+        "type": "related",
+        "reason": "Tambien aparece con dar: give advice."
       }
     ]
   },
@@ -272,6 +356,20 @@
         "correctAnswer": "some advice",
         "explanation": "'Advice' es incontable; puedes decir 'some advice' o 'a piece of advice'."
       }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_006",
+        "label": "lend",
+        "type": "related",
+        "reason": "Ambas se usan con give/lend en situaciones de ayuda."
+      },
+      {
+        "targetLessonId": "lesson_001",
+        "label": "actually",
+        "type": "next",
+        "reason": "Sirve para aclarar consejos o corregir una idea."
+      }
     ]
   },
   {
@@ -311,6 +409,20 @@
         ],
         "correctAnswer": "make a decision",
         "explanation": "En ingles se dice 'make a decision' porque hablas de crear o tomar una decision."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_009",
+        "label": "do",
+        "type": "antonym",
+        "reason": "No son opuestos exactos, pero se confunden mucho al traducir hacer."
+      },
+      {
+        "targetLessonId": "lesson_004",
+        "label": "enough",
+        "type": "related",
+        "reason": "Puedes decir make enough food o not enough."
       }
     ]
   },
@@ -352,6 +464,20 @@
         "correctAnswer": "do homework",
         "explanation": "Con tareas como 'homework' se usa 'do'."
       }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_008",
+        "label": "make",
+        "type": "related",
+        "reason": "Do y make se confunden mucho porque ambos traducen hacer."
+      },
+      {
+        "targetLessonId": "lesson_002",
+        "label": "usually",
+        "type": "next",
+        "reason": "Ayuda a hablar de tareas y rutinas diarias."
+      }
     ]
   },
   {
@@ -391,6 +517,20 @@
         ],
         "correctAnswer": "Llego",
         "explanation": "En este contexto, 'get home' significa 'llegar a casa'."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_003",
+        "label": "improve",
+        "type": "related",
+        "reason": "Ambas palabras cambian segun el contexto de la frase."
+      },
+      {
+        "targetLessonId": "lesson_005",
+        "label": "borrow",
+        "type": "related",
+        "reason": "Get puede significar recibir; borrow tambien implica recibir algo temporalmente."
       }
     ]
   }

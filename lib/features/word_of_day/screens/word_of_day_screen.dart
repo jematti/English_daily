@@ -1,6 +1,7 @@
 import 'package:english_drops_daily/data/datasources/lesson_local_datasource.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
-import 'package:english_drops_daily/features/word_of_day/widgets/lesson_card.dart';
+import 'package:english_drops_daily/features/word_of_day/widgets/swipe_lesson_card.dart';
+import 'package:english_drops_daily/services/storage/favorites_storage_service.dart';
 import 'package:flutter/material.dart';
 
 class WordOfDayScreen extends StatefulWidget {
@@ -14,10 +15,15 @@ class WordOfDayScreen extends StatefulWidget {
 
 class _WordOfDayScreenState extends State<WordOfDayScreen> {
   late final Future<List<LessonModel>> _lessonsFuture;
+  final FavoritesStorageService _favoritesStorage =
+      const FavoritesStorageService();
+  String? _selectedLessonId;
+  int _favoriteRefreshToken = 0;
 
   @override
   void initState() {
     super.initState();
+    _selectedLessonId = widget.initialLessonId;
     _lessonsFuture = const LessonLocalDatasource().getLessons();
   }
 
@@ -51,7 +57,16 @@ class _WordOfDayScreenState extends State<WordOfDayScreen> {
           return SafeArea(
             child: SingleChildScrollView(
               padding: const EdgeInsets.all(16),
-              child: LessonCard(lesson: selectedLesson),
+              child: SwipeLessonCard(
+                lesson: selectedLesson,
+                lessons: lessons,
+                onPrevious: () => _showPreviousLesson(lessons),
+                onNext: () => _showNextLesson(lessons),
+                onSaveFavorite: () => _saveFavorite(selectedLesson),
+                onRelated: () => _showRelatedLesson(selectedLesson, lessons),
+                onLessonSelected: _selectLesson,
+                favoriteRefreshToken: _favoriteRefreshToken,
+              ),
             ),
           );
         },
@@ -60,7 +75,7 @@ class _WordOfDayScreenState extends State<WordOfDayScreen> {
   }
 
   LessonModel _findSelectedLesson(List<LessonModel> lessons) {
-    final lessonId = widget.initialLessonId;
+    final lessonId = _selectedLessonId;
     if (lessonId == null) {
       return lessons.first;
     }
@@ -68,6 +83,62 @@ class _WordOfDayScreenState extends State<WordOfDayScreen> {
     return lessons.firstWhere(
       (lesson) => lesson.id == lessonId,
       orElse: () => lessons.first,
+    );
+  }
+
+  void _selectLesson(LessonModel lesson) {
+    setState(() {
+      _selectedLessonId = lesson.id;
+    });
+  }
+
+  void _showNextLesson(List<LessonModel> lessons) {
+    _selectLessonAtOffset(lessons, 1);
+  }
+
+  void _showPreviousLesson(List<LessonModel> lessons) {
+    _selectLessonAtOffset(lessons, -1);
+  }
+
+  void _selectLessonAtOffset(List<LessonModel> lessons, int offset) {
+    final currentIndex = lessons.indexWhere(
+      (lesson) => lesson.id == _selectedLessonId,
+    );
+    final safeCurrentIndex = currentIndex == -1 ? 0 : currentIndex;
+    final nextIndex = (safeCurrentIndex + offset) % lessons.length;
+    _selectLesson(lessons[nextIndex]);
+  }
+
+  Future<void> _saveFavorite(LessonModel lesson) async {
+    await _favoritesStorage.addFavorite(lesson.id);
+
+    if (!mounted) {
+      return;
+    }
+
+    setState(() {
+      _favoriteRefreshToken++;
+    });
+    ScaffoldMessenger.of(
+      context,
+    ).showSnackBar(const SnackBar(content: Text('Guardado en favoritos')));
+  }
+
+  void _showRelatedLesson(
+    LessonModel currentLesson,
+    List<LessonModel> lessons,
+  ) {
+    for (final link in currentLesson.links) {
+      for (final lesson in lessons) {
+        if (lesson.id == link.targetLessonId) {
+          _selectLesson(lesson);
+          return;
+        }
+      }
+    }
+
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(content: Text('No hay palabra relacionada todavía')),
     );
   }
 }

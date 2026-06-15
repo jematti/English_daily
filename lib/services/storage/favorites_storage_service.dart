@@ -27,6 +27,18 @@ class FavoritesStorageService {
     await preferences.setStringList(_favoriteLessonIdsKey, favoriteIds);
   }
 
+  Future<void> addFavorite(String lessonId) async {
+    final preferences = await SharedPreferences.getInstance();
+    final favoriteIds = preferences.getStringList(_favoriteLessonIdsKey) ?? [];
+
+    if (favoriteIds.contains(lessonId)) {
+      return;
+    }
+
+    favoriteIds.add(lessonId);
+    await preferences.setStringList(_favoriteLessonIdsKey, favoriteIds);
+  }
+
   Future<bool> isFavorite(String lessonId) async {
     final favoriteIds = await getFavoriteLessonIds();
     return favoriteIds.contains(lessonId);

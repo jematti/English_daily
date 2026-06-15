@@ -1,4 +1,5 @@
 import 'exercise_model.dart';
+import 'word_link_model.dart';
 
 class LessonModel {
   const LessonModel({
@@ -20,6 +21,7 @@ class LessonModel {
     required this.commonMistakes,
     required this.dailyUse,
     required this.exercises,
+    required this.links,
   });
 
   final String id;
@@ -40,6 +42,7 @@ class LessonModel {
   final List<String> commonMistakes;
   final List<String> dailyUse;
   final List<ExerciseModel> exercises;
+  final List<WordLinkModel> links;
 
   factory LessonModel.fromJson(Map<String, dynamic> json) {
     return LessonModel(
@@ -69,6 +72,9 @@ class LessonModel {
       ) {
         return ExerciseModel.fromJson(exercise as Map<String, dynamic>);
       }).toList(),
+      links: (json['links'] as List<dynamic>? ?? const []).map((link) {
+        return WordLinkModel.fromJson(link as Map<String, dynamic>);
+      }).toList(),
     );
   }
 
@@ -92,6 +98,7 @@ class LessonModel {
       'commonMistakes': commonMistakes,
       'dailyUse': dailyUse,
       'exercises': exercises.map((exercise) => exercise.toJson()).toList(),
+      'links': links.map((link) => link.toJson()).toList(),
     };
   }
 }
