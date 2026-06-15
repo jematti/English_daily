@@ -1,4 +1,5 @@
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:english_drops_daily/services/storage/app_settings_storage_service.dart';
 
 class TtsUnavailableException implements Exception {
   const TtsUnavailableException();
@@ -12,13 +13,15 @@ class TtsService {
   bool _isInitialized = false;
 
   Future<void> init() async {
-    if (_isInitialized) {
-      return;
-    }
-
     try {
+      final settings = await const AppSettingsStorageService().loadSettings();
+      await _flutterTts.setSpeechRate(settings.pronunciationSpeed.speechRate);
+
+      if (_isInitialized) {
+        return;
+      }
+
       await _flutterTts.setLanguage('en-US');
-      await _flutterTts.setSpeechRate(0.45);
       await _flutterTts.setPitch(1.0);
       await _flutterTts.awaitSpeakCompletion(true);
     } on Object {

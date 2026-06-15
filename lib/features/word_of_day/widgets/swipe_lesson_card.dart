@@ -1,6 +1,7 @@
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/features/word_of_day/widgets/lesson_card.dart';
 import 'package:english_drops_daily/features/word_of_day/widgets/swipe_hint_bar.dart';
+import 'package:english_drops_daily/services/storage/app_settings_storage_service.dart';
 import 'package:flutter/material.dart';
 
 class SwipeLessonCard extends StatefulWidget {
@@ -77,11 +78,20 @@ class _SwipeLessonCardState extends State<SwipeLessonCard> {
                     ),
                   ),
                   const SizedBox(height: 16),
-                  const SwipeHintBar(),
-                  const SizedBox(height: 8),
-                  Text(
-                    'Desliza sobre esta tarjeta',
-                    style: Theme.of(context).textTheme.bodySmall,
+                  ValueListenableBuilder(
+                    valueListenable: AppSettingsStorageService.settingsNotifier,
+                    builder: (context, settings, _) {
+                      if (!settings.showSwipeHints) {
+                        return const SizedBox.shrink();
+                      }
+                      return const Column(
+                        children: [
+                          SwipeHintBar(),
+                          SizedBox(height: 8),
+                          Text('Desliza sobre esta tarjeta'),
+                        ],
+                      );
+                    },
                   ),
                 ],
               ),

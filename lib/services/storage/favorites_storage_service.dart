@@ -79,6 +79,12 @@ class FavoritesStorageService {
     return notes[lessonId];
   }
 
+  Future<void> clearAll() async {
+    final preferences = await SharedPreferences.getInstance();
+    await preferences.remove(_favoriteLessonIdsKey);
+    await preferences.remove(_notesKey);
+  }
+
   Future<Map<String, FavoriteNoteModel>> _getNoteModels() async {
     final preferences = await SharedPreferences.getInstance();
     final rawNotes = preferences.getString(_notesKey);
