@@ -1,0 +1,40 @@
+{
+  "id": "lesson_0001",
+  "word": "run",
+  "meaningEs": "correr",
+  "pronunciation": "ran",
+  "partOfSpeech": "verb",
+  "isVerb": true,
+  "verbType": "irregular",
+  "baseForm": "run",
+  "pastSimple": "ran",
+  "pastParticiple": "run",
+  "exampleEn": "I run every morning.",
+  "exampleEs": "Corro todas las mañanas.",
+  "usage": "Se usa para hablar de correr o funcionar.",
+  "grammar": "Verb in base form. Present simple: I run, you run, he runs.",
+  "commonMistakes": [
+    "No confundir run con walk.",
+    "En tercera persona se usa runs: He runs."
+  ],
+  "dailyUse": [
+    "I run every day.",
+    "This app runs well."
+  ],
+  "exercises": [
+    {
+      "id": "ex_0001",
+      "type": "multiple_choice",
+      "question": "What does 'run' mean?",
+      "options": ["correr", "caminar", "saltar", "dormir"],
+      "correctAnswer": "correr",
+      "explanation": "Run significa correr."
+    }
+  ],
+  "level": "A1",
+  "isPremium": false,
+  "category": "basic_verbs",
+  "packId": "free_basic_1000",
+  "shortNotificationText": "Irregular: run / ran / run. Example: I run every morning.",
+  "links": []
+}

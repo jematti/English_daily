@@ -62,6 +62,7 @@ flutter:
 
   assets:
     - assets/data/
+    - assets/data/templates/
     - assets/data/packs/
     - assets/data/packs/free_basic_1000/
     - assets/data/packs/premium_preview/
