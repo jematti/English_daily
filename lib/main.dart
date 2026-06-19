@@ -1,5 +1,5 @@
 import 'package:english_drops_daily/core/theme/app_theme.dart';
-import 'package:english_drops_daily/features/dashboard/screens/dashboard_screen.dart';
+import 'package:english_drops_daily/features/home/screens/home_microlesson_screen.dart';
 import 'package:english_drops_daily/services/notifications/notification_service.dart';
 import 'package:english_drops_daily/domain/models/app_settings_model.dart';
 import 'package:english_drops_daily/services/storage/app_settings_storage_service.dart';
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
             AppThemePreference.dark => ThemeMode.dark,
             AppThemePreference.system => ThemeMode.system,
           },
-          home: const DashboardScreen(),
+          home: const HomeMicrolessonScreen(),
         );
       },
     );

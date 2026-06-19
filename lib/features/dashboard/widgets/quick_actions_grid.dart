@@ -11,6 +11,7 @@ class QuickActionsGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const actions = [
+      _QuickAction(label: 'Aprender', icon: Icons.style_outlined),
       _QuickAction(label: 'Ejercicios', icon: Icons.quiz_outlined),
       _QuickAction(label: 'Favoritos', icon: Icons.favorite_border),
       _QuickAction(label: 'Repasos', icon: Icons.replay_outlined),
@@ -47,6 +48,11 @@ class QuickActionsGrid extends StatelessWidget {
                           builder: (_) => const ExercisesScreen(),
                         ),
                       );
+                      return;
+                    }
+
+                    if (action.label == 'Aprender') {
+                      Navigator.of(context).maybePop();
                       return;
                     }
 

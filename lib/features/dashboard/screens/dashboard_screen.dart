@@ -8,7 +8,6 @@ import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/features/dashboard/widgets/progress_summary_card.dart';
 import 'package:english_drops_daily/features/dashboard/widgets/quick_actions_grid.dart';
 import 'package:english_drops_daily/features/dashboard/widgets/streak_card.dart';
-import 'package:english_drops_daily/features/word_of_day/screens/word_of_day_screen.dart';
 import 'package:english_drops_daily/services/access/access_service.dart';
 import 'package:english_drops_daily/services/lesson_selection_service.dart';
 import 'package:english_drops_daily/services/notifications/notification_service.dart';
@@ -54,8 +53,9 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   const _DashboardHeader(),
                   const SizedBox(height: 24),
                   const SectionTitle(
-                    title: 'Tu leccion de hoy',
-                    subtitle: 'Una palabra breve para avanzar cada dia.',
+                    title: 'Acceso rapido',
+                    subtitle:
+                        'Vuelve a la experiencia principal cuando quieras.',
                     icon: Icons.auto_stories_outlined,
                   ),
                   const SizedBox(height: 12),
@@ -241,7 +241,7 @@ class _DashboardHeader extends StatelessWidget {
                 ),
                 const SizedBox(height: 5),
                 Text(
-                  'Aprende ingles en gotas diarias',
+                  'Centro secundario de progreso y accesos',
                   style: AppTextStyles.body.copyWith(
                     color: Colors.white.withValues(alpha: 0.88),
                   ),
@@ -275,7 +275,7 @@ class _WordOfDayPreview extends StatelessWidget {
               Icon(Icons.lightbulb_outline, color: colorScheme.primary),
               const SizedBox(width: 8),
               Text(
-                'PALABRA DEL DIA',
+                'VOLVER A APRENDER',
                 style: AppTextStyles.label.copyWith(
                   color: colorScheme.primary,
                   letterSpacing: 0.7,
@@ -299,14 +299,10 @@ class _WordOfDayPreview extends StatelessWidget {
           Text(lesson.exampleEs, style: Theme.of(context).textTheme.bodySmall),
           const SizedBox(height: 18),
           AppButton(
-            label: 'Ver microleccion',
+            label: 'Abrir microleccion',
             icon: Icons.arrow_forward,
             onPressed: () {
-              Navigator.of(context).push(
-                MaterialPageRoute<void>(
-                  builder: (_) => const WordOfDayScreen(),
-                ),
-              );
+              Navigator.of(context).maybePop();
             },
           ),
         ],

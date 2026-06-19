@@ -1,4 +1,5 @@
 import 'package:english_drops_daily/core/constants/app_colors.dart';
+import 'package:english_drops_daily/core/constants/app_palette.dart';
 import 'package:english_drops_daily/core/constants/app_text_styles.dart';
 import 'package:flutter/material.dart';
 
@@ -22,6 +23,7 @@ abstract final class AppTheme {
       brightness: brightness,
       primary: primary,
       secondary: AppColors.secondary,
+      tertiary: AppPalette.violet,
       surface: surface,
       error: AppColors.error,
     );
@@ -54,10 +56,11 @@ abstract final class AppTheme {
       ),
       cardTheme: CardThemeData(
         color: surface,
-        elevation: 0,
+        elevation: isDark ? 0 : 1,
+        shadowColor: AppPalette.ocean.withValues(alpha: 0.08),
         margin: EdgeInsets.zero,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(20),
+          borderRadius: BorderRadius.circular(24),
           side: BorderSide(
             color: isDark
                 ? Colors.white.withValues(alpha: 0.08)
@@ -96,7 +99,7 @@ abstract final class AppTheme {
           minimumSize: const Size(48, 52),
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(14),
+            borderRadius: BorderRadius.circular(18),
           ),
           textStyle: AppTextStyles.label,
         ),
@@ -106,7 +109,7 @@ abstract final class AppTheme {
           minimumSize: const Size(48, 52),
           padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(14),
+            borderRadius: BorderRadius.circular(18),
           ),
           side: BorderSide(
             color: isDark

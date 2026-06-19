@@ -5,14 +5,14 @@ abstract final class AppTextStyles {
     fontSize: 30,
     height: 1.15,
     fontWeight: FontWeight.w800,
-    letterSpacing: -0.7,
+    letterSpacing: 0,
   );
 
   static const TextStyle pageTitle = TextStyle(
     fontSize: 25,
     height: 1.2,
     fontWeight: FontWeight.w800,
-    letterSpacing: -0.35,
+    letterSpacing: 0,
   );
 
   static const TextStyle sectionTitle = TextStyle(

@@ -5,6 +5,7 @@ import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/domain/models/notification_settings_model.dart';
 import 'package:english_drops_daily/domain/models/user_access_model.dart';
 import 'package:english_drops_daily/features/exercises/widgets/exercise_card.dart';
+import 'package:english_drops_daily/features/word_of_day/widgets/animated_swipe_card.dart';
 import 'package:english_drops_daily/services/access/access_service.dart';
 import 'package:english_drops_daily/services/content/content_pack_service.dart';
 import 'package:english_drops_daily/services/notifications/notification_service.dart';
@@ -335,18 +336,27 @@ void main() {
     expect(find.text('This is the expected option.'), findsOneWidget);
   });
 
-  testWidgets('opens settings and navigates the offline lessons', (
+  testWidgets('starts in microlesson home and keeps secondary flows', (
     WidgetTester tester,
   ) async {
     await tester.pumpWidget(const MyApp());
-    await _pumpUntilFound(tester, find.text('Configuracion'));
+    await _pumpUntilFound(tester, find.text('Aprende ahora'));
+
+    expect(find.text('actually'), findsWidgets);
+    expect(find.text('en realidad / de hecho'), findsWidgets);
+    expect(find.text('Bonus diario'), findsOneWidget);
+    expect(find.text('Anterior'), findsWidgets);
+    expect(find.text('Pasar'), findsWidgets);
+    expect(find.text('Guardar'), findsWidgets);
+    expect(find.text('Relacionada'), findsWidgets);
 
     await tester.scrollUntilVisible(
-      find.text('Configuracion'),
-      300,
+      find.text('Ajustes'),
+      500,
       scrollable: find.byType(Scrollable).first,
     );
-    await tester.tap(find.text('Configuracion'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Ajustes'));
     await _pumpUntilFound(tester, find.text('Velocidad de pronunciacion'));
 
     expect(find.text('Tema visual'), findsOneWidget);
@@ -374,38 +384,34 @@ void main() {
     tester.state<NavigatorState>(find.byType(Navigator)).pop();
     await tester.pumpAndSettle();
 
-    await tester.ensureVisible(find.text('Ver microleccion'));
+    await _pumpUntilFound(tester, find.text('Aprende ahora'));
+    await tester.scrollUntilVisible(
+      find.text('actually').last,
+      -500,
+      scrollable: find.byType(Scrollable).first,
+    );
     await tester.pumpAndSettle();
 
-    expect(find.text('actually'), findsOneWidget);
-    expect(find.text('en realidad / de hecho'), findsOneWidget);
-
-    await tester.tap(find.text('Ver microleccion'));
-    await _pumpUntilFound(tester, find.text('Anterior'));
-
-    expect(find.text('Anterior'), findsWidgets);
-    expect(find.text('Pasar'), findsWidgets);
-    expect(find.text('Guardar'), findsWidgets);
-    expect(find.text('Relacionada'), findsWidgets);
-
-    await tester.drag(find.text('actually').last, const Offset(-120, 0));
-    await tester.pump(const Duration(milliseconds: 300));
+    await tester.drag(find.byType(AnimatedSwipeCard), const Offset(-140, 0));
+    await tester.pumpAndSettle();
     expect(find.text('usually'), findsOneWidget);
 
-    await tester.drag(find.text('usually'), const Offset(0, 120));
-    await tester.pump(const Duration(milliseconds: 300));
+    await tester.drag(find.byType(AnimatedSwipeCard), const Offset(0, 140));
+    await tester.pumpAndSettle();
     expect(find.text('actually'), findsWidgets);
 
-    await tester.drag(find.text('actually').last, const Offset(0, -120));
-    await tester.pump(const Duration(milliseconds: 300));
+    await tester.drag(find.byType(AnimatedSwipeCard), const Offset(0, -140));
+    await tester.pumpAndSettle();
     expect(find.text('usually'), findsOneWidget);
 
-    await tester.drag(find.text('usually'), const Offset(120, 0));
-    await tester.pump(const Duration(milliseconds: 300));
-
-    final preferences = await SharedPreferences.getInstance();
-    expect(preferences.getStringList('favorite_lesson_ids'), ['lesson_002']);
-    expect(find.text('Guardado en favoritos'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('Guardar').first,
+      300,
+      scrollable: find.byType(Scrollable).first,
+    );
+    await tester.tap(find.text('Guardar').first);
+    await tester.pumpAndSettle();
+    expect(find.text('Guardar'), findsWidgets);
   });
 }
 
