@@ -3,6 +3,7 @@
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/domain/models/notification_settings_model.dart';
 import 'package:english_drops_daily/features/word_of_day/screens/word_of_day_screen.dart';
+import 'package:english_drops_daily/services/storage/lesson_history_storage_service.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
@@ -21,6 +22,8 @@ class NotificationService {
 
   final FlutterLocalNotificationsPlugin _notifications =
       FlutterLocalNotificationsPlugin();
+  final LessonHistoryStorageService _lessonHistoryStorage =
+      const LessonHistoryStorageService();
 
   bool _shouldOpenWordOfDay = false;
   String? _pendingLessonId;
@@ -124,6 +127,7 @@ class NotificationService {
       notificationDetails: _notificationDetails,
       payload: _payloadForLesson(lesson),
     );
+    await _lessonHistoryStorage.markLessonAsShown(lesson.id);
   }
 
   Future<void> cancelAllNotifications() async {
@@ -157,8 +161,13 @@ class NotificationService {
     _initializeTimeZones();
 
     final hours = _hoursForSettings(settings);
+    final notificationLessons = await _selectLessonsForNotifications(
+      lessons,
+      hours.length,
+    );
+
     for (var index = 0; index < hours.length; index++) {
-      final lesson = lessons[index % lessons.length];
+      final lesson = notificationLessons[index % notificationLessons.length];
       final content = _buildLessonNotificationContent(lesson);
 
       await _notifications.zonedSchedule(
@@ -172,6 +181,34 @@ class NotificationService {
         payload: _payloadForLesson(lesson),
       );
     }
+  }
+
+  Future<List<LessonModel>> _selectLessonsForNotifications(
+    List<LessonModel> lessons,
+    int count,
+  ) async {
+    final freeLessons = lessons.where((lesson) => !lesson.isPremium).toList();
+    final availableLessons = freeLessons.isNotEmpty ? freeLessons : lessons;
+    final shownLessonIds = await _lessonHistoryStorage.getShownLessonIds();
+    final unseenLessons = availableLessons.where((lesson) {
+      return !shownLessonIds.contains(lesson.id);
+    }).toList();
+
+    if (unseenLessons.isEmpty) {
+      return availableLessons;
+    }
+
+    final selectedLessons = unseenLessons.take(count).toList();
+    if (selectedLessons.length == count) {
+      return selectedLessons;
+    }
+
+    final selectedIds = selectedLessons.map((lesson) => lesson.id).toSet();
+    selectedLessons.addAll(
+      availableLessons.where((lesson) => !selectedIds.contains(lesson.id)),
+    );
+
+    return selectedLessons;
   }
 
   _NotificationContent _buildLessonNotificationContent(LessonModel lesson) {

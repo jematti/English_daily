@@ -1,9 +1,12 @@
 import 'package:english_drops_daily/core/theme/app_theme.dart';
 import 'package:english_drops_daily/domain/models/app_settings_model.dart';
 import 'package:english_drops_daily/domain/models/exercise_model.dart';
+import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/features/exercises/widgets/exercise_card.dart';
 import 'package:english_drops_daily/services/storage/app_settings_storage_service.dart';
 import 'package:english_drops_daily/services/storage/favorites_storage_service.dart';
+import 'package:english_drops_daily/services/storage/lesson_history_storage_service.dart';
+import 'package:english_drops_daily/services/lesson_selection_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -37,6 +40,78 @@ void main() {
     await favoritesStorage.clearAll();
     expect(await favoritesStorage.getFavoriteLessonIds(), isEmpty);
     expect(await favoritesStorage.getNotes(), isEmpty);
+  });
+
+  test('selects unseen lessons before repeating shown lessons', () async {
+    const historyStorage = LessonHistoryStorageService();
+    const selectionService = LessonSelectionService();
+    const lessons = [
+      LessonModel(
+        id: 'lesson_001',
+        word: 'actually',
+        meaningEs: 'en realidad / de hecho',
+        pronunciation: 'Ak-shu-a-li',
+        exampleEn: 'Actually, I need help.',
+        exampleEs: 'En realidad, necesito ayuda.',
+        usage: 'Aclarar una idea.',
+        grammar: 'Adverb.',
+        level: 'A2',
+        isPremium: false,
+        category: 'common_adverbs',
+        packId: 'free_basic_1000',
+        partOfSpeech: 'adverb',
+        isVerb: false,
+        verbType: null,
+        baseForm: null,
+        pastSimple: null,
+        pastParticiple: null,
+        shortNotificationText: null,
+        commonMistakes: [],
+        dailyUse: [],
+        exercises: [],
+        links: [],
+      ),
+      LessonModel(
+        id: 'lesson_002',
+        word: 'usually',
+        meaningEs: 'normalmente',
+        pronunciation: 'Yu-zhu-a-li',
+        exampleEn: 'I usually study.',
+        exampleEs: 'Normalmente estudio.',
+        usage: 'Hablar de habitos.',
+        grammar: 'Adverb of frequency.',
+        level: 'A1',
+        isPremium: false,
+        category: 'frequency_adverbs',
+        packId: 'free_basic_1000',
+        partOfSpeech: 'adverb',
+        isVerb: false,
+        verbType: null,
+        baseForm: null,
+        pastSimple: null,
+        pastParticiple: null,
+        shortNotificationText: null,
+        commonMistakes: [],
+        dailyUse: [],
+        exercises: [],
+        links: [],
+      ),
+    ];
+
+    expect(await selectionService.getNextUnseenLesson(lessons), lessons.first);
+
+    await historyStorage.markLessonAsShown('lesson_001');
+    expect(await selectionService.getNextUnseenLesson(lessons), lessons.last);
+    expect(
+      await selectionService.getNextUnseenByLevel(lessons, 'A1'),
+      lessons.last,
+    );
+
+    await historyStorage.markLessonAsShown('lesson_002');
+    expect(await selectionService.getNextUnseenLesson(lessons), lessons.first);
+
+    await historyStorage.resetShownLessons();
+    expect(await historyStorage.getShownLessonIds(), isEmpty);
   });
 
   testWidgets('exercise card shows clear answer feedback', (

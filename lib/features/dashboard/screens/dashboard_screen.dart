@@ -9,6 +9,7 @@ import 'package:english_drops_daily/features/dashboard/widgets/progress_summary_
 import 'package:english_drops_daily/features/dashboard/widgets/quick_actions_grid.dart';
 import 'package:english_drops_daily/features/dashboard/widgets/streak_card.dart';
 import 'package:english_drops_daily/features/word_of_day/screens/word_of_day_screen.dart';
+import 'package:english_drops_daily/services/lesson_selection_service.dart';
 import 'package:english_drops_daily/services/notifications/notification_service.dart';
 import 'package:english_drops_daily/services/storage/settings_storage_service.dart';
 import 'package:flutter/material.dart';
@@ -76,7 +77,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   const SizedBox(height: 12),
                   const StreakCard(),
                   const SizedBox(height: 20),
-                  _NotificationTestButton(lesson: lesson),
+                  _NotificationTestButton(lessons: lessons),
                   const SizedBox(height: 20),
                   const QuickActionsGrid(),
                 ],
@@ -90,9 +91,9 @@ class _DashboardScreenState extends State<DashboardScreen> {
 }
 
 class _NotificationTestButton extends StatelessWidget {
-  const _NotificationTestButton({required this.lesson});
+  const _NotificationTestButton({required this.lessons});
 
-  final LessonModel? lesson;
+  final List<LessonModel> lessons;
 
   @override
   Widget build(BuildContext context) {
@@ -140,7 +141,16 @@ class _NotificationTestButton extends StatelessWidget {
                 return;
               }
 
-              final wordOfDay = lesson;
+              final wordOfDay =
+                  await const LessonSelectionService().getNextUnseenLesson(
+                    lessons,
+                  ) ??
+                  (lessons.isNotEmpty ? lessons.first : null);
+
+              if (!context.mounted) {
+                return;
+              }
+
               if (wordOfDay == null) {
                 ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(

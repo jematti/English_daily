@@ -1,7 +1,9 @@
 import 'package:english_drops_daily/data/datasources/lesson_local_datasource.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/features/word_of_day/widgets/swipe_lesson_card.dart';
+import 'package:english_drops_daily/services/lesson_selection_service.dart';
 import 'package:english_drops_daily/services/storage/favorites_storage_service.dart';
+import 'package:english_drops_daily/services/storage/lesson_history_storage_service.dart';
 import 'package:flutter/material.dart';
 
 class WordOfDayScreen extends StatefulWidget {
@@ -17,6 +19,10 @@ class _WordOfDayScreenState extends State<WordOfDayScreen> {
   late final Future<List<LessonModel>> _lessonsFuture;
   final FavoritesStorageService _favoritesStorage =
       const FavoritesStorageService();
+  final LessonHistoryStorageService _lessonHistoryStorage =
+      const LessonHistoryStorageService();
+  final LessonSelectionService _lessonSelectionService =
+      const LessonSelectionService();
   String? _selectedLessonId;
   int _favoriteRefreshToken = 0;
 
@@ -24,7 +30,25 @@ class _WordOfDayScreenState extends State<WordOfDayScreen> {
   void initState() {
     super.initState();
     _selectedLessonId = widget.initialLessonId;
-    _lessonsFuture = const LessonLocalDatasource().getLessons();
+    _lessonsFuture = _loadLessons();
+  }
+
+  Future<List<LessonModel>> _loadLessons() async {
+    final lessons = await const LessonLocalDatasource().getLessons();
+    if (lessons.isEmpty) {
+      return lessons;
+    }
+
+    final initialLesson = _findLessonById(lessons, widget.initialLessonId);
+    final selectedLesson =
+        initialLesson ??
+        await _lessonSelectionService.getNextUnseenLesson(lessons) ??
+        lessons.first;
+
+    _selectedLessonId = selectedLesson.id;
+    await _lessonHistoryStorage.markLessonAsShown(selectedLesson.id);
+
+    return lessons;
   }
 
   @override
@@ -80,6 +104,14 @@ class _WordOfDayScreenState extends State<WordOfDayScreen> {
       return lessons.first;
     }
 
+    return _findLessonById(lessons, lessonId) ?? lessons.first;
+  }
+
+  LessonModel? _findLessonById(List<LessonModel> lessons, String? lessonId) {
+    if (lessonId == null) {
+      return null;
+    }
+
     return lessons.firstWhere(
       (lesson) => lesson.id == lessonId,
       orElse: () => lessons.first,
@@ -87,12 +119,26 @@ class _WordOfDayScreenState extends State<WordOfDayScreen> {
   }
 
   void _selectLesson(LessonModel lesson) {
+    _lessonHistoryStorage.markLessonAsShown(lesson.id);
     setState(() {
       _selectedLessonId = lesson.id;
     });
   }
 
-  void _showNextLesson(List<LessonModel> lessons) {
+  Future<void> _showNextLesson(List<LessonModel> lessons) async {
+    final nextUnseenLesson = await _lessonSelectionService.getNextUnseenLesson(
+      lessons,
+    );
+
+    if (!mounted) {
+      return;
+    }
+
+    if (nextUnseenLesson != null && nextUnseenLesson.id != _selectedLessonId) {
+      _selectLesson(nextUnseenLesson);
+      return;
+    }
+
     _selectLessonAtOffset(lessons, 1);
   }
 

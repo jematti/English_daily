@@ -11,6 +11,10 @@ class LessonModel {
     required this.exampleEs,
     required this.usage,
     required this.grammar,
+    required this.level,
+    required this.isPremium,
+    required this.category,
+    required this.packId,
     required this.partOfSpeech,
     required this.isVerb,
     required this.verbType,
@@ -22,6 +26,7 @@ class LessonModel {
     required this.dailyUse,
     required this.exercises,
     required this.links,
+    this.timesShown,
   });
 
   final String id;
@@ -32,6 +37,10 @@ class LessonModel {
   final String exampleEs;
   final String usage;
   final String grammar;
+  final String level;
+  final bool isPremium;
+  final String category;
+  final String packId;
   final String? partOfSpeech;
   final bool isVerb;
   final String? verbType;
@@ -43,6 +52,7 @@ class LessonModel {
   final List<String> dailyUse;
   final List<ExerciseModel> exercises;
   final List<WordLinkModel> links;
+  final int? timesShown;
 
   factory LessonModel.fromJson(Map<String, dynamic> json) {
     return LessonModel(
@@ -54,6 +64,10 @@ class LessonModel {
       exampleEs: json['exampleEs'] as String,
       usage: json['usage'] as String,
       grammar: json['grammar'] as String,
+      level: json['level'] as String? ?? 'A1',
+      isPremium: json['isPremium'] as bool? ?? false,
+      category: json['category'] as String? ?? 'free_basic',
+      packId: json['packId'] as String? ?? 'free_basic_1000',
       partOfSpeech: json['partOfSpeech'] as String?,
       isVerb: json['isVerb'] as bool? ?? false,
       verbType: json['verbType'] as String?,
@@ -75,6 +89,7 @@ class LessonModel {
       links: (json['links'] as List<dynamic>? ?? const []).map((link) {
         return WordLinkModel.fromJson(link as Map<String, dynamic>);
       }).toList(),
+      timesShown: json['timesShown'] as int?,
     );
   }
 
@@ -88,6 +103,10 @@ class LessonModel {
       'exampleEs': exampleEs,
       'usage': usage,
       'grammar': grammar,
+      'level': level,
+      'isPremium': isPremium,
+      'category': category,
+      'packId': packId,
       'partOfSpeech': partOfSpeech,
       'isVerb': isVerb,
       'verbType': verbType,
@@ -99,6 +118,7 @@ class LessonModel {
       'dailyUse': dailyUse,
       'exercises': exercises.map((exercise) => exercise.toJson()).toList(),
       'links': links.map((link) => link.toJson()).toList(),
+      'timesShown': timesShown,
     };
   }
 }
