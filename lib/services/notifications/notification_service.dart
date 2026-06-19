@@ -174,13 +174,51 @@ class NotificationService {
         id: _scheduledNotificationStartId + index,
         title: content.title,
         body: content.body,
-        scheduledDate: _nextTimeAtHour(hours[index]),
+        scheduledDate: _nextAllowedTimeAtHour(hours[index], settings),
         notificationDetails: _notificationDetails,
         androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
         matchDateTimeComponents: DateTimeComponents.time,
         payload: _payloadForLesson(lesson),
       );
     }
+  }
+
+  bool isInsideQuietHours(DateTime date, NotificationSettingsModel settings) {
+    if (!settings.quietHoursEnabled) {
+      return false;
+    }
+
+    final startHour = settings.quietStartHour;
+    final endHour = settings.quietEndHour;
+
+    if (startHour == endHour) {
+      return false;
+    }
+
+    if (startHour < endHour) {
+      return date.hour >= startHour && date.hour < endHour;
+    }
+
+    return date.hour >= startHour || date.hour < endHour;
+  }
+
+  DateTime moveOutsideQuietHours(
+    DateTime date,
+    NotificationSettingsModel settings,
+  ) {
+    if (!isInsideQuietHours(date, settings)) {
+      return date;
+    }
+
+    final endHour = settings.quietEndHour;
+    final startHour = settings.quietStartHour;
+    var allowedDate = DateTime(date.year, date.month, date.day, endHour);
+
+    if (startHour > endHour && date.hour >= startHour) {
+      allowedDate = allowedDate.add(const Duration(days: 1));
+    }
+
+    return allowedDate;
   }
 
   Future<List<LessonModel>> _selectLessonsForNotifications(
@@ -253,6 +291,16 @@ class NotificationService {
     }
 
     return scheduledDate;
+  }
+
+  timezone.TZDateTime _nextAllowedTimeAtHour(
+    int hour,
+    NotificationSettingsModel settings,
+  ) {
+    final scheduledDate = _nextTimeAtHour(hour);
+    final allowedDate = moveOutsideQuietHours(scheduledDate, settings);
+
+    return timezone.TZDateTime.from(allowedDate, timezone.local);
   }
 
   void _initializeTimeZones() {

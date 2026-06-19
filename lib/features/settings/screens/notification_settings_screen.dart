@@ -81,7 +81,11 @@ class _NotificationSettingsScreenState
                   enabled: !_isSaving,
                   onTap: _isSaving
                       ? null
-                      : () => _selectOption(option.key, data.lessons),
+                      : () => _selectOption(
+                          option.key,
+                          data.settings,
+                          data.lessons,
+                        ),
                   title: Text(option.label),
                   trailing: Icon(
                     isSelected
@@ -90,6 +94,62 @@ class _NotificationSettingsScreenState
                   ),
                 );
               }),
+              const SizedBox(height: 24),
+              Text(
+                'Horario silencioso',
+                style: Theme.of(
+                  context,
+                ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
+              ),
+              const SizedBox(height: 8),
+              SwitchListTile(
+                contentPadding: EdgeInsets.zero,
+                title: const Text('No molestar al dormir'),
+                subtitle: Text(
+                  data.settings.quietHoursEnabled ? 'Activado' : 'Desactivado',
+                ),
+                value: data.settings.quietHoursEnabled,
+                onChanged: _isSaving
+                    ? null
+                    : (value) {
+                        _saveSettings(
+                          data.settings.copyWith(quietHoursEnabled: value),
+                          data.lessons,
+                        );
+                      },
+              ),
+              const SizedBox(height: 8),
+              Row(
+                children: [
+                  Expanded(
+                    child: _HourSelector(
+                      label: 'Desde',
+                      value: data.settings.quietStartHour,
+                      enabled: !_isSaving && data.settings.quietHoursEnabled,
+                      onChanged: (hour) {
+                        _saveSettings(
+                          data.settings.copyWith(quietStartHour: hour),
+                          data.lessons,
+                        );
+                      },
+                    ),
+                  ),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: _HourSelector(
+                      label: 'Hasta',
+                      value: data.settings.quietEndHour,
+                      enabled: !_isSaving && data.settings.quietHoursEnabled,
+                      onChanged: (hour) {
+                        _saveSettings(
+                          data.settings.copyWith(quietEndHour: hour),
+                          data.lessons,
+                        );
+                      },
+                    ),
+                  ),
+                ],
+              ),
               if (_isSaving)
                 const Padding(
                   padding: EdgeInsets.only(top: 12),
@@ -104,14 +164,27 @@ class _NotificationSettingsScreenState
 
   Future<void> _selectOption(
     String? optionKey,
+    NotificationSettingsModel currentSettings,
     List<LessonModel> lessons,
   ) async {
     if (optionKey == null) {
       return;
     }
 
-    final settings = NotificationSettingsModel.fromOption(optionKey);
+    final optionSettings = NotificationSettingsModel.fromOption(optionKey);
+    final settings = optionSettings.copyWith(
+      quietHoursEnabled: currentSettings.quietHoursEnabled,
+      quietStartHour: currentSettings.quietStartHour,
+      quietEndHour: currentSettings.quietEndHour,
+    );
 
+    await _saveSettings(settings, lessons);
+  }
+
+  Future<void> _saveSettings(
+    NotificationSettingsModel settings,
+    List<LessonModel> lessons,
+  ) async {
     setState(() {
       _isSaving = true;
     });
@@ -172,6 +245,44 @@ class _NotificationSettingsScreenState
         });
       }
     }
+  }
+}
+
+class _HourSelector extends StatelessWidget {
+  const _HourSelector({
+    required this.label,
+    required this.value,
+    required this.enabled,
+    required this.onChanged,
+  });
+
+  final String label;
+  final int value;
+  final bool enabled;
+  final ValueChanged<int> onChanged;
+
+  @override
+  Widget build(BuildContext context) {
+    return DropdownButtonFormField<int>(
+      initialValue: value,
+      decoration: InputDecoration(labelText: label),
+      items: [
+        for (var hour = 0; hour < 24; hour++)
+          DropdownMenuItem<int>(
+            value: hour,
+            child: Text('${hour.toString().padLeft(2, '0')}:00'),
+          ),
+      ],
+      onChanged: enabled
+          ? (hour) {
+              if (hour == null) {
+                return;
+              }
+
+              onChanged(hour);
+            }
+          : null,
+    );
   }
 }
 

@@ -5,6 +5,9 @@ class NotificationSettingsModel {
     required this.notificationsPerDay,
     required this.startHour,
     required this.endHour,
+    required this.quietHoursEnabled,
+    required this.quietStartHour,
+    required this.quietEndHour,
   });
 
   final bool enabled;
@@ -12,6 +15,9 @@ class NotificationSettingsModel {
   final int notificationsPerDay;
   final int startHour;
   final int endHour;
+  final bool quietHoursEnabled;
+  final int quietStartHour;
+  final int quietEndHour;
 
   static const NotificationSettingsModel initial = NotificationSettingsModel(
     enabled: true,
@@ -19,6 +25,9 @@ class NotificationSettingsModel {
     notificationsPerDay: 1,
     startHour: 8,
     endHour: 20,
+    quietHoursEnabled: true,
+    quietStartHour: 22,
+    quietEndHour: 7,
   );
 
   factory NotificationSettingsModel.fromJson(Map<String, dynamic> json) {
@@ -29,6 +38,10 @@ class NotificationSettingsModel {
           json['notificationsPerDay'] as int? ?? initial.notificationsPerDay,
       startHour: json['startHour'] as int? ?? initial.startHour,
       endHour: json['endHour'] as int? ?? initial.endHour,
+      quietHoursEnabled:
+          json['quietHoursEnabled'] as bool? ?? initial.quietHoursEnabled,
+      quietStartHour: json['quietStartHour'] as int? ?? initial.quietStartHour,
+      quietEndHour: json['quietEndHour'] as int? ?? initial.quietEndHour,
     );
   }
 
@@ -40,6 +53,9 @@ class NotificationSettingsModel {
         notificationsPerDay: 0,
         startHour: 8,
         endHour: 20,
+        quietHoursEnabled: true,
+        quietStartHour: 22,
+        quietEndHour: 7,
       ),
       'three_daily' => const NotificationSettingsModel(
         enabled: true,
@@ -47,6 +63,9 @@ class NotificationSettingsModel {
         notificationsPerDay: 3,
         startHour: 8,
         endHour: 20,
+        quietHoursEnabled: true,
+        quietStartHour: 22,
+        quietEndHour: 7,
       ),
       'five_daily' => const NotificationSettingsModel(
         enabled: true,
@@ -54,6 +73,9 @@ class NotificationSettingsModel {
         notificationsPerDay: 5,
         startHour: 8,
         endHour: 20,
+        quietHoursEnabled: true,
+        quietStartHour: 22,
+        quietEndHour: 7,
       ),
       'ten_daily' => const NotificationSettingsModel(
         enabled: true,
@@ -61,6 +83,9 @@ class NotificationSettingsModel {
         notificationsPerDay: 10,
         startHour: 8,
         endHour: 20,
+        quietHoursEnabled: true,
+        quietStartHour: 22,
+        quietEndHour: 7,
       ),
       'hourly' => const NotificationSettingsModel(
         enabled: true,
@@ -68,9 +93,34 @@ class NotificationSettingsModel {
         notificationsPerDay: 13,
         startHour: 8,
         endHour: 20,
+        quietHoursEnabled: true,
+        quietStartHour: 22,
+        quietEndHour: 7,
       ),
       _ => initial,
     };
+  }
+
+  NotificationSettingsModel copyWith({
+    bool? enabled,
+    String? frequencyType,
+    int? notificationsPerDay,
+    int? startHour,
+    int? endHour,
+    bool? quietHoursEnabled,
+    int? quietStartHour,
+    int? quietEndHour,
+  }) {
+    return NotificationSettingsModel(
+      enabled: enabled ?? this.enabled,
+      frequencyType: frequencyType ?? this.frequencyType,
+      notificationsPerDay: notificationsPerDay ?? this.notificationsPerDay,
+      startHour: startHour ?? this.startHour,
+      endHour: endHour ?? this.endHour,
+      quietHoursEnabled: quietHoursEnabled ?? this.quietHoursEnabled,
+      quietStartHour: quietStartHour ?? this.quietStartHour,
+      quietEndHour: quietEndHour ?? this.quietEndHour,
+    );
   }
 
   String get optionKey {
@@ -97,6 +147,9 @@ class NotificationSettingsModel {
       'notificationsPerDay': notificationsPerDay,
       'startHour': startHour,
       'endHour': endHour,
+      'quietHoursEnabled': quietHoursEnabled,
+      'quietStartHour': quietStartHour,
+      'quietEndHour': quietEndHour,
     };
   }
 }

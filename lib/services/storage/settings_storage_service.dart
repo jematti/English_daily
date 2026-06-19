@@ -16,6 +16,10 @@ class SettingsStorageService {
       return NotificationSettingsModel.initial;
     }
 
+    return _decodeNotificationSettings(rawSettings);
+  }
+
+  NotificationSettingsModel _decodeNotificationSettings(String rawSettings) {
     try {
       final json = jsonDecode(rawSettings) as Map<String, dynamic>;
       return NotificationSettingsModel.fromJson(json);

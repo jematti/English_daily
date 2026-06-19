@@ -2,7 +2,9 @@ import 'package:english_drops_daily/core/theme/app_theme.dart';
 import 'package:english_drops_daily/domain/models/app_settings_model.dart';
 import 'package:english_drops_daily/domain/models/exercise_model.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
+import 'package:english_drops_daily/domain/models/notification_settings_model.dart';
 import 'package:english_drops_daily/features/exercises/widgets/exercise_card.dart';
+import 'package:english_drops_daily/services/notifications/notification_service.dart';
 import 'package:english_drops_daily/services/storage/app_settings_storage_service.dart';
 import 'package:english_drops_daily/services/storage/favorites_storage_service.dart';
 import 'package:english_drops_daily/services/storage/lesson_history_storage_service.dart';
@@ -112,6 +114,59 @@ void main() {
 
     await historyStorage.resetShownLessons();
     expect(await historyStorage.getShownLessonIds(), isEmpty);
+  });
+
+  test('notification settings keep default quiet hours in storage json', () {
+    final settings = NotificationSettingsModel.fromJson(const {
+      'enabled': true,
+      'frequencyType': 'daily',
+      'notificationsPerDay': 3,
+      'startHour': 8,
+      'endHour': 20,
+    });
+
+    expect(settings.quietHoursEnabled, isTrue);
+    expect(settings.quietStartHour, 22);
+    expect(settings.quietEndHour, 7);
+
+    final updated = settings.copyWith(
+      quietHoursEnabled: false,
+      quietStartHour: 21,
+      quietEndHour: 6,
+    );
+    final json = updated.toJson();
+
+    expect(json['quietHoursEnabled'], isFalse);
+    expect(json['quietStartHour'], 21);
+    expect(json['quietEndHour'], 6);
+  });
+
+  test('moves scheduled notifications outside quiet hours', () {
+    final notificationService = NotificationService();
+    final settings = NotificationSettingsModel.initial;
+    final lateNight = DateTime(2026, 6, 19, 22, 30);
+    final earlyMorning = DateTime(2026, 6, 19, 6, 30);
+    final daytime = DateTime(2026, 6, 19, 8);
+
+    expect(notificationService.isInsideQuietHours(lateNight, settings), isTrue);
+    expect(
+      notificationService.isInsideQuietHours(earlyMorning, settings),
+      isTrue,
+    );
+    expect(notificationService.isInsideQuietHours(daytime, settings), isFalse);
+
+    expect(
+      notificationService.moveOutsideQuietHours(lateNight, settings),
+      DateTime(2026, 6, 20, 7),
+    );
+    expect(
+      notificationService.moveOutsideQuietHours(earlyMorning, settings),
+      DateTime(2026, 6, 19, 7),
+    );
+    expect(
+      notificationService.moveOutsideQuietHours(daytime, settings),
+      daytime,
+    );
   });
 
   testWidgets('exercise card shows clear answer feedback', (
