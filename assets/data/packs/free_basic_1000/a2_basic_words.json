@@ -1,0 +1,237 @@
+[
+  {
+    "id": "lesson_003",
+    "word": "improve",
+    "meaningEs": "mejorar",
+    "pronunciation": "Im-pruv",
+    "exampleEn": "I want to improve my pronunciation.",
+    "exampleEs": "Quiero mejorar mi pronunciacion.",
+    "usage": "Se usa cuando algo se vuelve mejor o cuando una persona practica para avanzar.",
+    "grammar": "Improve is a regular verb: improve, improved, improved.",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "improve",
+    "pastSimple": "improved",
+    "pastParticiple": "improved",
+    "shortNotificationText": "Regular: improve / improved / improved. Example: I want to improve my pronunciation.",
+    "commonMistakes": [
+      "No decir 'improve in English' cuando quieres decir 'improve my English'.",
+      "No confundir con 'prove', que significa 'probar' o 'demostrar'."
+    ],
+    "dailyUse": [
+      "I need to improve my listening.",
+      "This app helps me improve."
+    ],
+    "exercises": [
+      {
+        "id": "ex_003",
+        "type": "multiple_choice",
+        "question": "What sentence uses 'improve' correctly?",
+        "options": ["I want to improve my English.", "I want improve my English.", "I improve to my English.", "I want to prove my English better."],
+        "correctAnswer": "I want to improve my English.",
+        "explanation": "Despues de 'want' se usa 'to improve', y el objeto puede ser 'my English'."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_010",
+        "label": "get",
+        "type": "related",
+        "reason": "Ambas palabras cambian mucho segun el contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "learning_verbs",
+    "packId": "free_basic_1000"
+  },
+  {
+    "id": "lesson_005",
+    "word": "borrow",
+    "meaningEs": "pedir prestado",
+    "pronunciation": "Ba-ro",
+    "exampleEn": "Can I borrow your pen for a minute?",
+    "exampleEs": "Puedo pedir prestado tu boligrafo por un minuto?",
+    "usage": "Se usa cuando tu recibes algo prestado de otra persona.",
+    "grammar": "Borrow focuses on the person who receives the item.",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "borrow",
+    "pastSimple": "borrowed",
+    "pastParticiple": "borrowed",
+    "shortNotificationText": "Regular: borrow / borrowed / borrowed. Example: Can I borrow your pen?",
+    "commonMistakes": [
+      "No usar 'borrow' cuando tu das algo prestado.",
+      "No confundir con 'lend', que significa prestar a alguien."
+    ],
+    "dailyUse": [
+      "Can I borrow your charger?",
+      "I borrowed a book from Ana."
+    ],
+    "exercises": [
+      {
+        "id": "ex_005",
+        "type": "multiple_choice",
+        "question": "Choose the correct sentence.",
+        "options": ["Can I borrow your phone?", "Can I lend your phone?", "Can I borrow you my phone?", "Can I borrowed your phone?"],
+        "correctAnswer": "Can I borrow your phone?",
+        "explanation": "Si tu recibes el telefono por un momento, usas 'borrow'."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_006",
+        "label": "lend",
+        "type": "antonym",
+        "reason": "Borrow es recibir prestado; lend es dar prestado."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "confusing_verbs",
+    "packId": "free_basic_1000"
+  },
+  {
+    "id": "lesson_006",
+    "word": "lend",
+    "meaningEs": "prestar",
+    "pronunciation": "Lend",
+    "exampleEn": "I can lend you my notes after class.",
+    "exampleEs": "Puedo prestarte mis apuntes despues de clase.",
+    "usage": "Se usa cuando tu das algo a otra persona por un tiempo.",
+    "grammar": "Lend focuses on the person who gives the item temporarily.",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "lend",
+    "pastSimple": "lent",
+    "pastParticiple": "lent",
+    "shortNotificationText": "Irregular: lend / lent / lent. Example: I can lend you my notes.",
+    "commonMistakes": [
+      "No usar 'lend' cuando tu pides algo prestado.",
+      "No olvidar el objeto: 'lend you my pen'."
+    ],
+    "dailyUse": [
+      "Can you lend me five dollars?",
+      "I can lend you my umbrella."
+    ],
+    "exercises": [
+      {
+        "id": "ex_006",
+        "type": "multiple_choice",
+        "question": "What does 'lend' mean in this sentence: I can lend you my umbrella?",
+        "options": ["Puedo prestarte mi paraguas", "Puedo pedirte prestado mi paraguas", "Puedo comprar tu paraguas", "Puedo olvidar tu paraguas"],
+        "correctAnswer": "Puedo prestarte mi paraguas",
+        "explanation": "'Lend' significa dar algo prestado a otra persona por un tiempo."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_005",
+        "label": "borrow",
+        "type": "antonym",
+        "reason": "Es el otro lado de prestar: quien recibe usa borrow."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "confusing_verbs",
+    "packId": "free_basic_1000"
+  },
+  {
+    "id": "lesson_010",
+    "word": "get",
+    "meaningEs": "obtener / recibir / llegar / entender",
+    "pronunciation": "Get",
+    "exampleEn": "I usually get home at six.",
+    "exampleEs": "Normalmente llego a casa a las seis.",
+    "usage": "Se usa en muchos contextos: recibir algo, llegar a un lugar o entender una idea.",
+    "grammar": "Get is an irregular verb: get, got, got or gotten depending on the variety of English.",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "get",
+    "pastSimple": "got",
+    "pastParticiple": "got/gotten",
+    "shortNotificationText": "Irregular: get / got / got or gotten. Example: I usually get home at six.",
+    "commonMistakes": [
+      "No traducir 'get' siempre de la misma forma.",
+      "Mirar el contexto antes de elegir entre obtener, llegar, recibir o entender."
+    ],
+    "dailyUse": [
+      "I got your message.",
+      "Did you get it?"
+    ],
+    "exercises": [
+      {
+        "id": "ex_010",
+        "type": "multiple_choice",
+        "question": "What does 'get' mean in 'I get home at six'?",
+        "options": ["Llego", "Compro", "Presto", "Mejoro"],
+        "correctAnswer": "Llego",
+        "explanation": "En este contexto, 'get home' significa 'llegar a casa'."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_003",
+        "label": "improve",
+        "type": "related",
+        "reason": "Ambas palabras cambian segun el contexto de la frase."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "irregular_verbs",
+    "packId": "free_basic_1000"
+  },
+  {
+    "id": "lesson_016",
+    "word": "maybe",
+    "meaningEs": "quizas / tal vez",
+    "pronunciation": "Mei-bi",
+    "exampleEn": "Maybe we can practice after lunch.",
+    "exampleEs": "Tal vez podamos practicar despues del almuerzo.",
+    "usage": "Se usa para hablar de una posibilidad.",
+    "grammar": "Maybe is an adverb and often goes at the beginning of a sentence.",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "shortNotificationText": "Uso: para hablar de posibilidades. Example: Maybe tomorrow.",
+    "commonMistakes": [
+      "No confundir 'maybe' con 'may be'.",
+      "Maybe es una sola palabra cuando significa quizas."
+    ],
+    "dailyUse": [
+      "Maybe later.",
+      "Maybe I can help."
+    ],
+    "exercises": [
+      {
+        "id": "ex_016",
+        "type": "multiple_choice",
+        "question": "What does 'maybe' mean?",
+        "options": ["Tal vez", "Siempre", "Nunca", "Suficiente"],
+        "correctAnswer": "Tal vez",
+        "explanation": "'Maybe' expresa posibilidad."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_001",
+        "label": "actually",
+        "type": "related",
+        "reason": "Ambas ayudan a matizar lo que dices."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_adverbs",
+    "packId": "free_basic_1000"
+  }
+]

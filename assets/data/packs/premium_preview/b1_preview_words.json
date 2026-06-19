@@ -1,0 +1,122 @@
+[
+  {
+    "id": "preview_b1_001",
+    "word": "however",
+    "meaningEs": "sin embargo",
+    "pronunciation": "Jau-e-ver",
+    "exampleEn": "I like the idea. However, we need more time.",
+    "exampleEs": "Me gusta la idea. Sin embargo, necesitamos mas tiempo.",
+    "usage": "Se usa para contrastar dos ideas.",
+    "grammar": "However is a linking adverb and is often followed by a comma.",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "shortNotificationText": "B1 preview: however = sin embargo.",
+    "commonMistakes": [
+      "No usarlo como 'but' dentro de una frase sin puntuacion.",
+      "Puede iniciar una nueva frase: However, ..."
+    ],
+    "dailyUse": [
+      "However, I disagree.",
+      "It is useful. However, it is expensive."
+    ],
+    "exercises": [
+      {
+        "id": "preview_ex_b1_001",
+        "type": "multiple_choice",
+        "question": "What does 'however' express?",
+        "options": ["Contraste", "Cantidad", "Frecuencia", "Lugar"],
+        "correctAnswer": "Contraste",
+        "explanation": "'However' introduce una idea que contrasta con la anterior."
+      }
+    ],
+    "links": [],
+    "level": "B1",
+    "isPremium": true,
+    "category": "connectors",
+    "packId": "premium_preview"
+  },
+  {
+    "id": "preview_b1_002",
+    "word": "although",
+    "meaningEs": "aunque",
+    "pronunciation": "Ol-dou",
+    "exampleEn": "Although it was late, I finished the lesson.",
+    "exampleEs": "Aunque era tarde, termine la leccion.",
+    "usage": "Se usa para unir una idea con una dificultad o contraste.",
+    "grammar": "Although introduces a subordinate clause.",
+    "partOfSpeech": "conjunction",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "shortNotificationText": "B1 preview: although = aunque.",
+    "commonMistakes": [
+      "No usar 'although' y 'but' juntos en la misma estructura.",
+      "Although necesita una idea completa con sujeto y verbo."
+    ],
+    "dailyUse": [
+      "Although I am tired, I will study.",
+      "Although it is hard, it is useful."
+    ],
+    "exercises": [
+      {
+        "id": "preview_ex_b1_002",
+        "type": "multiple_choice",
+        "question": "Choose the best translation: although",
+        "options": ["Aunque", "Porque", "Siempre", "Despues"],
+        "correctAnswer": "Aunque",
+        "explanation": "'Although' se traduce como 'aunque'."
+      }
+    ],
+    "links": [],
+    "level": "B1",
+    "isPremium": true,
+    "category": "connectors",
+    "packId": "premium_preview"
+  },
+  {
+    "id": "preview_b1_003",
+    "word": "advice",
+    "meaningEs": "consejo / consejos",
+    "pronunciation": "Ad-vais",
+    "exampleEn": "My teacher gave me useful advice.",
+    "exampleEs": "Mi profesor me dio consejos utiles.",
+    "usage": "Se usa para hablar de recomendaciones o sugerencias.",
+    "grammar": "Advice is an uncountable noun in English. Use 'some advice' or 'a piece of advice'.",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "shortNotificationText": "B1 preview: advice es incontable.",
+    "commonMistakes": [
+      "No decir 'an advice'.",
+      "No agregar plural: 'advices' no es correcto en ingles comun."
+    ],
+    "dailyUse": [
+      "Can you give me some advice?",
+      "That is good advice."
+    ],
+    "exercises": [
+      {
+        "id": "preview_ex_b1_003",
+        "type": "multiple_choice",
+        "question": "Which phrase is correct?",
+        "options": ["some advice", "an advice", "many advices", "one advices"],
+        "correctAnswer": "some advice",
+        "explanation": "'Advice' es incontable; puedes decir 'some advice' o 'a piece of advice'."
+      }
+    ],
+    "links": [],
+    "level": "B1",
+    "isPremium": true,
+    "category": "common_nouns",
+    "packId": "premium_preview"
+  }
+]

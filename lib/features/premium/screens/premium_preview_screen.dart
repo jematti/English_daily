@@ -1,9 +1,15 @@
 import 'package:english_drops_daily/core/widgets/app_button.dart';
+import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/features/premium/widgets/premium_feature_card.dart';
+import 'package:english_drops_daily/services/content/content_pack_service.dart';
 import 'package:flutter/material.dart';
 
 class PremiumPreviewScreen extends StatelessWidget {
   const PremiumPreviewScreen({super.key});
+
+  Future<List<LessonModel>> _loadPreviewLessons() {
+    return const ContentPackService().loadLessonsByPack('premium_preview');
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -39,6 +45,38 @@ class PremiumPreviewScreen extends StatelessWidget {
             const PremiumFeatureCard(
               icon: Icons.block_outlined,
               title: 'sin anuncios en el futuro',
+            ),
+            const SizedBox(height: 10),
+            FutureBuilder<List<LessonModel>>(
+              future: _loadPreviewLessons(),
+              builder: (context, snapshot) {
+                final lessons = snapshot.data ?? const [];
+                if (lessons.isEmpty) {
+                  return const SizedBox.shrink();
+                }
+
+                return Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const SizedBox(height: 8),
+                    Text(
+                      'Muestra B1',
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(height: 8),
+                    ...lessons.map((lesson) {
+                      return ListTile(
+                        contentPadding: EdgeInsets.zero,
+                        leading: const Icon(Icons.lock_outline),
+                        title: Text(lesson.word),
+                        subtitle: Text(lesson.meaningEs),
+                      );
+                    }),
+                  ],
+                );
+              },
             ),
             const SizedBox(height: 18),
             const AppButton(

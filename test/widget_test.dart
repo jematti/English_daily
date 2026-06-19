@@ -6,6 +6,7 @@ import 'package:english_drops_daily/domain/models/notification_settings_model.da
 import 'package:english_drops_daily/domain/models/user_access_model.dart';
 import 'package:english_drops_daily/features/exercises/widgets/exercise_card.dart';
 import 'package:english_drops_daily/services/access/access_service.dart';
+import 'package:english_drops_daily/services/content/content_pack_service.dart';
 import 'package:english_drops_daily/services/notifications/notification_service.dart';
 import 'package:english_drops_daily/services/storage/app_settings_storage_service.dart';
 import 'package:english_drops_daily/services/storage/favorites_storage_service.dart';
@@ -276,6 +277,37 @@ void main() {
     expect(await accessService.canAccessPack('premium_10000'), isTrue);
     expect(await accessService.canAccessLevel('C1'), isTrue);
   });
+
+  test(
+    'content packs load free lessons and premium preview from assets',
+    () async {
+      const contentPackService = ContentPackService();
+
+      final packs = await contentPackService.getAvailablePacks();
+      final freeLessons = await contentPackService.loadFreeBasicLessons();
+      final previewLessons = await contentPackService.loadLessonsByPack(
+        'premium_preview',
+      );
+      final accessibleLessons = await contentPackService
+          .loadAllAccessibleLessons();
+
+      expect(packs.length, 3);
+      expect(freeLessons.length, 15);
+      expect(previewLessons.length, 3);
+      expect(previewLessons.every((lesson) => lesson.isPremium), isTrue);
+      expect(accessibleLessons.length, 15);
+      expect(
+        accessibleLessons.every((lesson) => lesson.packId == 'free_basic_1000'),
+        isTrue,
+      );
+      expect(
+        accessibleLessons.every(
+          (lesson) => lesson.level == 'A1' || lesson.level == 'A2',
+        ),
+        isTrue,
+      );
+    },
+  );
 
   testWidgets('exercise card shows clear answer feedback', (
     WidgetTester tester,

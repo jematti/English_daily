@@ -9,8 +9,7 @@ class LessonSelectionService {
   final LessonHistoryStorageService _historyStorage;
 
   Future<LessonModel?> getNextUnseenLesson(List<LessonModel> lessons) async {
-    final availableLessons = lessons.where((lesson) => !lesson.isPremium);
-    return _getNextUnseenFrom(availableLessons.toList());
+    return _getNextUnseenFrom(lessons);
   }
 
   Future<LessonModel?> getNextUnseenByLevel(
@@ -18,8 +17,7 @@ class LessonSelectionService {
     String level,
   ) async {
     final levelLessons = lessons.where((lesson) {
-      return !lesson.isPremium &&
-          lesson.level.toUpperCase() == level.toUpperCase();
+      return lesson.level.toUpperCase() == level.toUpperCase();
     }).toList();
 
     return _getNextUnseenFrom(levelLessons);
@@ -41,9 +39,7 @@ class LessonSelectionService {
       return null;
     }
 
-    final availableLessons = lessons.where((lesson) => !lesson.isPremium);
-    final freeLessons = availableLessons.toList();
-    return freeLessons.isNotEmpty ? freeLessons.first : lessons.first;
+    return lessons.first;
   }
 
   Future<LessonModel?> _getNextUnseenFrom(List<LessonModel> lessons) async {

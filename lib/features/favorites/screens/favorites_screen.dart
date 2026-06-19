@@ -1,6 +1,7 @@
 import 'package:english_drops_daily/data/datasources/lesson_local_datasource.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/features/favorites/widgets/favorite_lesson_card.dart';
+import 'package:english_drops_daily/services/access/access_service.dart';
 import 'package:english_drops_daily/services/storage/favorites_storage_service.dart';
 import 'package:flutter/material.dart';
 
@@ -24,9 +25,11 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
 
   Future<_FavoritesData> _loadFavorites() async {
     final lessons = await const LessonLocalDatasource().getLessons();
+    final accessibleLessons = await const AccessService()
+        .filterAccessibleLessons(lessons);
     final favoriteIds = await _favoritesStorage.getFavoriteLessonIds();
     final notes = await _favoritesStorage.getNotes();
-    final favoriteLessons = lessons.where((lesson) {
+    final favoriteLessons = accessibleLessons.where((lesson) {
       return favoriteIds.contains(lesson.id);
     }).toList();
 

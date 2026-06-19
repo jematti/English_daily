@@ -2,6 +2,7 @@ import 'package:english_drops_daily/data/datasources/lesson_local_datasource.dar
 import 'package:english_drops_daily/domain/models/exercise_model.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/features/exercises/widgets/exercise_card.dart';
+import 'package:english_drops_daily/services/access/access_service.dart';
 import 'package:flutter/material.dart';
 
 class ExercisesScreen extends StatefulWidget {
@@ -22,7 +23,12 @@ class _ExercisesScreenState extends State<ExercisesScreen> {
 
   Future<List<ExerciseModel>> _loadExercises() async {
     final lessons = await const LessonLocalDatasource().getLessons();
-    return lessons.expand((LessonModel lesson) => lesson.exercises).toList();
+    final accessibleLessons = await const AccessService()
+        .filterAccessibleLessons(lessons);
+
+    return accessibleLessons
+        .expand((LessonModel lesson) => lesson.exercises)
+        .toList();
   }
 
   @override

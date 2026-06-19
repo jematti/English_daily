@@ -1,0 +1,477 @@
+[
+  {
+    "id": "lesson_001",
+    "word": "actually",
+    "meaningEs": "en realidad / de hecho",
+    "pronunciation": "Ak-shu-a-li",
+    "exampleEn": "Actually, I prefer coffee in the morning.",
+    "exampleEs": "En realidad, prefiero cafe por la manana.",
+    "usage": "Se usa para corregir, aclarar o dar informacion mas precisa.",
+    "grammar": "Usually works as an adverb at the beginning or middle of a sentence.",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "shortNotificationText": "Uso: para aclarar o corregir una idea. Example: Actually, I need help.",
+    "commonMistakes": [
+      "No significa 'actualmente'.",
+      "No usar como traduccion directa de 'actualmente'."
+    ],
+    "dailyUse": [
+      "Actually, I need help.",
+      "Actually, that is not correct."
+    ],
+    "exercises": [
+      {
+        "id": "ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'actually' mean in Spanish?",
+        "options": ["Actualmente", "En realidad", "Rapidamente", "Casi"],
+        "correctAnswer": "En realidad",
+        "explanation": "'Actually' significa 'en realidad' o 'de hecho', no 'actualmente'."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_002",
+        "label": "usually",
+        "type": "related",
+        "reason": "Otro adverbio muy comun para sonar natural."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_adverbs",
+    "packId": "free_basic_1000"
+  },
+  {
+    "id": "lesson_002",
+    "word": "usually",
+    "meaningEs": "normalmente / por lo general",
+    "pronunciation": "Yu-zhu-a-li",
+    "exampleEn": "I usually study English after dinner.",
+    "exampleEs": "Normalmente estudio ingles despues de cenar.",
+    "usage": "Se usa para hablar de habitos o acciones que pasan con frecuencia.",
+    "grammar": "Usually is an adverb of frequency. It often goes before the main verb.",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "shortNotificationText": "Uso: para hablar de habitos o frecuencia. Example: I usually wake up early.",
+    "commonMistakes": [
+      "No poner siempre al final de la frase.",
+      "No confundir con 'usefully', que significa 'utilmente'."
+    ],
+    "dailyUse": [
+      "I usually wake up early.",
+      "She usually takes the bus."
+    ],
+    "exercises": [
+      {
+        "id": "ex_002",
+        "type": "multiple_choice",
+        "question": "Choose the best translation: I usually cook at home.",
+        "options": [
+          "Yo cocino en casa normalmente",
+          "Yo cocino en casa actualmente",
+          "Yo cocino en casa rapidamente",
+          "Yo nunca cocino en casa"
+        ],
+        "correctAnswer": "Yo cocino en casa normalmente",
+        "explanation": "'Usually' expresa frecuencia y se traduce como 'normalmente' o 'por lo general'."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_001",
+        "label": "actually",
+        "type": "related",
+        "reason": "Tambien es un adverbio frecuente en conversacion diaria."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "frequency_adverbs",
+    "packId": "free_basic_1000"
+  },
+  {
+    "id": "lesson_004",
+    "word": "enough",
+    "meaningEs": "suficiente / lo suficiente",
+    "pronunciation": "I-naf",
+    "exampleEn": "I do not have enough time today.",
+    "exampleEs": "No tengo suficiente tiempo hoy.",
+    "usage": "Se usa para decir que hay la cantidad necesaria de algo.",
+    "grammar": "Enough goes before nouns, but after adjectives: enough money, good enough.",
+    "partOfSpeech": "determiner/adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "shortNotificationText": "Uso: para decir que hay la cantidad necesaria. Example: I do not have enough time today.",
+    "commonMistakes": [
+      "No decir 'time enough' cuando hablas de cantidad.",
+      "Recordar que con adjetivos va despues: 'good enough'."
+    ],
+    "dailyUse": [
+      "That is enough for today.",
+      "This coffee is not hot enough."
+    ],
+    "exercises": [
+      {
+        "id": "ex_004",
+        "type": "multiple_choice",
+        "question": "Which phrase is correct?",
+        "options": ["enough money", "money enough", "enough tired", "enough good"],
+        "correctAnswer": "enough money",
+        "explanation": "Con sustantivos, 'enough' normalmente va antes: 'enough money'."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_011",
+        "label": "always",
+        "type": "related",
+        "reason": "Otra palabra basica para hablar de cantidad o frecuencia."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "daily_determiners",
+    "packId": "free_basic_1000"
+  },
+  {
+    "id": "lesson_008",
+    "word": "make",
+    "meaningEs": "hacer / crear / preparar",
+    "pronunciation": "Meik",
+    "exampleEn": "I need to make breakfast before work.",
+    "exampleEs": "Necesito preparar el desayuno antes del trabajo.",
+    "usage": "Se usa cuando produces, creas o preparas algo.",
+    "grammar": "Make is an irregular verb: make, made, made.",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "make",
+    "pastSimple": "made",
+    "pastParticiple": "made",
+    "shortNotificationText": "Irregular: make / made / made. Example: Let's make a plan.",
+    "commonMistakes": [
+      "No usar siempre 'do' para traducir 'hacer'.",
+      "Usar 'make' para resultados concretos como food, plans, mistakes or decisions."
+    ],
+    "dailyUse": [
+      "I made a mistake.",
+      "Let's make a plan."
+    ],
+    "exercises": [
+      {
+        "id": "ex_008",
+        "type": "multiple_choice",
+        "question": "Choose the natural phrase.",
+        "options": ["make a decision", "do a decision", "make homework", "do a mistake"],
+        "correctAnswer": "make a decision",
+        "explanation": "En ingles se dice 'make a decision' porque hablas de crear o tomar una decision."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_009",
+        "label": "do",
+        "type": "related",
+        "reason": "Do y make se confunden mucho porque ambos traducen hacer."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "irregular_verbs",
+    "packId": "free_basic_1000"
+  },
+  {
+    "id": "lesson_009",
+    "word": "do",
+    "meaningEs": "hacer / realizar",
+    "pronunciation": "Du",
+    "exampleEn": "I do my homework after lunch.",
+    "exampleEs": "Hago mi tarea despues del almuerzo.",
+    "usage": "Se usa para acciones, tareas, trabajos y actividades generales.",
+    "grammar": "Do is an irregular verb: do, did, done. It is also used as an auxiliary verb in questions and negatives.",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "do",
+    "pastSimple": "did",
+    "pastParticiple": "done",
+    "shortNotificationText": "Irregular: do / did / done. Example: I do my homework after lunch.",
+    "commonMistakes": [
+      "No usar 'make homework'.",
+      "No confundir el verbo principal 'do' con el auxiliar en preguntas."
+    ],
+    "dailyUse": [
+      "I need to do the dishes.",
+      "What do you do on weekends?"
+    ],
+    "exercises": [
+      {
+        "id": "ex_009",
+        "type": "multiple_choice",
+        "question": "Which phrase is correct?",
+        "options": ["do homework", "make homework", "do a cake", "make exercise"],
+        "correctAnswer": "do homework",
+        "explanation": "Con tareas como 'homework' se usa 'do'."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_008",
+        "label": "make",
+        "type": "related",
+        "reason": "Do y make se confunden mucho porque ambos traducen hacer."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "irregular_verbs",
+    "packId": "free_basic_1000"
+  },
+  {
+    "id": "lesson_011",
+    "word": "always",
+    "meaningEs": "siempre",
+    "pronunciation": "Ol-weiz",
+    "exampleEn": "I always drink water in the morning.",
+    "exampleEs": "Siempre tomo agua por la manana.",
+    "usage": "Se usa para hablar de acciones que pasan todo el tiempo.",
+    "grammar": "Always is an adverb of frequency. It usually goes before the main verb.",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "shortNotificationText": "Uso: para hablar de algo que haces todo el tiempo. Example: I always study.",
+    "commonMistakes": [
+      "No poner 'always' despues del verbo principal en frases simples.",
+      "Recordar: I always go, no I go always."
+    ],
+    "dailyUse": [
+      "I always study at night.",
+      "She always helps me."
+    ],
+    "exercises": [
+      {
+        "id": "ex_011",
+        "type": "multiple_choice",
+        "question": "Choose the natural sentence.",
+        "options": ["I always study.", "I study always.", "Always I study.", "I am study always."],
+        "correctAnswer": "I always study.",
+        "explanation": "Con verbos principales, 'always' normalmente va antes del verbo."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_002",
+        "label": "usually",
+        "type": "related",
+        "reason": "Ambas palabras hablan de frecuencia."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "frequency_adverbs",
+    "packId": "free_basic_1000"
+  },
+  {
+    "id": "lesson_012",
+    "word": "because",
+    "meaningEs": "porque",
+    "pronunciation": "Bi-koz",
+    "exampleEn": "I study because I want a better job.",
+    "exampleEs": "Estudio porque quiero un mejor trabajo.",
+    "usage": "Se usa para explicar la razon de una accion o idea.",
+    "grammar": "Because introduces a reason clause.",
+    "partOfSpeech": "conjunction",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "shortNotificationText": "Uso: para explicar razones. Example: I study because I need English.",
+    "commonMistakes": [
+      "No escribir 'because of' antes de una frase completa.",
+      "Usar 'because' con sujeto y verbo: because I need it."
+    ],
+    "dailyUse": [
+      "I am late because of traffic.",
+      "I study because I enjoy it."
+    ],
+    "exercises": [
+      {
+        "id": "ex_012",
+        "type": "multiple_choice",
+        "question": "Complete: I practice ___ I want to improve.",
+        "options": ["because", "enough", "always", "make"],
+        "correctAnswer": "because",
+        "explanation": "'Because' conecta la accion con su razon."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_001",
+        "label": "actually",
+        "type": "related",
+        "reason": "Ambas ayudan a explicar mejor tus ideas."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "connectors",
+    "packId": "free_basic_1000"
+  },
+  {
+    "id": "lesson_013",
+    "word": "need",
+    "meaningEs": "necesitar",
+    "pronunciation": "Nid",
+    "exampleEn": "I need a little more time.",
+    "exampleEs": "Necesito un poco mas de tiempo.",
+    "usage": "Se usa para hablar de algo necesario.",
+    "grammar": "Need can be followed by a noun or by 'to' plus a verb.",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "need",
+    "pastSimple": "needed",
+    "pastParticiple": "needed",
+    "shortNotificationText": "Regular: need / needed / needed. Example: I need help.",
+    "commonMistakes": [
+      "No olvidar 'to' antes de otro verbo: I need to study.",
+      "No decir 'I need study' en ingles estandar."
+    ],
+    "dailyUse": [
+      "I need help.",
+      "Do you need anything?"
+    ],
+    "exercises": [
+      {
+        "id": "ex_013",
+        "type": "multiple_choice",
+        "question": "Which sentence is correct?",
+        "options": ["I need to study.", "I need study.", "I need studying now.", "I needing study."],
+        "correctAnswer": "I need to study.",
+        "explanation": "Despues de 'need' y otro verbo, usa 'to': need to study."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_004",
+        "label": "enough",
+        "type": "related",
+        "reason": "Puedes decir I need enough time."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "daily_verbs",
+    "packId": "free_basic_1000"
+  },
+  {
+    "id": "lesson_014",
+    "word": "want",
+    "meaningEs": "querer",
+    "pronunciation": "Uant",
+    "exampleEn": "I want to learn English.",
+    "exampleEs": "Quiero aprender ingles.",
+    "usage": "Se usa para expresar deseos o metas.",
+    "grammar": "Want is often followed by 'to' plus a verb.",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "want",
+    "pastSimple": "wanted",
+    "pastParticiple": "wanted",
+    "shortNotificationText": "Regular: want / wanted / wanted. Example: I want to learn.",
+    "commonMistakes": [
+      "No decir 'I want learn'.",
+      "Usar 'want to' antes de otro verbo."
+    ],
+    "dailyUse": [
+      "I want coffee.",
+      "What do you want to do?"
+    ],
+    "exercises": [
+      {
+        "id": "ex_014",
+        "type": "multiple_choice",
+        "question": "Choose the correct phrase.",
+        "options": ["want to learn", "want learn", "want learning", "want learned"],
+        "correctAnswer": "want to learn",
+        "explanation": "Despues de 'want' y otro verbo, usa 'to'."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_013",
+        "label": "need",
+        "type": "related",
+        "reason": "Ambas palabras expresan deseos o necesidades."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "daily_verbs",
+    "packId": "free_basic_1000"
+  },
+  {
+    "id": "lesson_015",
+    "word": "help",
+    "meaningEs": "ayudar / ayuda",
+    "pronunciation": "Jelp",
+    "exampleEn": "Can you help me with this sentence?",
+    "exampleEs": "Puedes ayudarme con esta oracion?",
+    "usage": "Se usa para pedir o dar apoyo.",
+    "grammar": "Help can be a verb or a noun.",
+    "partOfSpeech": "verb/noun",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "help",
+    "pastSimple": "helped",
+    "pastParticiple": "helped",
+    "shortNotificationText": "Uso: pedir apoyo. Example: Can you help me?",
+    "commonMistakes": [
+      "No olvidar el objeto cuando es necesario: help me.",
+      "Tambien puede ser sustantivo: I need help."
+    ],
+    "dailyUse": [
+      "Can you help me?",
+      "Thanks for your help."
+    ],
+    "exercises": [
+      {
+        "id": "ex_015",
+        "type": "multiple_choice",
+        "question": "What does 'Can you help me?' mean?",
+        "options": ["Puedes ayudarme?", "Puedes llamarme?", "Puedes esperarme?", "Puedes pagarme?"],
+        "correctAnswer": "Puedes ayudarme?",
+        "explanation": "'Help' significa ayudar o ayuda."
+      }
+    ],
+    "links": [
+      {
+        "targetLessonId": "lesson_013",
+        "label": "need",
+        "type": "related",
+        "reason": "Se combinan en frases como I need help."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "daily_verbs",
+    "packId": "free_basic_1000"
+  }
+]
