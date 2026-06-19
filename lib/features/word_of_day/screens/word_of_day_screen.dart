@@ -1,6 +1,8 @@
 import 'package:english_drops_daily/data/datasources/lesson_local_datasource.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
+import 'package:english_drops_daily/features/premium/screens/premium_preview_screen.dart';
 import 'package:english_drops_daily/features/word_of_day/widgets/swipe_lesson_card.dart';
+import 'package:english_drops_daily/services/access/access_service.dart';
 import 'package:english_drops_daily/services/lesson_selection_service.dart';
 import 'package:english_drops_daily/services/storage/favorites_storage_service.dart';
 import 'package:english_drops_daily/services/storage/lesson_history_storage_service.dart';
@@ -23,6 +25,7 @@ class _WordOfDayScreenState extends State<WordOfDayScreen> {
       const LessonHistoryStorageService();
   final LessonSelectionService _lessonSelectionService =
       const LessonSelectionService();
+  final AccessService _accessService = const AccessService();
   String? _selectedLessonId;
   int _favoriteRefreshToken = 0;
 
@@ -40,15 +43,33 @@ class _WordOfDayScreenState extends State<WordOfDayScreen> {
     }
 
     final initialLesson = _findLessonById(lessons, widget.initialLessonId);
-    final selectedLesson =
-        initialLesson ??
-        await _lessonSelectionService.getNextUnseenLesson(lessons) ??
-        lessons.first;
+    final accessibleLessons = await _accessService.filterAccessibleLessons(
+      lessons,
+    );
+
+    if (initialLesson != null &&
+        !await _accessService.canAccessLesson(initialLesson)) {
+      _openPremiumPreviewAfterBuild();
+    }
+
+    if (accessibleLessons.isEmpty) {
+      return accessibleLessons;
+    }
+
+    final canUseInitialLesson =
+        initialLesson != null &&
+        await _accessService.canAccessLesson(initialLesson);
+    final selectedLesson = canUseInitialLesson
+        ? initialLesson
+        : await _lessonSelectionService.getNextUnseenLesson(
+                accessibleLessons,
+              ) ??
+              accessibleLessons.first;
 
     _selectedLessonId = selectedLesson.id;
     await _lessonHistoryStorage.markLessonAsShown(selectedLesson.id);
 
-    return lessons;
+    return accessibleLessons;
   }
 
   @override
@@ -112,14 +133,35 @@ class _WordOfDayScreenState extends State<WordOfDayScreen> {
       return null;
     }
 
-    return lessons.firstWhere(
-      (lesson) => lesson.id == lessonId,
-      orElse: () => lessons.first,
-    );
+    for (final lesson in lessons) {
+      if (lesson.id == lessonId) {
+        return lesson;
+      }
+    }
+
+    return null;
   }
 
   void _selectLesson(LessonModel lesson) {
-    _lessonHistoryStorage.markLessonAsShown(lesson.id);
+    _selectAccessibleLesson(lesson);
+  }
+
+  Future<void> _selectAccessibleLesson(LessonModel lesson) async {
+    if (!await _accessService.canAccessLesson(lesson)) {
+      if (!mounted) {
+        return;
+      }
+
+      _openPremiumPreview();
+      return;
+    }
+
+    await _lessonHistoryStorage.markLessonAsShown(lesson.id);
+
+    if (!mounted) {
+      return;
+    }
+
     setState(() {
       _selectedLessonId = lesson.id;
     });
@@ -185,6 +227,22 @@ class _WordOfDayScreenState extends State<WordOfDayScreen> {
 
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: Text('No hay palabra relacionada todavía')),
+    );
+  }
+
+  void _openPremiumPreviewAfterBuild() {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) {
+        return;
+      }
+
+      _openPremiumPreview();
+    });
+  }
+
+  void _openPremiumPreview() {
+    Navigator.of(context).push(
+      MaterialPageRoute<void>(builder: (_) => const PremiumPreviewScreen()),
     );
   }
 }

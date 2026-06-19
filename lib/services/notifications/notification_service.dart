@@ -3,6 +3,7 @@
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/domain/models/notification_settings_model.dart';
 import 'package:english_drops_daily/features/word_of_day/screens/word_of_day_screen.dart';
+import 'package:english_drops_daily/services/access/access_service.dart';
 import 'package:english_drops_daily/services/storage/lesson_history_storage_service.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -24,6 +25,7 @@ class NotificationService {
       FlutterLocalNotificationsPlugin();
   final LessonHistoryStorageService _lessonHistoryStorage =
       const LessonHistoryStorageService();
+  final AccessService _accessService = const AccessService();
 
   bool _shouldOpenWordOfDay = false;
   String? _pendingLessonId;
@@ -165,6 +167,9 @@ class NotificationService {
       lessons,
       hours.length,
     );
+    if (notificationLessons.isEmpty) {
+      return;
+    }
 
     for (var index = 0; index < hours.length; index++) {
       final lesson = notificationLessons[index % notificationLessons.length];
@@ -225,15 +230,20 @@ class NotificationService {
     List<LessonModel> lessons,
     int count,
   ) async {
-    final freeLessons = lessons.where((lesson) => !lesson.isPremium).toList();
-    final availableLessons = freeLessons.isNotEmpty ? freeLessons : lessons;
+    final accessibleLessons = await _accessService.filterAccessibleLessons(
+      lessons,
+    );
+    if (accessibleLessons.isEmpty) {
+      return const [];
+    }
+
     final shownLessonIds = await _lessonHistoryStorage.getShownLessonIds();
-    final unseenLessons = availableLessons.where((lesson) {
+    final unseenLessons = accessibleLessons.where((lesson) {
       return !shownLessonIds.contains(lesson.id);
     }).toList();
 
     if (unseenLessons.isEmpty) {
-      return availableLessons;
+      return accessibleLessons;
     }
 
     final selectedLessons = unseenLessons.take(count).toList();
@@ -243,7 +253,7 @@ class NotificationService {
 
     final selectedIds = selectedLessons.map((lesson) => lesson.id).toSet();
     selectedLessons.addAll(
-      availableLessons.where((lesson) => !selectedIds.contains(lesson.id)),
+      accessibleLessons.where((lesson) => !selectedIds.contains(lesson.id)),
     );
 
     return selectedLessons;

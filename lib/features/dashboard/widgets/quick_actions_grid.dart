@@ -1,6 +1,7 @@
 import 'package:english_drops_daily/features/progress/screens/review_screen.dart';
 import 'package:english_drops_daily/features/exercises/screens/exercises_screen.dart';
 import 'package:english_drops_daily/features/favorites/screens/favorites_screen.dart';
+import 'package:english_drops_daily/features/premium/screens/premium_preview_screen.dart';
 import 'package:english_drops_daily/features/settings/screens/app_settings_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -13,6 +14,7 @@ class QuickActionsGrid extends StatelessWidget {
       _QuickAction(label: 'Ejercicios', icon: Icons.quiz_outlined),
       _QuickAction(label: 'Favoritos', icon: Icons.favorite_border),
       _QuickAction(label: 'Repasos', icon: Icons.replay_outlined),
+      _QuickAction(label: 'Premium', icon: Icons.workspace_premium_outlined),
       _QuickAction(label: 'Configuracion', icon: Icons.settings_outlined),
     ];
 
@@ -70,6 +72,15 @@ class QuickActionsGrid extends StatelessWidget {
                       Navigator.of(context).push(
                         MaterialPageRoute<void>(
                           builder: (_) => const AppSettingsScreen(),
+                        ),
+                      );
+                      return;
+                    }
+
+                    if (action.label == 'Premium') {
+                      Navigator.of(context).push(
+                        MaterialPageRoute<void>(
+                          builder: (_) => const PremiumPreviewScreen(),
                         ),
                       );
                       return;

@@ -3,11 +3,14 @@ import 'package:english_drops_daily/domain/models/app_settings_model.dart';
 import 'package:english_drops_daily/domain/models/exercise_model.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/domain/models/notification_settings_model.dart';
+import 'package:english_drops_daily/domain/models/user_access_model.dart';
 import 'package:english_drops_daily/features/exercises/widgets/exercise_card.dart';
+import 'package:english_drops_daily/services/access/access_service.dart';
 import 'package:english_drops_daily/services/notifications/notification_service.dart';
 import 'package:english_drops_daily/services/storage/app_settings_storage_service.dart';
 import 'package:english_drops_daily/services/storage/favorites_storage_service.dart';
 import 'package:english_drops_daily/services/storage/lesson_history_storage_service.dart';
+import 'package:english_drops_daily/services/storage/user_access_storage_service.dart';
 import 'package:english_drops_daily/services/lesson_selection_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -167,6 +170,111 @@ void main() {
       notificationService.moveOutsideQuietHours(daytime, settings),
       daytime,
     );
+  });
+
+  test('free access only allows free basic A1 and A2 lessons', () async {
+    const accessService = AccessService();
+    const accessStorage = UserAccessStorageService();
+    const freeLesson = LessonModel(
+      id: 'lesson_free',
+      word: 'usually',
+      meaningEs: 'normalmente',
+      pronunciation: 'Yu-zhu-a-li',
+      exampleEn: 'I usually study.',
+      exampleEs: 'Normalmente estudio.',
+      usage: 'Hablar de habitos.',
+      grammar: 'Adverb.',
+      level: 'A2',
+      isPremium: false,
+      category: 'frequency_adverbs',
+      packId: 'free_basic_1000',
+      partOfSpeech: 'adverb',
+      isVerb: false,
+      verbType: null,
+      baseForm: null,
+      pastSimple: null,
+      pastParticiple: null,
+      shortNotificationText: null,
+      commonMistakes: [],
+      dailyUse: [],
+      exercises: [],
+      links: [],
+    );
+    const lockedLevelLesson = LessonModel(
+      id: 'lesson_b1',
+      word: 'advice',
+      meaningEs: 'consejo',
+      pronunciation: 'Ad-vais',
+      exampleEn: 'Can you give me advice?',
+      exampleEs: 'Puedes darme un consejo?',
+      usage: 'Pedir sugerencias.',
+      grammar: 'Uncountable noun.',
+      level: 'B1',
+      isPremium: false,
+      category: 'common_nouns',
+      packId: 'free_basic_1000',
+      partOfSpeech: 'noun',
+      isVerb: false,
+      verbType: null,
+      baseForm: null,
+      pastSimple: null,
+      pastParticiple: null,
+      shortNotificationText: null,
+      commonMistakes: [],
+      dailyUse: [],
+      exercises: [],
+      links: [],
+    );
+    const premiumLesson = LessonModel(
+      id: 'lesson_premium',
+      word: 'break down',
+      meaningEs: 'descomponer / averiarse',
+      pronunciation: 'Breik daun',
+      exampleEn: 'The car broke down.',
+      exampleEs: 'El auto se averio.',
+      usage: 'Phrasal verb.',
+      grammar: 'Irregular phrasal verb.',
+      level: 'B2',
+      isPremium: true,
+      category: 'phrasal_verbs',
+      packId: 'phrasal_verbs',
+      partOfSpeech: 'verb',
+      isVerb: true,
+      verbType: 'irregular',
+      baseForm: 'break down',
+      pastSimple: 'broke down',
+      pastParticiple: 'broken down',
+      shortNotificationText: null,
+      commonMistakes: [],
+      dailyUse: [],
+      exercises: [],
+      links: [],
+    );
+
+    expect(await accessService.canAccessLesson(freeLesson), isTrue);
+    expect(await accessService.canAccessLesson(lockedLevelLesson), isFalse);
+    expect(await accessService.canAccessLesson(premiumLesson), isFalse);
+    expect(await accessService.canAccessPack('premium_5000'), isFalse);
+    expect(await accessService.canAccessLevel('B1'), isFalse);
+
+    final accessibleLessons = await accessService.filterAccessibleLessons([
+      freeLesson,
+      lockedLevelLesson,
+      premiumLesson,
+    ]);
+    expect(accessibleLessons, [freeLesson]);
+
+    await accessStorage.saveUserAccess(
+      const UserAccessModel(
+        isPremium: true,
+        unlockedPackIds: [],
+        unlockedLevels: [],
+      ),
+    );
+
+    expect(await accessService.canAccessLesson(premiumLesson), isTrue);
+    expect(await accessService.canAccessPack('premium_10000'), isTrue);
+    expect(await accessService.canAccessLevel('C1'), isTrue);
   });
 
   testWidgets('exercise card shows clear answer feedback', (

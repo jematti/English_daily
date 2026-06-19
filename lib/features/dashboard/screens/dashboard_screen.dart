@@ -9,6 +9,7 @@ import 'package:english_drops_daily/features/dashboard/widgets/progress_summary_
 import 'package:english_drops_daily/features/dashboard/widgets/quick_actions_grid.dart';
 import 'package:english_drops_daily/features/dashboard/widgets/streak_card.dart';
 import 'package:english_drops_daily/features/word_of_day/screens/word_of_day_screen.dart';
+import 'package:english_drops_daily/services/access/access_service.dart';
 import 'package:english_drops_daily/services/lesson_selection_service.dart';
 import 'package:english_drops_daily/services/notifications/notification_service.dart';
 import 'package:english_drops_daily/services/storage/settings_storage_service.dart';
@@ -27,7 +28,12 @@ class _DashboardScreenState extends State<DashboardScreen> {
   @override
   void initState() {
     super.initState();
-    _lessonsFuture = const LessonLocalDatasource().getLessons();
+    _lessonsFuture = _loadAccessibleLessons();
+  }
+
+  Future<List<LessonModel>> _loadAccessibleLessons() async {
+    final lessons = await const LessonLocalDatasource().getLessons();
+    return const AccessService().filterAccessibleLessons(lessons);
   }
 
   @override
