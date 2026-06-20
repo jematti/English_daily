@@ -4,6 +4,7 @@ import 'package:english_drops_daily/core/widgets/primary_card.dart';
 import 'package:english_drops_daily/core/widgets/section_title.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/features/word_of_day/widgets/microlearning_sections.dart';
+import 'package:english_drops_daily/features/word_of_day/widgets/verb_cards_section.dart';
 import 'package:english_drops_daily/features/word_of_day/widgets/word_link_suggestions.dart';
 import 'package:english_drops_daily/services/storage/favorites_storage_service.dart';
 import 'package:english_drops_daily/services/tts/tts_service.dart';
@@ -127,6 +128,7 @@ class _LessonCardState extends State<LessonCard> {
             const SizedBox(height: 24),
           ],
           MicrolearningSections(lesson: lesson),
+          VerbCardsSection(lesson: lesson),
           const SizedBox(height: 10),
           WordLinkSuggestions(
             currentLesson: lesson,

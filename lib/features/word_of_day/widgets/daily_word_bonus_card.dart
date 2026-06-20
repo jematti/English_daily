@@ -1,6 +1,7 @@
 import 'package:english_drops_daily/core/constants/app_palette.dart';
 import 'package:english_drops_daily/core/constants/app_text_styles.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
+import 'package:english_drops_daily/features/word_of_day/widgets/verb_cards_section.dart';
 import 'package:flutter/material.dart';
 
 class DailyWordBonusCard extends StatelessWidget {
@@ -77,6 +78,10 @@ class DailyWordBonusCard extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           _ExampleBubble(lesson: lesson),
+          if (lesson.isVerb) ...[
+            const SizedBox(height: 12),
+            VerbCardsSection(lesson: lesson, compact: true),
+          ],
         ],
       ),
     );

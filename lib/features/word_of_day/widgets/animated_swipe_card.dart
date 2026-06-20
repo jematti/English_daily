@@ -262,6 +262,15 @@ class _SwipeLearningPreview extends StatelessWidget {
 
     return Column(
       children: [
+        if (lesson.isVerb && _verbForms.isNotEmpty) ...[
+          _MiniLearningRow(
+            icon: Icons.auto_stories_outlined,
+            label: 'Verbo',
+            text: _verbForms,
+            color: AppPalette.ocean,
+          ),
+          const SizedBox(height: 8),
+        ],
         _MiniLearningRow(
           icon: Icons.today_outlined,
           label: 'Uso diario',
@@ -277,6 +286,14 @@ class _SwipeLearningPreview extends StatelessWidget {
         ),
       ],
     );
+  }
+
+  String get _verbForms {
+    return [
+      lesson.baseForm,
+      lesson.pastSimple,
+      lesson.pastParticiple,
+    ].where((value) => value != null && value.trim().isNotEmpty).join(' / ');
   }
 }
 

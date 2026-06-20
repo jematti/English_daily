@@ -8,6 +8,7 @@ import 'package:english_drops_daily/domain/models/user_access_model.dart';
 import 'package:english_drops_daily/features/exercises/screens/practice_session_screen.dart';
 import 'package:english_drops_daily/features/exercises/widgets/exercise_card.dart';
 import 'package:english_drops_daily/features/word_of_day/widgets/animated_swipe_card.dart';
+import 'package:english_drops_daily/features/word_of_day/widgets/verb_cards_section.dart';
 import 'package:english_drops_daily/services/access/access_service.dart';
 import 'package:english_drops_daily/services/content/content_pack_service.dart';
 import 'package:english_drops_daily/services/notifications/smart_notification_service.dart';
@@ -430,6 +431,90 @@ void main() {
 
     expect(find.text('Correcto'), findsOneWidget);
     expect(find.text('This is the expected option.'), findsOneWidget);
+  });
+
+  testWidgets('verb cards section only appears for verbs', (
+    WidgetTester tester,
+  ) async {
+    const verbLesson = LessonModel(
+      id: 'verb_lesson',
+      word: 'run',
+      meaningEs: 'correr',
+      pronunciation: 'ran',
+      exampleEn: 'I run every day.',
+      exampleEs: 'Corro todos los dias.',
+      usage: 'Hablar de correr.',
+      grammar: 'Verb.',
+      level: 'A1',
+      isPremium: false,
+      category: 'basic_verbs',
+      packId: 'free_basic_1000',
+      partOfSpeech: 'verb',
+      isVerb: true,
+      verbType: 'irregular',
+      baseForm: 'run',
+      pastSimple: 'ran',
+      pastParticiple: 'run',
+      shortNotificationText: null,
+      commonMistakes: [],
+      dailyUse: [],
+      exercises: [],
+      links: [],
+    );
+
+    await tester.pumpWidget(
+      MaterialApp(
+        theme: AppTheme.light,
+        home: const Scaffold(body: VerbCardsSection(lesson: verbLesson)),
+      ),
+    );
+
+    expect(find.text('Formas del verbo'), findsOneWidget);
+    expect(
+      find.text('Verbo irregular: cambia de forma en pasado.'),
+      findsOneWidget,
+    );
+
+    await tester.tap(find.text('Formas del verbo'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Base'), findsOneWidget);
+    expect(find.text('ran'), findsOneWidget);
+
+    final nounLesson = LessonModel(
+      id: 'noun_lesson',
+      word: 'house',
+      meaningEs: 'casa',
+      pronunciation: 'haus',
+      exampleEn: 'This is my house.',
+      exampleEs: 'Esta es mi casa.',
+      usage: 'Hablar de vivienda.',
+      grammar: 'Noun.',
+      level: 'A1',
+      isPremium: false,
+      category: 'basic_nouns',
+      packId: 'free_basic_1000',
+      partOfSpeech: 'noun',
+      isVerb: false,
+      verbType: null,
+      baseForm: null,
+      pastSimple: null,
+      pastParticiple: null,
+      shortNotificationText: null,
+      commonMistakes: const [],
+      dailyUse: const [],
+      exercises: const [],
+      links: const [],
+    );
+
+    await tester.pumpWidget(
+      MaterialApp(
+        theme: AppTheme.light,
+        home: Scaffold(body: VerbCardsSection(lesson: nounLesson)),
+      ),
+    );
+
+    expect(find.text('Formas del verbo'), findsNothing);
   });
 
   testWidgets('practice session shows one exercise and result flow', (
