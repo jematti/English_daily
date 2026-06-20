@@ -5,6 +5,7 @@ import 'package:english_drops_daily/data/datasources/lesson_local_datasource.dar
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/features/exercises/screens/practice_session_screen.dart';
 import 'package:english_drops_daily/features/favorites/screens/favorites_screen.dart';
+import 'package:english_drops_daily/features/packs/screens/packs_screen.dart';
 import 'package:english_drops_daily/features/premium/screens/premium_preview_screen.dart';
 import 'package:english_drops_daily/features/progress/screens/progress_screen.dart';
 import 'package:english_drops_daily/features/settings/screens/app_settings_screen.dart';
@@ -360,6 +361,11 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
                   onTap: () => _openSecondaryScreen(_HomeDestination.progress),
                 ),
                 _MenuTile(
+                  icon: Icons.auto_stories_outlined,
+                  label: 'Packs',
+                  onTap: () => _openSecondaryScreen(_HomeDestination.packs),
+                ),
+                _MenuTile(
                   icon: Icons.favorite_border,
                   label: 'Favoritos',
                   onTap: () => _openSecondaryScreen(_HomeDestination.favorites),
@@ -380,6 +386,7 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
   void _openSecondaryScreen(_HomeDestination destination) {
     final screen = switch (destination) {
       _HomeDestination.progress => const ProgressScreen(),
+      _HomeDestination.packs => const PacksScreen(),
       _HomeDestination.favorites => const FavoritesScreen(),
       _HomeDestination.settings => const AppSettingsScreen(),
     };
@@ -545,7 +552,7 @@ class _MenuTile extends StatelessWidget {
   }
 }
 
-enum _HomeDestination { progress, favorites, settings }
+enum _HomeDestination { progress, packs, favorites, settings }
 
 class _MessageView extends StatelessWidget {
   const _MessageView({required this.message});

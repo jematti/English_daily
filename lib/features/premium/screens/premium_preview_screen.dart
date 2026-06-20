@@ -25,6 +25,11 @@ class PremiumPreviewScreen extends StatelessWidget {
                 context,
               ).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold),
             ),
+            const SizedBox(height: 8),
+            Text(
+              'Vista previa del catalogo premium. Las compras todavia no estan activas.',
+              style: Theme.of(context).textTheme.bodyMedium,
+            ),
             const SizedBox(height: 18),
             const PremiumFeatureCard(
               icon: Icons.auto_stories_outlined,

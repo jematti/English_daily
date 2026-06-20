@@ -2,6 +2,7 @@ import 'package:english_drops_daily/core/widgets/app_button.dart';
 import 'package:english_drops_daily/core/widgets/primary_card.dart';
 import 'package:english_drops_daily/core/widgets/section_title.dart';
 import 'package:english_drops_daily/domain/models/app_settings_model.dart';
+import 'package:english_drops_daily/features/packs/screens/packs_screen.dart';
 import 'package:english_drops_daily/features/settings/screens/notification_settings_screen.dart';
 import 'package:english_drops_daily/services/storage/app_settings_storage_service.dart';
 import 'package:english_drops_daily/services/storage/favorites_storage_service.dart';
@@ -120,6 +121,32 @@ class _AppSettingsScreenState extends State<AppSettingsScreen> {
                         : (value) {
                             _save(settings.copyWith(showSwipeHints: value));
                           },
+                  ),
+                ),
+                const SizedBox(height: 14),
+                PrimaryCard(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const SectionTitle(
+                        title: 'Contenido',
+                        subtitle: 'Revisa packs gratis y proximos packs.',
+                        icon: Icons.auto_stories_outlined,
+                      ),
+                      const SizedBox(height: 16),
+                      AppButton(
+                        label: 'Ver packs',
+                        icon: Icons.arrow_forward,
+                        variant: AppButtonVariant.tonal,
+                        onPressed: () {
+                          Navigator.of(context).push(
+                            MaterialPageRoute<void>(
+                              builder: (_) => const PacksScreen(),
+                            ),
+                          );
+                        },
+                      ),
+                    ],
                   ),
                 ),
                 const SizedBox(height: 14),

@@ -7,6 +7,7 @@ import 'package:english_drops_daily/domain/models/notification_settings_model.da
 import 'package:english_drops_daily/domain/models/user_access_model.dart';
 import 'package:english_drops_daily/features/exercises/screens/practice_session_screen.dart';
 import 'package:english_drops_daily/features/exercises/widgets/exercise_card.dart';
+import 'package:english_drops_daily/features/packs/screens/packs_screen.dart';
 import 'package:english_drops_daily/features/word_of_day/widgets/animated_swipe_card.dart';
 import 'package:english_drops_daily/features/word_of_day/widgets/verb_cards_section.dart';
 import 'package:english_drops_daily/services/access/access_service.dart';
@@ -515,6 +516,37 @@ void main() {
     );
 
     expect(find.text('Formas del verbo'), findsNothing);
+  });
+
+  testWidgets('packs screen shows free and upcoming premium packs', (
+    WidgetTester tester,
+  ) async {
+    await tester.pumpWidget(
+      MaterialApp(theme: AppTheme.light, home: const PacksScreen()),
+    );
+    await tester.pumpAndSettle();
+
+    expect(find.text('Gratis'), findsOneWidget);
+    expect(find.text('1000 palabras basicas'), findsOneWidget);
+    expect(find.text('Premium'), findsOneWidget);
+    expect(find.text('Proximamente'), findsWidgets);
+
+    await tester.scrollUntilVisible(
+      find.text('Proximamente').first,
+      250,
+      scrollable: find.byType(Scrollable).first,
+    );
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Proximamente').first);
+    await tester.pumpAndSettle();
+
+    expect(find.text('Desbloquea English Drops Premium'), findsOneWidget);
+    expect(
+      find.text(
+        'Vista previa del catalogo premium. Las compras todavia no estan activas.',
+      ),
+      findsOneWidget,
+    );
   });
 
   testWidgets('practice session shows one exercise and result flow', (
