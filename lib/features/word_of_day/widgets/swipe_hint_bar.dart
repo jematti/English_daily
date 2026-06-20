@@ -14,36 +14,17 @@ class SwipeHintBar extends StatelessWidget {
         color: colorScheme.surface.withValues(alpha: 0.68),
         borderRadius: BorderRadius.circular(14),
       ),
-      child: const Wrap(
-        alignment: WrapAlignment.center,
-        spacing: 12,
-        runSpacing: 8,
+      child: const Row(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          _HintItem(icon: Icons.arrow_back, label: 'Pasar'),
-          _HintItem(icon: Icons.arrow_upward, label: 'Relacionada'),
-          _HintItem(icon: Icons.arrow_forward, label: 'Guardar'),
-          _HintItem(icon: Icons.arrow_downward, label: 'Anterior'),
+          Icon(Icons.swipe_left_outlined, size: 18),
+          SizedBox(width: 8),
+          Text(
+            'Desliza para avanzar',
+            style: TextStyle(fontWeight: FontWeight.w700),
+          ),
         ],
       ),
-    );
-  }
-}
-
-class _HintItem extends StatelessWidget {
-  const _HintItem({required this.icon, required this.label});
-
-  final IconData icon;
-  final String label;
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        Icon(icon, size: 16),
-        const SizedBox(width: 4),
-        Text(label, style: const TextStyle(fontWeight: FontWeight.w600)),
-      ],
     );
   }
 }

@@ -1,19 +1,20 @@
 import 'package:english_drops_daily/core/constants/app_palette.dart';
 import 'package:english_drops_daily/core/constants/app_text_styles.dart';
+import 'package:english_drops_daily/core/widgets/app_button.dart';
 import 'package:english_drops_daily/data/datasources/lesson_local_datasource.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
-import 'package:english_drops_daily/features/dashboard/screens/dashboard_screen.dart';
 import 'package:english_drops_daily/features/exercises/screens/exercises_screen.dart';
 import 'package:english_drops_daily/features/favorites/screens/favorites_screen.dart';
 import 'package:english_drops_daily/features/premium/screens/premium_preview_screen.dart';
-import 'package:english_drops_daily/features/progress/screens/review_screen.dart';
 import 'package:english_drops_daily/features/settings/screens/app_settings_screen.dart';
+import 'package:english_drops_daily/features/word_of_day/screens/daily_word_special_screen.dart';
 import 'package:english_drops_daily/features/word_of_day/widgets/swipe_lesson_card.dart';
 import 'package:english_drops_daily/features/word_of_day/widgets/word_of_day_fab.dart';
 import 'package:english_drops_daily/services/access/access_service.dart';
 import 'package:english_drops_daily/services/lesson_selection_service.dart';
 import 'package:english_drops_daily/services/storage/favorites_storage_service.dart';
 import 'package:english_drops_daily/services/storage/lesson_history_storage_service.dart';
+import 'package:english_drops_daily/services/tts/tts_service.dart';
 import 'package:flutter/material.dart';
 
 class HomeMicrolessonScreen extends StatefulWidget {
@@ -39,6 +40,7 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
   final LessonSelectionService _lessonSelectionService =
       const LessonSelectionService();
   final AccessService _accessService = const AccessService();
+  final TtsService _ttsService = TtsService();
   String? _selectedLessonId;
   int _favoriteRefreshToken = 0;
 
@@ -47,6 +49,12 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
     super.initState();
     _selectedLessonId = widget.initialLessonId;
     _lessonsFuture = _loadLessons();
+  }
+
+  @override
+  void dispose() {
+    _ttsService.stop();
+    super.dispose();
   }
 
   Future<List<LessonModel>> _loadLessons() async {
@@ -101,8 +109,7 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
           }
 
           return WordOfDayFab(
-            lesson: lessons.first,
-            onOpen: () => _selectLesson(lessons.first),
+            onOpen: () => _openDailyWordSpecial(_selectedLessonId),
           );
         },
       ),
@@ -155,6 +162,14 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
                               ) +
                               1,
                           totalLessons: lessons.length,
+                          onOpenMenu: _openMainMenu,
+                        ),
+                        const SizedBox(height: 16),
+                        _PrimaryActionBar(
+                          onListen: () => _speakSelectedLesson(selectedLesson),
+                          onSave: () => _saveFavorite(selectedLesson),
+                          onPractice: _openExercises,
+                          onNext: () => _showNextLesson(lessons),
                         ),
                         const SizedBox(height: 16),
                         SwipeLessonCard(
@@ -168,8 +183,6 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
                           onLessonSelected: _selectLesson,
                           favoriteRefreshToken: _favoriteRefreshToken,
                         ),
-                        const SizedBox(height: 16),
-                        _QuickDock(onOpen: _openSecondaryScreen),
                       ]),
                     ),
                   ),
@@ -275,6 +288,22 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
     ).showSnackBar(const SnackBar(content: Text('Guardado en favoritos')));
   }
 
+  Future<void> _speakSelectedLesson(LessonModel lesson) async {
+    try {
+      await _ttsService.speakWord(lesson.word);
+    } on Object {
+      if (!mounted) {
+        return;
+      }
+
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('No se pudo reproducir audio en este dispositivo.'),
+        ),
+      );
+    }
+  }
+
   void _showRelatedLesson(
     LessonModel currentLesson,
     List<LessonModel> lessons,
@@ -293,17 +322,58 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
     );
   }
 
+  void _openExercises() {
+    Navigator.of(
+      context,
+    ).push(MaterialPageRoute<void>(builder: (_) => const ExercisesScreen()));
+  }
+
+  void _openMainMenu() {
+    showModalBottomSheet<void>(
+      context: context,
+      showDragHandle: true,
+      builder: (context) {
+        return SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.fromLTRB(18, 4, 18, 18),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                _MenuTile(
+                  icon: Icons.favorite_border,
+                  label: 'Favoritos',
+                  onTap: () => _openSecondaryScreen(_HomeDestination.favorites),
+                ),
+                _MenuTile(
+                  icon: Icons.settings_outlined,
+                  label: 'Configuracion',
+                  onTap: () => _openSecondaryScreen(_HomeDestination.settings),
+                ),
+              ],
+            ),
+          ),
+        );
+      },
+    );
+  }
+
   void _openSecondaryScreen(_HomeDestination destination) {
     final screen = switch (destination) {
-      _HomeDestination.exercises => const ExercisesScreen(),
       _HomeDestination.favorites => const FavoritesScreen(),
-      _HomeDestination.review => const ReviewScreen(),
       _HomeDestination.settings => const AppSettingsScreen(),
-      _HomeDestination.dashboard => const DashboardScreen(),
-      _HomeDestination.premium => const PremiumPreviewScreen(),
     };
 
+    Navigator.of(context).pop();
     Navigator.of(context).push(MaterialPageRoute<void>(builder: (_) => screen));
+  }
+
+  void _openDailyWordSpecial(String? currentLessonId) {
+    Navigator.of(context).push(
+      MaterialPageRoute<void>(
+        builder: (_) =>
+            DailyWordSpecialScreen(currentLessonId: currentLessonId),
+      ),
+    );
   }
 
   void _openPremiumPreviewAfterBuild() {
@@ -324,10 +394,15 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
 }
 
 class _HomeHeader extends StatelessWidget {
-  const _HomeHeader({required this.currentIndex, required this.totalLessons});
+  const _HomeHeader({
+    required this.currentIndex,
+    required this.totalLessons,
+    required this.onOpenMenu,
+  });
 
   final int currentIndex;
   final int totalLessons;
+  final VoidCallback onOpenMenu;
 
   @override
   Widget build(BuildContext context) {
@@ -349,85 +424,107 @@ class _HomeHeader extends StatelessWidget {
             ],
           ),
         ),
-        Container(
-          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 9),
-          decoration: BoxDecoration(
-            color: AppPalette.sunshine.withValues(alpha: 0.28),
-            borderRadius: BorderRadius.circular(99),
-          ),
-          child: Row(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              const Icon(Icons.bolt, size: 18),
-              const SizedBox(width: 6),
-              Text('Gota diaria', style: AppTextStyles.label),
-            ],
-          ),
+        IconButton.filledTonal(
+          tooltip: 'Menu',
+          onPressed: onOpenMenu,
+          icon: const Icon(Icons.menu),
         ),
       ],
     );
   }
 }
 
-class _QuickDock extends StatelessWidget {
-  const _QuickDock({required this.onOpen});
+class _PrimaryActionBar extends StatelessWidget {
+  const _PrimaryActionBar({
+    required this.onListen,
+    required this.onSave,
+    required this.onPractice,
+    required this.onNext,
+  });
 
-  final ValueChanged<_HomeDestination> onOpen;
+  final VoidCallback onListen;
+  final VoidCallback onSave;
+  final VoidCallback onPractice;
+  final VoidCallback onNext;
 
   @override
   Widget build(BuildContext context) {
-    const items = [
-      _DockItem(_HomeDestination.exercises, Icons.quiz_outlined, 'Ejercicios'),
-      _DockItem(_HomeDestination.favorites, Icons.favorite_border, 'Favoritos'),
-      _DockItem(_HomeDestination.review, Icons.replay_outlined, 'Repasos'),
-      _DockItem(_HomeDestination.settings, Icons.settings_outlined, 'Ajustes'),
-      _DockItem(_HomeDestination.dashboard, Icons.dashboard_outlined, 'Centro'),
-      _DockItem(
-        _HomeDestination.premium,
-        Icons.workspace_premium_outlined,
-        'Premium',
-      ),
-    ];
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final buttonWidth = (constraints.maxWidth - 10) / 2;
 
-    return Container(
-      padding: const EdgeInsets.all(12),
-      decoration: BoxDecoration(
-        color: Theme.of(context).cardTheme.color?.withValues(alpha: 0.9),
-        borderRadius: BorderRadius.circular(24),
-        border: Border.all(color: AppPalette.border),
-      ),
-      child: Wrap(
-        alignment: WrapAlignment.center,
-        spacing: 8,
-        runSpacing: 8,
-        children: items.map((item) {
-          return ActionChip(
-            avatar: Icon(item.icon, size: 18),
-            label: Text(item.label),
-            onPressed: () => onOpen(item.destination),
-          );
-        }).toList(),
-      ),
+        return Wrap(
+          spacing: 10,
+          runSpacing: 10,
+          children: [
+            SizedBox(
+              width: buttonWidth,
+              child: AppButton(
+                label: 'Escuchar',
+                icon: Icons.volume_up_outlined,
+                onPressed: onListen,
+              ),
+            ),
+            SizedBox(
+              width: buttonWidth,
+              child: AppButton(
+                label: 'Guardar',
+                icon: Icons.favorite_border,
+                variant: AppButtonVariant.tonal,
+                onPressed: onSave,
+              ),
+            ),
+            SizedBox(
+              width: buttonWidth,
+              child: AppButton(
+                label: 'Practicar',
+                icon: Icons.quiz_outlined,
+                variant: AppButtonVariant.outlined,
+                onPressed: onPractice,
+              ),
+            ),
+            SizedBox(
+              width: buttonWidth,
+              child: AppButton(
+                label: 'Siguiente',
+                icon: Icons.arrow_forward,
+                variant: AppButtonVariant.outlined,
+                onPressed: onNext,
+              ),
+            ),
+          ],
+        );
+      },
     );
   }
 }
 
-enum _HomeDestination {
-  exercises,
-  favorites,
-  review,
-  settings,
-  dashboard,
-  premium,
-}
+class _MenuTile extends StatelessWidget {
+  const _MenuTile({
+    required this.icon,
+    required this.label,
+    required this.onTap,
+  });
 
-class _DockItem {
-  const _DockItem(this.destination, this.icon, this.label);
-
-  final _HomeDestination destination;
   final IconData icon;
   final String label;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return ListTile(
+      leading: Icon(icon),
+      title: Text(
+        label,
+        style: AppTextStyles.body.copyWith(fontWeight: FontWeight.w800),
+      ),
+      trailing: const Icon(Icons.chevron_right),
+      onTap: onTap,
+    );
+  }
 }
+
+enum _HomeDestination { favorites, settings }
 
 class _MessageView extends StatelessWidget {
   const _MessageView({required this.message});

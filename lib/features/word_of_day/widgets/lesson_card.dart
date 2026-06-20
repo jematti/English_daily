@@ -16,6 +16,8 @@ class LessonCard extends StatefulWidget {
     this.lessons = const [],
     this.onLessonSelected,
     this.showHeader = true,
+    this.showAudioActions = true,
+    this.showPersonalNotebook = true,
     this.favoriteRefreshToken = 0,
   });
 
@@ -23,6 +25,8 @@ class LessonCard extends StatefulWidget {
   final List<LessonModel> lessons;
   final ValueChanged<LessonModel>? onLessonSelected;
   final bool showHeader;
+  final bool showAudioActions;
+  final bool showPersonalNotebook;
   final int favoriteRefreshToken;
 
   @override
@@ -85,39 +89,43 @@ class _LessonCardState extends State<LessonCard> {
             ),
             const SizedBox(height: 16),
           ],
-          Wrap(
-            spacing: 8,
-            runSpacing: 8,
-            children: [
-              AppButton(
-                label: 'Escuchar palabra',
-                icon: Icons.volume_up_outlined,
-                expanded: false,
-                onPressed: () => _speakWord(context),
-              ),
-              AppButton(
-                label: 'Escuchar ejemplo',
-                icon: Icons.record_voice_over_outlined,
-                variant: AppButtonVariant.tonal,
-                expanded: false,
-                onPressed: () => _speakExample(context),
-              ),
-            ],
-          ),
-          const SizedBox(height: 8),
-          Text(
-            'El audio depende del motor de texto a voz del dispositivo.',
-            style: Theme.of(context).textTheme.bodySmall,
-          ),
-          const SizedBox(height: 24),
-          _FavoriteNoteSection(
-            isFavorite: _isFavorite,
-            isLoading: _isLoadingFavoriteData,
-            noteController: _noteController,
-            onToggleFavorite: _toggleFavorite,
-            onSaveNote: _saveNote,
-          ),
-          const SizedBox(height: 24),
+          if (widget.showAudioActions) ...[
+            Wrap(
+              spacing: 8,
+              runSpacing: 8,
+              children: [
+                AppButton(
+                  label: 'Escuchar palabra',
+                  icon: Icons.volume_up_outlined,
+                  expanded: false,
+                  onPressed: () => _speakWord(context),
+                ),
+                AppButton(
+                  label: 'Escuchar ejemplo',
+                  icon: Icons.record_voice_over_outlined,
+                  variant: AppButtonVariant.tonal,
+                  expanded: false,
+                  onPressed: () => _speakExample(context),
+                ),
+              ],
+            ),
+            const SizedBox(height: 8),
+            Text(
+              'El audio depende del motor de texto a voz del dispositivo.',
+              style: Theme.of(context).textTheme.bodySmall,
+            ),
+            const SizedBox(height: 24),
+          ],
+          if (widget.showPersonalNotebook) ...[
+            _FavoriteNoteSection(
+              isFavorite: _isFavorite,
+              isLoading: _isLoadingFavoriteData,
+              noteController: _noteController,
+              onToggleFavorite: _toggleFavorite,
+              onSaveNote: _saveNote,
+            ),
+            const SizedBox(height: 24),
+          ],
           MicrolearningSections(lesson: lesson),
           const SizedBox(height: 10),
           WordLinkSuggestions(

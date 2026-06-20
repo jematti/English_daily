@@ -344,19 +344,33 @@ void main() {
 
     expect(find.text('actually'), findsWidgets);
     expect(find.text('en realidad / de hecho'), findsWidgets);
-    expect(find.text('Bonus diario'), findsOneWidget);
-    expect(find.text('Anterior'), findsWidgets);
-    expect(find.text('Pasar'), findsWidgets);
+    expect(find.text('Gota del dia'), findsOneWidget);
+    expect(find.text('Escuchar'), findsOneWidget);
     expect(find.text('Guardar'), findsWidgets);
-    expect(find.text('Relacionada'), findsWidgets);
+    expect(find.text('Practicar'), findsOneWidget);
+    expect(find.text('Siguiente'), findsOneWidget);
+    expect(find.text('Desliza para avanzar'), findsOneWidget);
+    expect(find.text('Anterior'), findsNothing);
+    expect(find.text('Pasar'), findsNothing);
 
-    await tester.scrollUntilVisible(
-      find.text('Ajustes'),
-      500,
-      scrollable: find.byType(Scrollable).first,
-    );
+    await tester.tap(find.text('Guardar').first);
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Ajustes'));
+    expect(find.text('Guardado en favoritos'), findsOneWidget);
+
+    await tester.tap(find.text('Gota del dia'));
+    await _pumpUntilFound(tester, find.text('Gota especial del dia'));
+    expect(find.text('Mini reto diario'), findsOneWidget);
+
+    tester.state<NavigatorState>(find.byType(Navigator)).pop();
+    await tester.pumpAndSettle();
+
+    await tester.tap(find.byTooltip('Menu'));
+    await tester.pumpAndSettle();
+    expect(find.text('Favoritos'), findsOneWidget);
+    expect(find.text('Configuracion'), findsOneWidget);
+
+    await tester.tap(find.text('Configuracion'));
+    await tester.pumpAndSettle();
     await _pumpUntilFound(tester, find.text('Velocidad de pronunciacion'));
 
     expect(find.text('Tema visual'), findsOneWidget);
@@ -403,15 +417,6 @@ void main() {
     await tester.drag(find.byType(AnimatedSwipeCard), const Offset(0, -140));
     await tester.pumpAndSettle();
     expect(find.text('usually'), findsOneWidget);
-
-    await tester.scrollUntilVisible(
-      find.text('Guardar').first,
-      300,
-      scrollable: find.byType(Scrollable).first,
-    );
-    await tester.tap(find.text('Guardar').first);
-    await tester.pumpAndSettle();
-    expect(find.text('Guardar'), findsWidgets);
   });
 }
 
