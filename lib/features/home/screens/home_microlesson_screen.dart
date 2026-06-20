@@ -6,12 +6,14 @@ import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/features/exercises/screens/practice_session_screen.dart';
 import 'package:english_drops_daily/features/favorites/screens/favorites_screen.dart';
 import 'package:english_drops_daily/features/premium/screens/premium_preview_screen.dart';
+import 'package:english_drops_daily/features/progress/screens/progress_screen.dart';
 import 'package:english_drops_daily/features/settings/screens/app_settings_screen.dart';
 import 'package:english_drops_daily/features/word_of_day/screens/daily_word_special_screen.dart';
 import 'package:english_drops_daily/features/word_of_day/widgets/swipe_lesson_card.dart';
 import 'package:english_drops_daily/features/word_of_day/widgets/word_of_day_fab.dart';
 import 'package:english_drops_daily/services/access/access_service.dart';
 import 'package:english_drops_daily/services/lesson_selection_service.dart';
+import 'package:english_drops_daily/services/progress/progress_service.dart';
 import 'package:english_drops_daily/services/storage/favorites_storage_service.dart';
 import 'package:english_drops_daily/services/storage/lesson_history_storage_service.dart';
 import 'package:english_drops_daily/services/tts/tts_service.dart';
@@ -40,6 +42,7 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
   final LessonSelectionService _lessonSelectionService =
       const LessonSelectionService();
   final AccessService _accessService = const AccessService();
+  final ProgressService _progressService = const ProgressService();
   final TtsService _ttsService = TtsService();
   String? _selectedLessonId;
   int _favoriteRefreshToken = 0;
@@ -89,6 +92,10 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
 
     _selectedLessonId = selectedLesson.id;
     await _lessonHistoryStorage.markLessonAsShown(selectedLesson.id);
+    await _progressService.markLessonLearned(
+      selectedLesson.id,
+      selectedLesson.level,
+    );
 
     return accessibleLessons;
   }
@@ -233,6 +240,7 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
     }
 
     await _lessonHistoryStorage.markLessonAsShown(lesson.id);
+    await _progressService.markLessonLearned(lesson.id, lesson.level);
 
     if (!mounted) {
       return;
@@ -327,6 +335,7 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
       MaterialPageRoute<void>(
         builder: (_) => PracticeSessionScreen(
           exercises: lesson.exercises,
+          lessonId: lesson.id,
           title: 'Practica ${lesson.word}',
           emptyMessage: 'Todavía no hay ejercicios para esta palabra.',
         ),
@@ -345,6 +354,11 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
+                _MenuTile(
+                  icon: Icons.insights_outlined,
+                  label: 'Progreso',
+                  onTap: () => _openSecondaryScreen(_HomeDestination.progress),
+                ),
                 _MenuTile(
                   icon: Icons.favorite_border,
                   label: 'Favoritos',
@@ -365,6 +379,7 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
 
   void _openSecondaryScreen(_HomeDestination destination) {
     final screen = switch (destination) {
+      _HomeDestination.progress => const ProgressScreen(),
       _HomeDestination.favorites => const FavoritesScreen(),
       _HomeDestination.settings => const AppSettingsScreen(),
     };
@@ -530,7 +545,7 @@ class _MenuTile extends StatelessWidget {
   }
 }
 
-enum _HomeDestination { favorites, settings }
+enum _HomeDestination { progress, favorites, settings }
 
 class _MessageView extends StatelessWidget {
   const _MessageView({required this.message});

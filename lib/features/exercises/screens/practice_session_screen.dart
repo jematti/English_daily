@@ -7,6 +7,7 @@ import 'package:english_drops_daily/domain/models/exercise_model.dart';
 import 'package:english_drops_daily/features/exercises/widgets/answer_feedback_box.dart';
 import 'package:english_drops_daily/features/exercises/widgets/practice_progress_header.dart';
 import 'package:english_drops_daily/features/exercises/widgets/practice_result_screen.dart';
+import 'package:english_drops_daily/services/progress/progress_service.dart';
 import 'package:flutter/material.dart';
 
 class PracticeSessionScreen extends StatefulWidget {
@@ -15,11 +16,13 @@ class PracticeSessionScreen extends StatefulWidget {
     required this.exercises,
     this.title = 'Practica rapida',
     this.emptyMessage = 'No hay ejercicios disponibles por ahora.',
+    this.lessonId,
   });
 
   final List<ExerciseModel> exercises;
   final String title;
   final String emptyMessage;
+  final String? lessonId;
 
   @override
   State<PracticeSessionScreen> createState() => _PracticeSessionScreenState();
@@ -32,6 +35,8 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
   int _correctAnswers = 0;
   String? _selectedAnswer;
   bool _showResult = false;
+  bool _hasSavedResult = false;
+  final ProgressService _progressService = const ProgressService();
 
   List<ExerciseModel> get _sessionExercises {
     return widget.exercises.take(_maxExercises).toList();
@@ -99,9 +104,7 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
   void _continue() {
     final exercises = _sessionExercises;
     if (_currentIndex >= exercises.length - 1) {
-      setState(() {
-        _showResult = true;
-      });
+      _finishSession();
       return;
     }
 
@@ -117,11 +120,31 @@ class _PracticeSessionScreenState extends State<PracticeSessionScreen> {
       _correctAnswers = 0;
       _selectedAnswer = null;
       _showResult = false;
+      _hasSavedResult = false;
     });
   }
 
   void _returnHome() {
     Navigator.of(context).popUntil((route) => route.isFirst);
+  }
+
+  Future<void> _finishSession() async {
+    if (!_hasSavedResult) {
+      await _progressService.savePracticeResult(
+        lessonId: widget.lessonId ?? 'general_practice',
+        correctAnswers: _correctAnswers,
+        wrongAnswers: _sessionExercises.length - _correctAnswers,
+      );
+    }
+
+    if (!mounted) {
+      return;
+    }
+
+    setState(() {
+      _hasSavedResult = true;
+      _showResult = true;
+    });
   }
 }
 

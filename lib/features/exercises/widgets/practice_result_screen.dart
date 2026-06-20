@@ -53,6 +53,8 @@ class PracticeResultScreen extends StatelessWidget {
                 'Resultado',
                 style: Theme.of(context).textTheme.headlineSmall,
               ),
+              const SizedBox(height: 4),
+              Text('Sesion completada', style: AppTextStyles.label),
               const SizedBox(height: 8),
               Text(_messageFor(percent), textAlign: TextAlign.center),
               const SizedBox(height: 22),

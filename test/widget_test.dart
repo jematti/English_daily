@@ -10,9 +10,11 @@ import 'package:english_drops_daily/features/word_of_day/widgets/animated_swipe_
 import 'package:english_drops_daily/services/access/access_service.dart';
 import 'package:english_drops_daily/services/content/content_pack_service.dart';
 import 'package:english_drops_daily/services/notifications/notification_service.dart';
+import 'package:english_drops_daily/services/progress/progress_service.dart';
 import 'package:english_drops_daily/services/storage/app_settings_storage_service.dart';
 import 'package:english_drops_daily/services/storage/favorites_storage_service.dart';
 import 'package:english_drops_daily/services/storage/lesson_history_storage_service.dart';
+import 'package:english_drops_daily/services/storage/progress_storage_service.dart';
 import 'package:english_drops_daily/services/storage/user_access_storage_service.dart';
 import 'package:english_drops_daily/services/lesson_selection_service.dart';
 import 'package:flutter/material.dart';
@@ -173,6 +175,33 @@ void main() {
       notificationService.moveOutsideQuietHours(daytime, settings),
       daytime,
     );
+  });
+
+  test('stores learned lessons, practice stats, and streak progress', () async {
+    const progressStorage = ProgressStorageService();
+    final progressService = ProgressService(
+      progressStorage,
+      () => DateTime(2026, 6, 20, 9),
+    );
+
+    await progressService.markLessonLearned('lesson_001', 'A1');
+    await progressService.savePracticeResult(
+      lessonId: 'lesson_001',
+      correctAnswers: 4,
+      wrongAnswers: 1,
+    );
+
+    final progress = await progressStorage.getProgress();
+
+    expect(progress.learnedLessonIds, ['lesson_001']);
+    expect(progress.practicedLessonIds, ['lesson_001']);
+    expect(progress.totalPracticeSessions, 1);
+    expect(progress.totalCorrectAnswers, 4);
+    expect(progress.totalWrongAnswers, 1);
+    expect(progress.currentStreak, 1);
+    expect(progress.bestStreak, 1);
+    expect(progress.levelProgress['A1'], 1);
+    expect(progressService.accuracyPercentageFor(progress), 80);
   });
 
   test('free access only allows free basic A1 and A2 lessons', () async {
@@ -374,6 +403,11 @@ void main() {
     expect(find.text('100%'), findsOneWidget);
     expect(find.text('Practicar otra vez'), findsOneWidget);
     expect(find.text('Volver al inicio'), findsOneWidget);
+
+    final progress = await const ProgressStorageService().getProgress();
+    expect(progress.totalPracticeSessions, 1);
+    expect(progress.totalCorrectAnswers, 1);
+    expect(progress.totalWrongAnswers, 0);
   });
 
   testWidgets('starts in microlesson home and keeps secondary flows', (
