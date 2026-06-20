@@ -1,4 +1,5 @@
 import 'package:english_drops_daily/core/theme/app_theme.dart';
+import 'package:english_drops_daily/data/datasources/lesson_local_datasource.dart';
 import 'package:english_drops_daily/domain/models/app_settings_model.dart';
 import 'package:english_drops_daily/domain/models/exercise_model.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
@@ -9,6 +10,7 @@ import 'package:english_drops_daily/features/exercises/widgets/exercise_card.dar
 import 'package:english_drops_daily/features/word_of_day/widgets/animated_swipe_card.dart';
 import 'package:english_drops_daily/services/access/access_service.dart';
 import 'package:english_drops_daily/services/content/content_pack_service.dart';
+import 'package:english_drops_daily/services/notifications/smart_notification_service.dart';
 import 'package:english_drops_daily/services/notifications/notification_service.dart';
 import 'package:english_drops_daily/services/progress/progress_service.dart';
 import 'package:english_drops_daily/services/storage/app_settings_storage_service.dart';
@@ -202,6 +204,70 @@ void main() {
     expect(progress.bestStreak, 1);
     expect(progress.levelProgress['A1'], 1);
     expect(progressService.accuracyPercentageFor(progress), 80);
+  });
+
+  test('smart notifications prioritize pending review lessons', () async {
+    const pendingReviewLesson = LessonModel(
+      id: 'lesson_pending',
+      word: 'actually',
+      meaningEs: 'en realidad',
+      pronunciation: 'Ak-shu-a-li',
+      exampleEn: 'Actually, I need help.',
+      exampleEs: 'En realidad, necesito ayuda.',
+      usage: 'Aclarar una idea.',
+      grammar: 'Adverb.',
+      level: 'A1',
+      isPremium: false,
+      category: 'common_adverbs',
+      packId: 'free_basic_1000',
+      partOfSpeech: 'adverb',
+      isVerb: false,
+      verbType: null,
+      baseForm: null,
+      pastSimple: null,
+      pastParticiple: null,
+      shortNotificationText: null,
+      commonMistakes: [],
+      dailyUse: [],
+      exercises: [],
+      links: [],
+    );
+    const newLesson = LessonModel(
+      id: 'lesson_new',
+      word: 'usually',
+      meaningEs: 'normalmente',
+      pronunciation: 'Yu-zhu-a-li',
+      exampleEn: 'I usually study.',
+      exampleEs: 'Normalmente estudio.',
+      usage: 'Hablar de habitos.',
+      grammar: 'Adverb.',
+      level: 'A1',
+      isPremium: false,
+      category: 'frequency_adverbs',
+      packId: 'free_basic_1000',
+      partOfSpeech: 'adverb',
+      isVerb: false,
+      verbType: null,
+      baseForm: null,
+      pastSimple: null,
+      pastParticiple: null,
+      shortNotificationText: null,
+      commonMistakes: [],
+      dailyUse: [],
+      exercises: [],
+      links: [],
+    );
+
+    await const ProgressService().markLessonLearned('lesson_pending', 'A1');
+
+    final smartService = SmartNotificationService(
+      _FakeLessonDatasource([pendingReviewLesson, newLesson]),
+      const _AlwaysAccessibleAccessService(),
+    );
+    final queue = await smartService.getNotificationQueue(2);
+
+    expect(queue.first.id, 'lesson_pending');
+    expect(queue.map((lesson) => lesson.id), contains('lesson_new'));
   });
 
   test('free access only allows free basic A1 and A2 lessons', () async {
@@ -507,5 +573,27 @@ Future<void> _pumpUntilFound(WidgetTester tester, Finder finder) async {
       () => Future<void>.delayed(const Duration(milliseconds: 50)),
     );
     await tester.pump();
+  }
+}
+
+class _FakeLessonDatasource extends LessonLocalDatasource {
+  const _FakeLessonDatasource(this.lessons);
+
+  final List<LessonModel> lessons;
+
+  @override
+  Future<List<LessonModel>> getLessons() async {
+    return lessons;
+  }
+}
+
+class _AlwaysAccessibleAccessService extends AccessService {
+  const _AlwaysAccessibleAccessService();
+
+  @override
+  Future<List<LessonModel>> filterAccessibleLessons(
+    List<LessonModel> lessons,
+  ) async {
+    return lessons;
   }
 }

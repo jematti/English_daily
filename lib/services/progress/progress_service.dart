@@ -68,6 +68,11 @@ class ProgressService {
     return progress.levelProgress;
   }
 
+  Future<String> getCurrentLevel() async {
+    final progress = await _storage.getProgress();
+    return currentLevelFor(progress);
+  }
+
   int accuracyPercentageFor(UserProgressModel progress) {
     if (progress.totalAnswers == 0) {
       return 0;
@@ -75,6 +80,22 @@ class ProgressService {
 
     return ((progress.totalCorrectAnswers / progress.totalAnswers) * 100)
         .round();
+  }
+
+  String currentLevelFor(UserProgressModel progress) {
+    const levels = ['A1', 'A2', 'B1', 'B2', 'C1'];
+    var currentLevel = 'A1';
+    var highestCount = -1;
+
+    for (final level in levels) {
+      final count = progress.levelProgress[level] ?? 0;
+      if (count > highestCount) {
+        highestCount = count;
+        currentLevel = level;
+      }
+    }
+
+    return currentLevel;
   }
 
   UserProgressModel _withUpdatedStreak(UserProgressModel progress) {

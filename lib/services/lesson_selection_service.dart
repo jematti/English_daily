@@ -12,6 +12,14 @@ class LessonSelectionService {
     return _getNextUnseenFrom(lessons);
   }
 
+  Future<List<LessonModel>> getUnseenLessons(List<LessonModel> lessons) async {
+    final shownLessonIds = await _historyStorage.getShownLessonIds();
+
+    return lessons.where((lesson) {
+      return !shownLessonIds.contains(lesson.id);
+    }).toList();
+  }
+
   Future<LessonModel?> getNextUnseenByLevel(
     List<LessonModel> lessons,
     String level,

@@ -3,7 +3,7 @@
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/domain/models/notification_settings_model.dart';
 import 'package:english_drops_daily/features/word_of_day/screens/word_of_day_screen.dart';
-import 'package:english_drops_daily/services/access/access_service.dart';
+import 'package:english_drops_daily/services/notifications/smart_notification_service.dart';
 import 'package:english_drops_daily/services/storage/lesson_history_storage_service.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -25,7 +25,8 @@ class NotificationService {
       FlutterLocalNotificationsPlugin();
   final LessonHistoryStorageService _lessonHistoryStorage =
       const LessonHistoryStorageService();
-  final AccessService _accessService = const AccessService();
+  final SmartNotificationService _smartNotificationService =
+      SmartNotificationService();
 
   bool _shouldOpenWordOfDay = false;
   String? _pendingLessonId;
@@ -164,7 +165,6 @@ class NotificationService {
 
     final hours = _hoursForSettings(settings);
     final notificationLessons = await _selectLessonsForNotifications(
-      lessons,
       hours.length,
     );
     if (notificationLessons.isEmpty) {
@@ -226,37 +226,8 @@ class NotificationService {
     return allowedDate;
   }
 
-  Future<List<LessonModel>> _selectLessonsForNotifications(
-    List<LessonModel> lessons,
-    int count,
-  ) async {
-    final accessibleLessons = await _accessService.filterAccessibleLessons(
-      lessons,
-    );
-    if (accessibleLessons.isEmpty) {
-      return const [];
-    }
-
-    final shownLessonIds = await _lessonHistoryStorage.getShownLessonIds();
-    final unseenLessons = accessibleLessons.where((lesson) {
-      return !shownLessonIds.contains(lesson.id);
-    }).toList();
-
-    if (unseenLessons.isEmpty) {
-      return accessibleLessons;
-    }
-
-    final selectedLessons = unseenLessons.take(count).toList();
-    if (selectedLessons.length == count) {
-      return selectedLessons;
-    }
-
-    final selectedIds = selectedLessons.map((lesson) => lesson.id).toSet();
-    selectedLessons.addAll(
-      accessibleLessons.where((lesson) => !selectedIds.contains(lesson.id)),
-    );
-
-    return selectedLessons;
+  Future<List<LessonModel>> _selectLessonsForNotifications(int count) async {
+    return _smartNotificationService.getNotificationQueue(count);
   }
 
   _NotificationContent _buildLessonNotificationContent(LessonModel lesson) {

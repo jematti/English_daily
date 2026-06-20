@@ -73,6 +73,11 @@ class _NotificationSettingsScreenState
                 'shared_preferences se usa para guardar esta preferencia localmente sin base de datos.',
                 style: Theme.of(context).textTheme.bodySmall,
               ),
+              const SizedBox(height: 6),
+              Text(
+                'Las notificaciones priorizan palabras nuevas y repasos pendientes.',
+                style: Theme.of(context).textTheme.bodySmall,
+              ),
               const SizedBox(height: 16),
               ..._options.map((option) {
                 final isSelected = option.key == data.settings.optionKey;
