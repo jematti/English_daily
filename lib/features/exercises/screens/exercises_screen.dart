@@ -1,7 +1,7 @@
 import 'package:english_drops_daily/data/datasources/lesson_local_datasource.dart';
 import 'package:english_drops_daily/domain/models/exercise_model.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
-import 'package:english_drops_daily/features/exercises/widgets/exercise_card.dart';
+import 'package:english_drops_daily/features/exercises/screens/practice_session_screen.dart';
 import 'package:english_drops_daily/services/access/access_service.dart';
 import 'package:flutter/material.dart';
 
@@ -33,40 +33,40 @@ class _ExercisesScreenState extends State<ExercisesScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Ejercicios rapidos')),
-      body: FutureBuilder<List<ExerciseModel>>(
-        future: _exercisesFuture,
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Center(child: CircularProgressIndicator());
-          }
-
-          if (snapshot.hasError) {
-            return const _MessageView(
-              message: 'No pudimos cargar los ejercicios.',
-            );
-          }
-
-          final exercises = snapshot.data ?? const [];
-
-          if (exercises.isEmpty) {
-            return const _MessageView(
-              message: 'No hay ejercicios disponibles por ahora.',
-            );
-          }
-
-          return ListView.separated(
-            padding: const EdgeInsets.all(16),
-            itemCount: exercises.length,
-            separatorBuilder: (_, _) => const SizedBox(height: 12),
-            itemBuilder: (context, index) {
-              return ExerciseCard(exercise: exercises[index]);
-            },
+    return FutureBuilder<List<ExerciseModel>>(
+      future: _exercisesFuture,
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Scaffold(
+            appBar: _PracticeAppBar(),
+            body: Center(child: CircularProgressIndicator()),
           );
-        },
-      ),
+        }
+
+        if (snapshot.hasError) {
+          return const Scaffold(
+            appBar: _PracticeAppBar(),
+            body: _MessageView(message: 'No pudimos cargar los ejercicios.'),
+          );
+        }
+
+        final exercises = snapshot.data ?? const [];
+
+        return PracticeSessionScreen(exercises: exercises);
+      },
     );
+  }
+}
+
+class _PracticeAppBar extends StatelessWidget implements PreferredSizeWidget {
+  const _PracticeAppBar();
+
+  @override
+  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
+
+  @override
+  Widget build(BuildContext context) {
+    return AppBar(title: const Text('Practica rapida'));
   }
 }
 

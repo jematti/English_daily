@@ -4,6 +4,7 @@ import 'package:english_drops_daily/domain/models/exercise_model.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
 import 'package:english_drops_daily/domain/models/notification_settings_model.dart';
 import 'package:english_drops_daily/domain/models/user_access_model.dart';
+import 'package:english_drops_daily/features/exercises/screens/practice_session_screen.dart';
 import 'package:english_drops_daily/features/exercises/widgets/exercise_card.dart';
 import 'package:english_drops_daily/features/word_of_day/widgets/animated_swipe_card.dart';
 import 'package:english_drops_daily/services/access/access_service.dart';
@@ -336,6 +337,45 @@ void main() {
     expect(find.text('This is the expected option.'), findsOneWidget);
   });
 
+  testWidgets('practice session shows one exercise and result flow', (
+    WidgetTester tester,
+  ) async {
+    const exercises = [
+      ExerciseModel(
+        id: 'practice_1',
+        type: 'multiple_choice',
+        question: 'Choose one',
+        options: ['Correct', 'Wrong'],
+        correctAnswer: 'Correct',
+        explanation: 'Correct is the expected answer.',
+      ),
+    ];
+
+    await tester.pumpWidget(
+      MaterialApp(
+        theme: AppTheme.light,
+        home: const PracticeSessionScreen(exercises: exercises),
+      ),
+    );
+
+    expect(find.text('Pregunta 1 de 1'), findsOneWidget);
+    expect(find.text('Choose one'), findsOneWidget);
+
+    await tester.tap(find.text('Correct'));
+    await tester.pump();
+
+    expect(find.text('Correcto'), findsOneWidget);
+    expect(find.text('Ver resultado'), findsOneWidget);
+
+    await tester.tap(find.text('Ver resultado'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Resultado'), findsOneWidget);
+    expect(find.text('100%'), findsOneWidget);
+    expect(find.text('Practicar otra vez'), findsOneWidget);
+    expect(find.text('Volver al inicio'), findsOneWidget);
+  });
+
   testWidgets('starts in microlesson home and keeps secondary flows', (
     WidgetTester tester,
   ) async {
@@ -356,6 +396,13 @@ void main() {
     await tester.tap(find.text('Guardar').first);
     await tester.pumpAndSettle();
     expect(find.text('Guardado en favoritos'), findsOneWidget);
+
+    await tester.tap(find.text('Practicar'));
+    await _pumpUntilFound(tester, find.text('Pregunta 1 de 1'));
+    expect(find.text('Practica actually'), findsOneWidget);
+
+    tester.state<NavigatorState>(find.byType(Navigator)).pop();
+    await tester.pumpAndSettle();
 
     await tester.tap(find.text('Gota del dia'));
     await _pumpUntilFound(tester, find.text('Gota especial del dia'));

@@ -3,7 +3,7 @@ import 'package:english_drops_daily/core/constants/app_text_styles.dart';
 import 'package:english_drops_daily/core/widgets/app_button.dart';
 import 'package:english_drops_daily/data/datasources/lesson_local_datasource.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
-import 'package:english_drops_daily/features/exercises/screens/exercises_screen.dart';
+import 'package:english_drops_daily/features/exercises/screens/practice_session_screen.dart';
 import 'package:english_drops_daily/features/favorites/screens/favorites_screen.dart';
 import 'package:english_drops_daily/features/premium/screens/premium_preview_screen.dart';
 import 'package:english_drops_daily/features/settings/screens/app_settings_screen.dart';
@@ -168,7 +168,7 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
                         _PrimaryActionBar(
                           onListen: () => _speakSelectedLesson(selectedLesson),
                           onSave: () => _saveFavorite(selectedLesson),
-                          onPractice: _openExercises,
+                          onPractice: () => _openPractice(selectedLesson),
                           onNext: () => _showNextLesson(lessons),
                         ),
                         const SizedBox(height: 16),
@@ -322,10 +322,16 @@ class _HomeMicrolessonScreenState extends State<HomeMicrolessonScreen> {
     );
   }
 
-  void _openExercises() {
-    Navigator.of(
-      context,
-    ).push(MaterialPageRoute<void>(builder: (_) => const ExercisesScreen()));
+  void _openPractice(LessonModel lesson) {
+    Navigator.of(context).push(
+      MaterialPageRoute<void>(
+        builder: (_) => PracticeSessionScreen(
+          exercises: lesson.exercises,
+          title: 'Practica ${lesson.word}',
+          emptyMessage: 'Todavía no hay ejercicios para esta palabra.',
+        ),
+      ),
+    );
   }
 
   void _openMainMenu() {

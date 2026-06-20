@@ -2,6 +2,7 @@ import 'package:english_drops_daily/core/constants/app_colors.dart';
 import 'package:english_drops_daily/core/constants/app_text_styles.dart';
 import 'package:english_drops_daily/core/widgets/primary_card.dart';
 import 'package:english_drops_daily/domain/models/exercise_model.dart';
+import 'package:english_drops_daily/features/exercises/widgets/answer_feedback_box.dart';
 import 'package:flutter/material.dart';
 
 class ExerciseCard extends StatefulWidget {
@@ -58,7 +59,7 @@ class _ExerciseCardState extends State<ExerciseCard> {
           ...widget.exercise.options.map(_buildOptionButton),
           if (_hasAnswered) ...[
             const SizedBox(height: 8),
-            _AnswerFeedback(
+            AnswerFeedbackBox(
               isCorrect: _isCorrect,
               correctAnswer: widget.exercise.correctAnswer,
               explanation: widget.exercise.explanation,
@@ -127,55 +128,5 @@ class _ExerciseCardState extends State<ExerciseCard> {
     setState(() {
       _selectedAnswer = option;
     });
-  }
-}
-
-class _AnswerFeedback extends StatelessWidget {
-  const _AnswerFeedback({
-    required this.isCorrect,
-    required this.correctAnswer,
-    required this.explanation,
-  });
-
-  final bool isCorrect;
-  final String correctAnswer;
-  final String explanation;
-
-  @override
-  Widget build(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final color = isCorrect ? AppColors.success : AppColors.error;
-    final background = isCorrect ? AppColors.successSoft : AppColors.errorSoft;
-
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: background.withValues(alpha: isDark ? 0.14 : 1),
-        borderRadius: BorderRadius.circular(16),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            children: [
-              Icon(
-                isCorrect ? Icons.check_circle : Icons.info_outline,
-                color: color,
-              ),
-              const SizedBox(width: 8),
-              Text(
-                isCorrect ? 'Correcto' : 'Sigue practicando',
-                style: AppTextStyles.cardTitle.copyWith(color: color),
-              ),
-            ],
-          ),
-          const SizedBox(height: 8),
-          if (!isCorrect) Text('Respuesta correcta: $correctAnswer'),
-          if (!isCorrect) const SizedBox(height: 6),
-          Text(explanation),
-        ],
-      ),
-    );
   }
 }
