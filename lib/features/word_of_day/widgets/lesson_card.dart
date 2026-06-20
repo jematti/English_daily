@@ -1,10 +1,9 @@
-import 'package:english_drops_daily/core/constants/app_colors.dart';
 import 'package:english_drops_daily/core/constants/app_text_styles.dart';
 import 'package:english_drops_daily/core/widgets/app_button.dart';
 import 'package:english_drops_daily/core/widgets/primary_card.dart';
 import 'package:english_drops_daily/core/widgets/section_title.dart';
-import 'package:english_drops_daily/domain/models/exercise_model.dart';
 import 'package:english_drops_daily/domain/models/lesson_model.dart';
+import 'package:english_drops_daily/features/word_of_day/widgets/microlearning_sections.dart';
 import 'package:english_drops_daily/features/word_of_day/widgets/word_link_suggestions.dart';
 import 'package:english_drops_daily/services/storage/favorites_storage_service.dart';
 import 'package:english_drops_daily/services/tts/tts_service.dart';
@@ -64,10 +63,6 @@ class _LessonCardState extends State<LessonCard> {
 
   @override
   Widget build(BuildContext context) {
-    final firstExercise = lesson.exercises.isNotEmpty
-        ? lesson.exercises.first
-        : null;
-
     return PrimaryCard(
       padding: const EdgeInsets.all(22),
       child: Column(
@@ -123,15 +118,8 @@ class _LessonCardState extends State<LessonCard> {
             onSaveNote: _saveNote,
           ),
           const SizedBox(height: 24),
-          _Section(
-            title: 'Ejemplo',
-            child: _ExampleBlock(lesson: lesson),
-          ),
-          _TextSection(title: 'Uso', text: lesson.usage),
-          _TextSection(title: 'Mini gramatica', text: lesson.grammar),
-          _ListSection(title: 'Errores comunes', items: lesson.commonMistakes),
-          _ListSection(title: 'Uso diario', items: lesson.dailyUse),
-          if (firstExercise != null) _ExerciseSection(exercise: firstExercise),
+          MicrolearningSections(lesson: lesson),
+          const SizedBox(height: 10),
           WordLinkSuggestions(
             currentLesson: lesson,
             lessons: widget.lessons,
@@ -294,148 +282,6 @@ class _Section extends StatelessWidget {
           const SizedBox(height: 10),
           child,
         ],
-      ),
-    );
-  }
-}
-
-class _TextSection extends StatelessWidget {
-  const _TextSection({required this.title, required this.text});
-
-  final String title;
-  final String text;
-
-  @override
-  Widget build(BuildContext context) {
-    return _Section(
-      title: title,
-      child: Text(text, style: AppTextStyles.body),
-    );
-  }
-}
-
-class _ListSection extends StatelessWidget {
-  const _ListSection({required this.title, required this.items});
-
-  final String title;
-  final List<String> items;
-
-  @override
-  Widget build(BuildContext context) {
-    return _Section(
-      title: title,
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: items.map((item) {
-          return Padding(
-            padding: const EdgeInsets.only(bottom: 8),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Padding(
-                  padding: const EdgeInsets.only(top: 7),
-                  child: Container(
-                    width: 6,
-                    height: 6,
-                    decoration: BoxDecoration(
-                      color: Theme.of(context).colorScheme.primary,
-                      shape: BoxShape.circle,
-                    ),
-                  ),
-                ),
-                const SizedBox(width: 10),
-                Expanded(child: Text(item, style: AppTextStyles.body)),
-              ],
-            ),
-          );
-        }).toList(),
-      ),
-    );
-  }
-}
-
-class _ExampleBlock extends StatelessWidget {
-  const _ExampleBlock({required this.lesson});
-
-  final LessonModel lesson;
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: Theme.of(
-          context,
-        ).colorScheme.primaryContainer.withValues(alpha: 0.42),
-        borderRadius: BorderRadius.circular(16),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            lesson.exampleEn,
-            style: AppTextStyles.body.copyWith(fontWeight: FontWeight.w700),
-          ),
-          const SizedBox(height: 6),
-          Text(lesson.exampleEs),
-        ],
-      ),
-    );
-  }
-}
-
-class _ExerciseSection extends StatelessWidget {
-  const _ExerciseSection({required this.exercise});
-
-  final ExerciseModel exercise;
-
-  @override
-  Widget build(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-
-    return _Section(
-      title: 'Ejercicio',
-      child: Container(
-        width: double.infinity,
-        padding: const EdgeInsets.all(16),
-        decoration: BoxDecoration(
-          color: AppColors.softWarm.withValues(alpha: isDark ? 0.12 : 1),
-          borderRadius: BorderRadius.circular(16),
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              exercise.question,
-              style: AppTextStyles.body.copyWith(fontWeight: FontWeight.w700),
-            ),
-            const SizedBox(height: 10),
-            ...exercise.options.map((option) {
-              final isCorrect = option == exercise.correctAnswer;
-
-              return Padding(
-                padding: const EdgeInsets.only(bottom: 8),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Icon(
-                      isCorrect ? Icons.check_circle_outline : Icons.circle,
-                      size: isCorrect ? 18 : 8,
-                      color: isCorrect
-                          ? AppColors.success
-                          : Theme.of(context).colorScheme.onSurfaceVariant,
-                    ),
-                    const SizedBox(width: 8),
-                    Expanded(child: Text(option)),
-                  ],
-                ),
-              );
-            }),
-            const SizedBox(height: 6),
-            Text(exercise.explanation),
-          ],
-        ),
       ),
     );
   }

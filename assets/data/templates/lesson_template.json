@@ -21,6 +21,9 @@
     "I run every day.",
     "This app runs well."
   ],
+  "activeRecallPrompt": "¿Cómo dirías 'Corro todos los días' en inglés?",
+  "activeRecallAnswer": "I run every day.",
+  "learningTip": "Usa esta palabra en una oración propia hoy.",
   "exercises": [
     {
       "id": "ex_0001",

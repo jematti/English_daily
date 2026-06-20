@@ -1,4 +1,5 @@
 import 'exercise_model.dart';
+import 'learning_tip_model.dart';
 import 'word_link_model.dart';
 
 class LessonModel {
@@ -26,6 +27,7 @@ class LessonModel {
     required this.dailyUse,
     required this.exercises,
     required this.links,
+    this.learningTip = const LearningTipModel(),
     this.timesShown,
   });
 
@@ -52,6 +54,7 @@ class LessonModel {
   final List<String> dailyUse;
   final List<ExerciseModel> exercises;
   final List<WordLinkModel> links;
+  final LearningTipModel learningTip;
   final int? timesShown;
 
   factory LessonModel.fromJson(Map<String, dynamic> json) {
@@ -89,6 +92,7 @@ class LessonModel {
       links: (json['links'] as List<dynamic>? ?? const []).map((link) {
         return WordLinkModel.fromJson(link as Map<String, dynamic>);
       }).toList(),
+      learningTip: LearningTipModel.fromJson(json),
       timesShown: json['timesShown'] as int?,
     );
   }
@@ -118,6 +122,7 @@ class LessonModel {
       'dailyUse': dailyUse,
       'exercises': exercises.map((exercise) => exercise.toJson()).toList(),
       'links': links.map((link) => link.toJson()).toList(),
+      ...learningTip.toJson(),
       'timesShown': timesShown,
     };
   }

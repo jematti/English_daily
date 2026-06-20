@@ -6,6 +6,8 @@ Esta guia define como cargar muchas palabras offline sin crear un solo `lessons.
 
 Usa `assets/data/templates/lesson_template.json` como referencia. Cada palabra debe tener todos los campos del modelo `LessonModel`: identificador, palabra, significado, pronunciacion, ejemplos, uso, gramatica, errores comunes, uso diario, ejercicios, nivel, categoria, pack y texto corto para notificaciones.
 
+La microleccion no debe ensenar traducciones aisladas. Cada palabra necesita contexto real, uso practico, memoria activa y un error comun cuando aplique.
+
 Los archivos de contenido deben ser listas JSON:
 
 ```json
@@ -27,6 +29,9 @@ Los archivos de contenido deben ser listas JSON:
     "grammar": "Regular verb: open, opened, opened.",
     "commonMistakes": ["No confundir open con turn on."],
     "dailyUse": ["Open the app.", "Can you open the window?"],
+    "activeRecallPrompt": "Como dirias 'Abro la app todos los dias' en ingles?",
+    "activeRecallAnswer": "I open the app every day.",
+    "learningTip": "Usa esta palabra en una frase propia hoy.",
     "exercises": [
       {
         "id": "ex_a1_0101",
@@ -47,7 +52,26 @@ Los archivos de contenido deben ser listas JSON:
 ]
 ```
 
-## 2. Elegir nivel
+## 2. Calidad educativa de una microleccion
+
+La pantalla de microleccion se divide en seis partes cortas:
+
+- `Significado rapido`: una explicacion simple en espanol. Debe ayudar a entender, no solo traducir.
+- `Ejemplo real`: una frase natural en ingles y su version en espanol.
+- `Uso diario`: explica cuando usar la palabra y agrega frases listas para copiar en `dailyUse`.
+- `Mini gramatica`: una regla pequena y accionable. Evita explicaciones largas.
+- `Error comun`: agrega el error mas probable en `commonMistakes`. Si no hay uno claro, explica una confusion de uso o tono.
+- `Reto rapido`: usa `activeRecallPrompt`, `activeRecallAnswer` y `learningTip` para obligar al usuario a recordar activamente.
+
+Ejemplo de memoria activa:
+
+```json
+"activeRecallPrompt": "Como dirias 'Corro todos los dias' en ingles?",
+"activeRecallAnswer": "I run every day.",
+"learningTip": "Di la respuesta en voz alta antes de mirar la solucion."
+```
+
+## 3. Elegir nivel
 
 - `A1`: palabras concretas y de uso inmediato: casa, comida, tiempo, acciones basicas, saludos.
 - `A2`: rutinas, trabajo simple, viajes basicos, conectores comunes, verbos frecuentes con matices.
@@ -55,7 +79,7 @@ Los archivos de contenido deben ser listas JSON:
 - `B2`: matices, opinion, argumentos, phrasal verbs frecuentes y vocabulario profesional.
 - `C1`: precision, tono, colocaciones, expresiones avanzadas y vocabulario academico/profesional.
 
-## 3. Marcar premium
+## 4. Marcar premium
 
 Gratis:
 
@@ -73,7 +97,7 @@ Premium futuro:
 
 No actives compras desde contenido. El acceso se controla con `AccessService`.
 
-## 4. Crear ejercicios
+## 5. Crear ejercicios
 
 Cada palabra debe tener al menos un ejercicio. Por ahora usa `multiple_choice`:
 
@@ -82,7 +106,7 @@ Cada palabra debe tener al menos un ejercicio. Por ahora usa `multiple_choice`:
 - `correctAnswer`: debe coincidir exactamente con una opcion.
 - `explanation`: explica en espanol por que es correcta.
 
-## 5. Crear notificaciones cortas
+## 6. Crear notificaciones cortas
 
 `shortNotificationText` debe ser corto y util:
 
@@ -90,14 +114,14 @@ Cada palabra debe tener al menos un ejercicio. Por ahora usa `multiple_choice`:
 - Uso: `Uso: para pedir ayuda. Example: Can you help me?`
 - Error comun: `No digas an advice. Usa some advice.`
 
-## 6. Evitar palabras repetidas
+## 7. Evitar palabras repetidas
 
 - Revisa todos los archivos del mismo pack antes de agregar una palabra.
 - No repitas `word`.
 - No repitas `id`.
 - Si una palabra aparece en preview premium y luego en pack real, usa IDs distintos y decide si debe quedar una sola.
 
-## 7. Dividir archivos por batches
+## 8. Dividir archivos por batches
 
 Usa archivos pequenos:
 
@@ -108,11 +132,11 @@ Usa archivos pequenos:
 
 Cada batch debe tener entre 20 y 100 palabras para revisar facil.
 
-## 8. Ejemplo correcto
+## 9. Ejemplo correcto
 
 Ver `assets/data/templates/lesson_template.json`.
 
-## 9. Errores comunes
+## 10. Errores comunes
 
 - JSON invalido por coma final.
 - `correctAnswer` no coincide con ninguna opcion.
@@ -121,3 +145,18 @@ Ver `assets/data/templates/lesson_template.json`.
 - `packId` incorrecto.
 - `isPremium` en `true` para contenido gratis.
 - IDs duplicados entre batches.
+- `commonMistakes` vacio cuando la palabra suele confundirse con otra.
+- `dailyUse` con frases artificiales que nadie diria en una conversacion real.
+- `activeRecallPrompt` que solo pregunta una traduccion suelta, sin frase completa.
+- `learningTip` demasiado largo o abstracto.
+
+## 11. Checklist antes de publicar un batch
+
+- La palabra aparece dentro de una frase real.
+- El ejemplo en ingles suena natural.
+- El ejemplo en espanol ayuda al usuario hispanohablante.
+- Hay al menos una frase util en `dailyUse`.
+- Hay un error comun si aplica.
+- Hay un reto de memoria activa con respuesta.
+- El ejercicio refuerza uso practico, no solo traduccion.
+- El JSON carga offline sin internet ni APIs.

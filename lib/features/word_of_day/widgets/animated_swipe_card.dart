@@ -207,7 +207,9 @@ class _SwipeContent extends StatelessWidget {
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.bodySmall,
           ),
-          const SizedBox(height: 20),
+          const SizedBox(height: 16),
+          _SwipeLearningPreview(lesson: lesson),
+          const SizedBox(height: 18),
           AnimatedSwitcher(
             duration: const Duration(milliseconds: 150),
             child: action == null
@@ -241,6 +243,97 @@ class _SwipeContent extends StatelessWidget {
     return offset.dy < 0
         ? const _SwipeAction(Icons.link, 'Relacionada')
         : const _SwipeAction(Icons.arrow_back, 'Anterior');
+  }
+}
+
+class _SwipeLearningPreview extends StatelessWidget {
+  const _SwipeLearningPreview({required this.lesson});
+
+  final LessonModel lesson;
+
+  @override
+  Widget build(BuildContext context) {
+    final dailyPhrase = lesson.dailyUse.isNotEmpty
+        ? lesson.dailyUse.first
+        : lesson.usage;
+    final mistake = lesson.commonMistakes.isNotEmpty
+        ? lesson.commonMistakes.first
+        : 'Usala dentro de una frase real.';
+
+    return Column(
+      children: [
+        _MiniLearningRow(
+          icon: Icons.today_outlined,
+          label: 'Uso diario',
+          text: dailyPhrase,
+          color: AppPalette.success,
+        ),
+        const SizedBox(height: 8),
+        _MiniLearningRow(
+          icon: Icons.warning_amber_outlined,
+          label: 'Error comun',
+          text: mistake,
+          color: AppPalette.coral,
+        ),
+      ],
+    );
+  }
+}
+
+class _MiniLearningRow extends StatelessWidget {
+  const _MiniLearningRow({
+    required this.icon,
+    required this.label,
+    required this.text,
+    required this.color,
+  });
+
+  final IconData icon;
+  final String label;
+  final String text;
+  final Color color;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.54),
+        borderRadius: BorderRadius.circular(8),
+      ),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Icon(icon, size: 18, color: color),
+          const SizedBox(width: 8),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  label,
+                  style: AppTextStyles.bodySmall.copyWith(
+                    color: AppPalette.textSecondary,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+                const SizedBox(height: 2),
+                Text(
+                  text,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  style: AppTextStyles.bodySmall.copyWith(
+                    color: AppPalette.textPrimary,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
 
