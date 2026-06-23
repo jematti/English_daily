@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "free_0601",
+    "word": "foot",
+    "meaningEs": "pie",
+    "pronunciation": "fut",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My foot hurts after the walk.",
+    "exampleEs": "Me duele el pie despues del paseo.",
+    "usage": "Se usa para nombrar partes del cuerpo en situaciones cotidianas o de salud.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "My foot hurts after the walk.",
+      "Use 'foot' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0601_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'foot' mean in Spanish?",
+        "options": [
+          "pie",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "pie",
+        "explanation": "'foot' significa 'pie' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "body",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: pie. Example: My foot hurts after the walk.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Me duele el pie despues del paseo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My foot hurts after the walk.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'foot' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0602",
+    "word": "head",
+    "meaningEs": "cabeza",
+    "pronunciation": "jed",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Wear a hat on your head.",
+    "exampleEs": "Usa un sombrero en la cabeza.",
+    "usage": "Se usa para nombrar partes del cuerpo en situaciones cotidianas o de salud.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Wear a hat on your head.",
+      "Use 'head' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0602_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'head' mean in Spanish?",
+        "options": [
+          "cabeza",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "cabeza",
+        "explanation": "'head' significa 'cabeza' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "body",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: cabeza. Example: Wear a hat on your head.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Usa un sombrero en la cabeza.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Wear a hat on your head.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'head' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0603",
+    "word": "eye",
+    "meaningEs": "ojo",
+    "pronunciation": "ai",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My left eye is red today.",
+    "exampleEs": "Mi ojo izquierdo esta rojo hoy.",
+    "usage": "Se usa para nombrar partes del cuerpo en situaciones cotidianas o de salud.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "My left eye is red today.",
+      "Use 'eye' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0603_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'eye' mean in Spanish?",
+        "options": [
+          "ojo",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "ojo",
+        "explanation": "'eye' significa 'ojo' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "body",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: ojo. Example: My left eye is red today.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Mi ojo izquierdo esta rojo hoy.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My left eye is red today.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'eye' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0604",
+    "word": "ear",
+    "meaningEs": "oreja / oido",
+    "pronunciation": "ir",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My ear hurts when it is cold.",
+    "exampleEs": "Me duele el oido cuando hace frio.",
+    "usage": "Se usa para nombrar partes del cuerpo en situaciones cotidianas o de salud.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "My ear hurts when it is cold.",
+      "Use 'ear' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0604_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'ear' mean in Spanish?",
+        "options": [
+          "oreja / oido",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "oreja / oido",
+        "explanation": "'ear' significa 'oreja / oido' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "body",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: oreja / oido. Example: My ear hurts when it is cold.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Me duele el oido cuando hace frio.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My ear hurts when it is cold.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'ear' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0605",
+    "word": "nose",
+    "meaningEs": "nariz",
+    "pronunciation": "nouz",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My nose is cold in winter.",
+    "exampleEs": "Mi nariz esta fria en invierno.",
+    "usage": "Se usa para nombrar partes del cuerpo en situaciones cotidianas o de salud.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "My nose is cold in winter.",
+      "Use 'nose' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0605_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'nose' mean in Spanish?",
+        "options": [
+          "nariz",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "nariz",
+        "explanation": "'nose' significa 'nariz' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "body",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: nariz. Example: My nose is cold in winter.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Mi nariz esta fria en invierno.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My nose is cold in winter.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'nose' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0606",
+    "word": "mouth",
+    "meaningEs": "boca",
+    "pronunciation": "mauz",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Open your mouth at the dentist.",
+    "exampleEs": "Abre la boca en el dentista.",
+    "usage": "Se usa para nombrar partes del cuerpo en situaciones cotidianas o de salud.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Open your mouth at the dentist.",
+      "Use 'mouth' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0606_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'mouth' mean in Spanish?",
+        "options": [
+          "boca",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "boca",
+        "explanation": "'mouth' significa 'boca' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "body",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: boca. Example: Open your mouth at the dentist.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Abre la boca en el dentista.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Open your mouth at the dentist.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'mouth' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0607",
+    "word": "face",
+    "meaningEs": "cara",
+    "pronunciation": "feis",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Wash your face in the morning.",
+    "exampleEs": "Lavate la cara en la manana.",
+    "usage": "Se usa para nombrar partes del cuerpo en situaciones cotidianas o de salud.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Wash your face in the morning.",
+      "Use 'face' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0607_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'face' mean in Spanish?",
+        "options": [
+          "cara",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "cara",
+        "explanation": "'face' significa 'cara' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "body",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: cara. Example: Wash your face in the morning.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Lavate la cara en la manana.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Wash your face in the morning.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'face' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0608",
+    "word": "hair",
+    "meaningEs": "cabello",
+    "pronunciation": "jer",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Her hair is long and dark.",
+    "exampleEs": "Su cabello es largo y oscuro.",
+    "usage": "Se usa para nombrar partes del cuerpo en situaciones cotidianas o de salud.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Her hair is long and dark.",
+      "Use 'hair' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0608_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'hair' mean in Spanish?",
+        "options": [
+          "cabello",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "cabello",
+        "explanation": "'hair' significa 'cabello' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "body",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: cabello. Example: Her hair is long and dark.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Su cabello es largo y oscuro.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Her hair is long and dark.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'hair' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0609",
+    "word": "finger",
+    "meaningEs": "dedo de la mano",
+    "pronunciation": "fin-ger",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I cut my finger in the kitchen.",
+    "exampleEs": "Me corte el dedo en la cocina.",
+    "usage": "Se usa para nombrar partes del cuerpo en situaciones cotidianas o de salud.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I cut my finger in the kitchen.",
+      "Use 'finger' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0609_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'finger' mean in Spanish?",
+        "options": [
+          "dedo de la mano",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "dedo de la mano",
+        "explanation": "'finger' significa 'dedo de la mano' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "body",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: dedo de la mano. Example: I cut my finger in the kitchen.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Me corte el dedo en la cocina.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I cut my finger in the kitchen.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'finger' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0610",
+    "word": "knee",
+    "meaningEs": "rodilla",
+    "pronunciation": "ni",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "His knee hurts after soccer.",
+    "exampleEs": "Le duele la rodilla despues del futbol.",
+    "usage": "Se usa para nombrar partes del cuerpo en situaciones cotidianas o de salud.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "His knee hurts after soccer.",
+      "Use 'knee' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0610_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'knee' mean in Spanish?",
+        "options": [
+          "rodilla",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "rodilla",
+        "explanation": "'knee' significa 'rodilla' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "body",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: rodilla. Example: His knee hurts after soccer.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Le duele la rodilla despues del futbol.' en ingl\u00e9s?",
+    "activeRecallAnswer": "His knee hurts after soccer.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'knee' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0611",
+    "word": "shoulder",
+    "meaningEs": "hombro",
+    "pronunciation": "shoul-der",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My shoulder hurts after work.",
+    "exampleEs": "Me duele el hombro despues del trabajo.",
+    "usage": "Se usa para nombrar partes del cuerpo en situaciones cotidianas o de salud.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "My shoulder hurts after work.",
+      "Use 'shoulder' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0611_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'shoulder' mean in Spanish?",
+        "options": [
+          "hombro",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "hombro",
+        "explanation": "'shoulder' significa 'hombro' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "body",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: hombro. Example: My shoulder hurts after work.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Me duele el hombro despues del trabajo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My shoulder hurts after work.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'shoulder' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0612",
+    "word": "neck",
+    "meaningEs": "cuello",
+    "pronunciation": "nek",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My neck is stiff today.",
+    "exampleEs": "Tengo el cuello rigido hoy.",
+    "usage": "Se usa para nombrar partes del cuerpo en situaciones cotidianas o de salud.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "My neck is stiff today.",
+      "Use 'neck' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0612_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'neck' mean in Spanish?",
+        "options": [
+          "cuello",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "cuello",
+        "explanation": "'neck' significa 'cuello' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "body",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: cuello. Example: My neck is stiff today.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Tengo el cuello rigido hoy.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My neck is stiff today.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'neck' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0613",
+    "word": "chest",
+    "meaningEs": "pecho",
+    "pronunciation": "chest",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I feel pain in my chest.",
+    "exampleEs": "Siento dolor en el pecho.",
+    "usage": "Se usa para nombrar partes del cuerpo en situaciones cotidianas o de salud.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I feel pain in my chest.",
+      "Use 'chest' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0613_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'chest' mean in Spanish?",
+        "options": [
+          "pecho",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "pecho",
+        "explanation": "'chest' significa 'pecho' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "body",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: pecho. Example: I feel pain in my chest.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Siento dolor en el pecho.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I feel pain in my chest.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'chest' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0614",
+    "word": "heart",
+    "meaningEs": "corazon",
+    "pronunciation": "jart",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "A healthy heart is important.",
+    "exampleEs": "Un corazon saludable es importante.",
+    "usage": "Se usa para nombrar partes del cuerpo en situaciones cotidianas o de salud.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "A healthy heart is important.",
+      "Use 'heart' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0614_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'heart' mean in Spanish?",
+        "options": [
+          "corazon",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "corazon",
+        "explanation": "'heart' significa 'corazon' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "body",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: corazon. Example: A healthy heart is important.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Un corazon saludable es importante.' en ingl\u00e9s?",
+    "activeRecallAnswer": "A healthy heart is important.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'heart' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0615",
+    "word": "skin",
+    "meaningEs": "piel",
+    "pronunciation": "skin",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My skin is dry in winter.",
+    "exampleEs": "Mi piel esta seca en invierno.",
+    "usage": "Se usa para nombrar partes del cuerpo en situaciones cotidianas o de salud.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "My skin is dry in winter.",
+      "Use 'skin' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0615_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'skin' mean in Spanish?",
+        "options": [
+          "piel",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "piel",
+        "explanation": "'skin' significa 'piel' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "body",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: piel. Example: My skin is dry in winter.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Mi piel esta seca en invierno.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My skin is dry in winter.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'skin' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0616",
+    "word": "dentist",
+    "meaningEs": "dentista",
+    "pronunciation": "den-tist",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I have an appointment with the dentist.",
+    "exampleEs": "Tengo una cita con el dentista.",
+    "usage": "Se usa para hablar de salud, citas medicas y cuidados basicos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I have an appointment with the dentist.",
+      "Use 'dentist' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0616_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'dentist' mean in Spanish?",
+        "options": [
+          "dentista",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "dentista",
+        "explanation": "'dentist' significa 'dentista' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "health_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: dentista. Example: I have an appointment with the dentist.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Tengo una cita con el dentista.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I have an appointment with the dentist.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'dentist' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0617",
+    "word": "clinic",
+    "meaningEs": "clinica",
+    "pronunciation": "kli-nik",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The clinic is near my house.",
+    "exampleEs": "La clinica esta cerca de mi casa.",
+    "usage": "Se usa para hablar de salud, citas medicas y cuidados basicos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "The clinic is near my house.",
+      "Use 'clinic' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0617_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'clinic' mean in Spanish?",
+        "options": [
+          "clinica",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "clinica",
+        "explanation": "'clinic' significa 'clinica' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "health_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: clinica. Example: The clinic is near my house.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La clinica esta cerca de mi casa.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The clinic is near my house.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'clinic' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0618",
+    "word": "bandage",
+    "meaningEs": "venda",
+    "pronunciation": "ban-dich",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Put a bandage on your finger.",
+    "exampleEs": "Ponte una venda en el dedo.",
+    "usage": "Se usa para hablar de salud, citas medicas y cuidados basicos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Put a bandage on your finger.",
+      "Use 'bandage' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0618_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'bandage' mean in Spanish?",
+        "options": [
+          "venda",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "venda",
+        "explanation": "'bandage' significa 'venda' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "health_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: venda. Example: Put a bandage on your finger.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Ponte una venda en el dedo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Put a bandage on your finger.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'bandage' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0619",
+    "word": "thermometer",
+    "meaningEs": "termometro",
+    "pronunciation": "zer-mo-mi-ter",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Use a thermometer when you have a fever.",
+    "exampleEs": "Usa un termometro cuando tienes fiebre.",
+    "usage": "Se usa para hablar de salud, citas medicas y cuidados basicos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Use a thermometer when you have a fever.",
+      "Use 'thermometer' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0619_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'thermometer' mean in Spanish?",
+        "options": [
+          "termometro",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "termometro",
+        "explanation": "'thermometer' significa 'termometro' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "health_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: termometro. Example: Use a thermometer when you have a fever.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Usa un termometro cuando tienes fiebre.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Use a thermometer when you have a fever.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'thermometer' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0620",
+    "word": "vitamin",
+    "meaningEs": "vitamina",
+    "pronunciation": "vai-ta-min",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This vitamin is for my health.",
+    "exampleEs": "Esta vitamina es para mi salud.",
+    "usage": "Se usa para hablar de salud, citas medicas y cuidados basicos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "This vitamin is for my health.",
+      "Use 'vitamin' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0620_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'vitamin' mean in Spanish?",
+        "options": [
+          "vitamina",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "vitamina",
+        "explanation": "'vitamin' significa 'vitamina' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "health_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: vitamina. Example: This vitamin is for my health.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Esta vitamina es para mi salud.' en ingl\u00e9s?",
+    "activeRecallAnswer": "This vitamin is for my health.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'vitamin' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0621",
+    "word": "allergy",
+    "meaningEs": "alergia",
+    "pronunciation": "a-ler-yi",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I have an allergy to some food.",
+    "exampleEs": "Tengo alergia a algunas comidas.",
+    "usage": "Se usa para hablar de salud, citas medicas y cuidados basicos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I have an allergy to some food.",
+      "Use 'allergy' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0621_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'allergy' mean in Spanish?",
+        "options": [
+          "alergia",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "alergia",
+        "explanation": "'allergy' significa 'alergia' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "health_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: alergia. Example: I have an allergy to some food.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Tengo alergia a algunas comidas.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I have an allergy to some food.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'allergy' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0622",
+    "word": "wellness",
+    "meaningEs": "bienestar",
+    "pronunciation": "uel-nes",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Sleep is important for wellness.",
+    "exampleEs": "Dormir es importante para el bienestar.",
+    "usage": "Se usa para hablar de salud, citas medicas y cuidados basicos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Sleep is important for wellness.",
+      "Use 'wellness' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0622_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'wellness' mean in Spanish?",
+        "options": [
+          "bienestar",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "bienestar",
+        "explanation": "'wellness' significa 'bienestar' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "health_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: bienestar. Example: Sleep is important for wellness.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Dormir es importante para el bienestar.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Sleep is important for wellness.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'wellness' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0623",
+    "word": "symptom",
+    "meaningEs": "sintoma",
+    "pronunciation": "sim-tom",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "A cough can be a symptom.",
+    "exampleEs": "La tos puede ser un sintoma.",
+    "usage": "Se usa para hablar de salud, citas medicas y cuidados basicos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "A cough can be a symptom.",
+      "Use 'symptom' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0623_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'symptom' mean in Spanish?",
+        "options": [
+          "sintoma",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "sintoma",
+        "explanation": "'symptom' significa 'sintoma' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "health_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: sintoma. Example: A cough can be a symptom.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La tos puede ser un sintoma.' en ingl\u00e9s?",
+    "activeRecallAnswer": "A cough can be a symptom.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'symptom' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0624",
+    "word": "energy",
+    "meaningEs": "energia",
+    "pronunciation": "e-ner-yi",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Breakfast gives me energy.",
+    "exampleEs": "El desayuno me da energia.",
+    "usage": "Se usa para hablar de salud, citas medicas y cuidados basicos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Breakfast gives me energy.",
+      "Use 'energy' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0624_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'energy' mean in Spanish?",
+        "options": [
+          "energia",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "energia",
+        "explanation": "'energy' significa 'energia' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "health_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: energia. Example: Breakfast gives me energy.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El desayuno me da energia.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Breakfast gives me energy.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'energy' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0625",
+    "word": "joy",
+    "meaningEs": "alegria",
+    "pronunciation": "yoi",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Her face shows joy today.",
+    "exampleEs": "Su cara muestra alegria hoy.",
+    "usage": "Se usa para hablar de emociones y estados internos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Her face shows joy today.",
+      "Use 'joy' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0625_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'joy' mean in Spanish?",
+        "options": [
+          "alegria",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "alegria",
+        "explanation": "'joy' significa 'alegria' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "emotions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: alegria. Example: Her face shows joy today.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Su cara muestra alegria hoy.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Her face shows joy today.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'joy' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0626",
+    "word": "fear",
+    "meaningEs": "miedo",
+    "pronunciation": "fir",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Fear is normal in a new place.",
+    "exampleEs": "El miedo es normal en un lugar nuevo.",
+    "usage": "Se usa para hablar de emociones y estados internos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Fear is normal in a new place.",
+      "Use 'fear' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0626_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'fear' mean in Spanish?",
+        "options": [
+          "miedo",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "miedo",
+        "explanation": "'fear' significa 'miedo' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "emotions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: miedo. Example: Fear is normal in a new place.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El miedo es normal en un lugar nuevo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Fear is normal in a new place.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'fear' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0627",
+    "word": "surprised",
+    "meaningEs": "sorprendido",
+    "pronunciation": "sor-praizd",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I am surprised by the good news.",
+    "exampleEs": "Estoy sorprendido por las buenas noticias.",
+    "usage": "Se usa para hablar de emociones y estados internos.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I am surprised by the good news.",
+      "Use 'surprised' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0627_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'surprised' mean in Spanish?",
+        "options": [
+          "sorprendido",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "sorprendido",
+        "explanation": "'surprised' significa 'sorprendido' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "emotions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: sorprendido. Example: I am surprised by the good news.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Estoy sorprendido por las buenas noticias.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I am surprised by the good news.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'surprised' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0628",
+    "word": "relaxed",
+    "meaningEs": "relajado",
+    "pronunciation": "ri-lakst",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "She feels relaxed after a shower.",
+    "exampleEs": "Ella se siente relajada despues de una ducha.",
+    "usage": "Se usa para expresar como se siente una persona.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "She feels relaxed after a shower.",
+      "Use 'relaxed' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0628_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'relaxed' mean in Spanish?",
+        "options": [
+          "relajado",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "relajado",
+        "explanation": "'relaxed' significa 'relajado' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "feelings",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: relajado. Example: She feels relaxed after a shower.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Ella se siente relajada despues de una ducha.' en ingl\u00e9s?",
+    "activeRecallAnswer": "She feels relaxed after a shower.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'relaxed' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0629",
+    "word": "shy",
+    "meaningEs": "timido",
+    "pronunciation": "shai",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The new student is shy.",
+    "exampleEs": "El estudiante nuevo es timido.",
+    "usage": "Se usa para expresar como se siente una persona.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "The new student is shy.",
+      "Use 'shy' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0629_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'shy' mean in Spanish?",
+        "options": [
+          "timido",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "timido",
+        "explanation": "'shy' significa 'timido' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "feelings",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: timido. Example: The new student is shy.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El estudiante nuevo es timido.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The new student is shy.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'shy' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0630",
+    "word": "confused",
+    "meaningEs": "confundido",
+    "pronunciation": "kon-fiuzd",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I am confused by the directions.",
+    "exampleEs": "Estoy confundido por las direcciones.",
+    "usage": "Se usa para expresar como se siente una persona.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I am confused by the directions.",
+      "Use 'confused' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0630_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'confused' mean in Spanish?",
+        "options": [
+          "confundido",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "confundido",
+        "explanation": "'confused' significa 'confundido' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "feelings",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: confundido. Example: I am confused by the directions.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Estoy confundido por las direcciones.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I am confused by the directions.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'confused' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0631",
+    "word": "upset",
+    "meaningEs": "molesto / disgustado",
+    "pronunciation": "op-set",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "He is upset about the delay.",
+    "exampleEs": "El esta molesto por el retraso.",
+    "usage": "Se usa para expresar como se siente una persona.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "He is upset about the delay.",
+      "Use 'upset' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0631_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'upset' mean in Spanish?",
+        "options": [
+          "molesto / disgustado",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "molesto / disgustado",
+        "explanation": "'upset' significa 'molesto / disgustado' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "feelings",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: molesto / disgustado. Example: He is upset about the delay.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El esta molesto por el retraso.' en ingl\u00e9s?",
+    "activeRecallAnswer": "He is upset about the delay.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'upset' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0632",
+    "word": "scared",
+    "meaningEs": "asustado",
+    "pronunciation": "skerd",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The child is scared of the storm.",
+    "exampleEs": "El nino esta asustado por la tormenta.",
+    "usage": "Se usa para expresar como se siente una persona.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "The child is scared of the storm.",
+      "Use 'scared' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0632_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'scared' mean in Spanish?",
+        "options": [
+          "asustado",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "asustado",
+        "explanation": "'scared' significa 'asustado' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "feelings",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: asustado. Example: The child is scared of the storm.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El nino esta asustado por la tormenta.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The child is scared of the storm.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'scared' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0633",
+    "word": "brave",
+    "meaningEs": "valiente",
+    "pronunciation": "breiv",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "She is brave in difficult moments.",
+    "exampleEs": "Ella es valiente en momentos dificiles.",
+    "usage": "Se usa para expresar como se siente una persona.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "She is brave in difficult moments.",
+      "Use 'brave' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0633_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'brave' mean in Spanish?",
+        "options": [
+          "valiente",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "valiente",
+        "explanation": "'brave' significa 'valiente' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "feelings",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: valiente. Example: She is brave in difficult moments.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Ella es valiente en momentos dificiles.' en ingl\u00e9s?",
+    "activeRecallAnswer": "She is brave in difficult moments.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'brave' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0634",
+    "word": "patient",
+    "meaningEs": "paciente",
+    "pronunciation": "pei-shent",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Be patient with new words.",
+    "exampleEs": "Ten paciencia con palabras nuevas.",
+    "usage": "Se usa para expresar como se siente una persona.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Be patient with new words.",
+      "Use 'patient' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0634_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'patient' mean in Spanish?",
+        "options": [
+          "paciente",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "paciente",
+        "explanation": "'patient' significa 'paciente' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "feelings",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: paciente. Example: Be patient with new words.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Ten paciencia con palabras nuevas.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Be patient with new words.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'patient' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0635",
+    "word": "fog",
+    "meaningEs": "niebla",
+    "pronunciation": "fog",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "There is fog on the road.",
+    "exampleEs": "Hay niebla en la carretera.",
+    "usage": "Se usa para describir el clima y planear actividades.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "There is fog on the road.",
+      "Use 'fog' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0635_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'fog' mean in Spanish?",
+        "options": [
+          "niebla",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "niebla",
+        "explanation": "'fog' significa 'niebla' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "weather",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: niebla. Example: There is fog on the road.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Hay niebla en la carretera.' en ingl\u00e9s?",
+    "activeRecallAnswer": "There is fog on the road.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'fog' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0636",
+    "word": "foggy",
+    "meaningEs": "con niebla",
+    "pronunciation": "fo-gi",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "It is foggy this morning.",
+    "exampleEs": "Hay niebla esta manana.",
+    "usage": "Se usa para describir el clima y planear actividades.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "It is foggy this morning.",
+      "Use 'foggy' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0636_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'foggy' mean in Spanish?",
+        "options": [
+          "con niebla",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "con niebla",
+        "explanation": "'foggy' significa 'con niebla' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "weather",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: con niebla. Example: It is foggy this morning.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Hay niebla esta manana.' en ingl\u00e9s?",
+    "activeRecallAnswer": "It is foggy this morning.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'foggy' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0637",
+    "word": "ice",
+    "meaningEs": "hielo",
+    "pronunciation": "ais",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "There is ice on the window.",
+    "exampleEs": "Hay hielo en la ventana.",
+    "usage": "Se usa para describir el clima y planear actividades.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "There is ice on the window.",
+      "Use 'ice' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0637_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'ice' mean in Spanish?",
+        "options": [
+          "hielo",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "hielo",
+        "explanation": "'ice' significa 'hielo' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "weather",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: hielo. Example: There is ice on the window.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Hay hielo en la ventana.' en ingl\u00e9s?",
+    "activeRecallAnswer": "There is ice on the window.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'ice' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0638",
+    "word": "icy",
+    "meaningEs": "helado / con hielo",
+    "pronunciation": "ai-si",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The road is icy today.",
+    "exampleEs": "La carretera esta helada hoy.",
+    "usage": "Se usa para describir el clima y planear actividades.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "The road is icy today.",
+      "Use 'icy' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0638_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'icy' mean in Spanish?",
+        "options": [
+          "helado / con hielo",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "helado / con hielo",
+        "explanation": "'icy' significa 'helado / con hielo' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "weather",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: helado / con hielo. Example: The road is icy today.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La carretera esta helada hoy.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The road is icy today.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'icy' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0639",
+    "word": "thunder",
+    "meaningEs": "trueno",
+    "pronunciation": "zon-der",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Thunder wakes me up at night.",
+    "exampleEs": "El trueno me despierta en la noche.",
+    "usage": "Se usa para describir el clima y planear actividades.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Thunder wakes me up at night.",
+      "Use 'thunder' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0639_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'thunder' mean in Spanish?",
+        "options": [
+          "trueno",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "trueno",
+        "explanation": "'thunder' significa 'trueno' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "weather",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: trueno. Example: Thunder wakes me up at night.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El trueno me despierta en la noche.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Thunder wakes me up at night.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'thunder' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0640",
+    "word": "lightning",
+    "meaningEs": "relampago",
+    "pronunciation": "lait-ning",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Lightning is bright in the sky.",
+    "exampleEs": "El relampago brilla en el cielo.",
+    "usage": "Se usa para describir el clima y planear actividades.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Lightning is bright in the sky.",
+      "Use 'lightning' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0640_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'lightning' mean in Spanish?",
+        "options": [
+          "relampago",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "relampago",
+        "explanation": "'lightning' significa 'relampago' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "weather",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: relampago. Example: Lightning is bright in the sky.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El relampago brilla en el cielo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Lightning is bright in the sky.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'lightning' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0641",
+    "word": "rainbow",
+    "meaningEs": "arcoiris",
+    "pronunciation": "rein-bou",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "A rainbow appears after the rain.",
+    "exampleEs": "Aparece un arcoiris despues de la lluvia.",
+    "usage": "Se usa para describir el clima y planear actividades.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "A rainbow appears after the rain.",
+      "Use 'rainbow' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0641_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'rainbow' mean in Spanish?",
+        "options": [
+          "arcoiris",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "arcoiris",
+        "explanation": "'rainbow' significa 'arcoiris' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "weather",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: arcoiris. Example: A rainbow appears after the rain.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Aparece un arcoiris despues de la lluvia.' en ingl\u00e9s?",
+    "activeRecallAnswer": "A rainbow appears after the rain.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'rainbow' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0642",
+    "word": "forecast",
+    "meaningEs": "pronostico",
+    "pronunciation": "for-kast",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The forecast says rain tomorrow.",
+    "exampleEs": "El pronostico dice lluvia manana.",
+    "usage": "Se usa para describir el clima y planear actividades.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "The forecast says rain tomorrow.",
+      "Use 'forecast' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0642_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'forecast' mean in Spanish?",
+        "options": [
+          "pronostico",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "pronostico",
+        "explanation": "'forecast' significa 'pronostico' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "weather",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: pronostico. Example: The forecast says rain tomorrow.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El pronostico dice lluvia manana.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The forecast says rain tomorrow.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'forecast' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0643",
+    "word": "spring",
+    "meaningEs": "primavera",
+    "pronunciation": "spring",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Flowers grow in spring.",
+    "exampleEs": "Las flores crecen en primavera.",
+    "usage": "Se usa para hablar de estaciones del ano y cambios de clima.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Flowers grow in spring.",
+      "Use 'spring' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0643_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'spring' mean in Spanish?",
+        "options": [
+          "primavera",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "primavera",
+        "explanation": "'spring' significa 'primavera' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "seasons",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: primavera. Example: Flowers grow in spring.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Las flores crecen en primavera.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Flowers grow in spring.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'spring' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0644",
+    "word": "summer",
+    "meaningEs": "verano",
+    "pronunciation": "so-mer",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Summer is hot in my city.",
+    "exampleEs": "El verano es caluroso en mi ciudad.",
+    "usage": "Se usa para hablar de estaciones del ano y cambios de clima.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Summer is hot in my city.",
+      "Use 'summer' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0644_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'summer' mean in Spanish?",
+        "options": [
+          "verano",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "verano",
+        "explanation": "'summer' significa 'verano' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "seasons",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: verano. Example: Summer is hot in my city.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El verano es caluroso en mi ciudad.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Summer is hot in my city.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'summer' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0645",
+    "word": "autumn",
+    "meaningEs": "otono",
+    "pronunciation": "o-tom",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Leaves fall in autumn.",
+    "exampleEs": "Las hojas caen en otono.",
+    "usage": "Se usa para hablar de estaciones del ano y cambios de clima.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Leaves fall in autumn.",
+      "Use 'autumn' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0645_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'autumn' mean in Spanish?",
+        "options": [
+          "otono",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "otono",
+        "explanation": "'autumn' significa 'otono' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "seasons",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: otono. Example: Leaves fall in autumn.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Las hojas caen en otono.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Leaves fall in autumn.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'autumn' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0646",
+    "word": "winter",
+    "meaningEs": "invierno",
+    "pronunciation": "uin-ter",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Winter is cold and windy.",
+    "exampleEs": "El invierno es frio y ventoso.",
+    "usage": "Se usa para hablar de estaciones del ano y cambios de clima.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Winter is cold and windy.",
+      "Use 'winter' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0646_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'winter' mean in Spanish?",
+        "options": [
+          "invierno",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "invierno",
+        "explanation": "'winter' significa 'invierno' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "seasons",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: invierno. Example: Winter is cold and windy.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El invierno es frio y ventoso.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Winter is cold and windy.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'winter' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0647",
+    "word": "season",
+    "meaningEs": "estacion del ano",
+    "pronunciation": "si-zon",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My favorite season is spring.",
+    "exampleEs": "Mi estacion favorita es primavera.",
+    "usage": "Se usa para hablar de estaciones del ano y cambios de clima.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "My favorite season is spring.",
+      "Use 'season' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0647_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'season' mean in Spanish?",
+        "options": [
+          "estacion del ano",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "estacion del ano",
+        "explanation": "'season' significa 'estacion del ano' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "seasons",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: estacion del ano. Example: My favorite season is spring.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Mi estacion favorita es primavera.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My favorite season is spring.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'season' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0648",
+    "word": "holiday",
+    "meaningEs": "feriado / vacaciones",
+    "pronunciation": "jo-li-dei",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Monday is a holiday this week.",
+    "exampleEs": "El lunes es feriado esta semana.",
+    "usage": "Se usa para hablar de tiempo, horarios y periodos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Monday is a holiday this week.",
+      "Use 'holiday' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0648_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'holiday' mean in Spanish?",
+        "options": [
+          "feriado / vacaciones",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "feriado / vacaciones",
+        "explanation": "'holiday' significa 'feriado / vacaciones' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "time",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: feriado / vacaciones. Example: Monday is a holiday this week.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El lunes es feriado esta semana.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Monday is a holiday this week.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'holiday' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0649",
+    "word": "minute",
+    "meaningEs": "minuto",
+    "pronunciation": "mi-nit",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Wait one minute, please.",
+    "exampleEs": "Espera un minuto, por favor.",
+    "usage": "Se usa para hablar de tiempo, horarios y periodos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Wait one minute, please.",
+      "Use 'minute' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0649_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'minute' mean in Spanish?",
+        "options": [
+          "minuto",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "minuto",
+        "explanation": "'minute' significa 'minuto' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "time",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: minuto. Example: Wait one minute, please.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Espera un minuto, por favor.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Wait one minute, please.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'minute' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0650",
+    "word": "second",
+    "meaningEs": "segundo",
+    "pronunciation": "se-kond",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I need one second.",
+    "exampleEs": "Necesito un segundo.",
+    "usage": "Se usa para hablar de tiempo, horarios y periodos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I need one second.",
+      "Use 'second' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0650_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'second' mean in Spanish?",
+        "options": [
+          "segundo",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "segundo",
+        "explanation": "'second' significa 'segundo' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "time",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: segundo. Example: I need one second.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Necesito un segundo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I need one second.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'second' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0651",
+    "word": "day",
+    "meaningEs": "dia",
+    "pronunciation": "dei",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Today is a good day.",
+    "exampleEs": "Hoy es un buen dia.",
+    "usage": "Se usa para hablar de tiempo, horarios y periodos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Today is a good day.",
+      "Use 'day' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0651_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'day' mean in Spanish?",
+        "options": [
+          "dia",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "dia",
+        "explanation": "'day' significa 'dia' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "time",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: dia. Example: Today is a good day.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Hoy es un buen dia.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Today is a good day.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'day' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0652",
+    "word": "month",
+    "meaningEs": "mes",
+    "pronunciation": "monz",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This month is very busy.",
+    "exampleEs": "Este mes esta muy ocupado.",
+    "usage": "Se usa para hablar de tiempo, horarios y periodos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "This month is very busy.",
+      "Use 'month' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0652_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'month' mean in Spanish?",
+        "options": [
+          "mes",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "mes",
+        "explanation": "'month' significa 'mes' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "time",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: mes. Example: This month is very busy.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Este mes esta muy ocupado.' en ingl\u00e9s?",
+    "activeRecallAnswer": "This month is very busy.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'month' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0653",
+    "word": "year",
+    "meaningEs": "ano",
+    "pronunciation": "yir",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This year I study English.",
+    "exampleEs": "Este ano estudio ingles.",
+    "usage": "Se usa para hablar de tiempo, horarios y periodos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "This year I study English.",
+      "Use 'year' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0653_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'year' mean in Spanish?",
+        "options": [
+          "ano",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "ano",
+        "explanation": "'year' significa 'ano' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "time",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: ano. Example: This year I study English.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Este ano estudio ingles.' en ingl\u00e9s?",
+    "activeRecallAnswer": "This year I study English.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'year' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0654",
+    "word": "weekend",
+    "meaningEs": "fin de semana",
+    "pronunciation": "uik-end",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I rest on the weekend.",
+    "exampleEs": "Descanso el fin de semana.",
+    "usage": "Se usa para hablar de tiempo, horarios y periodos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I rest on the weekend.",
+      "Use 'weekend' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0654_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'weekend' mean in Spanish?",
+        "options": [
+          "fin de semana",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "fin de semana",
+        "explanation": "'weekend' significa 'fin de semana' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "time",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: fin de semana. Example: I rest on the weekend.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Descanso el fin de semana.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I rest on the weekend.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'weekend' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0655",
+    "word": "weekday",
+    "meaningEs": "dia entre semana",
+    "pronunciation": "uik-dei",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Monday is a weekday.",
+    "exampleEs": "El lunes es un dia entre semana.",
+    "usage": "Se usa para hablar de tiempo, horarios y periodos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Monday is a weekday.",
+      "Use 'weekday' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0655_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'weekday' mean in Spanish?",
+        "options": [
+          "dia entre semana",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "dia entre semana",
+        "explanation": "'weekday' significa 'dia entre semana' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "time",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: dia entre semana. Example: Monday is a weekday.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El lunes es un dia entre semana.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Monday is a weekday.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'weekday' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0656",
+    "word": "noon",
+    "meaningEs": "mediodia",
+    "pronunciation": "nun",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Lunch starts at noon.",
+    "exampleEs": "El almuerzo empieza al mediodia.",
+    "usage": "Se usa para hablar de tiempo, horarios y periodos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Lunch starts at noon.",
+      "Use 'noon' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0656_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'noon' mean in Spanish?",
+        "options": [
+          "mediodia",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "mediodia",
+        "explanation": "'noon' significa 'mediodia' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "time",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: mediodia. Example: Lunch starts at noon.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El almuerzo empieza al mediodia.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Lunch starts at noon.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'noon' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0657",
+    "word": "midnight",
+    "meaningEs": "medianoche",
+    "pronunciation": "mid-nait",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The train arrives at midnight.",
+    "exampleEs": "El tren llega a medianoche.",
+    "usage": "Se usa para hablar de tiempo, horarios y periodos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "The train arrives at midnight.",
+      "Use 'midnight' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0657_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'midnight' mean in Spanish?",
+        "options": [
+          "medianoche",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "medianoche",
+        "explanation": "'midnight' significa 'medianoche' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "time",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: medianoche. Example: The train arrives at midnight.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El tren llega a medianoche.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The train arrives at midnight.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'midnight' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0658",
+    "word": "afternoon",
+    "meaningEs": "tarde",
+    "pronunciation": "af-ter-nun",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I work in the afternoon.",
+    "exampleEs": "Trabajo en la tarde.",
+    "usage": "Se usa para hablar de tiempo, horarios y periodos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I work in the afternoon.",
+      "Use 'afternoon' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0658_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'afternoon' mean in Spanish?",
+        "options": [
+          "tarde",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "tarde",
+        "explanation": "'afternoon' significa 'tarde' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "time",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: tarde. Example: I work in the afternoon.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Trabajo en la tarde.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I work in the afternoon.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'afternoon' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0659",
+    "word": "evening",
+    "meaningEs": "tarde / noche temprana",
+    "pronunciation": "iv-ning",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "We eat dinner in the evening.",
+    "exampleEs": "Cenamos por la tarde.",
+    "usage": "Se usa para hablar de tiempo, horarios y periodos.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "We eat dinner in the evening.",
+      "Use 'evening' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0659_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'evening' mean in Spanish?",
+        "options": [
+          "tarde / noche temprana",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "tarde / noche temprana",
+        "explanation": "'evening' significa 'tarde / noche temprana' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "time",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: tarde / noche temprana. Example: We eat dinner in the evening.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Cenamos por la tarde.' en ingl\u00e9s?",
+    "activeRecallAnswer": "We eat dinner in the evening.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'evening' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0660",
+    "word": "monday",
+    "meaningEs": "lunes",
+    "pronunciation": "mon-dei",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I study English on Monday.",
+    "exampleEs": "Estudio ingles el lunes.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I study English on Monday.",
+      "Use 'monday' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0660_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'monday' mean in Spanish?",
+        "options": [
+          "lunes",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "lunes",
+        "explanation": "'monday' significa 'lunes' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: lunes. Example: I study English on Monday.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Estudio ingles el lunes.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I study English on Monday.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'monday' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0661",
+    "word": "tuesday",
+    "meaningEs": "martes",
+    "pronunciation": "tiuz-dei",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The meeting is on Tuesday.",
+    "exampleEs": "La reunion es el martes.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "The meeting is on Tuesday.",
+      "Use 'tuesday' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0661_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'tuesday' mean in Spanish?",
+        "options": [
+          "martes",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "martes",
+        "explanation": "'tuesday' significa 'martes' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: martes. Example: The meeting is on Tuesday.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La reunion es el martes.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The meeting is on Tuesday.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'tuesday' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0662",
+    "word": "wednesday",
+    "meaningEs": "miercoles",
+    "pronunciation": "uenz-dei",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I go to class on Wednesday.",
+    "exampleEs": "Voy a clase el miercoles.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I go to class on Wednesday.",
+      "Use 'wednesday' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0662_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'wednesday' mean in Spanish?",
+        "options": [
+          "miercoles",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "miercoles",
+        "explanation": "'wednesday' significa 'miercoles' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: miercoles. Example: I go to class on Wednesday.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Voy a clase el miercoles.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I go to class on Wednesday.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'wednesday' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0663",
+    "word": "thursday",
+    "meaningEs": "jueves",
+    "pronunciation": "zerz-dei",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The exam is on Thursday.",
+    "exampleEs": "El examen es el jueves.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "The exam is on Thursday.",
+      "Use 'thursday' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0663_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'thursday' mean in Spanish?",
+        "options": [
+          "jueves",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "jueves",
+        "explanation": "'thursday' significa 'jueves' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: jueves. Example: The exam is on Thursday.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El examen es el jueves.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The exam is on Thursday.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'thursday' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0664",
+    "word": "friday",
+    "meaningEs": "viernes",
+    "pronunciation": "frai-dei",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "We visit family on Friday.",
+    "exampleEs": "Visitamos a la familia el viernes.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "We visit family on Friday.",
+      "Use 'friday' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0664_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'friday' mean in Spanish?",
+        "options": [
+          "viernes",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "viernes",
+        "explanation": "'friday' significa 'viernes' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: viernes. Example: We visit family on Friday.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Visitamos a la familia el viernes.' en ingl\u00e9s?",
+    "activeRecallAnswer": "We visit family on Friday.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'friday' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0665",
+    "word": "saturday",
+    "meaningEs": "sabado",
+    "pronunciation": "sa-ter-dei",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I clean the house on Saturday.",
+    "exampleEs": "Limpio la casa el sabado.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I clean the house on Saturday.",
+      "Use 'saturday' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0665_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'saturday' mean in Spanish?",
+        "options": [
+          "sabado",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "sabado",
+        "explanation": "'saturday' significa 'sabado' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: sabado. Example: I clean the house on Saturday.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Limpio la casa el sabado.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I clean the house on Saturday.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'saturday' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0666",
+    "word": "sunday",
+    "meaningEs": "domingo",
+    "pronunciation": "son-dei",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Sunday is a quiet day.",
+    "exampleEs": "El domingo es un dia tranquilo.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Sunday is a quiet day.",
+      "Use 'sunday' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0666_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'sunday' mean in Spanish?",
+        "options": [
+          "domingo",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "domingo",
+        "explanation": "'sunday' significa 'domingo' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: domingo. Example: Sunday is a quiet day.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El domingo es un dia tranquilo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Sunday is a quiet day.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'sunday' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0667",
+    "word": "january",
+    "meaningEs": "enero",
+    "pronunciation": "yan-iu-e-ri",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "January is the first month.",
+    "exampleEs": "Enero es el primer mes.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "January is the first month.",
+      "Use 'january' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0667_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'january' mean in Spanish?",
+        "options": [
+          "enero",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "enero",
+        "explanation": "'january' significa 'enero' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: enero. Example: January is the first month.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Enero es el primer mes.' en ingl\u00e9s?",
+    "activeRecallAnswer": "January is the first month.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'january' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0668",
+    "word": "february",
+    "meaningEs": "febrero",
+    "pronunciation": "fe-bru-e-ri",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "February is short.",
+    "exampleEs": "Febrero es corto.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "February is short.",
+      "Use 'february' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0668_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'february' mean in Spanish?",
+        "options": [
+          "febrero",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "febrero",
+        "explanation": "'february' significa 'febrero' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: febrero. Example: February is short.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Febrero es corto.' en ingl\u00e9s?",
+    "activeRecallAnswer": "February is short.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'february' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0669",
+    "word": "march",
+    "meaningEs": "marzo",
+    "pronunciation": "march",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My trip is in March.",
+    "exampleEs": "Mi viaje es en marzo.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "My trip is in March.",
+      "Use 'march' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0669_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'march' mean in Spanish?",
+        "options": [
+          "marzo",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "marzo",
+        "explanation": "'march' significa 'marzo' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: marzo. Example: My trip is in March.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Mi viaje es en marzo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My trip is in March.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'march' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0670",
+    "word": "april",
+    "meaningEs": "abril",
+    "pronunciation": "ei-pril",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "It rains in April.",
+    "exampleEs": "Llueve en abril.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "It rains in April.",
+      "Use 'april' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0670_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'april' mean in Spanish?",
+        "options": [
+          "abril",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "abril",
+        "explanation": "'april' significa 'abril' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: abril. Example: It rains in April.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Llueve en abril.' en ingl\u00e9s?",
+    "activeRecallAnswer": "It rains in April.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'april' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0671",
+    "word": "may",
+    "meaningEs": "mayo",
+    "pronunciation": "mei",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My birthday is in May.",
+    "exampleEs": "Mi cumpleanos es en mayo.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "My birthday is in May.",
+      "Use 'may' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0671_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'may' mean in Spanish?",
+        "options": [
+          "mayo",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "mayo",
+        "explanation": "'may' significa 'mayo' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: mayo. Example: My birthday is in May.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Mi cumpleanos es en mayo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My birthday is in May.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'may' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0672",
+    "word": "june",
+    "meaningEs": "junio",
+    "pronunciation": "yun",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "School ends in June.",
+    "exampleEs": "La escuela termina en junio.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "School ends in June.",
+      "Use 'june' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0672_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'june' mean in Spanish?",
+        "options": [
+          "junio",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "junio",
+        "explanation": "'june' significa 'junio' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: junio. Example: School ends in June.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La escuela termina en junio.' en ingl\u00e9s?",
+    "activeRecallAnswer": "School ends in June.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'june' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0673",
+    "word": "july",
+    "meaningEs": "julio",
+    "pronunciation": "yu-lai",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "July is a warm month.",
+    "exampleEs": "Julio es un mes calido.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "July is a warm month.",
+      "Use 'july' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0673_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'july' mean in Spanish?",
+        "options": [
+          "julio",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "julio",
+        "explanation": "'july' significa 'julio' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: julio. Example: July is a warm month.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Julio es un mes calido.' en ingl\u00e9s?",
+    "activeRecallAnswer": "July is a warm month.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'july' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0674",
+    "word": "august",
+    "meaningEs": "agosto",
+    "pronunciation": "o-gost",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "August is busy at work.",
+    "exampleEs": "Agosto es ocupado en el trabajo.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "August is busy at work.",
+      "Use 'august' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0674_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'august' mean in Spanish?",
+        "options": [
+          "agosto",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "agosto",
+        "explanation": "'august' significa 'agosto' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: agosto. Example: August is busy at work.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Agosto es ocupado en el trabajo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "August is busy at work.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'august' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0675",
+    "word": "september",
+    "meaningEs": "septiembre",
+    "pronunciation": "sep-tem-ber",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Classes start in September.",
+    "exampleEs": "Las clases empiezan en septiembre.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Classes start in September.",
+      "Use 'september' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0675_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'september' mean in Spanish?",
+        "options": [
+          "septiembre",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "septiembre",
+        "explanation": "'september' significa 'septiembre' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: septiembre. Example: Classes start in September.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Las clases empiezan en septiembre.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Classes start in September.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'september' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0676",
+    "word": "october",
+    "meaningEs": "octubre",
+    "pronunciation": "ok-tou-ber",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "October is cool here.",
+    "exampleEs": "Octubre es fresco aqui.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "October is cool here.",
+      "Use 'october' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0676_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'october' mean in Spanish?",
+        "options": [
+          "octubre",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "octubre",
+        "explanation": "'october' significa 'octubre' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: octubre. Example: October is cool here.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Octubre es fresco aqui.' en ingl\u00e9s?",
+    "activeRecallAnswer": "October is cool here.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'october' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0677",
+    "word": "november",
+    "meaningEs": "noviembre",
+    "pronunciation": "no-vem-ber",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "November is a rainy month.",
+    "exampleEs": "Noviembre es un mes lluvioso.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "November is a rainy month.",
+      "Use 'november' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0677_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'november' mean in Spanish?",
+        "options": [
+          "noviembre",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "noviembre",
+        "explanation": "'november' significa 'noviembre' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: noviembre. Example: November is a rainy month.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Noviembre es un mes lluvioso.' en ingl\u00e9s?",
+    "activeRecallAnswer": "November is a rainy month.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'november' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0678",
+    "word": "december",
+    "meaningEs": "diciembre",
+    "pronunciation": "di-sem-ber",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "December is a family month.",
+    "exampleEs": "Diciembre es un mes familiar.",
+    "usage": "Se usa para hablar de dias, meses y fechas basicas.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "December is a family month.",
+      "Use 'december' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0678_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'december' mean in Spanish?",
+        "options": [
+          "diciembre",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "diciembre",
+        "explanation": "'december' significa 'diciembre' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "days_months",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: diciembre. Example: December is a family month.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Diciembre es un mes familiar.' en ingl\u00e9s?",
+    "activeRecallAnswer": "December is a family month.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'december' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0679",
+    "word": "often",
+    "meaningEs": "a menudo",
+    "pronunciation": "of-ten",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I often drink water at work.",
+    "exampleEs": "A menudo tomo agua en el trabajo.",
+    "usage": "Se usa para decir con que frecuencia ocurre algo.",
+    "grammar": "Es un adverbio. Puede modificar una accion o expresar frecuencia, lugar o tiempo.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I often drink water at work.",
+      "Use 'often' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0679_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'often' mean in Spanish?",
+        "options": [
+          "a menudo",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "a menudo",
+        "explanation": "'often' significa 'a menudo' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "frequency",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: a menudo. Example: I often drink water at work.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'A menudo tomo agua en el trabajo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I often drink water at work.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'often' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0680",
+    "word": "sometimes",
+    "meaningEs": "a veces",
+    "pronunciation": "som-taimz",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Sometimes I study at night.",
+    "exampleEs": "A veces estudio en la noche.",
+    "usage": "Se usa para decir con que frecuencia ocurre algo.",
+    "grammar": "Es un adverbio. Puede modificar una accion o expresar frecuencia, lugar o tiempo.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Sometimes I study at night.",
+      "Use 'sometimes' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0680_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'sometimes' mean in Spanish?",
+        "options": [
+          "a veces",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "a veces",
+        "explanation": "'sometimes' significa 'a veces' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "frequency",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: a veces. Example: Sometimes I study at night.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'A veces estudio en la noche.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Sometimes I study at night.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'sometimes' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0681",
+    "word": "never",
+    "meaningEs": "nunca",
+    "pronunciation": "ne-ver",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I never forget my keys.",
+    "exampleEs": "Nunca olvido mis llaves.",
+    "usage": "Se usa para decir con que frecuencia ocurre algo.",
+    "grammar": "Es un adverbio. Puede modificar una accion o expresar frecuencia, lugar o tiempo.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I never forget my keys.",
+      "Use 'never' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0681_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'never' mean in Spanish?",
+        "options": [
+          "nunca",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "nunca",
+        "explanation": "'never' significa 'nunca' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "frequency",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: nunca. Example: I never forget my keys.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Nunca olvido mis llaves.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I never forget my keys.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'never' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0682",
+    "word": "rarely",
+    "meaningEs": "rara vez",
+    "pronunciation": "rer-li",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I rarely eat spicy food.",
+    "exampleEs": "Rara vez como comida picante.",
+    "usage": "Se usa para decir con que frecuencia ocurre algo.",
+    "grammar": "Es un adverbio. Puede modificar una accion o expresar frecuencia, lugar o tiempo.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I rarely eat spicy food.",
+      "Use 'rarely' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0682_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'rarely' mean in Spanish?",
+        "options": [
+          "rara vez",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "rara vez",
+        "explanation": "'rarely' significa 'rara vez' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "frequency",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: rara vez. Example: I rarely eat spicy food.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Rara vez como comida picante.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I rarely eat spicy food.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'rarely' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0683",
+    "word": "daily",
+    "meaningEs": "diariamente",
+    "pronunciation": "dei-li",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I practice English daily.",
+    "exampleEs": "Practico ingles diariamente.",
+    "usage": "Se usa para decir con que frecuencia ocurre algo.",
+    "grammar": "Es un adverbio. Puede modificar una accion o expresar frecuencia, lugar o tiempo.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I practice English daily.",
+      "Use 'daily' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0683_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'daily' mean in Spanish?",
+        "options": [
+          "diariamente",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "diariamente",
+        "explanation": "'daily' significa 'diariamente' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "frequency",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: diariamente. Example: I practice English daily.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Practico ingles diariamente.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I practice English daily.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'daily' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0684",
+    "word": "weekly",
+    "meaningEs": "semanalmente",
+    "pronunciation": "uik-li",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "We meet weekly at school.",
+    "exampleEs": "Nos reunimos semanalmente en la escuela.",
+    "usage": "Se usa para decir con que frecuencia ocurre algo.",
+    "grammar": "Es un adverbio. Puede modificar una accion o expresar frecuencia, lugar o tiempo.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "We meet weekly at school.",
+      "Use 'weekly' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0684_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'weekly' mean in Spanish?",
+        "options": [
+          "semanalmente",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "semanalmente",
+        "explanation": "'weekly' significa 'semanalmente' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "frequency",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: semanalmente. Example: We meet weekly at school.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Nos reunimos semanalmente en la escuela.' en ingl\u00e9s?",
+    "activeRecallAnswer": "We meet weekly at school.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'weekly' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0685",
+    "word": "monthly",
+    "meaningEs": "mensualmente",
+    "pronunciation": "monz-li",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I pay this bill monthly.",
+    "exampleEs": "Pago esta cuenta mensualmente.",
+    "usage": "Se usa para decir con que frecuencia ocurre algo.",
+    "grammar": "Es un adverbio. Puede modificar una accion o expresar frecuencia, lugar o tiempo.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I pay this bill monthly.",
+      "Use 'monthly' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0685_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'monthly' mean in Spanish?",
+        "options": [
+          "mensualmente",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "mensualmente",
+        "explanation": "'monthly' significa 'mensualmente' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "frequency",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: mensualmente. Example: I pay this bill monthly.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Pago esta cuenta mensualmente.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I pay this bill monthly.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'monthly' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0686",
+    "word": "late",
+    "meaningEs": "tarde",
+    "pronunciation": "leit",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The bus is late today.",
+    "exampleEs": "El bus llega tarde hoy.",
+    "usage": "Se usa para dar mas detalle sobre como, donde o cuando ocurre una accion.",
+    "grammar": "Es un adverbio. Puede modificar una accion o expresar frecuencia, lugar o tiempo.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "The bus is late today.",
+      "Use 'late' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0686_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'late' mean in Spanish?",
+        "options": [
+          "tarde",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "tarde",
+        "explanation": "'late' significa 'tarde' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_adverbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: tarde. Example: The bus is late today.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El bus llega tarde hoy.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The bus is late today.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'late' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0687",
+    "word": "again",
+    "meaningEs": "otra vez",
+    "pronunciation": "a-guen",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Please say it again.",
+    "exampleEs": "Por favor dilo otra vez.",
+    "usage": "Se usa para dar mas detalle sobre como, donde o cuando ocurre una accion.",
+    "grammar": "Es un adverbio. Puede modificar una accion o expresar frecuencia, lugar o tiempo.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Please say it again.",
+      "Use 'again' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0687_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'again' mean in Spanish?",
+        "options": [
+          "otra vez",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "otra vez",
+        "explanation": "'again' significa 'otra vez' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_adverbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: otra vez. Example: Please say it again.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Por favor dilo otra vez.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Please say it again.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'again' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0688",
+    "word": "really",
+    "meaningEs": "realmente / muy",
+    "pronunciation": "ri-a-li",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This lesson is really useful.",
+    "exampleEs": "Esta leccion es realmente util.",
+    "usage": "Se usa para dar mas detalle sobre como, donde o cuando ocurre una accion.",
+    "grammar": "Es un adverbio. Puede modificar una accion o expresar frecuencia, lugar o tiempo.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "This lesson is really useful.",
+      "Use 'really' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0688_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'really' mean in Spanish?",
+        "options": [
+          "realmente / muy",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "realmente / muy",
+        "explanation": "'really' significa 'realmente / muy' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_adverbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: realmente / muy. Example: This lesson is really useful.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Esta leccion es realmente util.' en ingl\u00e9s?",
+    "activeRecallAnswer": "This lesson is really useful.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'really' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0689",
+    "word": "almost",
+    "meaningEs": "casi",
+    "pronunciation": "ol-moust",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I almost finish the exercise.",
+    "exampleEs": "Casi termino el ejercicio.",
+    "usage": "Se usa para dar mas detalle sobre como, donde o cuando ocurre una accion.",
+    "grammar": "Es un adverbio. Puede modificar una accion o expresar frecuencia, lugar o tiempo.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I almost finish the exercise.",
+      "Use 'almost' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0689_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'almost' mean in Spanish?",
+        "options": [
+          "casi",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "casi",
+        "explanation": "'almost' significa 'casi' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_adverbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: casi. Example: I almost finish the exercise.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Casi termino el ejercicio.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I almost finish the exercise.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'almost' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0690",
+    "word": "only",
+    "meaningEs": "solo / solamente",
+    "pronunciation": "oun-li",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I only need one ticket.",
+    "exampleEs": "Solo necesito un boleto.",
+    "usage": "Se usa para dar mas detalle sobre como, donde o cuando ocurre una accion.",
+    "grammar": "Es un adverbio. Puede modificar una accion o expresar frecuencia, lugar o tiempo.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I only need one ticket.",
+      "Use 'only' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0690_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'only' mean in Spanish?",
+        "options": [
+          "solo / solamente",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "solo / solamente",
+        "explanation": "'only' significa 'solo / solamente' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_adverbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: solo / solamente. Example: I only need one ticket.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Solo necesito un boleto.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I only need one ticket.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'only' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0691",
+    "word": "also",
+    "meaningEs": "tambien",
+    "pronunciation": "ol-sou",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I also speak Spanish.",
+    "exampleEs": "Tambien hablo espanol.",
+    "usage": "Se usa para dar mas detalle sobre como, donde o cuando ocurre una accion.",
+    "grammar": "Es un adverbio. Puede modificar una accion o expresar frecuencia, lugar o tiempo.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "I also speak Spanish.",
+      "Use 'also' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0691_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'also' mean in Spanish?",
+        "options": [
+          "tambien",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "tambien",
+        "explanation": "'also' significa 'tambien' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_adverbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: tambien. Example: I also speak Spanish.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Tambien hablo espanol.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I also speak Spanish.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'also' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0692",
+    "word": "here",
+    "meaningEs": "aqui",
+    "pronunciation": "jir",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Come here, please.",
+    "exampleEs": "Ven aqui, por favor.",
+    "usage": "Se usa para dar mas detalle sobre como, donde o cuando ocurre una accion.",
+    "grammar": "Es un adverbio. Puede modificar una accion o expresar frecuencia, lugar o tiempo.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Come here, please.",
+      "Use 'here' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0692_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'here' mean in Spanish?",
+        "options": [
+          "aqui",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "aqui",
+        "explanation": "'here' significa 'aqui' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_adverbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: aqui. Example: Come here, please.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Ven aqui, por favor.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Come here, please.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'here' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0693",
+    "word": "there",
+    "meaningEs": "alli / alla",
+    "pronunciation": "der",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The hotel is there.",
+    "exampleEs": "El hotel esta alli.",
+    "usage": "Se usa para dar mas detalle sobre como, donde o cuando ocurre una accion.",
+    "grammar": "Es un adverbio. Puede modificar una accion o expresar frecuencia, lugar o tiempo.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "The hotel is there.",
+      "Use 'there' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0693_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'there' mean in Spanish?",
+        "options": [
+          "alli / alla",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "alli / alla",
+        "explanation": "'there' significa 'alli / alla' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_adverbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: alli / alla. Example: The hotel is there.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El hotel esta alli.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The hotel is there.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'there' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0694",
+    "word": "carefully",
+    "meaningEs": "cuidadosamente",
+    "pronunciation": "ker-ful-li",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Read the form carefully.",
+    "exampleEs": "Lee el formulario cuidadosamente.",
+    "usage": "Se usa para dar mas detalle sobre como, donde o cuando ocurre una accion.",
+    "grammar": "Es un adverbio. Puede modificar una accion o expresar frecuencia, lugar o tiempo.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Read the form carefully.",
+      "Use 'carefully' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0694_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'carefully' mean in Spanish?",
+        "options": [
+          "cuidadosamente",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "cuidadosamente",
+        "explanation": "'carefully' significa 'cuidadosamente' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_adverbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: cuidadosamente. Example: Read the form carefully.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Lee el formulario cuidadosamente.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Read the form carefully.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'carefully' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0695",
+    "word": "loudly",
+    "meaningEs": "en voz alta",
+    "pronunciation": "laud-li",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Do not speak loudly in class.",
+    "exampleEs": "No hables en voz alta en clase.",
+    "usage": "Se usa para dar mas detalle sobre como, donde o cuando ocurre una accion.",
+    "grammar": "Es un adverbio. Puede modificar una accion o expresar frecuencia, lugar o tiempo.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "Do not speak loudly in class.",
+      "Use 'loudly' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0695_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'loudly' mean in Spanish?",
+        "options": [
+          "en voz alta",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "en voz alta",
+        "explanation": "'loudly' significa 'en voz alta' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_adverbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: en voz alta. Example: Do not speak loudly in class.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'No hables en voz alta en clase.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Do not speak loudly in class.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'loudly' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0696",
+    "word": "clothes",
+    "meaningEs": "ropa",
+    "pronunciation": "klouz",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My clothes are in the closet.",
+    "exampleEs": "Mi ropa esta en el armario.",
+    "usage": "Se usa para hablar de objetos y situaciones de la vida diaria.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "My clothes are in the closet.",
+      "Use 'clothes' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0696_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'clothes' mean in Spanish?",
+        "options": [
+          "ropa",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "ropa",
+        "explanation": "'clothes' significa 'ropa' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "daily_life",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: ropa. Example: My clothes are in the closet.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Mi ropa esta en el armario.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My clothes are in the closet.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'clothes' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0697",
+    "word": "shirt",
+    "meaningEs": "camisa",
+    "pronunciation": "shert",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This shirt is clean.",
+    "exampleEs": "Esta camisa esta limpia.",
+    "usage": "Se usa para hablar de objetos y situaciones de la vida diaria.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "This shirt is clean.",
+      "Use 'shirt' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0697_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'shirt' mean in Spanish?",
+        "options": [
+          "camisa",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "camisa",
+        "explanation": "'shirt' significa 'camisa' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "daily_life",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: camisa. Example: This shirt is clean.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Esta camisa esta limpia.' en ingl\u00e9s?",
+    "activeRecallAnswer": "This shirt is clean.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'shirt' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0698",
+    "word": "shoes",
+    "meaningEs": "zapatos",
+    "pronunciation": "shuz",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My shoes are near the door.",
+    "exampleEs": "Mis zapatos estan cerca de la puerta.",
+    "usage": "Se usa para hablar de objetos y situaciones de la vida diaria.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "My shoes are near the door.",
+      "Use 'shoes' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0698_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'shoes' mean in Spanish?",
+        "options": [
+          "zapatos",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "zapatos",
+        "explanation": "'shoes' significa 'zapatos' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "daily_life",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: zapatos. Example: My shoes are near the door.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Mis zapatos estan cerca de la puerta.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My shoes are near the door.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'shoes' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0699",
+    "word": "socks",
+    "meaningEs": "calcetines",
+    "pronunciation": "soks",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The socks are in the drawer.",
+    "exampleEs": "Los calcetines estan en el cajon.",
+    "usage": "Se usa para hablar de objetos y situaciones de la vida diaria.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "The socks are in the drawer.",
+      "Use 'socks' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0699_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'socks' mean in Spanish?",
+        "options": [
+          "calcetines",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "calcetines",
+        "explanation": "'socks' significa 'calcetines' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "daily_life",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: calcetines. Example: The socks are in the drawer.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Los calcetines estan en el cajon.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The socks are in the drawer.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'socks' en tu vida diaria.",
+    "links": []
+  },
+  {
+    "id": "free_0700",
+    "word": "clock",
+    "meaningEs": "reloj",
+    "pronunciation": "klok",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The clock is on the wall.",
+    "exampleEs": "El reloj esta en la pared.",
+    "usage": "Se usa para hablar de objetos y situaciones de la vida diaria.",
+    "grammar": "Es un sustantivo. Puede usarse con a/an, the, my o expresiones de cantidad segun el contexto.",
+    "commonMistakes": [
+      "No memorices la palabra sola; practicala dentro de una frase real.",
+      "No la pronuncies como espanol; usa la guia fonetica y el ejemplo."
+    ],
+    "dailyUse": [
+      "The clock is on the wall.",
+      "Use 'clock' in a health, time, or daily life sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0700_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'clock' mean in Spanish?",
+        "options": [
+          "reloj",
+          "salud",
+          "cuerpo",
+          "clima"
+        ],
+        "correctAnswer": "reloj",
+        "explanation": "'clock' significa 'reloj' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "daily_life",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso: reloj. Example: The clock is on the wall.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El reloj esta en la pared.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The clock is on the wall.",
+    "learningTip": "Crea una oraci\u00f3n propia usando 'clock' en tu vida diaria.",
+    "links": []
+  }
+]
