@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "lesson_a2_0201",
+    "word": "airport",
+    "meaningEs": "aeropuerto",
+    "pronunciation": "er-port",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I wait at the airport before my flight.",
+    "exampleEs": "Espero en el aeropuerto antes de mi vuelo.",
+    "usage": "Se usa en viajes simples, transporte, hoteles y aeropuertos.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "I wait at the airport before my flight.",
+      "Use 'airport' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0201_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'airport' mean in Spanish?",
+        "options": [
+          "aeropuerto",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "aeropuerto",
+        "explanation": "'airport' significa 'aeropuerto' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "travel_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: aeropuerto. Example: I wait at the airport before my flight.",
+    "activeRecallPrompt": "Como dirias 'Espero en el aeropuerto antes de mi vuelo.' en ingles?",
+    "activeRecallAnswer": "I wait at the airport before my flight.",
+    "learningTip": "Repite 'I wait at the airport before my flight.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0202",
+    "word": "ticket",
+    "meaningEs": "boleto / entrada",
+    "pronunciation": "ti-ket",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "She buys a ticket online.",
+    "exampleEs": "Ella compra un boleto por internet.",
+    "usage": "Se usa en viajes simples, transporte, hoteles y aeropuertos.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "She buys a ticket online.",
+      "Use 'ticket' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0202_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'ticket' mean in Spanish?",
+        "options": [
+          "boleto / entrada",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "boleto / entrada",
+        "explanation": "'ticket' significa 'boleto / entrada' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "travel_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: boleto / entrada. Example: She buys a ticket online.",
+    "activeRecallPrompt": "Como dirias 'Ella compra un boleto por internet.' en ingles?",
+    "activeRecallAnswer": "She buys a ticket online.",
+    "learningTip": "Repite 'She buys a ticket online.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0203",
+    "word": "passport",
+    "meaningEs": "pasaporte",
+    "pronunciation": "pas-port",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My passport is in my bag.",
+    "exampleEs": "Mi pasaporte esta en mi mochila.",
+    "usage": "Se usa en viajes simples, transporte, hoteles y aeropuertos.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "My passport is in my bag.",
+      "Use 'passport' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0203_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'passport' mean in Spanish?",
+        "options": [
+          "pasaporte",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "pasaporte",
+        "explanation": "'passport' significa 'pasaporte' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "travel_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: pasaporte. Example: My passport is in my bag.",
+    "activeRecallPrompt": "Como dirias 'Mi pasaporte esta en mi mochila.' en ingles?",
+    "activeRecallAnswer": "My passport is in my bag.",
+    "learningTip": "Repite 'My passport is in my bag.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0204",
+    "word": "luggage",
+    "meaningEs": "equipaje",
+    "pronunciation": "lo-guech",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "His luggage is very heavy.",
+    "exampleEs": "Su equipaje es muy pesado.",
+    "usage": "Se usa en viajes simples, transporte, hoteles y aeropuertos.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "His luggage is very heavy.",
+      "Use 'luggage' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0204_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'luggage' mean in Spanish?",
+        "options": [
+          "equipaje",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "equipaje",
+        "explanation": "'luggage' significa 'equipaje' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "travel_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: equipaje. Example: His luggage is very heavy.",
+    "activeRecallPrompt": "Como dirias 'Su equipaje es muy pesado.' en ingles?",
+    "activeRecallAnswer": "His luggage is very heavy.",
+    "learningTip": "Repite 'His luggage is very heavy.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0205",
+    "word": "suitcase",
+    "meaningEs": "maleta",
+    "pronunciation": "sut-keis",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The suitcase is under the bed.",
+    "exampleEs": "La maleta esta debajo de la cama.",
+    "usage": "Se usa en viajes simples, transporte, hoteles y aeropuertos.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The suitcase is under the bed.",
+      "Use 'suitcase' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0205_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'suitcase' mean in Spanish?",
+        "options": [
+          "maleta",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "maleta",
+        "explanation": "'suitcase' significa 'maleta' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "travel_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: maleta. Example: The suitcase is under the bed.",
+    "activeRecallPrompt": "Como dirias 'La maleta esta debajo de la cama.' en ingles?",
+    "activeRecallAnswer": "The suitcase is under the bed.",
+    "learningTip": "Repite 'The suitcase is under the bed.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0206",
+    "word": "hotel",
+    "meaningEs": "hotel",
+    "pronunciation": "jou-tel",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "We sleep in a small hotel.",
+    "exampleEs": "Dormimos en un hotel pequeno.",
+    "usage": "Se usa en viajes simples, transporte, hoteles y aeropuertos.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "We sleep in a small hotel.",
+      "Use 'hotel' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0206_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'hotel' mean in Spanish?",
+        "options": [
+          "hotel",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "hotel",
+        "explanation": "'hotel' significa 'hotel' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "travel_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: hotel. Example: We sleep in a small hotel.",
+    "activeRecallPrompt": "Como dirias 'Dormimos en un hotel pequeno.' en ingles?",
+    "activeRecallAnswer": "We sleep in a small hotel.",
+    "learningTip": "Repite 'We sleep in a small hotel.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0207",
+    "word": "reservation",
+    "meaningEs": "reserva",
+    "pronunciation": "re-ser-vei-shon",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I have a reservation for tonight.",
+    "exampleEs": "Tengo una reserva para esta noche.",
+    "usage": "Se usa en viajes simples, transporte, hoteles y aeropuertos.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "I have a reservation for tonight.",
+      "Use 'reservation' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0207_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'reservation' mean in Spanish?",
+        "options": [
+          "reserva",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "reserva",
+        "explanation": "'reservation' significa 'reserva' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "travel_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: reserva. Example: I have a reservation for tonight.",
+    "activeRecallPrompt": "Como dirias 'Tengo una reserva para esta noche.' en ingles?",
+    "activeRecallAnswer": "I have a reservation for tonight.",
+    "learningTip": "Repite 'I have a reservation for tonight.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0208",
+    "word": "map",
+    "meaningEs": "mapa",
+    "pronunciation": "map",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Use the map to find the station.",
+    "exampleEs": "Usa el mapa para encontrar la estacion.",
+    "usage": "Se usa en viajes simples, transporte, hoteles y aeropuertos.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "Use the map to find the station.",
+      "Use 'map' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0208_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'map' mean in Spanish?",
+        "options": [
+          "mapa",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "mapa",
+        "explanation": "'map' significa 'mapa' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "travel_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: mapa. Example: Use the map to find the station.",
+    "activeRecallPrompt": "Como dirias 'Usa el mapa para encontrar la estacion.' en ingles?",
+    "activeRecallAnswer": "Use the map to find the station.",
+    "learningTip": "Repite 'Use the map to find the station.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0209",
+    "word": "station",
+    "meaningEs": "estacion",
+    "pronunciation": "stei-shon",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The bus station is near the hotel.",
+    "exampleEs": "La estacion de bus esta cerca del hotel.",
+    "usage": "Se usa en viajes simples, transporte, hoteles y aeropuertos.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The bus station is near the hotel.",
+      "Use 'station' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0209_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'station' mean in Spanish?",
+        "options": [
+          "estacion",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "estacion",
+        "explanation": "'station' significa 'estacion' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "travel_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: estacion. Example: The bus station is near the hotel.",
+    "activeRecallPrompt": "Como dirias 'La estacion de bus esta cerca del hotel.' en ingles?",
+    "activeRecallAnswer": "The bus station is near the hotel.",
+    "learningTip": "Repite 'The bus station is near the hotel.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0210",
+    "word": "platform",
+    "meaningEs": "plataforma / anden",
+    "pronunciation": "plat-form",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The train leaves from platform two.",
+    "exampleEs": "El tren sale del anden dos.",
+    "usage": "Se usa en viajes simples, transporte, hoteles y aeropuertos.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The train leaves from platform two.",
+      "Use 'platform' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0210_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'platform' mean in Spanish?",
+        "options": [
+          "plataforma / anden",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "plataforma / anden",
+        "explanation": "'platform' significa 'plataforma / anden' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "travel_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: plataforma / anden. Example: The train leaves from platform two.",
+    "activeRecallPrompt": "Como dirias 'El tren sale del anden dos.' en ingles?",
+    "activeRecallAnswer": "The train leaves from platform two.",
+    "learningTip": "Repite 'The train leaves from platform two.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0211",
+    "word": "taxi",
+    "meaningEs": "taxi",
+    "pronunciation": "tak-si",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "We take a taxi to the airport.",
+    "exampleEs": "Tomamos un taxi al aeropuerto.",
+    "usage": "Se usa en viajes simples, transporte, hoteles y aeropuertos.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "We take a taxi to the airport.",
+      "Use 'taxi' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0211_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'taxi' mean in Spanish?",
+        "options": [
+          "taxi",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "taxi",
+        "explanation": "'taxi' significa 'taxi' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "travel_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: taxi. Example: We take a taxi to the airport.",
+    "activeRecallPrompt": "Como dirias 'Tomamos un taxi al aeropuerto.' en ingles?",
+    "activeRecallAnswer": "We take a taxi to the airport.",
+    "learningTip": "Repite 'We take a taxi to the airport.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0212",
+    "word": "flight",
+    "meaningEs": "vuelo",
+    "pronunciation": "flait",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My flight arrives at nine.",
+    "exampleEs": "Mi vuelo llega a las nueve.",
+    "usage": "Se usa en viajes simples, transporte, hoteles y aeropuertos.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "My flight arrives at nine.",
+      "Use 'flight' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0212_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'flight' mean in Spanish?",
+        "options": [
+          "vuelo",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "vuelo",
+        "explanation": "'flight' significa 'vuelo' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "travel_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: vuelo. Example: My flight arrives at nine.",
+    "activeRecallPrompt": "Como dirias 'Mi vuelo llega a las nueve.' en ingles?",
+    "activeRecallAnswer": "My flight arrives at nine.",
+    "learningTip": "Repite 'My flight arrives at nine.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0213",
+    "word": "seat",
+    "meaningEs": "asiento",
+    "pronunciation": "sit",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This seat is free.",
+    "exampleEs": "Este asiento esta libre.",
+    "usage": "Se usa en viajes simples, transporte, hoteles y aeropuertos.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "This seat is free.",
+      "Use 'seat' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0213_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'seat' mean in Spanish?",
+        "options": [
+          "asiento",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "asiento",
+        "explanation": "'seat' significa 'asiento' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "travel_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: asiento. Example: This seat is free.",
+    "activeRecallPrompt": "Como dirias 'Este asiento esta libre.' en ingles?",
+    "activeRecallAnswer": "This seat is free.",
+    "learningTip": "Repite 'This seat is free.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0214",
+    "word": "gate",
+    "meaningEs": "puerta de embarque",
+    "pronunciation": "gueit",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Go to gate five, please.",
+    "exampleEs": "Ve a la puerta cinco, por favor.",
+    "usage": "Se usa en viajes simples, transporte, hoteles y aeropuertos.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "Go to gate five, please.",
+      "Use 'gate' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0214_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'gate' mean in Spanish?",
+        "options": [
+          "puerta de embarque",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "puerta de embarque",
+        "explanation": "'gate' significa 'puerta de embarque' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "travel_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: puerta de embarque. Example: Go to gate five, please.",
+    "activeRecallPrompt": "Como dirias 'Ve a la puerta cinco, por favor.' en ingles?",
+    "activeRecallAnswer": "Go to gate five, please.",
+    "learningTip": "Repite 'Go to gate five, please.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0215",
+    "word": "trip",
+    "meaningEs": "viaje",
+    "pronunciation": "trip",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Our trip starts tomorrow.",
+    "exampleEs": "Nuestro viaje empieza manana.",
+    "usage": "Se usa en viajes simples, transporte, hoteles y aeropuertos.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "Our trip starts tomorrow.",
+      "Use 'trip' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0215_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'trip' mean in Spanish?",
+        "options": [
+          "viaje",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "viaje",
+        "explanation": "'trip' significa 'viaje' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "travel_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: viaje. Example: Our trip starts tomorrow.",
+    "activeRecallPrompt": "Como dirias 'Nuestro viaje empieza manana.' en ingles?",
+    "activeRecallAnswer": "Our trip starts tomorrow.",
+    "learningTip": "Repite 'Our trip starts tomorrow.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0216",
+    "word": "travel",
+    "meaningEs": "viajar",
+    "pronunciation": "tra-vol",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "travel",
+    "pastSimple": "traveled",
+    "pastParticiple": "traveled",
+    "exampleEn": "They travel by bus every month.",
+    "exampleEs": "Ellos viajan en bus cada mes.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo regular: travel, traveled, traveled.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma traveled.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "They travel by bus every month.",
+      "Use 'travel' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0216_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'travel' mean in Spanish?",
+        "options": [
+          "viajar",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "viajar",
+        "explanation": "'travel' significa 'viajar' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "travel_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: travel / traveled / traveled. Example: They travel by bus every month.",
+    "activeRecallPrompt": "Como dirias 'Ellos viajan en bus cada mes.' en ingles?",
+    "activeRecallAnswer": "They travel by bus every month.",
+    "learningTip": "Repite 'They travel by bus every month.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0217",
+    "word": "price",
+    "meaningEs": "precio",
+    "pronunciation": "prais",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The price is too high for me.",
+    "exampleEs": "El precio es demasiado alto para mi.",
+    "usage": "Se usa para comprar, pagar, comparar precios o pedir tallas.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The price is too high for me.",
+      "Use 'price' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0217_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'price' mean in Spanish?",
+        "options": [
+          "precio",
+          "boleto",
+          "cansado",
+          "cerca"
+        ],
+        "correctAnswer": "precio",
+        "explanation": "'price' significa 'precio' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "shopping",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: precio. Example: The price is too high for me.",
+    "activeRecallPrompt": "Como dirias 'El precio es demasiado alto para mi.' en ingles?",
+    "activeRecallAnswer": "The price is too high for me.",
+    "learningTip": "Repite 'The price is too high for me.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0218",
+    "word": "receipt",
+    "meaningEs": "recibo / comprobante",
+    "pronunciation": "ri-sit",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Keep the receipt after you pay.",
+    "exampleEs": "Guarda el recibo despues de pagar.",
+    "usage": "Se usa para comprar, pagar, comparar precios o pedir tallas.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "Keep the receipt after you pay.",
+      "Use 'receipt' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0218_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'receipt' mean in Spanish?",
+        "options": [
+          "recibo / comprobante",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "recibo / comprobante",
+        "explanation": "'receipt' significa 'recibo / comprobante' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "shopping",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: recibo / comprobante. Example: Keep the receipt after you pay.",
+    "activeRecallPrompt": "Como dirias 'Guarda el recibo despues de pagar.' en ingles?",
+    "activeRecallAnswer": "Keep the receipt after you pay.",
+    "learningTip": "Repite 'Keep the receipt after you pay.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0219",
+    "word": "cash",
+    "meaningEs": "efectivo",
+    "pronunciation": "kash",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I pay in cash at the shop.",
+    "exampleEs": "Pago en efectivo en la tienda.",
+    "usage": "Se usa para comprar, pagar, comparar precios o pedir tallas.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "I pay in cash at the shop.",
+      "Use 'cash' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0219_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'cash' mean in Spanish?",
+        "options": [
+          "efectivo",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "efectivo",
+        "explanation": "'cash' significa 'efectivo' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "shopping",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: efectivo. Example: I pay in cash at the shop.",
+    "activeRecallPrompt": "Como dirias 'Pago en efectivo en la tienda.' en ingles?",
+    "activeRecallAnswer": "I pay in cash at the shop.",
+    "learningTip": "Repite 'I pay in cash at the shop.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0220",
+    "word": "card",
+    "meaningEs": "tarjeta",
+    "pronunciation": "kard",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Can I pay by card?",
+    "exampleEs": "Puedo pagar con tarjeta?",
+    "usage": "Se usa para comprar, pagar, comparar precios o pedir tallas.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "Can I pay by card?",
+      "Use 'card' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0220_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'card' mean in Spanish?",
+        "options": [
+          "tarjeta",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "tarjeta",
+        "explanation": "'card' significa 'tarjeta' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "shopping",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: tarjeta. Example: Can I pay by card?",
+    "activeRecallPrompt": "Como dirias 'Puedo pagar con tarjeta?' en ingles?",
+    "activeRecallAnswer": "Can I pay by card?",
+    "learningTip": "Repite 'Can I pay by card?' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0221",
+    "word": "discount",
+    "meaningEs": "descuento",
+    "pronunciation": "dis-kaunt",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This store has a small discount today.",
+    "exampleEs": "Esta tienda tiene un pequeno descuento hoy.",
+    "usage": "Se usa para comprar, pagar, comparar precios o pedir tallas.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "This store has a small discount today.",
+      "Use 'discount' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0221_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'discount' mean in Spanish?",
+        "options": [
+          "descuento",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "descuento",
+        "explanation": "'discount' significa 'descuento' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "shopping",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: descuento. Example: This store has a small discount today.",
+    "activeRecallPrompt": "Como dirias 'Esta tienda tiene un pequeno descuento hoy.' en ingles?",
+    "activeRecallAnswer": "This store has a small discount today.",
+    "learningTip": "Repite 'This store has a small discount today.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0222",
+    "word": "size",
+    "meaningEs": "talla / tamano",
+    "pronunciation": "saiz",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Do you have this shirt in my size?",
+    "exampleEs": "Tiene esta camisa en mi talla?",
+    "usage": "Se usa para comprar, pagar, comparar precios o pedir tallas.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "Do you have this shirt in my size?",
+      "Use 'size' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0222_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'size' mean in Spanish?",
+        "options": [
+          "talla / tamano",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "talla / tamano",
+        "explanation": "'size' significa 'talla / tamano' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "shopping",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: talla / tamano. Example: Do you have this shirt in my size?",
+    "activeRecallPrompt": "Como dirias 'Tiene esta camisa en mi talla?' en ingles?",
+    "activeRecallAnswer": "Do you have this shirt in my size?",
+    "learningTip": "Repite 'Do you have this shirt in my size?' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0223",
+    "word": "color",
+    "meaningEs": "color",
+    "pronunciation": "ko-lor",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "What color do you prefer?",
+    "exampleEs": "Que color prefieres?",
+    "usage": "Se usa para comprar, pagar, comparar precios o pedir tallas.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "What color do you prefer?",
+      "Use 'color' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0223_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'color' mean in Spanish?",
+        "options": [
+          "color",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "color",
+        "explanation": "'color' significa 'color' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "shopping",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: color. Example: What color do you prefer?",
+    "activeRecallPrompt": "Como dirias 'Que color prefieres?' en ingles?",
+    "activeRecallAnswer": "What color do you prefer?",
+    "learningTip": "Repite 'What color do you prefer?' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0224",
+    "word": "cheaper",
+    "meaningEs": "mas barato",
+    "pronunciation": "chi-per",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This bag is cheaper than that one.",
+    "exampleEs": "Este bolso es mas barato que aquel.",
+    "usage": "Se usa para comprar, pagar, comparar precios o pedir tallas.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "This bag is cheaper than that one.",
+      "Use 'cheaper' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0224_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'cheaper' mean in Spanish?",
+        "options": [
+          "mas barato",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "mas barato",
+        "explanation": "'cheaper' significa 'mas barato' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "shopping",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: mas barato. Example: This bag is cheaper than that one.",
+    "activeRecallPrompt": "Como dirias 'Este bolso es mas barato que aquel.' en ingles?",
+    "activeRecallAnswer": "This bag is cheaper than that one.",
+    "learningTip": "Repite 'This bag is cheaper than that one.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0225",
+    "word": "expensive",
+    "meaningEs": "caro",
+    "pronunciation": "eks-pen-siv",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The hotel is expensive in summer.",
+    "exampleEs": "El hotel es caro en verano.",
+    "usage": "Se usa para comprar, pagar, comparar precios o pedir tallas.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The hotel is expensive in summer.",
+      "Use 'expensive' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0225_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'expensive' mean in Spanish?",
+        "options": [
+          "caro",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "caro",
+        "explanation": "'expensive' significa 'caro' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "shopping",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: caro. Example: The hotel is expensive in summer.",
+    "activeRecallPrompt": "Como dirias 'El hotel es caro en verano.' en ingles?",
+    "activeRecallAnswer": "The hotel is expensive in summer.",
+    "learningTip": "Repite 'The hotel is expensive in summer.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0226",
+    "word": "meal",
+    "meaningEs": "comida / plato",
+    "pronunciation": "mil",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This meal is simple and healthy.",
+    "exampleEs": "Esta comida es sencilla y saludable.",
+    "usage": "Se usa para pedir, describir o hablar de comida y bebida.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "This meal is simple and healthy.",
+      "Use 'meal' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0226_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'meal' mean in Spanish?",
+        "options": [
+          "comida / plato",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "comida / plato",
+        "explanation": "'meal' significa 'comida / plato' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "food_drinks",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: comida / plato. Example: This meal is simple and healthy.",
+    "activeRecallPrompt": "Como dirias 'Esta comida es sencilla y saludable.' en ingles?",
+    "activeRecallAnswer": "This meal is simple and healthy.",
+    "learningTip": "Repite 'This meal is simple and healthy.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0227",
+    "word": "menu",
+    "meaningEs": "menu",
+    "pronunciation": "me-niu",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Can I see the menu, please?",
+    "exampleEs": "Puedo ver el menu, por favor?",
+    "usage": "Se usa para pedir, describir o hablar de comida y bebida.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "Can I see the menu, please?",
+      "Use 'menu' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0227_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'menu' mean in Spanish?",
+        "options": [
+          "menu",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "menu",
+        "explanation": "'menu' significa 'menu' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "food_drinks",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: menu. Example: Can I see the menu, please?",
+    "activeRecallPrompt": "Como dirias 'Puedo ver el menu, por favor?' en ingles?",
+    "activeRecallAnswer": "Can I see the menu, please?",
+    "learningTip": "Repite 'Can I see the menu, please?' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0228",
+    "word": "order",
+    "meaningEs": "pedir / ordenar",
+    "pronunciation": "or-der",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "order",
+    "pastSimple": "ordered",
+    "pastParticiple": "ordered",
+    "exampleEn": "I order soup for lunch.",
+    "exampleEs": "Pido sopa para el almuerzo.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo regular: order, ordered, ordered.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma ordered.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "I order soup for lunch.",
+      "Use 'order' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0228_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'order' mean in Spanish?",
+        "options": [
+          "pedir / ordenar",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "pedir / ordenar",
+        "explanation": "'order' significa 'pedir / ordenar' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "food_drinks",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: order / ordered / ordered. Example: I order soup for lunch.",
+    "activeRecallPrompt": "Como dirias 'Pido sopa para el almuerzo.' en ingles?",
+    "activeRecallAnswer": "I order soup for lunch.",
+    "learningTip": "Repite 'I order soup for lunch.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0229",
+    "word": "bottle",
+    "meaningEs": "botella",
+    "pronunciation": "bo-tol",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I buy a bottle of water.",
+    "exampleEs": "Compro una botella de agua.",
+    "usage": "Se usa para pedir, describir o hablar de comida y bebida.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "I buy a bottle of water.",
+      "Use 'bottle' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0229_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'bottle' mean in Spanish?",
+        "options": [
+          "botella",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "botella",
+        "explanation": "'bottle' significa 'botella' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "food_drinks",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: botella. Example: I buy a bottle of water.",
+    "activeRecallPrompt": "Como dirias 'Compro una botella de agua.' en ingles?",
+    "activeRecallAnswer": "I buy a bottle of water.",
+    "learningTip": "Repite 'I buy a bottle of water.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0230",
+    "word": "snack",
+    "meaningEs": "bocadillo / merienda",
+    "pronunciation": "snak",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I eat a snack after class.",
+    "exampleEs": "Como una merienda despues de clase.",
+    "usage": "Se usa para pedir, describir o hablar de comida y bebida.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "I eat a snack after class.",
+      "Use 'snack' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0230_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'snack' mean in Spanish?",
+        "options": [
+          "bocadillo / merienda",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "bocadillo / merienda",
+        "explanation": "'snack' significa 'bocadillo / merienda' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "food_drinks",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: bocadillo / merienda. Example: I eat a snack after class.",
+    "activeRecallPrompt": "Como dirias 'Como una merienda despues de clase.' en ingles?",
+    "activeRecallAnswer": "I eat a snack after class.",
+    "learningTip": "Repite 'I eat a snack after class.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0231",
+    "word": "fruit",
+    "meaningEs": "fruta",
+    "pronunciation": "frut",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Fruit is good for breakfast.",
+    "exampleEs": "La fruta es buena para el desayuno.",
+    "usage": "Se usa para pedir, describir o hablar de comida y bebida.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "Fruit is good for breakfast.",
+      "Use 'fruit' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0231_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'fruit' mean in Spanish?",
+        "options": [
+          "fruta",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "fruta",
+        "explanation": "'fruit' significa 'fruta' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "food_drinks",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: fruta. Example: Fruit is good for breakfast.",
+    "activeRecallPrompt": "Como dirias 'La fruta es buena para el desayuno.' en ingles?",
+    "activeRecallAnswer": "Fruit is good for breakfast.",
+    "learningTip": "Repite 'Fruit is good for breakfast.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0232",
+    "word": "vegetable",
+    "meaningEs": "verdura / vegetal",
+    "pronunciation": "vech-ta-bol",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I need one vegetable for the soup.",
+    "exampleEs": "Necesito una verdura para la sopa.",
+    "usage": "Se usa para pedir, describir o hablar de comida y bebida.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "I need one vegetable for the soup.",
+      "Use 'vegetable' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0232_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'vegetable' mean in Spanish?",
+        "options": [
+          "verdura / vegetal",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "verdura / vegetal",
+        "explanation": "'vegetable' significa 'verdura / vegetal' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "food_drinks",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: verdura / vegetal. Example: I need one vegetable for the soup.",
+    "activeRecallPrompt": "Como dirias 'Necesito una verdura para la sopa.' en ingles?",
+    "activeRecallAnswer": "I need one vegetable for the soup.",
+    "learningTip": "Repite 'I need one vegetable for the soup.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0233",
+    "word": "salt",
+    "meaningEs": "sal",
+    "pronunciation": "solt",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This soup needs more salt.",
+    "exampleEs": "Esta sopa necesita mas sal.",
+    "usage": "Se usa para pedir, describir o hablar de comida y bebida.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "This soup needs more salt.",
+      "Use 'salt' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0233_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'salt' mean in Spanish?",
+        "options": [
+          "sal",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "sal",
+        "explanation": "'salt' significa 'sal' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "food_drinks",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: sal. Example: This soup needs more salt.",
+    "activeRecallPrompt": "Como dirias 'Esta sopa necesita mas sal.' en ingles?",
+    "activeRecallAnswer": "This soup needs more salt.",
+    "learningTip": "Repite 'This soup needs more salt.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0234",
+    "word": "pepper",
+    "meaningEs": "pimienta",
+    "pronunciation": "pe-per",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I put pepper on my eggs.",
+    "exampleEs": "Pongo pimienta en mis huevos.",
+    "usage": "Se usa para pedir, describir o hablar de comida y bebida.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "I put pepper on my eggs.",
+      "Use 'pepper' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0234_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'pepper' mean in Spanish?",
+        "options": [
+          "pimienta",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "pimienta",
+        "explanation": "'pepper' significa 'pimienta' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "food_drinks",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: pimienta. Example: I put pepper on my eggs.",
+    "activeRecallPrompt": "Como dirias 'Pongo pimienta en mis huevos.' en ingles?",
+    "activeRecallAnswer": "I put pepper on my eggs.",
+    "learningTip": "Repite 'I put pepper on my eggs.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0235",
+    "word": "appointment",
+    "meaningEs": "cita",
+    "pronunciation": "a-point-ment",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I have a doctor's appointment today.",
+    "exampleEs": "Tengo una cita con el doctor hoy.",
+    "usage": "Se usa para hablar de sintomas, citas y salud basica.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "I have a doctor's appointment today.",
+      "Use 'appointment' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0235_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'appointment' mean in Spanish?",
+        "options": [
+          "cita",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "cita",
+        "explanation": "'appointment' significa 'cita' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "health_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: cita. Example: I have a doctor's appointment today.",
+    "activeRecallPrompt": "Como dirias 'Tengo una cita con el doctor hoy.' en ingles?",
+    "activeRecallAnswer": "I have a doctor's appointment today.",
+    "learningTip": "Repite 'I have a doctor's appointment today.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0236",
+    "word": "medicine",
+    "meaningEs": "medicina",
+    "pronunciation": "me-di-sin",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Take this medicine after dinner.",
+    "exampleEs": "Toma esta medicina despues de cenar.",
+    "usage": "Se usa para hablar de sintomas, citas y salud basica.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "Take this medicine after dinner.",
+      "Use 'medicine' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0236_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'medicine' mean in Spanish?",
+        "options": [
+          "medicina",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "medicina",
+        "explanation": "'medicine' significa 'medicina' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "health_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: medicina. Example: Take this medicine after dinner.",
+    "activeRecallPrompt": "Como dirias 'Toma esta medicina despues de cenar.' en ingles?",
+    "activeRecallAnswer": "Take this medicine after dinner.",
+    "learningTip": "Repite 'Take this medicine after dinner.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0237",
+    "word": "headache",
+    "meaningEs": "dolor de cabeza",
+    "pronunciation": "jed-eik",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I have a headache this morning.",
+    "exampleEs": "Tengo dolor de cabeza esta manana.",
+    "usage": "Se usa para hablar de sintomas, citas y salud basica.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "I have a headache this morning.",
+      "Use 'headache' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0237_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'headache' mean in Spanish?",
+        "options": [
+          "dolor de cabeza",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "dolor de cabeza",
+        "explanation": "'headache' significa 'dolor de cabeza' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "health_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: dolor de cabeza. Example: I have a headache this morning.",
+    "activeRecallPrompt": "Como dirias 'Tengo dolor de cabeza esta manana.' en ingles?",
+    "activeRecallAnswer": "I have a headache this morning.",
+    "learningTip": "Repite 'I have a headache this morning.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0238",
+    "word": "fever",
+    "meaningEs": "fiebre",
+    "pronunciation": "fi-ver",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The child has a fever.",
+    "exampleEs": "El nino tiene fiebre.",
+    "usage": "Se usa para hablar de sintomas, citas y salud basica.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The child has a fever.",
+      "Use 'fever' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0238_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'fever' mean in Spanish?",
+        "options": [
+          "fiebre",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "fiebre",
+        "explanation": "'fever' significa 'fiebre' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "health_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: fiebre. Example: The child has a fever.",
+    "activeRecallPrompt": "Como dirias 'El nino tiene fiebre.' en ingles?",
+    "activeRecallAnswer": "The child has a fever.",
+    "learningTip": "Repite 'The child has a fever.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0239",
+    "word": "pain",
+    "meaningEs": "dolor",
+    "pronunciation": "pein",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I feel pain in my back.",
+    "exampleEs": "Siento dolor en la espalda.",
+    "usage": "Se usa para hablar de sintomas, citas y salud basica.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "I feel pain in my back.",
+      "Use 'pain' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0239_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'pain' mean in Spanish?",
+        "options": [
+          "dolor",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "dolor",
+        "explanation": "'pain' significa 'dolor' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "health_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: dolor. Example: I feel pain in my back.",
+    "activeRecallPrompt": "Como dirias 'Siento dolor en la espalda.' en ingles?",
+    "activeRecallAnswer": "I feel pain in my back.",
+    "learningTip": "Repite 'I feel pain in my back.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0240",
+    "word": "cough",
+    "meaningEs": "tos",
+    "pronunciation": "kof",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Her cough is worse at night.",
+    "exampleEs": "Su tos empeora en la noche.",
+    "usage": "Se usa para hablar de sintomas, citas y salud basica.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "Her cough is worse at night.",
+      "Use 'cough' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0240_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'cough' mean in Spanish?",
+        "options": [
+          "tos",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "tos",
+        "explanation": "'cough' significa 'tos' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "health_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: tos. Example: Her cough is worse at night.",
+    "activeRecallPrompt": "Como dirias 'Su tos empeora en la noche.' en ingles?",
+    "activeRecallAnswer": "Her cough is worse at night.",
+    "learningTip": "Repite 'Her cough is worse at night.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0241",
+    "word": "sick",
+    "meaningEs": "enfermo",
+    "pronunciation": "sik",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "He is sick and stays at home.",
+    "exampleEs": "El esta enfermo y se queda en casa.",
+    "usage": "Se usa para hablar de sintomas, citas y salud basica.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "He is sick and stays at home.",
+      "Use 'sick' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0241_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'sick' mean in Spanish?",
+        "options": [
+          "enfermo",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "enfermo",
+        "explanation": "'sick' significa 'enfermo' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "health_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: enfermo. Example: He is sick and stays at home.",
+    "activeRecallPrompt": "Como dirias 'El esta enfermo y se queda en casa.' en ingles?",
+    "activeRecallAnswer": "He is sick and stays at home.",
+    "learningTip": "Repite 'He is sick and stays at home.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0242",
+    "word": "healthy",
+    "meaningEs": "saludable",
+    "pronunciation": "jel-zi",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "A healthy breakfast helps me study.",
+    "exampleEs": "Un desayuno saludable me ayuda a estudiar.",
+    "usage": "Se usa para hablar de sintomas, citas y salud basica.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "A healthy breakfast helps me study.",
+      "Use 'healthy' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0242_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'healthy' mean in Spanish?",
+        "options": [
+          "saludable",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "saludable",
+        "explanation": "'healthy' significa 'saludable' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "health_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: saludable. Example: A healthy breakfast helps me study.",
+    "activeRecallPrompt": "Como dirias 'Un desayuno saludable me ayuda a estudiar.' en ingles?",
+    "activeRecallAnswer": "A healthy breakfast helps me study.",
+    "learningTip": "Repite 'A healthy breakfast helps me study.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0243",
+    "word": "tired",
+    "meaningEs": "cansado",
+    "pronunciation": "tai-erd",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I am tired after work.",
+    "exampleEs": "Estoy cansado despues del trabajo.",
+    "usage": "Se usa para expresar estados fisicos o emocionales.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "I am tired after work.",
+      "Use 'tired' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0243_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'tired' mean in Spanish?",
+        "options": [
+          "cansado",
+          "boleto",
+          "precio",
+          "cerca"
+        ],
+        "correctAnswer": "cansado",
+        "explanation": "'tired' significa 'cansado' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "feelings",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: cansado. Example: I am tired after work.",
+    "activeRecallPrompt": "Como dirias 'Estoy cansado despues del trabajo.' en ingles?",
+    "activeRecallAnswer": "I am tired after work.",
+    "learningTip": "Repite 'I am tired after work.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0244",
+    "word": "hungry",
+    "meaningEs": "hambriento / con hambre",
+    "pronunciation": "jan-gri",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "She is hungry before lunch.",
+    "exampleEs": "Ella tiene hambre antes del almuerzo.",
+    "usage": "Se usa para expresar estados fisicos o emocionales.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "She is hungry before lunch.",
+      "Use 'hungry' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0244_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'hungry' mean in Spanish?",
+        "options": [
+          "hambriento / con hambre",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "hambriento / con hambre",
+        "explanation": "'hungry' significa 'hambriento / con hambre' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "feelings",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: hambriento / con hambre. Example: She is hungry before lunch.",
+    "activeRecallPrompt": "Como dirias 'Ella tiene hambre antes del almuerzo.' en ingles?",
+    "activeRecallAnswer": "She is hungry before lunch.",
+    "learningTip": "Repite 'She is hungry before lunch.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0245",
+    "word": "thirsty",
+    "meaningEs": "sediento / con sed",
+    "pronunciation": "thers-ti",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I am thirsty after walking.",
+    "exampleEs": "Tengo sed despues de caminar.",
+    "usage": "Se usa para expresar estados fisicos o emocionales.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "I am thirsty after walking.",
+      "Use 'thirsty' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0245_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'thirsty' mean in Spanish?",
+        "options": [
+          "sediento / con sed",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "sediento / con sed",
+        "explanation": "'thirsty' significa 'sediento / con sed' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "feelings",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: sediento / con sed. Example: I am thirsty after walking.",
+    "activeRecallPrompt": "Como dirias 'Tengo sed despues de caminar.' en ingles?",
+    "activeRecallAnswer": "I am thirsty after walking.",
+    "learningTip": "Repite 'I am thirsty after walking.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0246",
+    "word": "worried",
+    "meaningEs": "preocupado",
+    "pronunciation": "uo-rid",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "He is worried about the test.",
+    "exampleEs": "El esta preocupado por el examen.",
+    "usage": "Se usa para expresar estados fisicos o emocionales.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "He is worried about the test.",
+      "Use 'worried' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0246_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'worried' mean in Spanish?",
+        "options": [
+          "preocupado",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "preocupado",
+        "explanation": "'worried' significa 'preocupado' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "feelings",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: preocupado. Example: He is worried about the test.",
+    "activeRecallPrompt": "Como dirias 'El esta preocupado por el examen.' en ingles?",
+    "activeRecallAnswer": "He is worried about the test.",
+    "learningTip": "Repite 'He is worried about the test.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0247",
+    "word": "excited",
+    "meaningEs": "emocionado",
+    "pronunciation": "ek-sai-ted",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "We are excited about the trip.",
+    "exampleEs": "Estamos emocionados por el viaje.",
+    "usage": "Se usa para expresar estados fisicos o emocionales.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "We are excited about the trip.",
+      "Use 'excited' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0247_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'excited' mean in Spanish?",
+        "options": [
+          "emocionado",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "emocionado",
+        "explanation": "'excited' significa 'emocionado' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "feelings",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: emocionado. Example: We are excited about the trip.",
+    "activeRecallPrompt": "Como dirias 'Estamos emocionados por el viaje.' en ingles?",
+    "activeRecallAnswer": "We are excited about the trip.",
+    "learningTip": "Repite 'We are excited about the trip.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0248",
+    "word": "bored",
+    "meaningEs": "aburrido",
+    "pronunciation": "bord",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The students are bored today.",
+    "exampleEs": "Los estudiantes estan aburridos hoy.",
+    "usage": "Se usa para expresar estados fisicos o emocionales.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The students are bored today.",
+      "Use 'bored' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0248_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'bored' mean in Spanish?",
+        "options": [
+          "aburrido",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "aburrido",
+        "explanation": "'bored' significa 'aburrido' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "feelings",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: aburrido. Example: The students are bored today.",
+    "activeRecallPrompt": "Como dirias 'Los estudiantes estan aburridos hoy.' en ingles?",
+    "activeRecallAnswer": "The students are bored today.",
+    "learningTip": "Repite 'The students are bored today.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0249",
+    "word": "angry",
+    "meaningEs": "enojado",
+    "pronunciation": "an-gri",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My sister is angry with me.",
+    "exampleEs": "Mi hermana esta enojada conmigo.",
+    "usage": "Se usa para expresar estados fisicos o emocionales.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "My sister is angry with me.",
+      "Use 'angry' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0249_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'angry' mean in Spanish?",
+        "options": [
+          "enojado",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "enojado",
+        "explanation": "'angry' significa 'enojado' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "feelings",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: enojado. Example: My sister is angry with me.",
+    "activeRecallPrompt": "Como dirias 'Mi hermana esta enojada conmigo.' en ingles?",
+    "activeRecallAnswer": "My sister is angry with me.",
+    "learningTip": "Repite 'My sister is angry with me.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0250",
+    "word": "calm",
+    "meaningEs": "tranquilo",
+    "pronunciation": "kam",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Stay calm before the interview.",
+    "exampleEs": "Manten la calma antes de la entrevista.",
+    "usage": "Se usa para expresar estados fisicos o emocionales.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "Stay calm before the interview.",
+      "Use 'calm' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0250_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'calm' mean in Spanish?",
+        "options": [
+          "tranquilo",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "tranquilo",
+        "explanation": "'calm' significa 'tranquilo' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "feelings",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: tranquilo. Example: Stay calm before the interview.",
+    "activeRecallPrompt": "Como dirias 'Manten la calma antes de la entrevista.' en ingles?",
+    "activeRecallAnswer": "Stay calm before the interview.",
+    "learningTip": "Repite 'Stay calm before the interview.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0251",
+    "word": "afraid",
+    "meaningEs": "asustado / con miedo",
+    "pronunciation": "a-freid",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The child is afraid of the dark.",
+    "exampleEs": "El nino tiene miedo a la oscuridad.",
+    "usage": "Se usa para expresar estados fisicos o emocionales.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The child is afraid of the dark.",
+      "Use 'afraid' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0251_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'afraid' mean in Spanish?",
+        "options": [
+          "asustado / con miedo",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "asustado / con miedo",
+        "explanation": "'afraid' significa 'asustado / con miedo' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "feelings",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: asustado / con miedo. Example: The child is afraid of the dark.",
+    "activeRecallPrompt": "Como dirias 'El nino tiene miedo a la oscuridad.' en ingles?",
+    "activeRecallAnswer": "The child is afraid of the dark.",
+    "learningTip": "Repite 'The child is afraid of the dark.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0252",
+    "word": "weather",
+    "meaningEs": "clima",
+    "pronunciation": "ue-der",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The weather is cold today.",
+    "exampleEs": "El clima esta frio hoy.",
+    "usage": "Se usa para hablar del clima y planear actividades.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The weather is cold today.",
+      "Use 'weather' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0252_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'weather' mean in Spanish?",
+        "options": [
+          "clima",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "clima",
+        "explanation": "'weather' significa 'clima' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "weather",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: clima. Example: The weather is cold today.",
+    "activeRecallPrompt": "Como dirias 'El clima esta frio hoy.' en ingles?",
+    "activeRecallAnswer": "The weather is cold today.",
+    "learningTip": "Repite 'The weather is cold today.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0253",
+    "word": "sunny",
+    "meaningEs": "soleado",
+    "pronunciation": "so-ni",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "It is sunny in the morning.",
+    "exampleEs": "Esta soleado en la manana.",
+    "usage": "Se usa para hablar del clima y planear actividades.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "It is sunny in the morning.",
+      "Use 'sunny' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0253_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'sunny' mean in Spanish?",
+        "options": [
+          "soleado",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "soleado",
+        "explanation": "'sunny' significa 'soleado' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "weather",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: soleado. Example: It is sunny in the morning.",
+    "activeRecallPrompt": "Como dirias 'Esta soleado en la manana.' en ingles?",
+    "activeRecallAnswer": "It is sunny in the morning.",
+    "learningTip": "Repite 'It is sunny in the morning.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0254",
+    "word": "rainy",
+    "meaningEs": "lluvioso",
+    "pronunciation": "rei-ni",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "It is rainy this week.",
+    "exampleEs": "Esta lluvioso esta semana.",
+    "usage": "Se usa para hablar del clima y planear actividades.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "It is rainy this week.",
+      "Use 'rainy' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0254_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'rainy' mean in Spanish?",
+        "options": [
+          "lluvioso",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "lluvioso",
+        "explanation": "'rainy' significa 'lluvioso' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "weather",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: lluvioso. Example: It is rainy this week.",
+    "activeRecallPrompt": "Como dirias 'Esta lluvioso esta semana.' en ingles?",
+    "activeRecallAnswer": "It is rainy this week.",
+    "learningTip": "Repite 'It is rainy this week.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0255",
+    "word": "cloudy",
+    "meaningEs": "nublado",
+    "pronunciation": "klau-di",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The sky is cloudy today.",
+    "exampleEs": "El cielo esta nublado hoy.",
+    "usage": "Se usa para hablar del clima y planear actividades.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The sky is cloudy today.",
+      "Use 'cloudy' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0255_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'cloudy' mean in Spanish?",
+        "options": [
+          "nublado",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "nublado",
+        "explanation": "'cloudy' significa 'nublado' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "weather",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: nublado. Example: The sky is cloudy today.",
+    "activeRecallPrompt": "Como dirias 'El cielo esta nublado hoy.' en ingles?",
+    "activeRecallAnswer": "The sky is cloudy today.",
+    "learningTip": "Repite 'The sky is cloudy today.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0256",
+    "word": "windy",
+    "meaningEs": "ventoso",
+    "pronunciation": "uin-di",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "It is windy near the beach.",
+    "exampleEs": "Esta ventoso cerca de la playa.",
+    "usage": "Se usa para hablar del clima y planear actividades.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "It is windy near the beach.",
+      "Use 'windy' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0256_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'windy' mean in Spanish?",
+        "options": [
+          "ventoso",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "ventoso",
+        "explanation": "'windy' significa 'ventoso' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "weather",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: ventoso. Example: It is windy near the beach.",
+    "activeRecallPrompt": "Como dirias 'Esta ventoso cerca de la playa.' en ingles?",
+    "activeRecallAnswer": "It is windy near the beach.",
+    "learningTip": "Repite 'It is windy near the beach.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0257",
+    "word": "warm",
+    "meaningEs": "calido / tibio",
+    "pronunciation": "uorm",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The water is warm now.",
+    "exampleEs": "El agua esta tibia ahora.",
+    "usage": "Se usa para hablar del clima y planear actividades.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The water is warm now.",
+      "Use 'warm' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0257_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'warm' mean in Spanish?",
+        "options": [
+          "calido / tibio",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "calido / tibio",
+        "explanation": "'warm' significa 'calido / tibio' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "weather",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: calido / tibio. Example: The water is warm now.",
+    "activeRecallPrompt": "Como dirias 'El agua esta tibia ahora.' en ingles?",
+    "activeRecallAnswer": "The water is warm now.",
+    "learningTip": "Repite 'The water is warm now.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0258",
+    "word": "cool",
+    "meaningEs": "fresco",
+    "pronunciation": "kul",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The evening is cool and quiet.",
+    "exampleEs": "La tarde esta fresca y tranquila.",
+    "usage": "Se usa para hablar del clima y planear actividades.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The evening is cool and quiet.",
+      "Use 'cool' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0258_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'cool' mean in Spanish?",
+        "options": [
+          "fresco",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "fresco",
+        "explanation": "'cool' significa 'fresco' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "weather",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: fresco. Example: The evening is cool and quiet.",
+    "activeRecallPrompt": "Como dirias 'La tarde esta fresca y tranquila.' en ingles?",
+    "activeRecallAnswer": "The evening is cool and quiet.",
+    "learningTip": "Repite 'The evening is cool and quiet.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0259",
+    "word": "storm",
+    "meaningEs": "tormenta",
+    "pronunciation": "storm",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "A storm is coming tonight.",
+    "exampleEs": "Viene una tormenta esta noche.",
+    "usage": "Se usa para hablar del clima y planear actividades.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "A storm is coming tonight.",
+      "Use 'storm' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0259_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'storm' mean in Spanish?",
+        "options": [
+          "tormenta",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "tormenta",
+        "explanation": "'storm' significa 'tormenta' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "weather",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: tormenta. Example: A storm is coming tonight.",
+    "activeRecallPrompt": "Como dirias 'Viene una tormenta esta noche.' en ingles?",
+    "activeRecallAnswer": "A storm is coming tonight.",
+    "learningTip": "Repite 'A storm is coming tonight.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0260",
+    "word": "umbrella",
+    "meaningEs": "paraguas",
+    "pronunciation": "om-bre-la",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Take an umbrella because it is rainy.",
+    "exampleEs": "Lleva un paraguas porque esta lluvioso.",
+    "usage": "Se usa para hablar del clima y planear actividades.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "Take an umbrella because it is rainy.",
+      "Use 'umbrella' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0260_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'umbrella' mean in Spanish?",
+        "options": [
+          "paraguas",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "paraguas",
+        "explanation": "'umbrella' significa 'paraguas' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "weather",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: paraguas. Example: Take an umbrella because it is rainy.",
+    "activeRecallPrompt": "Como dirias 'Lleva un paraguas porque esta lluvioso.' en ingles?",
+    "activeRecallAnswer": "Take an umbrella because it is rainy.",
+    "learningTip": "Repite 'Take an umbrella because it is rainy.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0261",
+    "word": "near",
+    "meaningEs": "cerca",
+    "pronunciation": "nir",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The pharmacy is near the station.",
+    "exampleEs": "La farmacia esta cerca de la estacion.",
+    "usage": "Se usa para dar o entender direcciones basicas.",
+    "grammar": "Es un adverbio. Ayuda a ubicar la accion en tiempo, distancia o frecuencia.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The pharmacy is near the station.",
+      "Use 'near' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0261_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'near' mean in Spanish?",
+        "options": [
+          "cerca",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "cerca",
+        "explanation": "'near' significa 'cerca' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "directions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: cerca. Example: The pharmacy is near the station.",
+    "activeRecallPrompt": "Como dirias 'La farmacia esta cerca de la estacion.' en ingles?",
+    "activeRecallAnswer": "The pharmacy is near the station.",
+    "learningTip": "Repite 'The pharmacy is near the station.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0262",
+    "word": "far",
+    "meaningEs": "lejos",
+    "pronunciation": "far",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The hotel is far from the airport.",
+    "exampleEs": "El hotel esta lejos del aeropuerto.",
+    "usage": "Se usa para dar o entender direcciones basicas.",
+    "grammar": "Es un adverbio. Ayuda a ubicar la accion en tiempo, distancia o frecuencia.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The hotel is far from the airport.",
+      "Use 'far' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0262_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'far' mean in Spanish?",
+        "options": [
+          "lejos",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "lejos",
+        "explanation": "'far' significa 'lejos' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "directions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: lejos. Example: The hotel is far from the airport.",
+    "activeRecallPrompt": "Como dirias 'El hotel esta lejos del aeropuerto.' en ingles?",
+    "activeRecallAnswer": "The hotel is far from the airport.",
+    "learningTip": "Repite 'The hotel is far from the airport.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0263",
+    "word": "left",
+    "meaningEs": "izquierda",
+    "pronunciation": "left",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Turn left after the bank.",
+    "exampleEs": "Gira a la izquierda despues del banco.",
+    "usage": "Se usa para dar o entender direcciones basicas.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "Turn left after the bank.",
+      "Use 'left' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0263_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'left' mean in Spanish?",
+        "options": [
+          "izquierda",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "izquierda",
+        "explanation": "'left' significa 'izquierda' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "directions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: izquierda. Example: Turn left after the bank.",
+    "activeRecallPrompt": "Como dirias 'Gira a la izquierda despues del banco.' en ingles?",
+    "activeRecallAnswer": "Turn left after the bank.",
+    "learningTip": "Repite 'Turn left after the bank.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0264",
+    "word": "right",
+    "meaningEs": "derecha",
+    "pronunciation": "rait",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The shop is on the right.",
+    "exampleEs": "La tienda esta a la derecha.",
+    "usage": "Se usa para dar o entender direcciones basicas.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The shop is on the right.",
+      "Use 'right' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0264_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'right' mean in Spanish?",
+        "options": [
+          "derecha",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "derecha",
+        "explanation": "'right' significa 'derecha' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "directions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: derecha. Example: The shop is on the right.",
+    "activeRecallPrompt": "Como dirias 'La tienda esta a la derecha.' en ingles?",
+    "activeRecallAnswer": "The shop is on the right.",
+    "learningTip": "Repite 'The shop is on the right.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0265",
+    "word": "straight",
+    "meaningEs": "recto / derecho",
+    "pronunciation": "streit",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Go straight for two blocks.",
+    "exampleEs": "Sigue recto por dos cuadras.",
+    "usage": "Se usa para dar o entender direcciones basicas.",
+    "grammar": "Es un adverbio. Ayuda a ubicar la accion en tiempo, distancia o frecuencia.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "Go straight for two blocks.",
+      "Use 'straight' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0265_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'straight' mean in Spanish?",
+        "options": [
+          "recto / derecho",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "recto / derecho",
+        "explanation": "'straight' significa 'recto / derecho' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "directions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: recto / derecho. Example: Go straight for two blocks.",
+    "activeRecallPrompt": "Como dirias 'Sigue recto por dos cuadras.' en ingles?",
+    "activeRecallAnswer": "Go straight for two blocks.",
+    "learningTip": "Repite 'Go straight for two blocks.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0266",
+    "word": "corner",
+    "meaningEs": "esquina",
+    "pronunciation": "kor-ner",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The cafe is on the corner.",
+    "exampleEs": "El cafe esta en la esquina.",
+    "usage": "Se usa para dar o entender direcciones basicas.",
+    "grammar": "Es un sustantivo. En A2 suele aparecer con a/an, the, posesivos o expresiones de cantidad.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The cafe is on the corner.",
+      "Use 'corner' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0266_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'corner' mean in Spanish?",
+        "options": [
+          "esquina",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "esquina",
+        "explanation": "'corner' significa 'esquina' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "directions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: esquina. Example: The cafe is on the corner.",
+    "activeRecallPrompt": "Como dirias 'El cafe esta en la esquina.' en ingles?",
+    "activeRecallAnswer": "The cafe is on the corner.",
+    "learningTip": "Repite 'The cafe is on the corner.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0267",
+    "word": "across",
+    "meaningEs": "al otro lado de",
+    "pronunciation": "a-kros",
+    "partOfSpeech": "preposition",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The park is across the street.",
+    "exampleEs": "El parque esta al otro lado de la calle.",
+    "usage": "Se usa para dar o entender direcciones basicas.",
+    "grammar": "Es una preposicion. Conecta lugares, tiempos o relaciones dentro de la frase.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The park is across the street.",
+      "Use 'across' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0267_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'across' mean in Spanish?",
+        "options": [
+          "al otro lado de",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "al otro lado de",
+        "explanation": "'across' significa 'al otro lado de' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "directions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: al otro lado de. Example: The park is across the street.",
+    "activeRecallPrompt": "Como dirias 'El parque esta al otro lado de la calle.' en ingles?",
+    "activeRecallAnswer": "The park is across the street.",
+    "learningTip": "Repite 'The park is across the street.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0268",
+    "word": "between",
+    "meaningEs": "entre",
+    "pronunciation": "bi-tuin",
+    "partOfSpeech": "preposition",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The bank is between the hotel and the shop.",
+    "exampleEs": "El banco esta entre el hotel y la tienda.",
+    "usage": "Se usa para dar o entender direcciones basicas.",
+    "grammar": "Es una preposicion. Conecta lugares, tiempos o relaciones dentro de la frase.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The bank is between the hotel and the shop.",
+      "Use 'between' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0268_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'between' mean in Spanish?",
+        "options": [
+          "entre",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "entre",
+        "explanation": "'between' significa 'entre' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "directions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: entre. Example: The bank is between the hotel and the shop.",
+    "activeRecallPrompt": "Como dirias 'El banco esta entre el hotel y la tienda.' en ingles?",
+    "activeRecallAnswer": "The bank is between the hotel and the shop.",
+    "learningTip": "Repite 'The bank is between the hotel and the shop.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0269",
+    "word": "behind",
+    "meaningEs": "detras de",
+    "pronunciation": "bi-jaind",
+    "partOfSpeech": "preposition",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The bag is behind the chair.",
+    "exampleEs": "La mochila esta detras de la silla.",
+    "usage": "Se usa para dar o entender direcciones basicas.",
+    "grammar": "Es una preposicion. Conecta lugares, tiempos o relaciones dentro de la frase.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The bag is behind the chair.",
+      "Use 'behind' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0269_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'behind' mean in Spanish?",
+        "options": [
+          "detras de",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "detras de",
+        "explanation": "'behind' significa 'detras de' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "directions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: detras de. Example: The bag is behind the chair.",
+    "activeRecallPrompt": "Como dirias 'La mochila esta detras de la silla.' en ingles?",
+    "activeRecallAnswer": "The bag is behind the chair.",
+    "learningTip": "Repite 'The bag is behind the chair.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0270",
+    "word": "around",
+    "meaningEs": "alrededor de / por",
+    "pronunciation": "a-raund",
+    "partOfSpeech": "preposition",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Walk around the park after lunch.",
+    "exampleEs": "Camina alrededor del parque despues del almuerzo.",
+    "usage": "Se usa para dar o entender direcciones basicas.",
+    "grammar": "Es una preposicion. Conecta lugares, tiempos o relaciones dentro de la frase.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "Walk around the park after lunch.",
+      "Use 'around' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0270_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'around' mean in Spanish?",
+        "options": [
+          "alrededor de / por",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "alrededor de / por",
+        "explanation": "'around' significa 'alrededor de / por' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "directions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: alrededor de / por. Example: Walk around the park after lunch.",
+    "activeRecallPrompt": "Como dirias 'Camina alrededor del parque despues del almuerzo.' en ingles?",
+    "activeRecallAnswer": "Walk around the park after lunch.",
+    "learningTip": "Repite 'Walk around the park after lunch.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0271",
+    "word": "later",
+    "meaningEs": "mas tarde",
+    "pronunciation": "lei-ter",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I can call you later.",
+    "exampleEs": "Puedo llamarte mas tarde.",
+    "usage": "Se usa para ubicar acciones en el tiempo.",
+    "grammar": "Es un adverbio. Ayuda a ubicar la accion en tiempo, distancia o frecuencia.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "I can call you later.",
+      "Use 'later' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0271_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'later' mean in Spanish?",
+        "options": [
+          "mas tarde",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "mas tarde",
+        "explanation": "'later' significa 'mas tarde' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "time_expressions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: mas tarde. Example: I can call you later.",
+    "activeRecallPrompt": "Como dirias 'Puedo llamarte mas tarde.' en ingles?",
+    "activeRecallAnswer": "I can call you later.",
+    "learningTip": "Repite 'I can call you later.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0272",
+    "word": "early",
+    "meaningEs": "temprano",
+    "pronunciation": "er-li",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "She arrives early for class.",
+    "exampleEs": "Ella llega temprano a clase.",
+    "usage": "Se usa para ubicar acciones en el tiempo.",
+    "grammar": "Es un adverbio. Ayuda a ubicar la accion en tiempo, distancia o frecuencia.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "She arrives early for class.",
+      "Use 'early' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0272_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'early' mean in Spanish?",
+        "options": [
+          "temprano",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "temprano",
+        "explanation": "'early' significa 'temprano' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "time_expressions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: temprano. Example: She arrives early for class.",
+    "activeRecallPrompt": "Como dirias 'Ella llega temprano a clase.' en ingles?",
+    "activeRecallAnswer": "She arrives early for class.",
+    "learningTip": "Repite 'She arrives early for class.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0273",
+    "word": "soon",
+    "meaningEs": "pronto",
+    "pronunciation": "sun",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The bus comes soon.",
+    "exampleEs": "El bus viene pronto.",
+    "usage": "Se usa para ubicar acciones en el tiempo.",
+    "grammar": "Es un adverbio. Ayuda a ubicar la accion en tiempo, distancia o frecuencia.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The bus comes soon.",
+      "Use 'soon' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0273_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'soon' mean in Spanish?",
+        "options": [
+          "pronto",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "pronto",
+        "explanation": "'soon' significa 'pronto' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "time_expressions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: pronto. Example: The bus comes soon.",
+    "activeRecallPrompt": "Como dirias 'El bus viene pronto.' en ingles?",
+    "activeRecallAnswer": "The bus comes soon.",
+    "learningTip": "Repite 'The bus comes soon.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0274",
+    "word": "ago",
+    "meaningEs": "hace",
+    "pronunciation": "a-gou",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I started English two months ago.",
+    "exampleEs": "Empece ingles hace dos meses.",
+    "usage": "Se usa para ubicar acciones en el tiempo.",
+    "grammar": "Es un adverbio. Ayuda a ubicar la accion en tiempo, distancia o frecuencia.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "I started English two months ago.",
+      "Use 'ago' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0274_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'ago' mean in Spanish?",
+        "options": [
+          "hace",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "hace",
+        "explanation": "'ago' significa 'hace' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "time_expressions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: hace. Example: I started English two months ago.",
+    "activeRecallPrompt": "Como dirias 'Empece ingles hace dos meses.' en ingles?",
+    "activeRecallAnswer": "I started English two months ago.",
+    "learningTip": "Repite 'I started English two months ago.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0275",
+    "word": "before",
+    "meaningEs": "antes",
+    "pronunciation": "bi-for",
+    "partOfSpeech": "preposition",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Wash your hands before dinner.",
+    "exampleEs": "Lavate las manos antes de cenar.",
+    "usage": "Se usa para ubicar acciones en el tiempo.",
+    "grammar": "Es una preposicion. Conecta lugares, tiempos o relaciones dentro de la frase.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "Wash your hands before dinner.",
+      "Use 'before' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0275_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'before' mean in Spanish?",
+        "options": [
+          "antes",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "antes",
+        "explanation": "'before' significa 'antes' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "time_expressions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: antes. Example: Wash your hands before dinner.",
+    "activeRecallPrompt": "Como dirias 'Lavate las manos antes de cenar.' en ingles?",
+    "activeRecallAnswer": "Wash your hands before dinner.",
+    "learningTip": "Repite 'Wash your hands before dinner.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0276",
+    "word": "after",
+    "meaningEs": "despues",
+    "pronunciation": "af-ter",
+    "partOfSpeech": "preposition",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I study after work.",
+    "exampleEs": "Estudio despues del trabajo.",
+    "usage": "Se usa para ubicar acciones en el tiempo.",
+    "grammar": "Es una preposicion. Conecta lugares, tiempos o relaciones dentro de la frase.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "I study after work.",
+      "Use 'after' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0276_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'after' mean in Spanish?",
+        "options": [
+          "despues",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "despues",
+        "explanation": "'after' significa 'despues' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "time_expressions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: despues. Example: I study after work.",
+    "activeRecallPrompt": "Como dirias 'Estudio despues del trabajo.' en ingles?",
+    "activeRecallAnswer": "I study after work.",
+    "learningTip": "Repite 'I study after work.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0277",
+    "word": "already",
+    "meaningEs": "ya",
+    "pronunciation": "ol-re-di",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I already have a ticket.",
+    "exampleEs": "Ya tengo un boleto.",
+    "usage": "Se usa para ubicar acciones en el tiempo.",
+    "grammar": "Es un adverbio. Ayuda a ubicar la accion en tiempo, distancia o frecuencia.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "I already have a ticket.",
+      "Use 'already' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0277_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'already' mean in Spanish?",
+        "options": [
+          "ya",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "ya",
+        "explanation": "'already' significa 'ya' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "time_expressions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: ya. Example: I already have a ticket.",
+    "activeRecallPrompt": "Como dirias 'Ya tengo un boleto.' en ingles?",
+    "activeRecallAnswer": "I already have a ticket.",
+    "learningTip": "Repite 'I already have a ticket.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0278",
+    "word": "still",
+    "meaningEs": "todavia / aun",
+    "pronunciation": "stil",
+    "partOfSpeech": "adverb",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "She is still at school.",
+    "exampleEs": "Ella todavia esta en la escuela.",
+    "usage": "Se usa para ubicar acciones en el tiempo.",
+    "grammar": "Es un adverbio. Ayuda a ubicar la accion en tiempo, distancia o frecuencia.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "She is still at school.",
+      "Use 'still' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0278_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'still' mean in Spanish?",
+        "options": [
+          "todavia / aun",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "todavia / aun",
+        "explanation": "'still' significa 'todavia / aun' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "time_expressions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: todavia / aun. Example: She is still at school.",
+    "activeRecallPrompt": "Como dirias 'Ella todavia esta en la escuela.' en ingles?",
+    "activeRecallAnswer": "She is still at school.",
+    "learningTip": "Repite 'She is still at school.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0279",
+    "word": "bring",
+    "meaningEs": "traer",
+    "pronunciation": "bring",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "bring",
+    "pastSimple": "brought",
+    "pastParticiple": "brought",
+    "exampleEn": "Bring your passport to the airport.",
+    "exampleEs": "Trae tu pasaporte al aeropuerto.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo irregular: bring, brought, brought.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma brought.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "Bring your passport to the airport.",
+      "Use 'bring' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0279_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'bring' mean in Spanish?",
+        "options": [
+          "traer",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "traer",
+        "explanation": "'bring' significa 'traer' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: bring / brought / brought. Example: Bring your passport to the airport.",
+    "activeRecallPrompt": "Como dirias 'Trae tu pasaporte al aeropuerto.' en ingles?",
+    "activeRecallAnswer": "Bring your passport to the airport.",
+    "learningTip": "Repite 'Bring your passport to the airport.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0280",
+    "word": "return",
+    "meaningEs": "volver / devolver",
+    "pronunciation": "ri-tern",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "return",
+    "pastSimple": "returned",
+    "pastParticiple": "returned",
+    "exampleEn": "Return the book tomorrow, please.",
+    "exampleEs": "Devuelve el libro manana, por favor.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo regular: return, returned, returned.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma returned.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "Return the book tomorrow, please.",
+      "Use 'return' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0280_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'return' mean in Spanish?",
+        "options": [
+          "volver / devolver",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "volver / devolver",
+        "explanation": "'return' significa 'volver / devolver' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: return / returned / returned. Example: Return the book tomorrow, please.",
+    "activeRecallPrompt": "Como dirias 'Devuelve el libro manana, por favor.' en ingles?",
+    "activeRecallAnswer": "Return the book tomorrow, please.",
+    "learningTip": "Repite 'Return the book tomorrow, please.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0281",
+    "word": "receive",
+    "meaningEs": "recibir",
+    "pronunciation": "ri-siv",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "receive",
+    "pastSimple": "received",
+    "pastParticiple": "received",
+    "exampleEn": "I receive a message from my teacher.",
+    "exampleEs": "Recibo un mensaje de mi profesor.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo regular: receive, received, received.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma received.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "I receive a message from my teacher.",
+      "Use 'receive' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0281_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'receive' mean in Spanish?",
+        "options": [
+          "recibir",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "recibir",
+        "explanation": "'receive' significa 'recibir' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: receive / received / received. Example: I receive a message from my teacher.",
+    "activeRecallPrompt": "Como dirias 'Recibo un mensaje de mi profesor.' en ingles?",
+    "activeRecallAnswer": "I receive a message from my teacher.",
+    "learningTip": "Repite 'I receive a message from my teacher.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0282",
+    "word": "agree",
+    "meaningEs": "estar de acuerdo",
+    "pronunciation": "a-gri",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "agree",
+    "pastSimple": "agreed",
+    "pastParticiple": "agreed",
+    "exampleEn": "I agree with your idea.",
+    "exampleEs": "Estoy de acuerdo con tu idea.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo regular: agree, agreed, agreed.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma agreed.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "I agree with your idea.",
+      "Use 'agree' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0282_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'agree' mean in Spanish?",
+        "options": [
+          "estar de acuerdo",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "estar de acuerdo",
+        "explanation": "'agree' significa 'estar de acuerdo' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: agree / agreed / agreed. Example: I agree with your idea.",
+    "activeRecallPrompt": "Como dirias 'Estoy de acuerdo con tu idea.' en ingles?",
+    "activeRecallAnswer": "I agree with your idea.",
+    "learningTip": "Repite 'I agree with your idea.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0283",
+    "word": "believe",
+    "meaningEs": "creer",
+    "pronunciation": "bi-liv",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "believe",
+    "pastSimple": "believed",
+    "pastParticiple": "believed",
+    "exampleEn": "I believe this answer is correct.",
+    "exampleEs": "Creo que esta respuesta es correcta.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo regular: believe, believed, believed.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma believed.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "I believe this answer is correct.",
+      "Use 'believe' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0283_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'believe' mean in Spanish?",
+        "options": [
+          "creer",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "creer",
+        "explanation": "'believe' significa 'creer' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: believe / believed / believed. Example: I believe this answer is correct.",
+    "activeRecallPrompt": "Como dirias 'Creo que esta respuesta es correcta.' en ingles?",
+    "activeRecallAnswer": "I believe this answer is correct.",
+    "learningTip": "Repite 'I believe this answer is correct.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0284",
+    "word": "plan",
+    "meaningEs": "planear",
+    "pronunciation": "plan",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "plan",
+    "pastSimple": "planned",
+    "pastParticiple": "planned",
+    "exampleEn": "We plan our trip tonight.",
+    "exampleEs": "Planeamos nuestro viaje esta noche.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo regular: plan, planned, planned.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma planned.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "We plan our trip tonight.",
+      "Use 'plan' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0284_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'plan' mean in Spanish?",
+        "options": [
+          "planear",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "planear",
+        "explanation": "'plan' significa 'planear' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: plan / planned / planned. Example: We plan our trip tonight.",
+    "activeRecallPrompt": "Como dirias 'Planeamos nuestro viaje esta noche.' en ingles?",
+    "activeRecallAnswer": "We plan our trip tonight.",
+    "learningTip": "Repite 'We plan our trip tonight.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0285",
+    "word": "prepare",
+    "meaningEs": "preparar",
+    "pronunciation": "pri-per",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "prepare",
+    "pastSimple": "prepared",
+    "pastParticiple": "prepared",
+    "exampleEn": "Prepare your bag before school.",
+    "exampleEs": "Prepara tu mochila antes de la escuela.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo regular: prepare, prepared, prepared.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma prepared.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "Prepare your bag before school.",
+      "Use 'prepare' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0285_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'prepare' mean in Spanish?",
+        "options": [
+          "preparar",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "preparar",
+        "explanation": "'prepare' significa 'preparar' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: prepare / prepared / prepared. Example: Prepare your bag before school.",
+    "activeRecallPrompt": "Como dirias 'Prepara tu mochila antes de la escuela.' en ingles?",
+    "activeRecallAnswer": "Prepare your bag before school.",
+    "learningTip": "Repite 'Prepare your bag before school.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0286",
+    "word": "find",
+    "meaningEs": "encontrar",
+    "pronunciation": "faind",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "find",
+    "pastSimple": "found",
+    "pastParticiple": "found",
+    "exampleEn": "I find the ticket in my bag.",
+    "exampleEs": "Encuentro el boleto en mi mochila.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo irregular: find, found, found.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma found.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "I find the ticket in my bag.",
+      "Use 'find' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0286_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'find' mean in Spanish?",
+        "options": [
+          "encontrar",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "encontrar",
+        "explanation": "'find' significa 'encontrar' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: find / found / found. Example: I find the ticket in my bag.",
+    "activeRecallPrompt": "Como dirias 'Encuentro el boleto en mi mochila.' en ingles?",
+    "activeRecallAnswer": "I find the ticket in my bag.",
+    "learningTip": "Repite 'I find the ticket in my bag.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0287",
+    "word": "lose",
+    "meaningEs": "perder",
+    "pronunciation": "luz",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "lose",
+    "pastSimple": "lost",
+    "pastParticiple": "lost",
+    "exampleEn": "Do not lose your passport.",
+    "exampleEs": "No pierdas tu pasaporte.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo irregular: lose, lost, lost.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma lost.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "Do not lose your passport.",
+      "Use 'lose' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0287_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'lose' mean in Spanish?",
+        "options": [
+          "perder",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "perder",
+        "explanation": "'lose' significa 'perder' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: lose / lost / lost. Example: Do not lose your passport.",
+    "activeRecallPrompt": "Como dirias 'No pierdas tu pasaporte.' en ingles?",
+    "activeRecallAnswer": "Do not lose your passport.",
+    "learningTip": "Repite 'Do not lose your passport.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0288",
+    "word": "wear",
+    "meaningEs": "usar / llevar puesto",
+    "pronunciation": "uer",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "wear",
+    "pastSimple": "wore",
+    "pastParticiple": "worn",
+    "exampleEn": "I wear a jacket when it is cold.",
+    "exampleEs": "Uso una chaqueta cuando hace frio.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo irregular: wear, wore, worn.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma wore.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "I wear a jacket when it is cold.",
+      "Use 'wear' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0288_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'wear' mean in Spanish?",
+        "options": [
+          "usar / llevar puesto",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "usar / llevar puesto",
+        "explanation": "'wear' significa 'usar / llevar puesto' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: wear / wore / worn. Example: I wear a jacket when it is cold.",
+    "activeRecallPrompt": "Como dirias 'Uso una chaqueta cuando hace frio.' en ingles?",
+    "activeRecallAnswer": "I wear a jacket when it is cold.",
+    "learningTip": "Repite 'I wear a jacket when it is cold.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0289",
+    "word": "spend",
+    "meaningEs": "gastar / pasar tiempo",
+    "pronunciation": "spend",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "spend",
+    "pastSimple": "spent",
+    "pastParticiple": "spent",
+    "exampleEn": "I spend ten dollars on lunch.",
+    "exampleEs": "Gasto diez dolares en el almuerzo.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo irregular: spend, spent, spent.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma spent.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "I spend ten dollars on lunch.",
+      "Use 'spend' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0289_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'spend' mean in Spanish?",
+        "options": [
+          "gastar / pasar tiempo",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "gastar / pasar tiempo",
+        "explanation": "'spend' significa 'gastar / pasar tiempo' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: spend / spent / spent. Example: I spend ten dollars on lunch.",
+    "activeRecallPrompt": "Como dirias 'Gasto diez dolares en el almuerzo.' en ingles?",
+    "activeRecallAnswer": "I spend ten dollars on lunch.",
+    "learningTip": "Repite 'I spend ten dollars on lunch.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0290",
+    "word": "save",
+    "meaningEs": "ahorrar / guardar",
+    "pronunciation": "seiv",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "save",
+    "pastSimple": "saved",
+    "pastParticiple": "saved",
+    "exampleEn": "Save money for your trip.",
+    "exampleEs": "Ahorra dinero para tu viaje.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo regular: save, saved, saved.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma saved.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "Save money for your trip.",
+      "Use 'save' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0290_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'save' mean in Spanish?",
+        "options": [
+          "ahorrar / guardar",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "ahorrar / guardar",
+        "explanation": "'save' significa 'ahorrar / guardar' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: save / saved / saved. Example: Save money for your trip.",
+    "activeRecallPrompt": "Como dirias 'Ahorra dinero para tu viaje.' en ingles?",
+    "activeRecallAnswer": "Save money for your trip.",
+    "learningTip": "Repite 'Save money for your trip.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0291",
+    "word": "change",
+    "meaningEs": "cambiar",
+    "pronunciation": "cheinch",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "change",
+    "pastSimple": "changed",
+    "pastParticiple": "changed",
+    "exampleEn": "Change your seat if you want.",
+    "exampleEs": "Cambia tu asiento si quieres.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo regular: change, changed, changed.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma changed.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "Change your seat if you want.",
+      "Use 'change' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0291_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'change' mean in Spanish?",
+        "options": [
+          "cambiar",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "cambiar",
+        "explanation": "'change' significa 'cambiar' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: change / changed / changed. Example: Change your seat if you want.",
+    "activeRecallPrompt": "Como dirias 'Cambia tu asiento si quieres.' en ingles?",
+    "activeRecallAnswer": "Change your seat if you want.",
+    "learningTip": "Repite 'Change your seat if you want.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0292",
+    "word": "check",
+    "meaningEs": "revisar",
+    "pronunciation": "chek",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "check",
+    "pastSimple": "checked",
+    "pastParticiple": "checked",
+    "exampleEn": "Check the price before you pay.",
+    "exampleEs": "Revisa el precio antes de pagar.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo regular: check, checked, checked.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma checked.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "Check the price before you pay.",
+      "Use 'check' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0292_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'check' mean in Spanish?",
+        "options": [
+          "revisar",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "revisar",
+        "explanation": "'check' significa 'revisar' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: check / checked / checked. Example: Check the price before you pay.",
+    "activeRecallPrompt": "Como dirias 'Revisa el precio antes de pagar.' en ingles?",
+    "activeRecallAnswer": "Check the price before you pay.",
+    "learningTip": "Repite 'Check the price before you pay.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0293",
+    "word": "join",
+    "meaningEs": "unirse a / participar",
+    "pronunciation": "yoin",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "join",
+    "pastSimple": "joined",
+    "pastParticiple": "joined",
+    "exampleEn": "Join the class at eight.",
+    "exampleEs": "Unete a la clase a las ocho.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo regular: join, joined, joined.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma joined.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "Join the class at eight.",
+      "Use 'join' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0293_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'join' mean in Spanish?",
+        "options": [
+          "unirse a / participar",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "unirse a / participar",
+        "explanation": "'join' significa 'unirse a / participar' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: join / joined / joined. Example: Join the class at eight.",
+    "activeRecallPrompt": "Como dirias 'Unete a la clase a las ocho.' en ingles?",
+    "activeRecallAnswer": "Join the class at eight.",
+    "learningTip": "Repite 'Join the class at eight.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0294",
+    "word": "move",
+    "meaningEs": "moverse / mudarse",
+    "pronunciation": "muv",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "move",
+    "pastSimple": "moved",
+    "pastParticiple": "moved",
+    "exampleEn": "Move the chair near the table.",
+    "exampleEs": "Mueve la silla cerca de la mesa.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo regular: move, moved, moved.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma moved.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "Move the chair near the table.",
+      "Use 'move' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0294_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'move' mean in Spanish?",
+        "options": [
+          "moverse / mudarse",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "moverse / mudarse",
+        "explanation": "'move' significa 'moverse / mudarse' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: move / moved / moved. Example: Move the chair near the table.",
+    "activeRecallPrompt": "Como dirias 'Mueve la silla cerca de la mesa.' en ingles?",
+    "activeRecallAnswer": "Move the chair near the table.",
+    "learningTip": "Repite 'Move the chair near the table.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0295",
+    "word": "turn",
+    "meaningEs": "girar / convertir",
+    "pronunciation": "tern",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "turn",
+    "pastSimple": "turned",
+    "pastParticiple": "turned",
+    "exampleEn": "Turn right at the corner.",
+    "exampleEs": "Gira a la derecha en la esquina.",
+    "usage": "Se usa para construir frases A2 sobre planes, viajes, compras, instrucciones o rutinas.",
+    "grammar": "Es un verbo regular: turn, turned, turned.",
+    "commonMistakes": [
+      "No inventar el pasado; aprende la forma turned.",
+      "No traduzcas palabra por palabra; practica la frase completa del ejemplo."
+    ],
+    "dailyUse": [
+      "Turn right at the corner.",
+      "Use 'turn' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0295_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'turn' mean in Spanish?",
+        "options": [
+          "girar / convertir",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "girar / convertir",
+        "explanation": "'turn' significa 'girar / convertir' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "directions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo A2: turn / turned / turned. Example: Turn right at the corner.",
+    "activeRecallPrompt": "Como dirias 'Gira a la derecha en la esquina.' en ingles?",
+    "activeRecallAnswer": "Turn right at the corner.",
+    "learningTip": "Repite 'Turn right at the corner.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0296",
+    "word": "comfortable",
+    "meaningEs": "comodo",
+    "pronunciation": "kom-for-ta-bol",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This seat is comfortable.",
+    "exampleEs": "Este asiento es comodo.",
+    "usage": "Se usa para describir objetos, lugares o situaciones con mas precision.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "This seat is comfortable.",
+      "Use 'comfortable' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0296_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'comfortable' mean in Spanish?",
+        "options": [
+          "comodo",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "comodo",
+        "explanation": "'comfortable' significa 'comodo' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: comodo. Example: This seat is comfortable.",
+    "activeRecallPrompt": "Como dirias 'Este asiento es comodo.' en ingles?",
+    "activeRecallAnswer": "This seat is comfortable.",
+    "learningTip": "Repite 'This seat is comfortable.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0297",
+    "word": "safe",
+    "meaningEs": "seguro",
+    "pronunciation": "seif",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This street is safe at night.",
+    "exampleEs": "Esta calle es segura en la noche.",
+    "usage": "Se usa para describir objetos, lugares o situaciones con mas precision.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "This street is safe at night.",
+      "Use 'safe' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0297_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'safe' mean in Spanish?",
+        "options": [
+          "seguro",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "seguro",
+        "explanation": "'safe' significa 'seguro' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: seguro. Example: This street is safe at night.",
+    "activeRecallPrompt": "Como dirias 'Esta calle es segura en la noche.' en ingles?",
+    "activeRecallAnswer": "This street is safe at night.",
+    "learningTip": "Repite 'This street is safe at night.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0298",
+    "word": "dangerous",
+    "meaningEs": "peligroso",
+    "pronunciation": "dein-ye-ros",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "That road is dangerous in the rain.",
+    "exampleEs": "Ese camino es peligroso con lluvia.",
+    "usage": "Se usa para describir objetos, lugares o situaciones con mas precision.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "That road is dangerous in the rain.",
+      "Use 'dangerous' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0298_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'dangerous' mean in Spanish?",
+        "options": [
+          "peligroso",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "peligroso",
+        "explanation": "'dangerous' significa 'peligroso' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: peligroso. Example: That road is dangerous in the rain.",
+    "activeRecallPrompt": "Como dirias 'Ese camino es peligroso con lluvia.' en ingles?",
+    "activeRecallAnswer": "That road is dangerous in the rain.",
+    "learningTip": "Repite 'That road is dangerous in the rain.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0299",
+    "word": "dirty",
+    "meaningEs": "sucio",
+    "pronunciation": "der-ti",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The plate is dirty after lunch.",
+    "exampleEs": "El plato esta sucio despues del almuerzo.",
+    "usage": "Se usa para describir objetos, lugares o situaciones con mas precision.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The plate is dirty after lunch.",
+      "Use 'dirty' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0299_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'dirty' mean in Spanish?",
+        "options": [
+          "sucio",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "sucio",
+        "explanation": "'dirty' significa 'sucio' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: sucio. Example: The plate is dirty after lunch.",
+    "activeRecallPrompt": "Como dirias 'El plato esta sucio despues del almuerzo.' en ingles?",
+    "activeRecallAnswer": "The plate is dirty after lunch.",
+    "learningTip": "Repite 'The plate is dirty after lunch.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  },
+  {
+    "id": "lesson_a2_0300",
+    "word": "empty",
+    "meaningEs": "vacio",
+    "pronunciation": "emp-ti",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The bottle is empty now.",
+    "exampleEs": "La botella esta vacia ahora.",
+    "usage": "Se usa para describir objetos, lugares o situaciones con mas precision.",
+    "grammar": "Es un adjetivo. En ingles no cambia por genero ni numero y puede ir antes del sustantivo o despues de be.",
+    "commonMistakes": [
+      "No memorices la palabra sola; usala dentro de una frase real.",
+      "No la pronuncies como espanol; sigue la guia fonetica y el ritmo del ejemplo."
+    ],
+    "dailyUse": [
+      "The bottle is empty now.",
+      "Use 'empty' in a real A2 sentence today."
+    ],
+    "exercises": [
+      {
+        "id": "lesson_a2_0300_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'empty' mean in Spanish?",
+        "options": [
+          "vacio",
+          "boleto",
+          "cansado",
+          "precio"
+        ],
+        "correctAnswer": "vacio",
+        "explanation": "'empty' significa 'vacio' en este contexto A2."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso A2: vacio. Example: The bottle is empty now.",
+    "activeRecallPrompt": "Como dirias 'La botella esta vacia ahora.' en ingles?",
+    "activeRecallAnswer": "The bottle is empty now.",
+    "learningTip": "Repite 'The bottle is empty now.' y cambia una parte para adaptarla a tu vida.",
+    "links": []
+  }
+]
