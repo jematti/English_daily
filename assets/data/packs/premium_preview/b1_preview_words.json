@@ -28,7 +28,12 @@
         "id": "preview_ex_b1_001",
         "type": "multiple_choice",
         "question": "What does 'however' express?",
-        "options": ["Contraste", "Cantidad", "Frecuencia", "Lugar"],
+        "options": [
+          "Contraste",
+          "Cantidad",
+          "Frecuencia",
+          "Lugar"
+        ],
         "correctAnswer": "Contraste",
         "explanation": "'However' introduce una idea que contrasta con la anterior."
       }
@@ -37,7 +42,10 @@
     "level": "B1",
     "isPremium": true,
     "category": "connectors",
-    "packId": "premium_preview"
+    "packId": "premium_preview",
+    "activeRecallPrompt": "¿Cómo dirías 'Me gusta la idea. Sin embargo, necesitamos mas tiempo.' en inglés?",
+    "activeRecallAnswer": "I like the idea. However, we need more time.",
+    "learningTip": "Usa 'however' hoy en una oración corta con contexto real."
   },
   {
     "id": "preview_b1_002",
@@ -68,7 +76,12 @@
         "id": "preview_ex_b1_002",
         "type": "multiple_choice",
         "question": "Choose the best translation: although",
-        "options": ["Aunque", "Porque", "Siempre", "Despues"],
+        "options": [
+          "Aunque",
+          "Porque",
+          "Siempre",
+          "Despues"
+        ],
         "correctAnswer": "Aunque",
         "explanation": "'Although' se traduce como 'aunque'."
       }
@@ -77,7 +90,10 @@
     "level": "B1",
     "isPremium": true,
     "category": "connectors",
-    "packId": "premium_preview"
+    "packId": "premium_preview",
+    "activeRecallPrompt": "¿Cómo dirías 'Aunque era tarde, termine la leccion.' en inglés?",
+    "activeRecallAnswer": "Although it was late, I finished the lesson.",
+    "learningTip": "Usa 'although' hoy en una oración corta con contexto real."
   },
   {
     "id": "preview_b1_003",
@@ -108,7 +124,12 @@
         "id": "preview_ex_b1_003",
         "type": "multiple_choice",
         "question": "Which phrase is correct?",
-        "options": ["some advice", "an advice", "many advices", "one advices"],
+        "options": [
+          "some advice",
+          "an advice",
+          "many advices",
+          "one advices"
+        ],
         "correctAnswer": "some advice",
         "explanation": "'Advice' es incontable; puedes decir 'some advice' o 'a piece of advice'."
       }
@@ -117,6 +138,9 @@
     "level": "B1",
     "isPremium": true,
     "category": "common_nouns",
-    "packId": "premium_preview"
+    "packId": "premium_preview",
+    "activeRecallPrompt": "¿Cómo dirías 'Mi profesor me dio consejos utiles.' en inglés?",
+    "activeRecallAnswer": "My teacher gave me useful advice.",
+    "learningTip": "Usa 'advice' hoy en una oración corta con contexto real."
   }
 ]

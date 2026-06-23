@@ -28,7 +28,12 @@
         "id": "ex_003",
         "type": "multiple_choice",
         "question": "What sentence uses 'improve' correctly?",
-        "options": ["I want to improve my English.", "I want improve my English.", "I improve to my English.", "I want to prove my English better."],
+        "options": [
+          "I want to improve my English.",
+          "I want improve my English.",
+          "I improve to my English.",
+          "I want to prove my English better."
+        ],
         "correctAnswer": "I want to improve my English.",
         "explanation": "Despues de 'want' se usa 'to improve', y el objeto puede ser 'my English'."
       }
@@ -44,7 +49,10 @@
     "level": "A2",
     "isPremium": false,
     "category": "learning_verbs",
-    "packId": "free_basic_1000"
+    "packId": "free_basic_1000",
+    "activeRecallPrompt": "¿Cómo dirías 'Quiero mejorar mi pronunciacion.' en inglés?",
+    "activeRecallAnswer": "I want to improve my pronunciation.",
+    "learningTip": "Memoriza improve / improved / improved como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_005",
@@ -75,7 +83,12 @@
         "id": "ex_005",
         "type": "multiple_choice",
         "question": "Choose the correct sentence.",
-        "options": ["Can I borrow your phone?", "Can I lend your phone?", "Can I borrow you my phone?", "Can I borrowed your phone?"],
+        "options": [
+          "Can I borrow your phone?",
+          "Can I lend your phone?",
+          "Can I borrow you my phone?",
+          "Can I borrowed your phone?"
+        ],
         "correctAnswer": "Can I borrow your phone?",
         "explanation": "Si tu recibes el telefono por un momento, usas 'borrow'."
       }
@@ -91,7 +104,10 @@
     "level": "A2",
     "isPremium": false,
     "category": "confusing_verbs",
-    "packId": "free_basic_1000"
+    "packId": "free_basic_1000",
+    "activeRecallPrompt": "¿Cómo dirías 'Puedo pedir prestado tu boligrafo por un minuto?' en inglés?",
+    "activeRecallAnswer": "Can I borrow your pen for a minute?",
+    "learningTip": "Memoriza borrow / borrowed / borrowed como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_006",
@@ -122,7 +138,12 @@
         "id": "ex_006",
         "type": "multiple_choice",
         "question": "What does 'lend' mean in this sentence: I can lend you my umbrella?",
-        "options": ["Puedo prestarte mi paraguas", "Puedo pedirte prestado mi paraguas", "Puedo comprar tu paraguas", "Puedo olvidar tu paraguas"],
+        "options": [
+          "Puedo prestarte mi paraguas",
+          "Puedo pedirte prestado mi paraguas",
+          "Puedo comprar tu paraguas",
+          "Puedo olvidar tu paraguas"
+        ],
         "correctAnswer": "Puedo prestarte mi paraguas",
         "explanation": "'Lend' significa dar algo prestado a otra persona por un tiempo."
       }
@@ -138,7 +159,10 @@
     "level": "A2",
     "isPremium": false,
     "category": "confusing_verbs",
-    "packId": "free_basic_1000"
+    "packId": "free_basic_1000",
+    "activeRecallPrompt": "¿Cómo dirías 'Puedo prestarte mis apuntes despues de clase.' en inglés?",
+    "activeRecallAnswer": "I can lend you my notes after class.",
+    "learningTip": "Memoriza lend / lent / lent como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_010",
@@ -169,7 +193,12 @@
         "id": "ex_010",
         "type": "multiple_choice",
         "question": "What does 'get' mean in 'I get home at six'?",
-        "options": ["Llego", "Compro", "Presto", "Mejoro"],
+        "options": [
+          "Llego",
+          "Compro",
+          "Presto",
+          "Mejoro"
+        ],
         "correctAnswer": "Llego",
         "explanation": "En este contexto, 'get home' significa 'llegar a casa'."
       }
@@ -185,7 +214,10 @@
     "level": "A2",
     "isPremium": false,
     "category": "irregular_verbs",
-    "packId": "free_basic_1000"
+    "packId": "free_basic_1000",
+    "activeRecallPrompt": "¿Cómo dirías 'Normalmente llego a casa a las seis.' en inglés?",
+    "activeRecallAnswer": "I usually get home at six.",
+    "learningTip": "Memoriza get / got / got/gotten como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_016",
@@ -216,7 +248,12 @@
         "id": "ex_016",
         "type": "multiple_choice",
         "question": "What does 'maybe' mean?",
-        "options": ["Tal vez", "Siempre", "Nunca", "Suficiente"],
+        "options": [
+          "Tal vez",
+          "Siempre",
+          "Nunca",
+          "Suficiente"
+        ],
         "correctAnswer": "Tal vez",
         "explanation": "'Maybe' expresa posibilidad."
       }
@@ -232,6 +269,9 @@
     "level": "A2",
     "isPremium": false,
     "category": "common_adverbs",
-    "packId": "free_basic_1000"
+    "packId": "free_basic_1000",
+    "activeRecallPrompt": "¿Cómo dirías 'Tal vez podamos practicar despues del almuerzo.' en inglés?",
+    "activeRecallAnswer": "Maybe we can practice after lunch.",
+    "learningTip": "Usa 'maybe' hoy en una oración corta con contexto real."
   }
 ]

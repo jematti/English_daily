@@ -14,15 +14,38 @@
     "exampleEs": "Por favor abre la puerta.",
     "usage": "Se usa para hablar de abrir algo o iniciar acceso a algo.",
     "grammar": "Regular verb: open, opened, opened.",
-    "commonMistakes": ["No confundir open con turn on.", "No decir opened para presente simple."],
-    "dailyUse": ["Open the app.", "Can you open the window?"],
-    "exercises": [{"id": "ex_a1_0101", "type": "multiple_choice", "question": "What does 'open' mean?", "options": ["abrir", "cerrar", "mirar", "comprar"], "correctAnswer": "abrir", "explanation": "Open significa abrir."}],
+    "commonMistakes": [
+      "No confundir open con turn on.",
+      "No decir opened para presente simple."
+    ],
+    "dailyUse": [
+      "Open the app.",
+      "Can you open the window?"
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0101",
+        "type": "multiple_choice",
+        "question": "What does 'open' mean?",
+        "options": [
+          "abrir",
+          "cerrar",
+          "mirar",
+          "comprar"
+        ],
+        "correctAnswer": "abrir",
+        "explanation": "Open significa abrir."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "basic_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Regular: open / opened / opened. Example: Open the app.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Por favor abre la puerta.' en inglés?",
+    "activeRecallAnswer": "Please open the door.",
+    "learningTip": "Memoriza open / opened / opened como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0102",
@@ -39,15 +62,38 @@
     "exampleEs": "Por favor cierra la ventana.",
     "usage": "Se usa para hablar de cerrar puertas, ventanas, apps o negocios.",
     "grammar": "Regular verb: close, closed, closed.",
-    "commonMistakes": ["No confundir close como verbo con close como adjetivo de cercano.", "La pronunciacion cambia segun uso."],
-    "dailyUse": ["Close the door.", "I close the app."],
-    "exercises": [{"id": "ex_a1_0102", "type": "multiple_choice", "question": "What does 'close the door' mean?", "options": ["cerrar la puerta", "abrir la puerta", "mirar la puerta", "comprar la puerta"], "correctAnswer": "cerrar la puerta", "explanation": "Close como verbo significa cerrar."}],
+    "commonMistakes": [
+      "No confundir close como verbo con close como adjetivo de cercano.",
+      "La pronunciacion cambia segun uso."
+    ],
+    "dailyUse": [
+      "Close the door.",
+      "I close the app."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0102",
+        "type": "multiple_choice",
+        "question": "What does 'close the door' mean?",
+        "options": [
+          "cerrar la puerta",
+          "abrir la puerta",
+          "mirar la puerta",
+          "comprar la puerta"
+        ],
+        "correctAnswer": "cerrar la puerta",
+        "explanation": "Close como verbo significa cerrar."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "basic_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Regular: close / closed / closed. Example: Close the door.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Por favor cierra la ventana.' en inglés?",
+    "activeRecallAnswer": "Please close the window.",
+    "learningTip": "Memoriza close / closed / closed como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0103",
@@ -64,15 +110,38 @@
     "exampleEs": "Leo una historia corta.",
     "usage": "Se usa para hablar de leer textos, libros, mensajes o instrucciones.",
     "grammar": "Irregular verb. The spelling is the same in past, but pronunciation changes.",
-    "commonMistakes": ["No pronunciar igual el pasado y el presente.", "No olvidar objeto: read a book, read a message."],
-    "dailyUse": ["I read every night.", "Read the instructions."],
-    "exercises": [{"id": "ex_a1_0103", "type": "multiple_choice", "question": "What does 'read' mean?", "options": ["leer", "escribir", "escuchar", "dormir"], "correctAnswer": "leer", "explanation": "Read significa leer."}],
+    "commonMistakes": [
+      "No pronunciar igual el pasado y el presente.",
+      "No olvidar objeto: read a book, read a message."
+    ],
+    "dailyUse": [
+      "I read every night.",
+      "Read the instructions."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0103",
+        "type": "multiple_choice",
+        "question": "What does 'read' mean?",
+        "options": [
+          "leer",
+          "escribir",
+          "escuchar",
+          "dormir"
+        ],
+        "correctAnswer": "leer",
+        "explanation": "Read significa leer."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "basic_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Irregular: read / read / read. Example: I read every night.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Leo una historia corta.' en inglés?",
+    "activeRecallAnswer": "I read a short story.",
+    "learningTip": "Memoriza read / read / read como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0104",
@@ -89,15 +158,38 @@
     "exampleEs": "Escribo palabras nuevas en mi cuaderno.",
     "usage": "Se usa para hablar de escribir palabras, mensajes, notas o textos.",
     "grammar": "Irregular verb: write, wrote, written.",
-    "commonMistakes": ["No escribir la w como sonido fuerte.", "No usar wrote para presente."],
-    "dailyUse": ["Write your name.", "I write notes."],
-    "exercises": [{"id": "ex_a1_0104", "type": "multiple_choice", "question": "Choose the past simple of 'write'.", "options": ["wrote", "written", "writed", "write"], "correctAnswer": "wrote", "explanation": "El pasado simple de write es wrote."}],
+    "commonMistakes": [
+      "No escribir la w como sonido fuerte.",
+      "No usar wrote para presente."
+    ],
+    "dailyUse": [
+      "Write your name.",
+      "I write notes."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0104",
+        "type": "multiple_choice",
+        "question": "Choose the past simple of 'write'.",
+        "options": [
+          "wrote",
+          "written",
+          "writed",
+          "write"
+        ],
+        "correctAnswer": "wrote",
+        "explanation": "El pasado simple de write es wrote."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "basic_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Irregular: write / wrote / written. Example: Write your name.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Escribo palabras nuevas en mi cuaderno.' en inglés?",
+    "activeRecallAnswer": "I write new words in my notebook.",
+    "learningTip": "Memoriza write / wrote / written como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0105",
@@ -114,15 +206,38 @@
     "exampleEs": "Escucho ingles todos los dias.",
     "usage": "Se usa para hablar de prestar atencion a sonidos, musica o personas.",
     "grammar": "Use listen to before the object: listen to music.",
-    "commonMistakes": ["No decir listen music.", "Usa listen to music."],
-    "dailyUse": ["Listen to me.", "I listen to music."],
-    "exercises": [{"id": "ex_a1_0105", "type": "multiple_choice", "question": "Which phrase is correct?", "options": ["listen to music", "listen music", "listen at music", "listen for music"], "correctAnswer": "listen to music", "explanation": "En ingles se dice listen to music."}],
+    "commonMistakes": [
+      "No decir listen music.",
+      "Usa listen to music."
+    ],
+    "dailyUse": [
+      "Listen to me.",
+      "I listen to music."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0105",
+        "type": "multiple_choice",
+        "question": "Which phrase is correct?",
+        "options": [
+          "listen to music",
+          "listen music",
+          "listen at music",
+          "listen for music"
+        ],
+        "correctAnswer": "listen to music",
+        "explanation": "En ingles se dice listen to music."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "basic_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Regular: listen / listened / listened. Say: listen to music.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Escucho ingles todos los dias.' en inglés?",
+    "activeRecallAnswer": "I listen to English every day.",
+    "learningTip": "Memoriza listen / listened / listened como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0106",
@@ -139,15 +254,38 @@
     "exampleEs": "Hablo ingles en el trabajo.",
     "usage": "Se usa para hablar de idiomas o comunicacion oral.",
     "grammar": "Irregular verb: speak, spoke, spoken.",
-    "commonMistakes": ["No decir speak in English siempre; speak English es natural.", "No confundir speak con say."],
-    "dailyUse": ["Do you speak English?", "I speak slowly."],
-    "exercises": [{"id": "ex_a1_0106", "type": "multiple_choice", "question": "What does 'speak' mean?", "options": ["hablar", "escuchar", "leer", "mirar"], "correctAnswer": "hablar", "explanation": "Speak significa hablar."}],
+    "commonMistakes": [
+      "No decir speak in English siempre; speak English es natural.",
+      "No confundir speak con say."
+    ],
+    "dailyUse": [
+      "Do you speak English?",
+      "I speak slowly."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0106",
+        "type": "multiple_choice",
+        "question": "What does 'speak' mean?",
+        "options": [
+          "hablar",
+          "escuchar",
+          "leer",
+          "mirar"
+        ],
+        "correctAnswer": "hablar",
+        "explanation": "Speak significa hablar."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "basic_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Irregular: speak / spoke / spoken. Example: I speak English.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Hablo ingles en el trabajo.' en inglés?",
+    "activeRecallAnswer": "I speak English at work.",
+    "learningTip": "Memoriza speak / spoke / spoken como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0107",
@@ -164,15 +302,38 @@
     "exampleEs": "Desayuno a las siete.",
     "usage": "Se usa para hablar de comer alimentos.",
     "grammar": "Irregular verb: eat, ate, eaten.",
-    "commonMistakes": ["No confundir eat con it.", "La tercera persona es eats: She eats."],
-    "dailyUse": ["I eat at home.", "What do you eat for lunch?"],
-    "exercises": [{"id": "ex_a1_0107", "type": "multiple_choice", "question": "Choose the past simple of 'eat'.", "options": ["ate", "eaten", "eated", "eat"], "correctAnswer": "ate", "explanation": "El pasado simple de eat es ate."}],
+    "commonMistakes": [
+      "No confundir eat con it.",
+      "La tercera persona es eats: She eats."
+    ],
+    "dailyUse": [
+      "I eat at home.",
+      "What do you eat for lunch?"
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0107",
+        "type": "multiple_choice",
+        "question": "Choose the past simple of 'eat'.",
+        "options": [
+          "ate",
+          "eaten",
+          "eated",
+          "eat"
+        ],
+        "correctAnswer": "ate",
+        "explanation": "El pasado simple de eat es ate."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "food_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Irregular: eat / ate / eaten. Example: I eat breakfast.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Desayuno a las siete.' en inglés?",
+    "activeRecallAnswer": "I eat breakfast at seven.",
+    "learningTip": "Memoriza eat / ate / eaten como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0108",
@@ -189,15 +350,38 @@
     "exampleEs": "Tomo agua cada manana.",
     "usage": "Se usa para hablar de beber liquidos.",
     "grammar": "Irregular verb: drink, drank, drunk.",
-    "commonMistakes": ["No usar drunk como pasado simple.", "Drank es pasado simple."],
-    "dailyUse": ["Drink water.", "I drink coffee."],
-    "exercises": [{"id": "ex_a1_0108", "type": "multiple_choice", "question": "What does 'drink water' mean?", "options": ["tomar agua", "comer agua", "abrir agua", "leer agua"], "correctAnswer": "tomar agua", "explanation": "Drink significa beber o tomar."}],
+    "commonMistakes": [
+      "No usar drunk como pasado simple.",
+      "Drank es pasado simple."
+    ],
+    "dailyUse": [
+      "Drink water.",
+      "I drink coffee."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0108",
+        "type": "multiple_choice",
+        "question": "What does 'drink water' mean?",
+        "options": [
+          "tomar agua",
+          "comer agua",
+          "abrir agua",
+          "leer agua"
+        ],
+        "correctAnswer": "tomar agua",
+        "explanation": "Drink significa beber o tomar."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "food_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Irregular: drink / drank / drunk. Example: Drink water.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Tomo agua cada manana.' en inglés?",
+    "activeRecallAnswer": "I drink water every morning.",
+    "learningTip": "Memoriza drink / drank / drunk como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0109",
@@ -214,15 +398,38 @@
     "exampleEs": "Duermo ocho horas.",
     "usage": "Se usa para hablar del descanso.",
     "grammar": "Irregular verb: sleep, slept, slept.",
-    "commonMistakes": ["No decir I have sleep para tengo sueno.", "Para tengo sueno usa I am sleepy."],
-    "dailyUse": ["I sleep well.", "Go to sleep."],
-    "exercises": [{"id": "ex_a1_0109", "type": "multiple_choice", "question": "Choose the past simple of 'sleep'.", "options": ["slept", "sleeped", "sleep", "sleeping"], "correctAnswer": "slept", "explanation": "El pasado simple de sleep es slept."}],
+    "commonMistakes": [
+      "No decir I have sleep para tengo sueno.",
+      "Para tengo sueno usa I am sleepy."
+    ],
+    "dailyUse": [
+      "I sleep well.",
+      "Go to sleep."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0109",
+        "type": "multiple_choice",
+        "question": "Choose the past simple of 'sleep'.",
+        "options": [
+          "slept",
+          "sleeped",
+          "sleep",
+          "sleeping"
+        ],
+        "correctAnswer": "slept",
+        "explanation": "El pasado simple de sleep es slept."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "daily_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Irregular: sleep / slept / slept. Example: I sleep well.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Duermo ocho horas.' en inglés?",
+    "activeRecallAnswer": "I sleep eight hours.",
+    "learningTip": "Memoriza sleep / slept / slept como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0110",
@@ -239,15 +446,38 @@
     "exampleEs": "Trabajo de lunes a viernes.",
     "usage": "Se usa para hablar de trabajo o de algo que funciona.",
     "grammar": "Regular verb: work, worked, worked.",
-    "commonMistakes": ["No confundir work con job.", "Work puede ser verbo; job es sustantivo."],
-    "dailyUse": ["I work today.", "This phone works well."],
-    "exercises": [{"id": "ex_a1_0110", "type": "multiple_choice", "question": "What does 'I work today' mean?", "options": ["Trabajo hoy", "Descanso hoy", "Como hoy", "Leo hoy"], "correctAnswer": "Trabajo hoy", "explanation": "Work como verbo significa trabajar."}],
+    "commonMistakes": [
+      "No confundir work con job.",
+      "Work puede ser verbo; job es sustantivo."
+    ],
+    "dailyUse": [
+      "I work today.",
+      "This phone works well."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0110",
+        "type": "multiple_choice",
+        "question": "What does 'I work today' mean?",
+        "options": [
+          "Trabajo hoy",
+          "Descanso hoy",
+          "Como hoy",
+          "Leo hoy"
+        ],
+        "correctAnswer": "Trabajo hoy",
+        "explanation": "Work como verbo significa trabajar."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "daily_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Regular: work / worked / worked. Example: I work today.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Trabajo de lunes a viernes.' en inglés?",
+    "activeRecallAnswer": "I work from Monday to Friday.",
+    "learningTip": "Memoriza work / worked / worked como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0111",
@@ -264,15 +494,38 @@
     "exampleEs": "Vivo en una ciudad pequena.",
     "usage": "Se usa para hablar del lugar donde vives o de estar vivo.",
     "grammar": "Regular verb: live, lived, lived.",
-    "commonMistakes": ["No confundir live verbo con live en vivo.", "Para lugares usa live in."],
-    "dailyUse": ["Where do you live?", "I live near here."],
-    "exercises": [{"id": "ex_a1_0111", "type": "multiple_choice", "question": "Complete: I live ___ Bolivia.", "options": ["in", "on", "at", "to"], "correctAnswer": "in", "explanation": "Con paises y ciudades normalmente usamos live in."}],
+    "commonMistakes": [
+      "No confundir live verbo con live en vivo.",
+      "Para lugares usa live in."
+    ],
+    "dailyUse": [
+      "Where do you live?",
+      "I live near here."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0111",
+        "type": "multiple_choice",
+        "question": "Complete: I live ___ Bolivia.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "correctAnswer": "in",
+        "explanation": "Con paises y ciudades normalmente usamos live in."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "daily_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Regular: live / lived / lived. Example: I live in a city.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Vivo en una ciudad pequena.' en inglés?",
+    "activeRecallAnswer": "I live in a small city.",
+    "learningTip": "Memoriza live / lived / lived como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0112",
@@ -289,15 +542,38 @@
     "exampleEs": "Me gusta esta cancion.",
     "usage": "Se usa para expresar gustos o preferencias.",
     "grammar": "Regular verb: like, liked, liked.",
-    "commonMistakes": ["En ingles el sujeto es la persona: I like coffee.", "No traduzcas literalmente me gusta como it likes me."],
-    "dailyUse": ["I like coffee.", "Do you like English?"],
-    "exercises": [{"id": "ex_a1_0112", "type": "multiple_choice", "question": "How do you say 'Me gusta el cafe'?", "options": ["I like coffee.", "Coffee likes me.", "I coffee like.", "Like I coffee."], "correctAnswer": "I like coffee.", "explanation": "En ingles se dice I like coffee."}],
+    "commonMistakes": [
+      "En ingles el sujeto es la persona: I like coffee.",
+      "No traduzcas literalmente me gusta como it likes me."
+    ],
+    "dailyUse": [
+      "I like coffee.",
+      "Do you like English?"
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0112",
+        "type": "multiple_choice",
+        "question": "How do you say 'Me gusta el cafe'?",
+        "options": [
+          "I like coffee.",
+          "Coffee likes me.",
+          "I coffee like.",
+          "Like I coffee."
+        ],
+        "correctAnswer": "I like coffee.",
+        "explanation": "En ingles se dice I like coffee."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "daily_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Regular: like / liked / liked. Example: I like coffee.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Me gusta esta cancion.' en inglés?",
+    "activeRecallAnswer": "I like this song.",
+    "learningTip": "Memoriza like / liked / liked como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0113",
@@ -314,15 +590,38 @@
     "exampleEs": "Veo un auto rojo.",
     "usage": "Se usa para hablar de ver con los ojos o entender algo.",
     "grammar": "Irregular verb: see, saw, seen.",
-    "commonMistakes": ["No usar seen solo como pasado simple.", "Usa I saw para pasado simple."],
-    "dailyUse": ["I see you.", "See you tomorrow."],
-    "exercises": [{"id": "ex_a1_0113", "type": "multiple_choice", "question": "Choose the past simple of 'see'.", "options": ["saw", "seen", "seed", "see"], "correctAnswer": "saw", "explanation": "El pasado simple de see es saw."}],
+    "commonMistakes": [
+      "No usar seen solo como pasado simple.",
+      "Usa I saw para pasado simple."
+    ],
+    "dailyUse": [
+      "I see you.",
+      "See you tomorrow."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0113",
+        "type": "multiple_choice",
+        "question": "Choose the past simple of 'see'.",
+        "options": [
+          "saw",
+          "seen",
+          "seed",
+          "see"
+        ],
+        "correctAnswer": "saw",
+        "explanation": "El pasado simple de see es saw."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "basic_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Irregular: see / saw / seen. Example: I see you.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Veo un auto rojo.' en inglés?",
+    "activeRecallAnswer": "I see a red car.",
+    "learningTip": "Memoriza see / saw / seen como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0114",
@@ -339,15 +638,38 @@
     "exampleEs": "Oigo musica en la cocina.",
     "usage": "Se usa para hablar de percibir sonidos.",
     "grammar": "Irregular verb: hear, heard, heard.",
-    "commonMistakes": ["Hear es percibir sonido; listen es prestar atencion.", "No confundir heard con hard."],
-    "dailyUse": ["Can you hear me?", "I heard a noise."],
-    "exercises": [{"id": "ex_a1_0114", "type": "multiple_choice", "question": "What does 'Can you hear me?' mean?", "options": ["Puedes oirme?", "Puedes verme?", "Puedes ayudarme?", "Puedes llamarme?"], "correctAnswer": "Puedes oirme?", "explanation": "Hear significa oir."}],
+    "commonMistakes": [
+      "Hear es percibir sonido; listen es prestar atencion.",
+      "No confundir heard con hard."
+    ],
+    "dailyUse": [
+      "Can you hear me?",
+      "I heard a noise."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0114",
+        "type": "multiple_choice",
+        "question": "What does 'Can you hear me?' mean?",
+        "options": [
+          "Puedes oirme?",
+          "Puedes verme?",
+          "Puedes ayudarme?",
+          "Puedes llamarme?"
+        ],
+        "correctAnswer": "Puedes oirme?",
+        "explanation": "Hear significa oir."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "basic_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Irregular: hear / heard / heard. Example: Can you hear me?",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Oigo musica en la cocina.' en inglés?",
+    "activeRecallAnswer": "I hear music in the kitchen.",
+    "learningTip": "Memoriza hear / heard / heard como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0115",
@@ -364,15 +686,38 @@
     "exampleEs": "Compro fruta en el mercado.",
     "usage": "Se usa para hablar de comprar algo.",
     "grammar": "Irregular verb: buy, bought, bought.",
-    "commonMistakes": ["No escribir buyed.", "Bought es pasado y participio."],
-    "dailyUse": ["I buy bread.", "Where can I buy it?"],
-    "exercises": [{"id": "ex_a1_0115", "type": "multiple_choice", "question": "Choose the past simple of 'buy'.", "options": ["bought", "buyed", "buy", "buying"], "correctAnswer": "bought", "explanation": "El pasado simple de buy es bought."}],
+    "commonMistakes": [
+      "No escribir buyed.",
+      "Bought es pasado y participio."
+    ],
+    "dailyUse": [
+      "I buy bread.",
+      "Where can I buy it?"
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0115",
+        "type": "multiple_choice",
+        "question": "Choose the past simple of 'buy'.",
+        "options": [
+          "bought",
+          "buyed",
+          "buy",
+          "buying"
+        ],
+        "correctAnswer": "bought",
+        "explanation": "El pasado simple de buy es bought."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "shopping",
     "packId": "free_basic_1000",
     "shortNotificationText": "Irregular: buy / bought / bought. Example: I buy bread.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Compro fruta en el mercado.' en inglés?",
+    "activeRecallAnswer": "I buy fruit at the market.",
+    "learningTip": "Memoriza buy / bought / bought como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0116",
@@ -389,15 +734,38 @@
     "exampleEs": "Por favor llamame mas tarde.",
     "usage": "Se usa para hablar de llamar por telefono o nombrar algo.",
     "grammar": "Regular verb: call, called, called.",
-    "commonMistakes": ["No confundir call con say.", "Call me significa llamame."],
-    "dailyUse": ["Call me tomorrow.", "I called my friend."],
-    "exercises": [{"id": "ex_a1_0116", "type": "multiple_choice", "question": "What does 'Call me' mean?", "options": ["Llamame", "Ayudame", "Escuchame", "Esperame"], "correctAnswer": "Llamame", "explanation": "Call me significa llamame."}],
+    "commonMistakes": [
+      "No confundir call con say.",
+      "Call me significa llamame."
+    ],
+    "dailyUse": [
+      "Call me tomorrow.",
+      "I called my friend."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0116",
+        "type": "multiple_choice",
+        "question": "What does 'Call me' mean?",
+        "options": [
+          "Llamame",
+          "Ayudame",
+          "Escuchame",
+          "Esperame"
+        ],
+        "correctAnswer": "Llamame",
+        "explanation": "Call me significa llamame."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "communication",
     "packId": "free_basic_1000",
     "shortNotificationText": "Regular: call / called / called. Example: Call me later.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Por favor llamame mas tarde.' en inglés?",
+    "activeRecallAnswer": "Please call me later.",
+    "learningTip": "Memoriza call / called / called como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0117",
@@ -414,15 +782,38 @@
     "exampleEs": "Espero el autobus.",
     "usage": "Se usa para hablar de esperar a una persona, cosa o momento.",
     "grammar": "Use wait for before a person or thing: wait for me.",
-    "commonMistakes": ["No decir wait me.", "Usa wait for me."],
-    "dailyUse": ["Wait for me.", "I waited ten minutes."],
-    "exercises": [{"id": "ex_a1_0117", "type": "multiple_choice", "question": "Which phrase is correct?", "options": ["wait for me", "wait me", "wait to me", "wait at me"], "correctAnswer": "wait for me", "explanation": "En ingles se dice wait for me."}],
+    "commonMistakes": [
+      "No decir wait me.",
+      "Usa wait for me."
+    ],
+    "dailyUse": [
+      "Wait for me.",
+      "I waited ten minutes."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0117",
+        "type": "multiple_choice",
+        "question": "Which phrase is correct?",
+        "options": [
+          "wait for me",
+          "wait me",
+          "wait to me",
+          "wait at me"
+        ],
+        "correctAnswer": "wait for me",
+        "explanation": "En ingles se dice wait for me."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "daily_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Regular: wait / waited / waited. Say: wait for me.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Espero el autobus.' en inglés?",
+    "activeRecallAnswer": "I wait for the bus.",
+    "learningTip": "Memoriza wait / waited / waited como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0118",
@@ -439,15 +830,38 @@
     "exampleEs": "Empiezo a trabajar a las ocho.",
     "usage": "Se usa para hablar del inicio de una accion o actividad.",
     "grammar": "Regular verb: start, started, started.",
-    "commonMistakes": ["No confundir start con begin; ambos pueden significar empezar.", "Despues puede ir verbo con to o -ing."],
-    "dailyUse": ["Start now.", "The class starts at nine."],
-    "exercises": [{"id": "ex_a1_0118", "type": "multiple_choice", "question": "What does 'start now' mean?", "options": ["empieza ahora", "termina ahora", "espera ahora", "compra ahora"], "correctAnswer": "empieza ahora", "explanation": "Start significa empezar."}],
+    "commonMistakes": [
+      "No confundir start con begin; ambos pueden significar empezar.",
+      "Despues puede ir verbo con to o -ing."
+    ],
+    "dailyUse": [
+      "Start now.",
+      "The class starts at nine."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0118",
+        "type": "multiple_choice",
+        "question": "What does 'start now' mean?",
+        "options": [
+          "empieza ahora",
+          "termina ahora",
+          "espera ahora",
+          "compra ahora"
+        ],
+        "correctAnswer": "empieza ahora",
+        "explanation": "Start significa empezar."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "daily_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Regular: start / started / started. Example: Start now.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Empiezo a trabajar a las ocho.' en inglés?",
+    "activeRecallAnswer": "I start work at eight.",
+    "learningTip": "Memoriza start / started / started como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0119",
@@ -464,15 +878,38 @@
     "exampleEs": "Termino clase a las seis.",
     "usage": "Se usa para hablar del final de una accion o actividad.",
     "grammar": "Regular verb: finish, finished, finished.",
-    "commonMistakes": ["No decir finish to do en este nivel.", "Puedes decir finish work o finish class."],
-    "dailyUse": ["Finish your homework.", "I finished early."],
-    "exercises": [{"id": "ex_a1_0119", "type": "multiple_choice", "question": "What does 'finish' mean?", "options": ["terminar", "empezar", "abrir", "beber"], "correctAnswer": "terminar", "explanation": "Finish significa terminar."}],
+    "commonMistakes": [
+      "No decir finish to do en este nivel.",
+      "Puedes decir finish work o finish class."
+    ],
+    "dailyUse": [
+      "Finish your homework.",
+      "I finished early."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0119",
+        "type": "multiple_choice",
+        "question": "What does 'finish' mean?",
+        "options": [
+          "terminar",
+          "empezar",
+          "abrir",
+          "beber"
+        ],
+        "correctAnswer": "terminar",
+        "explanation": "Finish significa terminar."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "daily_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Regular: finish / finished / finished. Example: Finish your homework.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Termino clase a las seis.' en inglés?",
+    "activeRecallAnswer": "I finish class at six.",
+    "learningTip": "Memoriza finish / finished / finished como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a1_0120",
@@ -489,14 +926,37 @@
     "exampleEs": "Aprendo una palabra cada dia.",
     "usage": "Se usa para hablar de adquirir conocimiento o habilidad.",
     "grammar": "Regular verb: learn, learned, learned.",
-    "commonMistakes": ["No confundir learn con teach.", "Learn es aprender; teach es ensenar."],
-    "dailyUse": ["I learn English.", "Learn this word."],
-    "exercises": [{"id": "ex_a1_0120", "type": "multiple_choice", "question": "What does 'learn' mean?", "options": ["aprender", "ensenar", "comprar", "cerrar"], "correctAnswer": "aprender", "explanation": "Learn significa aprender."}],
+    "commonMistakes": [
+      "No confundir learn con teach.",
+      "Learn es aprender; teach es ensenar."
+    ],
+    "dailyUse": [
+      "I learn English.",
+      "Learn this word."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a1_0120",
+        "type": "multiple_choice",
+        "question": "What does 'learn' mean?",
+        "options": [
+          "aprender",
+          "ensenar",
+          "comprar",
+          "cerrar"
+        ],
+        "correctAnswer": "aprender",
+        "explanation": "Learn significa aprender."
+      }
+    ],
     "level": "A1",
     "isPremium": false,
     "category": "learning_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Regular: learn / learned / learned. Example: I learn English.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Aprendo una palabra cada dia.' en inglés?",
+    "activeRecallAnswer": "I learn one word every day.",
+    "learningTip": "Memoriza learn / learned / learned como bloque y úsalo en una frase corta."
   }
 ]

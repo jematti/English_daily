@@ -28,7 +28,12 @@
         "id": "ex_001",
         "type": "multiple_choice",
         "question": "What does 'actually' mean in Spanish?",
-        "options": ["Actualmente", "En realidad", "Rapidamente", "Casi"],
+        "options": [
+          "Actualmente",
+          "En realidad",
+          "Rapidamente",
+          "Casi"
+        ],
         "correctAnswer": "En realidad",
         "explanation": "'Actually' significa 'en realidad' o 'de hecho', no 'actualmente'."
       }
@@ -44,7 +49,10 @@
     "level": "A1",
     "isPremium": false,
     "category": "common_adverbs",
-    "packId": "free_basic_1000"
+    "packId": "free_basic_1000",
+    "activeRecallPrompt": "¿Cómo dirías 'En realidad, prefiero cafe por la manana.' en inglés?",
+    "activeRecallAnswer": "Actually, I prefer coffee in the morning.",
+    "learningTip": "Recuerda que 'actually' significa 'en realidad', no 'actualmente'."
   },
   {
     "id": "lesson_002",
@@ -96,7 +104,10 @@
     "level": "A1",
     "isPremium": false,
     "category": "frequency_adverbs",
-    "packId": "free_basic_1000"
+    "packId": "free_basic_1000",
+    "activeRecallPrompt": "¿Cómo dirías 'Normalmente estudio ingles despues de cenar.' en inglés?",
+    "activeRecallAnswer": "I usually study English after dinner.",
+    "learningTip": "Usa 'usually' hoy en una oración corta con contexto real."
   },
   {
     "id": "lesson_004",
@@ -127,7 +138,12 @@
         "id": "ex_004",
         "type": "multiple_choice",
         "question": "Which phrase is correct?",
-        "options": ["enough money", "money enough", "enough tired", "enough good"],
+        "options": [
+          "enough money",
+          "money enough",
+          "enough tired",
+          "enough good"
+        ],
         "correctAnswer": "enough money",
         "explanation": "Con sustantivos, 'enough' normalmente va antes: 'enough money'."
       }
@@ -143,7 +159,10 @@
     "level": "A1",
     "isPremium": false,
     "category": "daily_determiners",
-    "packId": "free_basic_1000"
+    "packId": "free_basic_1000",
+    "activeRecallPrompt": "¿Cómo dirías 'No tengo suficiente tiempo hoy.' en inglés?",
+    "activeRecallAnswer": "I do not have enough time today.",
+    "learningTip": "Usa 'enough' hoy en una oración corta con contexto real."
   },
   {
     "id": "lesson_008",
@@ -174,7 +193,12 @@
         "id": "ex_008",
         "type": "multiple_choice",
         "question": "Choose the natural phrase.",
-        "options": ["make a decision", "do a decision", "make homework", "do a mistake"],
+        "options": [
+          "make a decision",
+          "do a decision",
+          "make homework",
+          "do a mistake"
+        ],
         "correctAnswer": "make a decision",
         "explanation": "En ingles se dice 'make a decision' porque hablas de crear o tomar una decision."
       }
@@ -190,7 +214,10 @@
     "level": "A1",
     "isPremium": false,
     "category": "irregular_verbs",
-    "packId": "free_basic_1000"
+    "packId": "free_basic_1000",
+    "activeRecallPrompt": "¿Cómo dirías 'Necesito preparar el desayuno antes del trabajo.' en inglés?",
+    "activeRecallAnswer": "I need to make breakfast before work.",
+    "learningTip": "Memoriza make / made / made como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_009",
@@ -221,7 +248,12 @@
         "id": "ex_009",
         "type": "multiple_choice",
         "question": "Which phrase is correct?",
-        "options": ["do homework", "make homework", "do a cake", "make exercise"],
+        "options": [
+          "do homework",
+          "make homework",
+          "do a cake",
+          "make exercise"
+        ],
         "correctAnswer": "do homework",
         "explanation": "Con tareas como 'homework' se usa 'do'."
       }
@@ -237,7 +269,10 @@
     "level": "A1",
     "isPremium": false,
     "category": "irregular_verbs",
-    "packId": "free_basic_1000"
+    "packId": "free_basic_1000",
+    "activeRecallPrompt": "¿Cómo dirías 'Hago mi tarea despues del almuerzo.' en inglés?",
+    "activeRecallAnswer": "I do my homework after lunch.",
+    "learningTip": "Memoriza do / did / done como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_011",
@@ -268,7 +303,12 @@
         "id": "ex_011",
         "type": "multiple_choice",
         "question": "Choose the natural sentence.",
-        "options": ["I always study.", "I study always.", "Always I study.", "I am study always."],
+        "options": [
+          "I always study.",
+          "I study always.",
+          "Always I study.",
+          "I am study always."
+        ],
         "correctAnswer": "I always study.",
         "explanation": "Con verbos principales, 'always' normalmente va antes del verbo."
       }
@@ -284,7 +324,10 @@
     "level": "A1",
     "isPremium": false,
     "category": "frequency_adverbs",
-    "packId": "free_basic_1000"
+    "packId": "free_basic_1000",
+    "activeRecallPrompt": "¿Cómo dirías 'Siempre tomo agua por la manana.' en inglés?",
+    "activeRecallAnswer": "I always drink water in the morning.",
+    "learningTip": "Usa 'always' hoy en una oración corta con contexto real."
   },
   {
     "id": "lesson_012",
@@ -315,7 +358,12 @@
         "id": "ex_012",
         "type": "multiple_choice",
         "question": "Complete: I practice ___ I want to improve.",
-        "options": ["because", "enough", "always", "make"],
+        "options": [
+          "because",
+          "enough",
+          "always",
+          "make"
+        ],
         "correctAnswer": "because",
         "explanation": "'Because' conecta la accion con su razon."
       }
@@ -331,7 +379,10 @@
     "level": "A1",
     "isPremium": false,
     "category": "connectors",
-    "packId": "free_basic_1000"
+    "packId": "free_basic_1000",
+    "activeRecallPrompt": "¿Cómo dirías 'Estudio porque quiero un mejor trabajo.' en inglés?",
+    "activeRecallAnswer": "I study because I want a better job.",
+    "learningTip": "Usa 'because' hoy en una oración corta con contexto real."
   },
   {
     "id": "lesson_013",
@@ -362,7 +413,12 @@
         "id": "ex_013",
         "type": "multiple_choice",
         "question": "Which sentence is correct?",
-        "options": ["I need to study.", "I need study.", "I need studying now.", "I needing study."],
+        "options": [
+          "I need to study.",
+          "I need study.",
+          "I need studying now.",
+          "I needing study."
+        ],
         "correctAnswer": "I need to study.",
         "explanation": "Despues de 'need' y otro verbo, usa 'to': need to study."
       }
@@ -378,7 +434,10 @@
     "level": "A1",
     "isPremium": false,
     "category": "daily_verbs",
-    "packId": "free_basic_1000"
+    "packId": "free_basic_1000",
+    "activeRecallPrompt": "¿Cómo dirías 'Necesito un poco mas de tiempo.' en inglés?",
+    "activeRecallAnswer": "I need a little more time.",
+    "learningTip": "Memoriza need / needed / needed como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_014",
@@ -409,7 +468,12 @@
         "id": "ex_014",
         "type": "multiple_choice",
         "question": "Choose the correct phrase.",
-        "options": ["want to learn", "want learn", "want learning", "want learned"],
+        "options": [
+          "want to learn",
+          "want learn",
+          "want learning",
+          "want learned"
+        ],
         "correctAnswer": "want to learn",
         "explanation": "Despues de 'want' y otro verbo, usa 'to'."
       }
@@ -425,7 +489,10 @@
     "level": "A1",
     "isPremium": false,
     "category": "daily_verbs",
-    "packId": "free_basic_1000"
+    "packId": "free_basic_1000",
+    "activeRecallPrompt": "¿Cómo dirías 'Quiero aprender ingles.' en inglés?",
+    "activeRecallAnswer": "I want to learn English.",
+    "learningTip": "Memoriza want / wanted / wanted como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_015",
@@ -456,7 +523,12 @@
         "id": "ex_015",
         "type": "multiple_choice",
         "question": "What does 'Can you help me?' mean?",
-        "options": ["Puedes ayudarme?", "Puedes llamarme?", "Puedes esperarme?", "Puedes pagarme?"],
+        "options": [
+          "Puedes ayudarme?",
+          "Puedes llamarme?",
+          "Puedes esperarme?",
+          "Puedes pagarme?"
+        ],
         "correctAnswer": "Puedes ayudarme?",
         "explanation": "'Help' significa ayudar o ayuda."
       }
@@ -472,6 +544,9 @@
     "level": "A1",
     "isPremium": false,
     "category": "daily_verbs",
-    "packId": "free_basic_1000"
+    "packId": "free_basic_1000",
+    "activeRecallPrompt": "¿Cómo dirías 'Puedes ayudarme con esta oracion?' en inglés?",
+    "activeRecallAnswer": "Can you help me with this sentence?",
+    "learningTip": "Memoriza help / helped / helped como bloque y úsalo en una frase corta."
   }
 ]

@@ -14,15 +14,38 @@
     "exampleEs": "Necesito decidir hoy.",
     "usage": "Se usa para hablar de elegir despues de pensar.",
     "grammar": "Regular verb: decide, decided, decided. Often followed by to plus verb.",
-    "commonMistakes": ["No decir decide something to do cuando quieres decir decide to do something.", "La c se pronuncia como s."],
-    "dailyUse": ["I decided to study.", "Can you decide now?"],
-    "exercises": [{"id": "ex_a2_0101", "type": "multiple_choice", "question": "Choose the correct phrase.", "options": ["decide to study", "decide study", "decide studying", "decide studied"], "correctAnswer": "decide to study", "explanation": "Despues de decide y otro verbo, usa to."}],
+    "commonMistakes": [
+      "No decir decide something to do cuando quieres decir decide to do something.",
+      "La c se pronuncia como s."
+    ],
+    "dailyUse": [
+      "I decided to study.",
+      "Can you decide now?"
+    ],
+    "exercises": [
+      {
+        "id": "ex_a2_0101",
+        "type": "multiple_choice",
+        "question": "Choose the correct phrase.",
+        "options": [
+          "decide to study",
+          "decide study",
+          "decide studying",
+          "decide studied"
+        ],
+        "correctAnswer": "decide to study",
+        "explanation": "Despues de decide y otro verbo, usa to."
+      }
+    ],
     "level": "A2",
     "isPremium": false,
     "category": "thinking_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Regular: decide / decided / decided. Example: I decided to study.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Necesito decidir hoy.' en inglés?",
+    "activeRecallAnswer": "I need to decide today.",
+    "learningTip": "Memoriza decide / decided / decided como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a2_0102",
@@ -39,15 +62,38 @@
     "exampleEs": "Puedes explicar esta palabra?",
     "usage": "Se usa para pedir o dar una aclaracion.",
     "grammar": "Regular verb: explain, explained, explained. Use explain something to someone.",
-    "commonMistakes": ["No decir explain me this.", "Di explain this to me."],
-    "dailyUse": ["Explain it to me.", "I explained the problem."],
-    "exercises": [{"id": "ex_a2_0102", "type": "multiple_choice", "question": "Which sentence is natural?", "options": ["Explain this to me.", "Explain me this.", "Explain to me this it.", "Explain this me."], "correctAnswer": "Explain this to me.", "explanation": "La estructura natural es explain something to someone."}],
+    "commonMistakes": [
+      "No decir explain me this.",
+      "Di explain this to me."
+    ],
+    "dailyUse": [
+      "Explain it to me.",
+      "I explained the problem."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a2_0102",
+        "type": "multiple_choice",
+        "question": "Which sentence is natural?",
+        "options": [
+          "Explain this to me.",
+          "Explain me this.",
+          "Explain to me this it.",
+          "Explain this me."
+        ],
+        "correctAnswer": "Explain this to me.",
+        "explanation": "La estructura natural es explain something to someone."
+      }
+    ],
     "level": "A2",
     "isPremium": false,
     "category": "communication",
     "packId": "free_basic_1000",
     "shortNotificationText": "Regular: explain / explained / explained. Say: Explain this to me.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Puedes explicar esta palabra?' en inglés?",
+    "activeRecallAnswer": "Can you explain this word?",
+    "learningTip": "Memoriza explain / explained / explained como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a2_0103",
@@ -64,15 +110,38 @@
     "exampleEs": "Quiero invitar a mis amigos.",
     "usage": "Se usa para pedir a alguien que vaya a un evento o lugar.",
     "grammar": "Regular verb: invite, invited, invited. Use invite someone to something.",
-    "commonMistakes": ["No olvidar el objeto: invite my friend.", "Usa to para el evento: invite her to dinner."],
-    "dailyUse": ["Invite Ana to lunch.", "They invited me."],
-    "exercises": [{"id": "ex_a2_0103", "type": "multiple_choice", "question": "What does 'invite' mean?", "options": ["invitar", "llegar", "salir", "pagar"], "correctAnswer": "invitar", "explanation": "Invite significa invitar."}],
+    "commonMistakes": [
+      "No olvidar el objeto: invite my friend.",
+      "Usa to para el evento: invite her to dinner."
+    ],
+    "dailyUse": [
+      "Invite Ana to lunch.",
+      "They invited me."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a2_0103",
+        "type": "multiple_choice",
+        "question": "What does 'invite' mean?",
+        "options": [
+          "invitar",
+          "llegar",
+          "salir",
+          "pagar"
+        ],
+        "correctAnswer": "invitar",
+        "explanation": "Invite significa invitar."
+      }
+    ],
     "level": "A2",
     "isPremium": false,
     "category": "social_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Regular: invite / invited / invited. Example: Invite her to dinner.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Quiero invitar a mis amigos.' en inglés?",
+    "activeRecallAnswer": "I want to invite my friends.",
+    "learningTip": "Memoriza invite / invited / invited como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a2_0104",
@@ -89,15 +158,38 @@
     "exampleEs": "Llego al trabajo a las nueve.",
     "usage": "Se usa para hablar de llegar a un lugar.",
     "grammar": "Use arrive at for places like work or school, arrive in for cities or countries.",
-    "commonMistakes": ["No decir arrive to work.", "Di arrive at work."],
-    "dailyUse": ["I arrived early.", "What time do you arrive?"],
-    "exercises": [{"id": "ex_a2_0104", "type": "multiple_choice", "question": "Which phrase is correct?", "options": ["arrive at work", "arrive to work", "arrive on work", "arrive work"], "correctAnswer": "arrive at work", "explanation": "Con lugares especificos como work usamos arrive at."}],
+    "commonMistakes": [
+      "No decir arrive to work.",
+      "Di arrive at work."
+    ],
+    "dailyUse": [
+      "I arrived early.",
+      "What time do you arrive?"
+    ],
+    "exercises": [
+      {
+        "id": "ex_a2_0104",
+        "type": "multiple_choice",
+        "question": "Which phrase is correct?",
+        "options": [
+          "arrive at work",
+          "arrive to work",
+          "arrive on work",
+          "arrive work"
+        ],
+        "correctAnswer": "arrive at work",
+        "explanation": "Con lugares especificos como work usamos arrive at."
+      }
+    ],
     "level": "A2",
     "isPremium": false,
     "category": "travel_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Regular: arrive / arrived / arrived. Say: arrive at work.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Llego al trabajo a las nueve.' en inglés?",
+    "activeRecallAnswer": "I arrive at work at nine.",
+    "learningTip": "Memoriza arrive / arrived / arrived como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a2_0105",
@@ -114,15 +206,38 @@
     "exampleEs": "Salgo de casa a las siete.",
     "usage": "Se usa para hablar de salir de un lugar o dejar algo.",
     "grammar": "Irregular verb: leave, left, left.",
-    "commonMistakes": ["No confundir live con leave.", "Left tambien significa izquierda."],
-    "dailyUse": ["Leave the keys here.", "I left early."],
-    "exercises": [{"id": "ex_a2_0105", "type": "multiple_choice", "question": "Choose the past simple of 'leave'.", "options": ["left", "leaved", "leave", "leaving"], "correctAnswer": "left", "explanation": "El pasado simple de leave es left."}],
+    "commonMistakes": [
+      "No confundir live con leave.",
+      "Left tambien significa izquierda."
+    ],
+    "dailyUse": [
+      "Leave the keys here.",
+      "I left early."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a2_0105",
+        "type": "multiple_choice",
+        "question": "Choose the past simple of 'leave'.",
+        "options": [
+          "left",
+          "leaved",
+          "leave",
+          "leaving"
+        ],
+        "correctAnswer": "left",
+        "explanation": "El pasado simple de leave es left."
+      }
+    ],
     "level": "A2",
     "isPremium": false,
     "category": "travel_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Irregular: leave / left / left. Example: I left early.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Salgo de casa a las siete.' en inglés?",
+    "activeRecallAnswer": "I leave home at seven.",
+    "learningTip": "Memoriza leave / left / left como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a2_0106",
@@ -139,15 +254,38 @@
     "exampleEs": "Recuerdo tu nombre.",
     "usage": "Se usa para hablar de traer algo a la memoria.",
     "grammar": "Regular verb: remember, remembered, remembered.",
-    "commonMistakes": ["No confundir remember con remind.", "Remember es recordar; remind es hacer recordar."],
-    "dailyUse": ["Remember this word.", "I remembered the answer."],
-    "exercises": [{"id": "ex_a2_0106", "type": "multiple_choice", "question": "What does 'remember' mean?", "options": ["recordar", "olvidar", "elegir", "pagar"], "correctAnswer": "recordar", "explanation": "Remember significa recordar."}],
+    "commonMistakes": [
+      "No confundir remember con remind.",
+      "Remember es recordar; remind es hacer recordar."
+    ],
+    "dailyUse": [
+      "Remember this word.",
+      "I remembered the answer."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a2_0106",
+        "type": "multiple_choice",
+        "question": "What does 'remember' mean?",
+        "options": [
+          "recordar",
+          "olvidar",
+          "elegir",
+          "pagar"
+        ],
+        "correctAnswer": "recordar",
+        "explanation": "Remember significa recordar."
+      }
+    ],
     "level": "A2",
     "isPremium": false,
     "category": "thinking_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Regular: remember / remembered / remembered. Example: Remember this word.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Recuerdo tu nombre.' en inglés?",
+    "activeRecallAnswer": "I remember your name.",
+    "learningTip": "Memoriza remember / remembered / remembered como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a2_0107",
@@ -164,15 +302,38 @@
     "exampleEs": "No olvides tus llaves.",
     "usage": "Se usa para hablar de no recordar algo.",
     "grammar": "Irregular verb: forget, forgot, forgotten.",
-    "commonMistakes": ["No usar forgetted.", "Forgot es pasado simple."],
-    "dailyUse": ["I forgot my password.", "Do not forget this."],
-    "exercises": [{"id": "ex_a2_0107", "type": "multiple_choice", "question": "Choose the past simple of 'forget'.", "options": ["forgot", "forgotten", "forgetted", "forget"], "correctAnswer": "forgot", "explanation": "El pasado simple de forget es forgot."}],
+    "commonMistakes": [
+      "No usar forgetted.",
+      "Forgot es pasado simple."
+    ],
+    "dailyUse": [
+      "I forgot my password.",
+      "Do not forget this."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a2_0107",
+        "type": "multiple_choice",
+        "question": "Choose the past simple of 'forget'.",
+        "options": [
+          "forgot",
+          "forgotten",
+          "forgetted",
+          "forget"
+        ],
+        "correctAnswer": "forgot",
+        "explanation": "El pasado simple de forget es forgot."
+      }
+    ],
     "level": "A2",
     "isPremium": false,
     "category": "thinking_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Irregular: forget / forgot / forgotten. Example: I forgot my password.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'No olvides tus llaves.' en inglés?",
+    "activeRecallAnswer": "Do not forget your keys.",
+    "learningTip": "Memoriza forget / forgot / forgotten como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a2_0108",
@@ -189,15 +350,38 @@
     "exampleEs": "Elige la respuesta correcta.",
     "usage": "Se usa para seleccionar una opcion.",
     "grammar": "Irregular verb: choose, chose, chosen.",
-    "commonMistakes": ["No confundir choose presente con chose pasado.", "Chosen es participio."],
-    "dailyUse": ["Choose one option.", "I chose the blue one."],
-    "exercises": [{"id": "ex_a2_0108", "type": "multiple_choice", "question": "Choose the past simple of 'choose'.", "options": ["chose", "chosen", "choosed", "choose"], "correctAnswer": "chose", "explanation": "El pasado simple de choose es chose."}],
+    "commonMistakes": [
+      "No confundir choose presente con chose pasado.",
+      "Chosen es participio."
+    ],
+    "dailyUse": [
+      "Choose one option.",
+      "I chose the blue one."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a2_0108",
+        "type": "multiple_choice",
+        "question": "Choose the past simple of 'choose'.",
+        "options": [
+          "chose",
+          "chosen",
+          "choosed",
+          "choose"
+        ],
+        "correctAnswer": "chose",
+        "explanation": "El pasado simple de choose es chose."
+      }
+    ],
     "level": "A2",
     "isPremium": false,
     "category": "thinking_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Irregular: choose / chose / chosen. Example: Choose one option.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Elige la respuesta correcta.' en inglés?",
+    "activeRecallAnswer": "Choose the correct answer.",
+    "learningTip": "Memoriza choose / chose / chosen como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a2_0109",
@@ -214,15 +398,38 @@
     "exampleEs": "Puedes llevar esta bolsa?",
     "usage": "Se usa para hablar de llevar algo en las manos o encima.",
     "grammar": "Regular verb with y change: carry, carried, carried.",
-    "commonMistakes": ["No escribir carryed.", "Con consonante + y cambia a ied: carried."],
-    "dailyUse": ["Carry your bag.", "I carried the box."],
-    "exercises": [{"id": "ex_a2_0109", "type": "multiple_choice", "question": "Choose the past simple of 'carry'.", "options": ["carried", "carryed", "carry", "carrying"], "correctAnswer": "carried", "explanation": "Carry cambia a carried en pasado."}],
+    "commonMistakes": [
+      "No escribir carryed.",
+      "Con consonante + y cambia a ied: carried."
+    ],
+    "dailyUse": [
+      "Carry your bag.",
+      "I carried the box."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a2_0109",
+        "type": "multiple_choice",
+        "question": "Choose the past simple of 'carry'.",
+        "options": [
+          "carried",
+          "carryed",
+          "carry",
+          "carrying"
+        ],
+        "correctAnswer": "carried",
+        "explanation": "Carry cambia a carried en pasado."
+      }
+    ],
     "level": "A2",
     "isPremium": false,
     "category": "daily_verbs",
     "packId": "free_basic_1000",
     "shortNotificationText": "Regular: carry / carried / carried. Example: Carry your bag.",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Puedes llevar esta bolsa?' en inglés?",
+    "activeRecallAnswer": "Can you carry this bag?",
+    "learningTip": "Memoriza carry / carried / carried como bloque y úsalo en una frase corta."
   },
   {
     "id": "lesson_a2_0110",
@@ -239,14 +446,37 @@
     "exampleEs": "Pago con tarjeta.",
     "usage": "Se usa para hablar de pagar dinero por algo.",
     "grammar": "Irregular verb: pay, paid, paid.",
-    "commonMistakes": ["No escribir payed para pagar dinero.", "Paid es pasado y participio."],
-    "dailyUse": ["Can I pay by card?", "I paid for lunch."],
-    "exercises": [{"id": "ex_a2_0110", "type": "multiple_choice", "question": "What does 'pay by card' mean?", "options": ["pagar con tarjeta", "comprar tarjeta", "llevar tarjeta", "elegir tarjeta"], "correctAnswer": "pagar con tarjeta", "explanation": "Pay significa pagar."}],
+    "commonMistakes": [
+      "No escribir payed para pagar dinero.",
+      "Paid es pasado y participio."
+    ],
+    "dailyUse": [
+      "Can I pay by card?",
+      "I paid for lunch."
+    ],
+    "exercises": [
+      {
+        "id": "ex_a2_0110",
+        "type": "multiple_choice",
+        "question": "What does 'pay by card' mean?",
+        "options": [
+          "pagar con tarjeta",
+          "comprar tarjeta",
+          "llevar tarjeta",
+          "elegir tarjeta"
+        ],
+        "correctAnswer": "pagar con tarjeta",
+        "explanation": "Pay significa pagar."
+      }
+    ],
     "level": "A2",
     "isPremium": false,
     "category": "shopping",
     "packId": "free_basic_1000",
     "shortNotificationText": "Irregular: pay / paid / paid. Example: Can I pay by card?",
-    "links": []
+    "links": [],
+    "activeRecallPrompt": "¿Cómo dirías 'Pago con tarjeta.' en inglés?",
+    "activeRecallAnswer": "I pay by card.",
+    "learningTip": "Memoriza pay / paid / paid como bloque y úsalo en una frase corta."
   }
 ]
