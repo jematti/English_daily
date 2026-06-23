@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "verb_0001",
+    "word": "accept",
+    "meaningEs": "aceptar",
+    "pronunciation": "ak-sept",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "accept",
+    "pastSimple": "accepted",
+    "pastParticiple": "accepted",
+    "exampleEn": "I accept your invitation.",
+    "exampleEs": "Acepto tu invitacion.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I accept, you accept, he/she accepts. Past simple: accepted. Past participle: accepted.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: accepted.",
+      "En tercera persona del presente usa 'accepts'."
+    ],
+    "dailyUse": [
+      "I accept your invitation.",
+      "She accepts in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0001_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'accept'?",
+        "options": [
+          "accepted",
+          "acceptd",
+          "accepts",
+          "accept"
+        ],
+        "correctAnswer": "accepted",
+        "explanation": "El pasado simple de 'accept' es 'accepted'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: accept / accepted / accepted. Example: I accept your invitation.",
+    "activeRecallPrompt": "Como dirias 'Acepto tu invitacion.' en ingles?",
+    "activeRecallAnswer": "I accept your invitation.",
+    "learningTip": "Memoriza accept / accepted / accepted como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0002",
+    "word": "add",
+    "meaningEs": "agregar / sumar",
+    "pronunciation": "ad",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "add",
+    "pastSimple": "added",
+    "pastParticiple": "added",
+    "exampleEn": "Add your name to the list.",
+    "exampleEs": "Agrega tu nombre a la lista.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I add, you add, he/she adds. Past simple: added. Past participle: added.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: added.",
+      "En tercera persona del presente usa 'adds'."
+    ],
+    "dailyUse": [
+      "Add your name to the list.",
+      "She adds in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0002_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'add'?",
+        "options": [
+          "added",
+          "addd",
+          "adds",
+          "add"
+        ],
+        "correctAnswer": "added",
+        "explanation": "El pasado simple de 'add' es 'added'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: add / added / added. Example: Add your name to the list.",
+    "activeRecallPrompt": "Como dirias 'Agrega tu nombre a la lista.' en ingles?",
+    "activeRecallAnswer": "Add your name to the list.",
+    "learningTip": "Memoriza add / added / added como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0003",
+    "word": "bite",
+    "meaningEs": "morder",
+    "pronunciation": "bait",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "bite",
+    "pastSimple": "bit",
+    "pastParticiple": "bitten",
+    "exampleEn": "The dog does not bite people.",
+    "exampleEs": "El perro no muerde a las personas.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I bite, you bite, he/she bites. Past simple: bit. Past participle: bitten.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'bit'.",
+      "Memoriza el bloque completo: bite / bit / bitten."
+    ],
+    "dailyUse": [
+      "The dog does not bite people.",
+      "She bites in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0003_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'bite'?",
+        "options": [
+          "bit",
+          "biteed",
+          "bited",
+          "bitten"
+        ],
+        "correctAnswer": "bit",
+        "explanation": "El pasado simple de 'bite' es 'bit'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: bite / bit / bitten. Example: The dog does not bite people.",
+    "activeRecallPrompt": "Como dirias 'El perro no muerde a las personas.' en ingles?",
+    "activeRecallAnswer": "The dog does not bite people.",
+    "learningTip": "Memoriza bite / bit / bitten como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0004",
+    "word": "blow",
+    "meaningEs": "soplar",
+    "pronunciation": "blou",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "blow",
+    "pastSimple": "blew",
+    "pastParticiple": "blown",
+    "exampleEn": "The wind blows hard today.",
+    "exampleEs": "El viento sopla fuerte hoy.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I blow, you blow, he/she blows. Past simple: blew. Past participle: blown.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'blew'.",
+      "Memoriza el bloque completo: blow / blew / blown."
+    ],
+    "dailyUse": [
+      "The wind blows hard today.",
+      "She blows in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0004_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'blow'?",
+        "options": [
+          "blew",
+          "blowed",
+          "blowd",
+          "blown"
+        ],
+        "correctAnswer": "blew",
+        "explanation": "El pasado simple de 'blow' es 'blew'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: blow / blew / blown. Example: The wind blows hard today.",
+    "activeRecallPrompt": "Como dirias 'El viento sopla fuerte hoy.' en ingles?",
+    "activeRecallAnswer": "The wind blows hard today.",
+    "learningTip": "Memoriza blow / blew / blown como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0005",
+    "word": "bake",
+    "meaningEs": "hornear",
+    "pronunciation": "beik",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "bake",
+    "pastSimple": "baked",
+    "pastParticiple": "baked",
+    "exampleEn": "We bake bread on Sunday.",
+    "exampleEs": "Horneamos pan el domingo.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I bake, you bake, he/she bakes. Past simple: baked. Past participle: baked.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: baked.",
+      "En tercera persona del presente usa 'bakes'."
+    ],
+    "dailyUse": [
+      "We bake bread on Sunday.",
+      "She bakes in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0005_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'bake'?",
+        "options": [
+          "baked",
+          "bakeed",
+          "bakes",
+          "bake"
+        ],
+        "correctAnswer": "baked",
+        "explanation": "El pasado simple de 'bake' es 'baked'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: bake / baked / baked. Example: We bake bread on Sunday.",
+    "activeRecallPrompt": "Como dirias 'Horneamos pan el domingo.' en ingles?",
+    "activeRecallAnswer": "We bake bread on Sunday.",
+    "learningTip": "Memoriza bake / baked / baked como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0006",
+    "word": "boil",
+    "meaningEs": "hervir",
+    "pronunciation": "boil",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "boil",
+    "pastSimple": "boiled",
+    "pastParticiple": "boiled",
+    "exampleEn": "Boil water for the tea.",
+    "exampleEs": "Hierve agua para el te.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I boil, you boil, he/she boils. Past simple: boiled. Past participle: boiled.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: boiled.",
+      "En tercera persona del presente usa 'boils'."
+    ],
+    "dailyUse": [
+      "Boil water for the tea.",
+      "She boils in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0006_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'boil'?",
+        "options": [
+          "boiled",
+          "boild",
+          "boils",
+          "boil"
+        ],
+        "correctAnswer": "boiled",
+        "explanation": "El pasado simple de 'boil' es 'boiled'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: boil / boiled / boiled. Example: Boil water for the tea.",
+    "activeRecallPrompt": "Como dirias 'Hierve agua para el te.' en ingles?",
+    "activeRecallAnswer": "Boil water for the tea.",
+    "learningTip": "Memoriza boil / boiled / boiled como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0007",
+    "word": "brush",
+    "meaningEs": "cepillar",
+    "pronunciation": "brosh",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "brush",
+    "pastSimple": "brushed",
+    "pastParticiple": "brushed",
+    "exampleEn": "I brush my teeth after breakfast.",
+    "exampleEs": "Me cepillo los dientes despues del desayuno.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I brush, you brush, he/she brushes. Past simple: brushed. Past participle: brushed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: brushed.",
+      "En tercera persona del presente usa 'brushes'."
+    ],
+    "dailyUse": [
+      "I brush my teeth after breakfast.",
+      "She brushes in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0007_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'brush'?",
+        "options": [
+          "brushed",
+          "brushd",
+          "brushes",
+          "brush"
+        ],
+        "correctAnswer": "brushed",
+        "explanation": "El pasado simple de 'brush' es 'brushed'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: brush / brushed / brushed. Example: I brush my teeth after breakfast.",
+    "activeRecallPrompt": "Como dirias 'Me cepillo los dientes despues del desayuno.' en ingles?",
+    "activeRecallAnswer": "I brush my teeth after breakfast.",
+    "learningTip": "Memoriza brush / brushed / brushed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0008",
+    "word": "burn",
+    "meaningEs": "quemar / quemarse",
+    "pronunciation": "bern",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "burn",
+    "pastSimple": "burned/burnt",
+    "pastParticiple": "burned/burnt",
+    "exampleEn": "Do not burn the food.",
+    "exampleEs": "No quemes la comida.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I burn, you burn, he/she burns. Past simple: burned/burnt. Past participle: burned/burnt.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'burned/burnt'.",
+      "Memoriza el bloque completo: burn / burned/burnt / burned/burnt."
+    ],
+    "dailyUse": [
+      "Do not burn the food.",
+      "She burns in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0008_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'burn'?",
+        "options": [
+          "burned/burnt",
+          "burned",
+          "burnd",
+          "burns"
+        ],
+        "correctAnswer": "burned/burnt",
+        "explanation": "El pasado simple de 'burn' es 'burned/burnt'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: burn / burned/burnt / burned/burnt. Example: Do not burn the food.",
+    "activeRecallPrompt": "Como dirias 'No quemes la comida.' en ingles?",
+    "activeRecallAnswer": "Do not burn the food.",
+    "learningTip": "Memoriza burn / burned/burnt / burned/burnt como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0009",
+    "word": "cancel",
+    "meaningEs": "cancelar",
+    "pronunciation": "kan-sol",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "cancel",
+    "pastSimple": "canceled",
+    "pastParticiple": "canceled",
+    "exampleEn": "I cancel the appointment today.",
+    "exampleEs": "Cancelo la cita hoy.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I cancel, you cancel, he/she cancels. Past simple: canceled. Past participle: canceled.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: canceled.",
+      "En tercera persona del presente usa 'cancels'."
+    ],
+    "dailyUse": [
+      "I cancel the appointment today.",
+      "She cancels in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0009_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'cancel'?",
+        "options": [
+          "canceled",
+          "canceld",
+          "cancels",
+          "cancel"
+        ],
+        "correctAnswer": "canceled",
+        "explanation": "El pasado simple de 'cancel' es 'canceled'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: cancel / canceled / canceled. Example: I cancel the appointment today.",
+    "activeRecallPrompt": "Como dirias 'Cancelo la cita hoy.' en ingles?",
+    "activeRecallAnswer": "I cancel the appointment today.",
+    "learningTip": "Memoriza cancel / canceled / canceled como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0010",
+    "word": "climb",
+    "meaningEs": "subir / trepar",
+    "pronunciation": "klaim",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "climb",
+    "pastSimple": "climbed",
+    "pastParticiple": "climbed",
+    "exampleEn": "The children climb the stairs slowly.",
+    "exampleEs": "Los ninos suben las escaleras despacio.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I climb, you climb, he/she climbs. Past simple: climbed. Past participle: climbed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: climbed.",
+      "En tercera persona del presente usa 'climbs'."
+    ],
+    "dailyUse": [
+      "The children climb the stairs slowly.",
+      "She climbs in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0010_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'climb'?",
+        "options": [
+          "climbed",
+          "climbd",
+          "climbs",
+          "climb"
+        ],
+        "correctAnswer": "climbed",
+        "explanation": "El pasado simple de 'climb' es 'climbed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: climb / climbed / climbed. Example: The children climb the stairs slowly.",
+    "activeRecallPrompt": "Como dirias 'Los ninos suben las escaleras despacio.' en ingles?",
+    "activeRecallAnswer": "The children climb the stairs slowly.",
+    "learningTip": "Memoriza climb / climbed / climbed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0011",
+    "word": "collect",
+    "meaningEs": "recoger / coleccionar",
+    "pronunciation": "ko-lekt",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "collect",
+    "pastSimple": "collected",
+    "pastParticiple": "collected",
+    "exampleEn": "Collect the papers after class.",
+    "exampleEs": "Recoge los papeles despues de clase.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I collect, you collect, he/she collects. Past simple: collected. Past participle: collected.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: collected.",
+      "En tercera persona del presente usa 'collects'."
+    ],
+    "dailyUse": [
+      "Collect the papers after class.",
+      "She collects in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0011_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'collect'?",
+        "options": [
+          "collected",
+          "collectd",
+          "collects",
+          "collect"
+        ],
+        "correctAnswer": "collected",
+        "explanation": "El pasado simple de 'collect' es 'collected'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: collect / collected / collected. Example: Collect the papers after class.",
+    "activeRecallPrompt": "Como dirias 'Recoge los papeles despues de clase.' en ingles?",
+    "activeRecallAnswer": "Collect the papers after class.",
+    "learningTip": "Memoriza collect / collected / collected como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0012",
+    "word": "compare",
+    "meaningEs": "comparar",
+    "pronunciation": "kom-per",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "compare",
+    "pastSimple": "compared",
+    "pastParticiple": "compared",
+    "exampleEn": "Compare the two prices before you buy.",
+    "exampleEs": "Compara los dos precios antes de comprar.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I compare, you compare, he/she compares. Past simple: compared. Past participle: compared.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: compared.",
+      "En tercera persona del presente usa 'compares'."
+    ],
+    "dailyUse": [
+      "Compare the two prices before you buy.",
+      "She compares in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0012_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'compare'?",
+        "options": [
+          "compared",
+          "compareed",
+          "compares",
+          "compare"
+        ],
+        "correctAnswer": "compared",
+        "explanation": "El pasado simple de 'compare' es 'compared'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: compare / compared / compared. Example: Compare the two prices before you buy.",
+    "activeRecallPrompt": "Como dirias 'Compara los dos precios antes de comprar.' en ingles?",
+    "activeRecallAnswer": "Compare the two prices before you buy.",
+    "learningTip": "Memoriza compare / compared / compared como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0013",
+    "word": "complete",
+    "meaningEs": "completar",
+    "pronunciation": "kom-plit",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "complete",
+    "pastSimple": "completed",
+    "pastParticiple": "completed",
+    "exampleEn": "Complete the form with your name.",
+    "exampleEs": "Completa el formulario con tu nombre.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I complete, you complete, he/she completes. Past simple: completed. Past participle: completed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: completed.",
+      "En tercera persona del presente usa 'completes'."
+    ],
+    "dailyUse": [
+      "Complete the form with your name.",
+      "She completes in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0013_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'complete'?",
+        "options": [
+          "completed",
+          "completeed",
+          "completes",
+          "complete"
+        ],
+        "correctAnswer": "completed",
+        "explanation": "El pasado simple de 'complete' es 'completed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: complete / completed / completed. Example: Complete the form with your name.",
+    "activeRecallPrompt": "Como dirias 'Completa el formulario con tu nombre.' en ingles?",
+    "activeRecallAnswer": "Complete the form with your name.",
+    "learningTip": "Memoriza complete / completed / completed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0014",
+    "word": "connect",
+    "meaningEs": "conectar",
+    "pronunciation": "ko-nekt",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "connect",
+    "pastSimple": "connected",
+    "pastParticiple": "connected",
+    "exampleEn": "Connect the phone to the charger.",
+    "exampleEs": "Conecta el telefono al cargador.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I connect, you connect, he/she connects. Past simple: connected. Past participle: connected.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: connected.",
+      "En tercera persona del presente usa 'connects'."
+    ],
+    "dailyUse": [
+      "Connect the phone to the charger.",
+      "She connects in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0014_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'connect'?",
+        "options": [
+          "connected",
+          "connectd",
+          "connects",
+          "connect"
+        ],
+        "correctAnswer": "connected",
+        "explanation": "El pasado simple de 'connect' es 'connected'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: connect / connected / connected. Example: Connect the phone to the charger.",
+    "activeRecallPrompt": "Como dirias 'Conecta el telefono al cargador.' en ingles?",
+    "activeRecallAnswer": "Connect the phone to the charger.",
+    "learningTip": "Memoriza connect / connected / connected como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0015",
+    "word": "continue",
+    "meaningEs": "continuar",
+    "pronunciation": "kon-ti-niu",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "continue",
+    "pastSimple": "continued",
+    "pastParticiple": "continued",
+    "exampleEn": "Continue straight for two blocks.",
+    "exampleEs": "Continua recto por dos cuadras.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I continue, you continue, he/she continues. Past simple: continued. Past participle: continued.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: continued.",
+      "En tercera persona del presente usa 'continues'."
+    ],
+    "dailyUse": [
+      "Continue straight for two blocks.",
+      "She continues in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0015_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'continue'?",
+        "options": [
+          "continued",
+          "continueed",
+          "continues",
+          "continue"
+        ],
+        "correctAnswer": "continued",
+        "explanation": "El pasado simple de 'continue' es 'continued'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: continue / continued / continued. Example: Continue straight for two blocks.",
+    "activeRecallPrompt": "Como dirias 'Continua recto por dos cuadras.' en ingles?",
+    "activeRecallAnswer": "Continue straight for two blocks.",
+    "learningTip": "Memoriza continue / continued / continued como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0016",
+    "word": "copy",
+    "meaningEs": "copiar",
+    "pronunciation": "ko-pi",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "copy",
+    "pastSimple": "copied",
+    "pastParticiple": "copied",
+    "exampleEn": "Copy the sentence in your notebook.",
+    "exampleEs": "Copia la frase en tu cuaderno.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I copy, you copy, he/she copies. Past simple: copied. Past participle: copied.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: copied.",
+      "En tercera persona del presente usa 'copies'."
+    ],
+    "dailyUse": [
+      "Copy the sentence in your notebook.",
+      "She copies in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0016_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'copy'?",
+        "options": [
+          "copied",
+          "copyed",
+          "copyd",
+          "copies"
+        ],
+        "correctAnswer": "copied",
+        "explanation": "El pasado simple de 'copy' es 'copied'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: copy / copied / copied. Example: Copy the sentence in your notebook.",
+    "activeRecallPrompt": "Como dirias 'Copia la frase en tu cuaderno.' en ingles?",
+    "activeRecallAnswer": "Copy the sentence in your notebook.",
+    "learningTip": "Memoriza copy / copied / copied como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0017",
+    "word": "count",
+    "meaningEs": "contar",
+    "pronunciation": "kaunt",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "count",
+    "pastSimple": "counted",
+    "pastParticiple": "counted",
+    "exampleEn": "Count the tickets before the trip.",
+    "exampleEs": "Cuenta los boletos antes del viaje.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I count, you count, he/she counts. Past simple: counted. Past participle: counted.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: counted.",
+      "En tercera persona del presente usa 'counts'."
+    ],
+    "dailyUse": [
+      "Count the tickets before the trip.",
+      "She counts in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0017_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'count'?",
+        "options": [
+          "counted",
+          "countd",
+          "counts",
+          "count"
+        ],
+        "correctAnswer": "counted",
+        "explanation": "El pasado simple de 'count' es 'counted'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: count / counted / counted. Example: Count the tickets before the trip.",
+    "activeRecallPrompt": "Como dirias 'Cuenta los boletos antes del viaje.' en ingles?",
+    "activeRecallAnswer": "Count the tickets before the trip.",
+    "learningTip": "Memoriza count / counted / counted como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0018",
+    "word": "cover",
+    "meaningEs": "cubrir",
+    "pronunciation": "ko-ver",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "cover",
+    "pastSimple": "covered",
+    "pastParticiple": "covered",
+    "exampleEn": "Cover the food with a plate.",
+    "exampleEs": "Cubre la comida con un plato.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I cover, you cover, he/she covers. Past simple: covered. Past participle: covered.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: covered.",
+      "En tercera persona del presente usa 'covers'."
+    ],
+    "dailyUse": [
+      "Cover the food with a plate.",
+      "She covers in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0018_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'cover'?",
+        "options": [
+          "covered",
+          "coverd",
+          "covers",
+          "cover"
+        ],
+        "correctAnswer": "covered",
+        "explanation": "El pasado simple de 'cover' es 'covered'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: cover / covered / covered. Example: Cover the food with a plate.",
+    "activeRecallPrompt": "Como dirias 'Cubre la comida con un plato.' en ingles?",
+    "activeRecallAnswer": "Cover the food with a plate.",
+    "learningTip": "Memoriza cover / covered / covered como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0019",
+    "word": "cry",
+    "meaningEs": "llorar",
+    "pronunciation": "krai",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "cry",
+    "pastSimple": "cried",
+    "pastParticiple": "cried",
+    "exampleEn": "The baby cries when he is hungry.",
+    "exampleEs": "El bebe llora cuando tiene hambre.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I cry, you cry, he/she cries. Past simple: cried. Past participle: cried.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: cried.",
+      "En tercera persona del presente usa 'cries'."
+    ],
+    "dailyUse": [
+      "The baby cries when he is hungry.",
+      "She cries in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0019_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'cry'?",
+        "options": [
+          "cried",
+          "cryed",
+          "cryd",
+          "cries"
+        ],
+        "correctAnswer": "cried",
+        "explanation": "El pasado simple de 'cry' es 'cried'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: cry / cried / cried. Example: The baby cries when he is hungry.",
+    "activeRecallPrompt": "Como dirias 'El bebe llora cuando tiene hambre.' en ingles?",
+    "activeRecallAnswer": "The baby cries when he is hungry.",
+    "learningTip": "Memoriza cry / cried / cried como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0020",
+    "word": "dance",
+    "meaningEs": "bailar",
+    "pronunciation": "dans",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "dance",
+    "pastSimple": "danced",
+    "pastParticiple": "danced",
+    "exampleEn": "They dance at the party.",
+    "exampleEs": "Ellos bailan en la fiesta.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I dance, you dance, he/she dances. Past simple: danced. Past participle: danced.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: danced.",
+      "En tercera persona del presente usa 'dances'."
+    ],
+    "dailyUse": [
+      "They dance at the party.",
+      "She dances in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0020_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'dance'?",
+        "options": [
+          "danced",
+          "danceed",
+          "dances",
+          "dance"
+        ],
+        "correctAnswer": "danced",
+        "explanation": "El pasado simple de 'dance' es 'danced'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: dance / danced / danced. Example: They dance at the party.",
+    "activeRecallPrompt": "Como dirias 'Ellos bailan en la fiesta.' en ingles?",
+    "activeRecallAnswer": "They dance at the party.",
+    "learningTip": "Memoriza dance / danced / danced como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0021",
+    "word": "deliver",
+    "meaningEs": "entregar",
+    "pronunciation": "di-li-ver",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "deliver",
+    "pastSimple": "delivered",
+    "pastParticiple": "delivered",
+    "exampleEn": "They deliver the package in the morning.",
+    "exampleEs": "Ellos entregan el paquete en la manana.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I deliver, you deliver, he/she delivers. Past simple: delivered. Past participle: delivered.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: delivered.",
+      "En tercera persona del presente usa 'delivers'."
+    ],
+    "dailyUse": [
+      "They deliver the package in the morning.",
+      "She delivers in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0021_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'deliver'?",
+        "options": [
+          "delivered",
+          "deliverd",
+          "delivers",
+          "deliver"
+        ],
+        "correctAnswer": "delivered",
+        "explanation": "El pasado simple de 'deliver' es 'delivered'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: deliver / delivered / delivered. Example: They deliver the package in the morning.",
+    "activeRecallPrompt": "Como dirias 'Ellos entregan el paquete en la manana.' en ingles?",
+    "activeRecallAnswer": "They deliver the package in the morning.",
+    "learningTip": "Memoriza deliver / delivered / delivered como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0022",
+    "word": "describe",
+    "meaningEs": "describir",
+    "pronunciation": "di-skraib",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "describe",
+    "pastSimple": "described",
+    "pastParticiple": "described",
+    "exampleEn": "Describe your room in English.",
+    "exampleEs": "Describe tu habitacion en ingles.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I describe, you describe, he/she describes. Past simple: described. Past participle: described.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: described.",
+      "En tercera persona del presente usa 'describes'."
+    ],
+    "dailyUse": [
+      "Describe your room in English.",
+      "She describes in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0022_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'describe'?",
+        "options": [
+          "described",
+          "describeed",
+          "describes",
+          "describe"
+        ],
+        "correctAnswer": "described",
+        "explanation": "El pasado simple de 'describe' es 'described'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: describe / described / described. Example: Describe your room in English.",
+    "activeRecallPrompt": "Como dirias 'Describe tu habitacion en ingles.' en ingles?",
+    "activeRecallAnswer": "Describe your room in English.",
+    "learningTip": "Memoriza describe / described / described como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0023",
+    "word": "draw",
+    "meaningEs": "dibujar",
+    "pronunciation": "dro",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "draw",
+    "pastSimple": "drew",
+    "pastParticiple": "drawn",
+    "exampleEn": "Draw a map of your street.",
+    "exampleEs": "Dibuja un mapa de tu calle.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I draw, you draw, he/she draws. Past simple: drew. Past participle: drawn.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'drew'.",
+      "Memoriza el bloque completo: draw / drew / drawn."
+    ],
+    "dailyUse": [
+      "Draw a map of your street.",
+      "She draws in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0023_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'draw'?",
+        "options": [
+          "drew",
+          "drawed",
+          "drawd",
+          "drawn"
+        ],
+        "correctAnswer": "drew",
+        "explanation": "El pasado simple de 'draw' es 'drew'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: draw / drew / drawn. Example: Draw a map of your street.",
+    "activeRecallPrompt": "Como dirias 'Dibuja un mapa de tu calle.' en ingles?",
+    "activeRecallAnswer": "Draw a map of your street.",
+    "learningTip": "Memoriza draw / drew / drawn como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0024",
+    "word": "fly",
+    "meaningEs": "volar",
+    "pronunciation": "flai",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "fly",
+    "pastSimple": "flew",
+    "pastParticiple": "flown",
+    "exampleEn": "Birds fly over the park.",
+    "exampleEs": "Los pajaros vuelan sobre el parque.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I fly, you fly, he/she flies. Past simple: flew. Past participle: flown.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'flew'.",
+      "Memoriza el bloque completo: fly / flew / flown."
+    ],
+    "dailyUse": [
+      "Birds fly over the park.",
+      "She flies in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0024_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'fly'?",
+        "options": [
+          "flew",
+          "flyed",
+          "flyd",
+          "flown"
+        ],
+        "correctAnswer": "flew",
+        "explanation": "El pasado simple de 'fly' es 'flew'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: fly / flew / flown. Example: Birds fly over the park.",
+    "activeRecallPrompt": "Como dirias 'Los pajaros vuelan sobre el parque.' en ingles?",
+    "activeRecallAnswer": "Birds fly over the park.",
+    "learningTip": "Memoriza fly / flew / flown como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0025",
+    "word": "drop",
+    "meaningEs": "dejar caer",
+    "pronunciation": "drop",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "drop",
+    "pastSimple": "dropped",
+    "pastParticiple": "dropped",
+    "exampleEn": "Do not drop your phone.",
+    "exampleEs": "No dejes caer tu telefono.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I drop, you drop, he/she drops. Past simple: dropped. Past participle: dropped.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: dropped.",
+      "En tercera persona del presente usa 'drops'."
+    ],
+    "dailyUse": [
+      "Do not drop your phone.",
+      "She drops in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0025_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'drop'?",
+        "options": [
+          "dropped",
+          "droped",
+          "dropd",
+          "drops"
+        ],
+        "correctAnswer": "dropped",
+        "explanation": "El pasado simple de 'drop' es 'dropped'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: drop / dropped / dropped. Example: Do not drop your phone.",
+    "activeRecallPrompt": "Como dirias 'No dejes caer tu telefono.' en ingles?",
+    "activeRecallAnswer": "Do not drop your phone.",
+    "learningTip": "Memoriza drop / dropped / dropped como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0026",
+    "word": "dry",
+    "meaningEs": "secar",
+    "pronunciation": "drai",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "dry",
+    "pastSimple": "dried",
+    "pastParticiple": "dried",
+    "exampleEn": "Dry your hands with a towel.",
+    "exampleEs": "Seca tus manos con una toalla.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I dry, you dry, he/she dries. Past simple: dried. Past participle: dried.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: dried.",
+      "En tercera persona del presente usa 'dries'."
+    ],
+    "dailyUse": [
+      "Dry your hands with a towel.",
+      "She dries in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0026_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'dry'?",
+        "options": [
+          "dried",
+          "dryed",
+          "dryd",
+          "dries"
+        ],
+        "correctAnswer": "dried",
+        "explanation": "El pasado simple de 'dry' es 'dried'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: dry / dried / dried. Example: Dry your hands with a towel.",
+    "activeRecallPrompt": "Como dirias 'Seca tus manos con una toalla.' en ingles?",
+    "activeRecallAnswer": "Dry your hands with a towel.",
+    "learningTip": "Memoriza dry / dried / dried como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0027",
+    "word": "freeze",
+    "meaningEs": "congelar / congelarse",
+    "pronunciation": "friz",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "freeze",
+    "pastSimple": "froze",
+    "pastParticiple": "frozen",
+    "exampleEn": "Water freezes in very cold weather.",
+    "exampleEs": "El agua se congela en clima muy frio.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I freeze, you freeze, he/she freezes. Past simple: froze. Past participle: frozen.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'froze'.",
+      "Memoriza el bloque completo: freeze / froze / frozen."
+    ],
+    "dailyUse": [
+      "Water freezes in very cold weather.",
+      "She freezes in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0027_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'freeze'?",
+        "options": [
+          "froze",
+          "freezeed",
+          "freezed",
+          "frozen"
+        ],
+        "correctAnswer": "froze",
+        "explanation": "El pasado simple de 'freeze' es 'froze'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: freeze / froze / frozen. Example: Water freezes in very cold weather.",
+    "activeRecallPrompt": "Como dirias 'El agua se congela en clima muy frio.' en ingles?",
+    "activeRecallAnswer": "Water freezes in very cold weather.",
+    "learningTip": "Memoriza freeze / froze / frozen como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0028",
+    "word": "enter",
+    "meaningEs": "entrar",
+    "pronunciation": "en-ter",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "enter",
+    "pastSimple": "entered",
+    "pastParticiple": "entered",
+    "exampleEn": "Enter the classroom quietly.",
+    "exampleEs": "Entra al aula en silencio.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I enter, you enter, he/she enters. Past simple: entered. Past participle: entered.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: entered.",
+      "En tercera persona del presente usa 'enters'."
+    ],
+    "dailyUse": [
+      "Enter the classroom quietly.",
+      "She enters in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0028_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'enter'?",
+        "options": [
+          "entered",
+          "enterd",
+          "enters",
+          "enter"
+        ],
+        "correctAnswer": "entered",
+        "explanation": "El pasado simple de 'enter' es 'entered'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: enter / entered / entered. Example: Enter the classroom quietly.",
+    "activeRecallPrompt": "Como dirias 'Entra al aula en silencio.' en ingles?",
+    "activeRecallAnswer": "Enter the classroom quietly.",
+    "learningTip": "Memoriza enter / entered / entered como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0029",
+    "word": "expect",
+    "meaningEs": "esperar / prever",
+    "pronunciation": "eks-pekt",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "expect",
+    "pastSimple": "expected",
+    "pastParticiple": "expected",
+    "exampleEn": "I expect a call from my teacher.",
+    "exampleEs": "Espero una llamada de mi profesor.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I expect, you expect, he/she expects. Past simple: expected. Past participle: expected.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: expected.",
+      "En tercera persona del presente usa 'expects'."
+    ],
+    "dailyUse": [
+      "I expect a call from my teacher.",
+      "She expects in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0029_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'expect'?",
+        "options": [
+          "expected",
+          "expectd",
+          "expects",
+          "expect"
+        ],
+        "correctAnswer": "expected",
+        "explanation": "El pasado simple de 'expect' es 'expected'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: expect / expected / expected. Example: I expect a call from my teacher.",
+    "activeRecallPrompt": "Como dirias 'Espero una llamada de mi profesor.' en ingles?",
+    "activeRecallAnswer": "I expect a call from my teacher.",
+    "learningTip": "Memoriza expect / expected / expected como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0030",
+    "word": "hide",
+    "meaningEs": "esconder / esconderse",
+    "pronunciation": "jaid",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "hide",
+    "pastSimple": "hid",
+    "pastParticiple": "hidden",
+    "exampleEn": "Hide your key in a safe place.",
+    "exampleEs": "Esconde tu llave en un lugar seguro.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I hide, you hide, he/she hides. Past simple: hid. Past participle: hidden.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'hid'.",
+      "Memoriza el bloque completo: hide / hid / hidden."
+    ],
+    "dailyUse": [
+      "Hide your key in a safe place.",
+      "She hides in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0030_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'hide'?",
+        "options": [
+          "hid",
+          "hideed",
+          "hided",
+          "hidden"
+        ],
+        "correctAnswer": "hid",
+        "explanation": "El pasado simple de 'hide' es 'hid'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: hide / hid / hidden. Example: Hide your key in a safe place.",
+    "activeRecallPrompt": "Como dirias 'Esconde tu llave en un lugar seguro.' en ingles?",
+    "activeRecallAnswer": "Hide your key in a safe place.",
+    "learningTip": "Memoriza hide / hid / hidden como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0031",
+    "word": "feed",
+    "meaningEs": "alimentar",
+    "pronunciation": "fid",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "feed",
+    "pastSimple": "fed",
+    "pastParticiple": "fed",
+    "exampleEn": "Feed the dog before school.",
+    "exampleEs": "Alimenta al perro antes de la escuela.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I feed, you feed, he/she feeds. Past simple: fed. Past participle: fed.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'fed'.",
+      "Memoriza el bloque completo: feed / fed / fed."
+    ],
+    "dailyUse": [
+      "Feed the dog before school.",
+      "She feeds in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0031_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'feed'?",
+        "options": [
+          "fed",
+          "feeded",
+          "feedd",
+          "feeds"
+        ],
+        "correctAnswer": "fed",
+        "explanation": "El pasado simple de 'feed' es 'fed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: feed / fed / fed. Example: Feed the dog before school.",
+    "activeRecallPrompt": "Como dirias 'Alimenta al perro antes de la escuela.' en ingles?",
+    "activeRecallAnswer": "Feed the dog before school.",
+    "learningTip": "Memoriza feed / fed / fed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0032",
+    "word": "fill",
+    "meaningEs": "llenar",
+    "pronunciation": "fil",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "fill",
+    "pastSimple": "filled",
+    "pastParticiple": "filled",
+    "exampleEn": "Fill the bottle with water.",
+    "exampleEs": "Llena la botella con agua.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I fill, you fill, he/she fills. Past simple: filled. Past participle: filled.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: filled.",
+      "En tercera persona del presente usa 'fills'."
+    ],
+    "dailyUse": [
+      "Fill the bottle with water.",
+      "She fills in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0032_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'fill'?",
+        "options": [
+          "filled",
+          "filld",
+          "fills",
+          "fill"
+        ],
+        "correctAnswer": "filled",
+        "explanation": "El pasado simple de 'fill' es 'filled'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: fill / filled / filled. Example: Fill the bottle with water.",
+    "activeRecallPrompt": "Como dirias 'Llena la botella con agua.' en ingles?",
+    "activeRecallAnswer": "Fill the bottle with water.",
+    "learningTip": "Memoriza fill / filled / filled como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0033",
+    "word": "fix",
+    "meaningEs": "arreglar",
+    "pronunciation": "fiks",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "fix",
+    "pastSimple": "fixed",
+    "pastParticiple": "fixed",
+    "exampleEn": "Can you fix my chair?",
+    "exampleEs": "Puedes arreglar mi silla?",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I fix, you fix, he/she fixes. Past simple: fixed. Past participle: fixed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: fixed.",
+      "En tercera persona del presente usa 'fixes'."
+    ],
+    "dailyUse": [
+      "Can you fix my chair?",
+      "She fixes in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0033_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'fix'?",
+        "options": [
+          "fixed",
+          "fixd",
+          "fixes",
+          "fix"
+        ],
+        "correctAnswer": "fixed",
+        "explanation": "El pasado simple de 'fix' es 'fixed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: fix / fixed / fixed. Example: Can you fix my chair?",
+    "activeRecallPrompt": "Como dirias 'Puedes arreglar mi silla?' en ingles?",
+    "activeRecallAnswer": "Can you fix my chair?",
+    "learningTip": "Memoriza fix / fixed / fixed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0034",
+    "word": "follow",
+    "meaningEs": "seguir",
+    "pronunciation": "fo-lou",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "follow",
+    "pastSimple": "followed",
+    "pastParticiple": "followed",
+    "exampleEn": "Follow the instructions on the screen.",
+    "exampleEs": "Sigue las instrucciones en la pantalla.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I follow, you follow, he/she follows. Past simple: followed. Past participle: followed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: followed.",
+      "En tercera persona del presente usa 'follows'."
+    ],
+    "dailyUse": [
+      "Follow the instructions on the screen.",
+      "She follows in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0034_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'follow'?",
+        "options": [
+          "followed",
+          "followd",
+          "follows",
+          "follow"
+        ],
+        "correctAnswer": "followed",
+        "explanation": "El pasado simple de 'follow' es 'followed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: follow / followed / followed. Example: Follow the instructions on the screen.",
+    "activeRecallPrompt": "Como dirias 'Sigue las instrucciones en la pantalla.' en ingles?",
+    "activeRecallAnswer": "Follow the instructions on the screen.",
+    "learningTip": "Memoriza follow / followed / followed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0035",
+    "word": "guess",
+    "meaningEs": "adivinar",
+    "pronunciation": "gues",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "guess",
+    "pastSimple": "guessed",
+    "pastParticiple": "guessed",
+    "exampleEn": "Guess the meaning of the word.",
+    "exampleEs": "Adivina el significado de la palabra.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I guess, you guess, he/she guesses. Past simple: guessed. Past participle: guessed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: guessed.",
+      "En tercera persona del presente usa 'guesses'."
+    ],
+    "dailyUse": [
+      "Guess the meaning of the word.",
+      "She guesses in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0035_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'guess'?",
+        "options": [
+          "guessed",
+          "guessd",
+          "guesses",
+          "guess"
+        ],
+        "correctAnswer": "guessed",
+        "explanation": "El pasado simple de 'guess' es 'guessed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: guess / guessed / guessed. Example: Guess the meaning of the word.",
+    "activeRecallPrompt": "Como dirias 'Adivina el significado de la palabra.' en ingles?",
+    "activeRecallAnswer": "Guess the meaning of the word.",
+    "learningTip": "Memoriza guess / guessed / guessed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0036",
+    "word": "happen",
+    "meaningEs": "pasar / suceder",
+    "pronunciation": "ja-pen",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "happen",
+    "pastSimple": "happened",
+    "pastParticiple": "happened",
+    "exampleEn": "What happens after lunch?",
+    "exampleEs": "Que pasa despues del almuerzo?",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I happen, you happen, he/she happens. Past simple: happened. Past participle: happened.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: happened.",
+      "En tercera persona del presente usa 'happens'."
+    ],
+    "dailyUse": [
+      "What happens after lunch?",
+      "She happens in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0036_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'happen'?",
+        "options": [
+          "happened",
+          "happend",
+          "happens",
+          "happen"
+        ],
+        "correctAnswer": "happened",
+        "explanation": "El pasado simple de 'happen' es 'happened'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: happen / happened / happened. Example: What happens after lunch?",
+    "activeRecallPrompt": "Como dirias 'Que pasa despues del almuerzo?' en ingles?",
+    "activeRecallAnswer": "What happens after lunch?",
+    "learningTip": "Memoriza happen / happened / happened como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0037",
+    "word": "hurt",
+    "meaningEs": "doler / lastimar",
+    "pronunciation": "jert",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "hurt",
+    "pastSimple": "hurt",
+    "pastParticiple": "hurt",
+    "exampleEn": "My arm hurts after the game.",
+    "exampleEs": "Me duele el brazo despues del juego.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I hurt, you hurt, he/she hurts. Past simple: hurt. Past participle: hurt.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'hurt'.",
+      "Memoriza el bloque completo: hurt / hurt / hurt."
+    ],
+    "dailyUse": [
+      "My arm hurts after the game.",
+      "She hurts in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0037_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'hurt'?",
+        "options": [
+          "hurt",
+          "hurted",
+          "hurtd",
+          "hurts"
+        ],
+        "correctAnswer": "hurt",
+        "explanation": "El pasado simple de 'hurt' es 'hurt'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: hurt / hurt / hurt. Example: My arm hurts after the game.",
+    "activeRecallPrompt": "Como dirias 'Me duele el brazo despues del juego.' en ingles?",
+    "activeRecallAnswer": "My arm hurts after the game.",
+    "learningTip": "Memoriza hurt / hurt / hurt como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0038",
+    "word": "hope",
+    "meaningEs": "esperar / tener esperanza",
+    "pronunciation": "joup",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "hope",
+    "pastSimple": "hoped",
+    "pastParticiple": "hoped",
+    "exampleEn": "I hope you feel better soon.",
+    "exampleEs": "Espero que te sientas mejor pronto.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I hope, you hope, he/she hopes. Past simple: hoped. Past participle: hoped.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: hoped.",
+      "En tercera persona del presente usa 'hopes'."
+    ],
+    "dailyUse": [
+      "I hope you feel better soon.",
+      "She hopes in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0038_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'hope'?",
+        "options": [
+          "hoped",
+          "hopeed",
+          "hopes",
+          "hope"
+        ],
+        "correctAnswer": "hoped",
+        "explanation": "El pasado simple de 'hope' es 'hoped'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: hope / hoped / hoped. Example: I hope you feel better soon.",
+    "activeRecallPrompt": "Como dirias 'Espero que te sientas mejor pronto.' en ingles?",
+    "activeRecallAnswer": "I hope you feel better soon.",
+    "learningTip": "Memoriza hope / hoped / hoped como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0039",
+    "word": "hurry",
+    "meaningEs": "apurarse",
+    "pronunciation": "jo-ri",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "hurry",
+    "pastSimple": "hurried",
+    "pastParticiple": "hurried",
+    "exampleEn": "Hurry, the bus leaves soon.",
+    "exampleEs": "Apurate, el bus sale pronto.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I hurry, you hurry, he/she hurries. Past simple: hurried. Past participle: hurried.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: hurried.",
+      "En tercera persona del presente usa 'hurries'."
+    ],
+    "dailyUse": [
+      "Hurry, the bus leaves soon.",
+      "She hurries in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0039_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'hurry'?",
+        "options": [
+          "hurried",
+          "hurryed",
+          "hurryd",
+          "hurries"
+        ],
+        "correctAnswer": "hurried",
+        "explanation": "El pasado simple de 'hurry' es 'hurried'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: hurry / hurried / hurried. Example: Hurry, the bus leaves soon.",
+    "activeRecallPrompt": "Como dirias 'Apurate, el bus sale pronto.' en ingles?",
+    "activeRecallAnswer": "Hurry, the bus leaves soon.",
+    "learningTip": "Memoriza hurry / hurried / hurried como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0040",
+    "word": "lead",
+    "meaningEs": "guiar / liderar",
+    "pronunciation": "lid",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "lead",
+    "pastSimple": "led",
+    "pastParticiple": "led",
+    "exampleEn": "The teacher leads the group.",
+    "exampleEs": "El profesor guia al grupo.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I lead, you lead, he/she leads. Past simple: led. Past participle: led.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'led'.",
+      "Memoriza el bloque completo: lead / led / led."
+    ],
+    "dailyUse": [
+      "The teacher leads the group.",
+      "She leads in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0040_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'lead'?",
+        "options": [
+          "led",
+          "leaded",
+          "leadd",
+          "leads"
+        ],
+        "correctAnswer": "led",
+        "explanation": "El pasado simple de 'lead' es 'led'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: lead / led / led. Example: The teacher leads the group.",
+    "activeRecallPrompt": "Como dirias 'El profesor guia al grupo.' en ingles?",
+    "activeRecallAnswer": "The teacher leads the group.",
+    "learningTip": "Memoriza lead / led / led como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0041",
+    "word": "introduce",
+    "meaningEs": "presentar",
+    "pronunciation": "in-tro-dus",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "introduce",
+    "pastSimple": "introduced",
+    "pastParticiple": "introduced",
+    "exampleEn": "Introduce yourself to the class.",
+    "exampleEs": "Presentate a la clase.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I introduce, you introduce, he/she introduces. Past simple: introduced. Past participle: introduced.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: introduced.",
+      "En tercera persona del presente usa 'introduces'."
+    ],
+    "dailyUse": [
+      "Introduce yourself to the class.",
+      "She introduces in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0041_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'introduce'?",
+        "options": [
+          "introduced",
+          "introduceed",
+          "introduces",
+          "introduce"
+        ],
+        "correctAnswer": "introduced",
+        "explanation": "El pasado simple de 'introduce' es 'introduced'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: introduce / introduced / introduced. Example: Introduce yourself to the class.",
+    "activeRecallPrompt": "Como dirias 'Presentate a la clase.' en ingles?",
+    "activeRecallAnswer": "Introduce yourself to the class.",
+    "learningTip": "Memoriza introduce / introduced / introduced como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0042",
+    "word": "jump",
+    "meaningEs": "saltar",
+    "pronunciation": "yomp",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "jump",
+    "pastSimple": "jumped",
+    "pastParticiple": "jumped",
+    "exampleEn": "The children jump in the park.",
+    "exampleEs": "Los ninos saltan en el parque.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I jump, you jump, he/she jumps. Past simple: jumped. Past participle: jumped.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: jumped.",
+      "En tercera persona del presente usa 'jumps'."
+    ],
+    "dailyUse": [
+      "The children jump in the park.",
+      "She jumps in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0042_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'jump'?",
+        "options": [
+          "jumped",
+          "jumpd",
+          "jumps",
+          "jump"
+        ],
+        "correctAnswer": "jumped",
+        "explanation": "El pasado simple de 'jump' es 'jumped'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: jump / jumped / jumped. Example: The children jump in the park.",
+    "activeRecallPrompt": "Como dirias 'Los ninos saltan en el parque.' en ingles?",
+    "activeRecallAnswer": "The children jump in the park.",
+    "learningTip": "Memoriza jump / jumped / jumped como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0043",
+    "word": "kick",
+    "meaningEs": "patear",
+    "pronunciation": "kik",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "kick",
+    "pastSimple": "kicked",
+    "pastParticiple": "kicked",
+    "exampleEn": "Kick the ball to your friend.",
+    "exampleEs": "Patea la pelota a tu amigo.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I kick, you kick, he/she kicks. Past simple: kicked. Past participle: kicked.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: kicked.",
+      "En tercera persona del presente usa 'kicks'."
+    ],
+    "dailyUse": [
+      "Kick the ball to your friend.",
+      "She kicks in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0043_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'kick'?",
+        "options": [
+          "kicked",
+          "kickd",
+          "kicks",
+          "kick"
+        ],
+        "correctAnswer": "kicked",
+        "explanation": "El pasado simple de 'kick' es 'kicked'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: kick / kicked / kicked. Example: Kick the ball to your friend.",
+    "activeRecallPrompt": "Como dirias 'Patea la pelota a tu amigo.' en ingles?",
+    "activeRecallAnswer": "Kick the ball to your friend.",
+    "learningTip": "Memoriza kick / kicked / kicked como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0044",
+    "word": "kiss",
+    "meaningEs": "besar",
+    "pronunciation": "kis",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "kiss",
+    "pastSimple": "kissed",
+    "pastParticiple": "kissed",
+    "exampleEn": "She kisses her baby good night.",
+    "exampleEs": "Ella besa a su bebe antes de dormir.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I kiss, you kiss, he/she kisses. Past simple: kissed. Past participle: kissed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: kissed.",
+      "En tercera persona del presente usa 'kisses'."
+    ],
+    "dailyUse": [
+      "She kisses her baby good night.",
+      "She kisses in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0044_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'kiss'?",
+        "options": [
+          "kissed",
+          "kissd",
+          "kisses",
+          "kiss"
+        ],
+        "correctAnswer": "kissed",
+        "explanation": "El pasado simple de 'kiss' es 'kissed'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: kiss / kissed / kissed. Example: She kisses her baby good night.",
+    "activeRecallPrompt": "Como dirias 'Ella besa a su bebe antes de dormir.' en ingles?",
+    "activeRecallAnswer": "She kisses her baby good night.",
+    "learningTip": "Memoriza kiss / kissed / kissed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0045",
+    "word": "knock",
+    "meaningEs": "tocar / golpear",
+    "pronunciation": "nok",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "knock",
+    "pastSimple": "knocked",
+    "pastParticiple": "knocked",
+    "exampleEn": "Knock on the door before you enter.",
+    "exampleEs": "Toca la puerta antes de entrar.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I knock, you knock, he/she knocks. Past simple: knocked. Past participle: knocked.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: knocked.",
+      "En tercera persona del presente usa 'knocks'."
+    ],
+    "dailyUse": [
+      "Knock on the door before you enter.",
+      "She knocks in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0045_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'knock'?",
+        "options": [
+          "knocked",
+          "knockd",
+          "knocks",
+          "knock"
+        ],
+        "correctAnswer": "knocked",
+        "explanation": "El pasado simple de 'knock' es 'knocked'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: knock / knocked / knocked. Example: Knock on the door before you enter.",
+    "activeRecallPrompt": "Como dirias 'Toca la puerta antes de entrar.' en ingles?",
+    "activeRecallAnswer": "Knock on the door before you enter.",
+    "learningTip": "Memoriza knock / knocked / knocked como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0046",
+    "word": "land",
+    "meaningEs": "aterrizar",
+    "pronunciation": "land",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "land",
+    "pastSimple": "landed",
+    "pastParticiple": "landed",
+    "exampleEn": "The plane lands at six.",
+    "exampleEs": "El avion aterriza a las seis.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I land, you land, he/she lands. Past simple: landed. Past participle: landed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: landed.",
+      "En tercera persona del presente usa 'lands'."
+    ],
+    "dailyUse": [
+      "The plane lands at six.",
+      "She lands in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0046_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'land'?",
+        "options": [
+          "landed",
+          "landd",
+          "lands",
+          "land"
+        ],
+        "correctAnswer": "landed",
+        "explanation": "El pasado simple de 'land' es 'landed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: land / landed / landed. Example: The plane lands at six.",
+    "activeRecallPrompt": "Como dirias 'El avion aterriza a las seis.' en ingles?",
+    "activeRecallAnswer": "The plane lands at six.",
+    "learningTip": "Memoriza land / landed / landed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0047",
+    "word": "lift",
+    "meaningEs": "levantar",
+    "pronunciation": "lift",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "lift",
+    "pastSimple": "lifted",
+    "pastParticiple": "lifted",
+    "exampleEn": "Lift the box carefully.",
+    "exampleEs": "Levanta la caja con cuidado.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I lift, you lift, he/she lifts. Past simple: lifted. Past participle: lifted.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: lifted.",
+      "En tercera persona del presente usa 'lifts'."
+    ],
+    "dailyUse": [
+      "Lift the box carefully.",
+      "She lifts in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0047_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'lift'?",
+        "options": [
+          "lifted",
+          "liftd",
+          "lifts",
+          "lift"
+        ],
+        "correctAnswer": "lifted",
+        "explanation": "El pasado simple de 'lift' es 'lifted'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: lift / lifted / lifted. Example: Lift the box carefully.",
+    "activeRecallPrompt": "Como dirias 'Levanta la caja con cuidado.' en ingles?",
+    "activeRecallAnswer": "Lift the box carefully.",
+    "learningTip": "Memoriza lift / lifted / lifted como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0048",
+    "word": "ride",
+    "meaningEs": "montar / andar en",
+    "pronunciation": "raid",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "ride",
+    "pastSimple": "rode",
+    "pastParticiple": "ridden",
+    "exampleEn": "I ride a bike to school.",
+    "exampleEs": "Voy en bicicleta a la escuela.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I ride, you ride, he/she rides. Past simple: rode. Past participle: ridden.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'rode'.",
+      "Memoriza el bloque completo: ride / rode / ridden."
+    ],
+    "dailyUse": [
+      "I ride a bike to school.",
+      "She rides in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0048_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'ride'?",
+        "options": [
+          "rode",
+          "rideed",
+          "rided",
+          "ridden"
+        ],
+        "correctAnswer": "rode",
+        "explanation": "El pasado simple de 'ride' es 'rode'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: ride / rode / ridden. Example: I ride a bike to school.",
+    "activeRecallPrompt": "Como dirias 'Voy en bicicleta a la escuela.' en ingles?",
+    "activeRecallAnswer": "I ride a bike to school.",
+    "learningTip": "Memoriza ride / rode / ridden como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0049",
+    "word": "ring",
+    "meaningEs": "sonar / llamar por telefono",
+    "pronunciation": "ring",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "ring",
+    "pastSimple": "rang",
+    "pastParticiple": "rung",
+    "exampleEn": "The phone rings during class.",
+    "exampleEs": "El telefono suena durante la clase.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I ring, you ring, he/she rings. Past simple: rang. Past participle: rung.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'rang'.",
+      "Memoriza el bloque completo: ring / rang / rung."
+    ],
+    "dailyUse": [
+      "The phone rings during class.",
+      "She rings in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0049_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'ring'?",
+        "options": [
+          "rang",
+          "ringed",
+          "ringd",
+          "rung"
+        ],
+        "correctAnswer": "rang",
+        "explanation": "El pasado simple de 'ring' es 'rang'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: ring / rang / rung. Example: The phone rings during class.",
+    "activeRecallPrompt": "Como dirias 'El telefono suena durante la clase.' en ingles?",
+    "activeRecallAnswer": "The phone rings during class.",
+    "learningTip": "Memoriza ring / rang / rung como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0050",
+    "word": "mention",
+    "meaningEs": "mencionar",
+    "pronunciation": "men-shon",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "mention",
+    "pastSimple": "mentioned",
+    "pastParticiple": "mentioned",
+    "exampleEn": "Mention your name at the start.",
+    "exampleEs": "Menciona tu nombre al inicio.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I mention, you mention, he/she mentions. Past simple: mentioned. Past participle: mentioned.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: mentioned.",
+      "En tercera persona del presente usa 'mentions'."
+    ],
+    "dailyUse": [
+      "Mention your name at the start.",
+      "She mentions in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0050_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'mention'?",
+        "options": [
+          "mentioned",
+          "mentiond",
+          "mentions",
+          "mention"
+        ],
+        "correctAnswer": "mentioned",
+        "explanation": "El pasado simple de 'mention' es 'mentioned'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: mention / mentioned / mentioned. Example: Mention your name at the start.",
+    "activeRecallPrompt": "Como dirias 'Menciona tu nombre al inicio.' en ingles?",
+    "activeRecallAnswer": "Mention your name at the start.",
+    "learningTip": "Memoriza mention / mentioned / mentioned como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0051",
+    "word": "miss",
+    "meaningEs": "perder / extranar",
+    "pronunciation": "mis",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "miss",
+    "pastSimple": "missed",
+    "pastParticiple": "missed",
+    "exampleEn": "I miss the bus when I wake up late.",
+    "exampleEs": "Pierdo el bus cuando despierto tarde.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I miss, you miss, he/she misses. Past simple: missed. Past participle: missed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: missed.",
+      "En tercera persona del presente usa 'misses'."
+    ],
+    "dailyUse": [
+      "I miss the bus when I wake up late.",
+      "She misses in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0051_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'miss'?",
+        "options": [
+          "missed",
+          "missd",
+          "misses",
+          "miss"
+        ],
+        "correctAnswer": "missed",
+        "explanation": "El pasado simple de 'miss' es 'missed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: miss / missed / missed. Example: I miss the bus when I wake up late.",
+    "activeRecallPrompt": "Como dirias 'Pierdo el bus cuando despierto tarde.' en ingles?",
+    "activeRecallAnswer": "I miss the bus when I wake up late.",
+    "learningTip": "Memoriza miss / missed / missed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0052",
+    "word": "mix",
+    "meaningEs": "mezclar",
+    "pronunciation": "miks",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "mix",
+    "pastSimple": "mixed",
+    "pastParticiple": "mixed",
+    "exampleEn": "Mix the eggs with the milk.",
+    "exampleEs": "Mezcla los huevos con la leche.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I mix, you mix, he/she mixes. Past simple: mixed. Past participle: mixed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: mixed.",
+      "En tercera persona del presente usa 'mixes'."
+    ],
+    "dailyUse": [
+      "Mix the eggs with the milk.",
+      "She mixes in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0052_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'mix'?",
+        "options": [
+          "mixed",
+          "mixd",
+          "mixes",
+          "mix"
+        ],
+        "correctAnswer": "mixed",
+        "explanation": "El pasado simple de 'mix' es 'mixed'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: mix / mixed / mixed. Example: Mix the eggs with the milk.",
+    "activeRecallPrompt": "Como dirias 'Mezcla los huevos con la leche.' en ingles?",
+    "activeRecallAnswer": "Mix the eggs with the milk.",
+    "learningTip": "Memoriza mix / mixed / mixed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0053",
+    "word": "notice",
+    "meaningEs": "notar",
+    "pronunciation": "nou-tis",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "notice",
+    "pastSimple": "noticed",
+    "pastParticiple": "noticed",
+    "exampleEn": "I notice a mistake in the sentence.",
+    "exampleEs": "Noto un error en la frase.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I notice, you notice, he/she notices. Past simple: noticed. Past participle: noticed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: noticed.",
+      "En tercera persona del presente usa 'notices'."
+    ],
+    "dailyUse": [
+      "I notice a mistake in the sentence.",
+      "She notices in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0053_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'notice'?",
+        "options": [
+          "noticed",
+          "noticeed",
+          "notices",
+          "notice"
+        ],
+        "correctAnswer": "noticed",
+        "explanation": "El pasado simple de 'notice' es 'noticed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: notice / noticed / noticed. Example: I notice a mistake in the sentence.",
+    "activeRecallPrompt": "Como dirias 'Noto un error en la frase.' en ingles?",
+    "activeRecallAnswer": "I notice a mistake in the sentence.",
+    "learningTip": "Memoriza notice / noticed / noticed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0054",
+    "word": "offer",
+    "meaningEs": "ofrecer",
+    "pronunciation": "o-fer",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "offer",
+    "pastSimple": "offered",
+    "pastParticiple": "offered",
+    "exampleEn": "They offer coffee in the office.",
+    "exampleEs": "Ellos ofrecen cafe en la oficina.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I offer, you offer, he/she offers. Past simple: offered. Past participle: offered.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: offered.",
+      "En tercera persona del presente usa 'offers'."
+    ],
+    "dailyUse": [
+      "They offer coffee in the office.",
+      "She offers in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0054_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'offer'?",
+        "options": [
+          "offered",
+          "offerd",
+          "offers",
+          "offer"
+        ],
+        "correctAnswer": "offered",
+        "explanation": "El pasado simple de 'offer' es 'offered'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: offer / offered / offered. Example: They offer coffee in the office.",
+    "activeRecallPrompt": "Como dirias 'Ellos ofrecen cafe en la oficina.' en ingles?",
+    "activeRecallAnswer": "They offer coffee in the office.",
+    "learningTip": "Memoriza offer / offered / offered como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0055",
+    "word": "organize",
+    "meaningEs": "organizar",
+    "pronunciation": "or-ga-naiz",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "organize",
+    "pastSimple": "organized",
+    "pastParticiple": "organized",
+    "exampleEn": "Organize your desk before studying.",
+    "exampleEs": "Organiza tu escritorio antes de estudiar.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I organize, you organize, he/she organizes. Past simple: organized. Past participle: organized.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: organized.",
+      "En tercera persona del presente usa 'organizes'."
+    ],
+    "dailyUse": [
+      "Organize your desk before studying.",
+      "She organizes in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0055_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'organize'?",
+        "options": [
+          "organized",
+          "organizeed",
+          "organizes",
+          "organize"
+        ],
+        "correctAnswer": "organized",
+        "explanation": "El pasado simple de 'organize' es 'organized'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: organize / organized / organized. Example: Organize your desk before studying.",
+    "activeRecallPrompt": "Como dirias 'Organiza tu escritorio antes de estudiar.' en ingles?",
+    "activeRecallAnswer": "Organize your desk before studying.",
+    "learningTip": "Memoriza organize / organized / organized como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0056",
+    "word": "paint",
+    "meaningEs": "pintar",
+    "pronunciation": "peint",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "paint",
+    "pastSimple": "painted",
+    "pastParticiple": "painted",
+    "exampleEn": "We paint the room blue.",
+    "exampleEs": "Pintamos la habitacion de azul.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I paint, you paint, he/she paints. Past simple: painted. Past participle: painted.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: painted.",
+      "En tercera persona del presente usa 'paints'."
+    ],
+    "dailyUse": [
+      "We paint the room blue.",
+      "She paints in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0056_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'paint'?",
+        "options": [
+          "painted",
+          "paintd",
+          "paints",
+          "paint"
+        ],
+        "correctAnswer": "painted",
+        "explanation": "El pasado simple de 'paint' es 'painted'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: paint / painted / painted. Example: We paint the room blue.",
+    "activeRecallPrompt": "Como dirias 'Pintamos la habitacion de azul.' en ingles?",
+    "activeRecallAnswer": "We paint the room blue.",
+    "learningTip": "Memoriza paint / painted / painted como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0057",
+    "word": "cross",
+    "meaningEs": "cruzar",
+    "pronunciation": "kros",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "cross",
+    "pastSimple": "crossed",
+    "pastParticiple": "crossed",
+    "exampleEn": "Cross the street carefully.",
+    "exampleEs": "Cruza la calle con cuidado.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I cross, you cross, he/she crosses. Past simple: crossed. Past participle: crossed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: crossed.",
+      "En tercera persona del presente usa 'crosses'."
+    ],
+    "dailyUse": [
+      "Cross the street carefully.",
+      "She crosses in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0057_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'cross'?",
+        "options": [
+          "crossed",
+          "crossd",
+          "crosses",
+          "cross"
+        ],
+        "correctAnswer": "crossed",
+        "explanation": "El pasado simple de 'cross' es 'crossed'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: cross / crossed / crossed. Example: Cross the street carefully.",
+    "activeRecallPrompt": "Como dirias 'Cruza la calle con cuidado.' en ingles?",
+    "activeRecallAnswer": "Cross the street carefully.",
+    "learningTip": "Memoriza cross / crossed / crossed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0058",
+    "word": "pass",
+    "meaningEs": "pasar / aprobar",
+    "pronunciation": "pas",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "pass",
+    "pastSimple": "passed",
+    "pastParticiple": "passed",
+    "exampleEn": "Pass the salt, please.",
+    "exampleEs": "Pasa la sal, por favor.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I pass, you pass, he/she passes. Past simple: passed. Past participle: passed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: passed.",
+      "En tercera persona del presente usa 'passes'."
+    ],
+    "dailyUse": [
+      "Pass the salt, please.",
+      "She passes in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0058_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'pass'?",
+        "options": [
+          "passed",
+          "passd",
+          "passes",
+          "pass"
+        ],
+        "correctAnswer": "passed",
+        "explanation": "El pasado simple de 'pass' es 'passed'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: pass / passed / passed. Example: Pass the salt, please.",
+    "activeRecallPrompt": "Como dirias 'Pasa la sal, por favor.' en ingles?",
+    "activeRecallAnswer": "Pass the salt, please.",
+    "learningTip": "Memoriza pass / passed / passed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0059",
+    "word": "pick",
+    "meaningEs": "escoger / recoger",
+    "pronunciation": "pik",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "pick",
+    "pastSimple": "picked",
+    "pastParticiple": "picked",
+    "exampleEn": "Pick a color for your room.",
+    "exampleEs": "Escoge un color para tu habitacion.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I pick, you pick, he/she picks. Past simple: picked. Past participle: picked.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: picked.",
+      "En tercera persona del presente usa 'picks'."
+    ],
+    "dailyUse": [
+      "Pick a color for your room.",
+      "She picks in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0059_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'pick'?",
+        "options": [
+          "picked",
+          "pickd",
+          "picks",
+          "pick"
+        ],
+        "correctAnswer": "picked",
+        "explanation": "El pasado simple de 'pick' es 'picked'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: pick / picked / picked. Example: Pick a color for your room.",
+    "activeRecallPrompt": "Como dirias 'Escoge un color para tu habitacion.' en ingles?",
+    "activeRecallAnswer": "Pick a color for your room.",
+    "learningTip": "Memoriza pick / picked / picked como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0060",
+    "word": "print",
+    "meaningEs": "imprimir",
+    "pronunciation": "print",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "print",
+    "pastSimple": "printed",
+    "pastParticiple": "printed",
+    "exampleEn": "Print the ticket before the trip.",
+    "exampleEs": "Imprime el boleto antes del viaje.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I print, you print, he/she prints. Past simple: printed. Past participle: printed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: printed.",
+      "En tercera persona del presente usa 'prints'."
+    ],
+    "dailyUse": [
+      "Print the ticket before the trip.",
+      "She prints in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0060_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'print'?",
+        "options": [
+          "printed",
+          "printd",
+          "prints",
+          "print"
+        ],
+        "correctAnswer": "printed",
+        "explanation": "El pasado simple de 'print' es 'printed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: print / printed / printed. Example: Print the ticket before the trip.",
+    "activeRecallPrompt": "Como dirias 'Imprime el boleto antes del viaje.' en ingles?",
+    "activeRecallAnswer": "Print the ticket before the trip.",
+    "learningTip": "Memoriza print / printed / printed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0061",
+    "word": "shake",
+    "meaningEs": "sacudir / temblar",
+    "pronunciation": "sheik",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "shake",
+    "pastSimple": "shook",
+    "pastParticiple": "shaken",
+    "exampleEn": "Shake the bottle before you drink.",
+    "exampleEs": "Sacude la botella antes de beber.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I shake, you shake, he/she shakes. Past simple: shook. Past participle: shaken.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'shook'.",
+      "Memoriza el bloque completo: shake / shook / shaken."
+    ],
+    "dailyUse": [
+      "Shake the bottle before you drink.",
+      "She shakes in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0061_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'shake'?",
+        "options": [
+          "shook",
+          "shakeed",
+          "shaked",
+          "shaken"
+        ],
+        "correctAnswer": "shook",
+        "explanation": "El pasado simple de 'shake' es 'shook'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: shake / shook / shaken. Example: Shake the bottle before you drink.",
+    "activeRecallPrompt": "Como dirias 'Sacude la botella antes de beber.' en ingles?",
+    "activeRecallAnswer": "Shake the bottle before you drink.",
+    "learningTip": "Memoriza shake / shook / shaken como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0062",
+    "word": "protect",
+    "meaningEs": "proteger",
+    "pronunciation": "pro-tekt",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "protect",
+    "pastSimple": "protected",
+    "pastParticiple": "protected",
+    "exampleEn": "Protect your passport when you travel.",
+    "exampleEs": "Protege tu pasaporte cuando viajas.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I protect, you protect, he/she protects. Past simple: protected. Past participle: protected.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: protected.",
+      "En tercera persona del presente usa 'protects'."
+    ],
+    "dailyUse": [
+      "Protect your passport when you travel.",
+      "She protects in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0062_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'protect'?",
+        "options": [
+          "protected",
+          "protectd",
+          "protects",
+          "protect"
+        ],
+        "correctAnswer": "protected",
+        "explanation": "El pasado simple de 'protect' es 'protected'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: protect / protected / protected. Example: Protect your passport when you travel.",
+    "activeRecallPrompt": "Como dirias 'Protege tu pasaporte cuando viajas.' en ingles?",
+    "activeRecallAnswer": "Protect your passport when you travel.",
+    "learningTip": "Memoriza protect / protected / protected como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0063",
+    "word": "push",
+    "meaningEs": "empujar",
+    "pronunciation": "push",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "push",
+    "pastSimple": "pushed",
+    "pastParticiple": "pushed",
+    "exampleEn": "Push the door to enter.",
+    "exampleEs": "Empuja la puerta para entrar.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I push, you push, he/she pushes. Past simple: pushed. Past participle: pushed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: pushed.",
+      "En tercera persona del presente usa 'pushes'."
+    ],
+    "dailyUse": [
+      "Push the door to enter.",
+      "She pushes in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0063_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'push'?",
+        "options": [
+          "pushed",
+          "pushd",
+          "pushes",
+          "push"
+        ],
+        "correctAnswer": "pushed",
+        "explanation": "El pasado simple de 'push' es 'pushed'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: push / pushed / pushed. Example: Push the door to enter.",
+    "activeRecallPrompt": "Como dirias 'Empuja la puerta para entrar.' en ingles?",
+    "activeRecallAnswer": "Push the door to enter.",
+    "learningTip": "Memoriza push / pushed / pushed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0064",
+    "word": "rain",
+    "meaningEs": "llover",
+    "pronunciation": "rein",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "rain",
+    "pastSimple": "rained",
+    "pastParticiple": "rained",
+    "exampleEn": "It rains a lot in April.",
+    "exampleEs": "Llueve mucho en abril.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I rain, you rain, he/she rains. Past simple: rained. Past participle: rained.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: rained.",
+      "En tercera persona del presente usa 'rains'."
+    ],
+    "dailyUse": [
+      "It rains a lot in April.",
+      "She rains in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0064_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'rain'?",
+        "options": [
+          "rained",
+          "raind",
+          "rains",
+          "rain"
+        ],
+        "correctAnswer": "rained",
+        "explanation": "El pasado simple de 'rain' es 'rained'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: rain / rained / rained. Example: It rains a lot in April.",
+    "activeRecallPrompt": "Como dirias 'Llueve mucho en abril.' en ingles?",
+    "activeRecallAnswer": "It rains a lot in April.",
+    "learningTip": "Memoriza rain / rained / rained como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0065",
+    "word": "reach",
+    "meaningEs": "alcanzar / llegar a",
+    "pronunciation": "rich",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "reach",
+    "pastSimple": "reached",
+    "pastParticiple": "reached",
+    "exampleEn": "We reach the station at noon.",
+    "exampleEs": "Llegamos a la estacion al mediodia.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I reach, you reach, he/she reaches. Past simple: reached. Past participle: reached.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: reached.",
+      "En tercera persona del presente usa 'reaches'."
+    ],
+    "dailyUse": [
+      "We reach the station at noon.",
+      "She reaches in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0065_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'reach'?",
+        "options": [
+          "reached",
+          "reachd",
+          "reaches",
+          "reach"
+        ],
+        "correctAnswer": "reached",
+        "explanation": "El pasado simple de 'reach' es 'reached'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: reach / reached / reached. Example: We reach the station at noon.",
+    "activeRecallPrompt": "Como dirias 'Llegamos a la estacion al mediodia.' en ingles?",
+    "activeRecallAnswer": "We reach the station at noon.",
+    "learningTip": "Memoriza reach / reached / reached como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0066",
+    "word": "rent",
+    "meaningEs": "alquilar",
+    "pronunciation": "rent",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "rent",
+    "pastSimple": "rented",
+    "pastParticiple": "rented",
+    "exampleEn": "They rent a small apartment.",
+    "exampleEs": "Ellos alquilan un departamento pequeno.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I rent, you rent, he/she rents. Past simple: rented. Past participle: rented.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: rented.",
+      "En tercera persona del presente usa 'rents'."
+    ],
+    "dailyUse": [
+      "They rent a small apartment.",
+      "She rents in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0066_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'rent'?",
+        "options": [
+          "rented",
+          "rentd",
+          "rents",
+          "rent"
+        ],
+        "correctAnswer": "rented",
+        "explanation": "El pasado simple de 'rent' es 'rented'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: rent / rented / rented. Example: They rent a small apartment.",
+    "activeRecallPrompt": "Como dirias 'Ellos alquilan un departamento pequeno.' en ingles?",
+    "activeRecallAnswer": "They rent a small apartment.",
+    "learningTip": "Memoriza rent / rented / rented como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0067",
+    "word": "repair",
+    "meaningEs": "reparar",
+    "pronunciation": "ri-per",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "repair",
+    "pastSimple": "repaired",
+    "pastParticiple": "repaired",
+    "exampleEn": "He repairs phones at work.",
+    "exampleEs": "El repara telefonos en el trabajo.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I repair, you repair, he/she repairs. Past simple: repaired. Past participle: repaired.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: repaired.",
+      "En tercera persona del presente usa 'repairs'."
+    ],
+    "dailyUse": [
+      "He repairs phones at work.",
+      "She repairs in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0067_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'repair'?",
+        "options": [
+          "repaired",
+          "repaird",
+          "repairs",
+          "repair"
+        ],
+        "correctAnswer": "repaired",
+        "explanation": "El pasado simple de 'repair' es 'repaired'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: repair / repaired / repaired. Example: He repairs phones at work.",
+    "activeRecallPrompt": "Como dirias 'El repara telefonos en el trabajo.' en ingles?",
+    "activeRecallAnswer": "He repairs phones at work.",
+    "learningTip": "Memoriza repair / repaired / repaired como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0068",
+    "word": "repeat",
+    "meaningEs": "repetir",
+    "pronunciation": "ri-pit",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "repeat",
+    "pastSimple": "repeated",
+    "pastParticiple": "repeated",
+    "exampleEn": "Repeat the sentence after me.",
+    "exampleEs": "Repite la frase despues de mi.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I repeat, you repeat, he/she repeats. Past simple: repeated. Past participle: repeated.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: repeated.",
+      "En tercera persona del presente usa 'repeats'."
+    ],
+    "dailyUse": [
+      "Repeat the sentence after me.",
+      "She repeats in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0068_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'repeat'?",
+        "options": [
+          "repeated",
+          "repeatd",
+          "repeats",
+          "repeat"
+        ],
+        "correctAnswer": "repeated",
+        "explanation": "El pasado simple de 'repeat' es 'repeated'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: repeat / repeated / repeated. Example: Repeat the sentence after me.",
+    "activeRecallPrompt": "Como dirias 'Repite la frase despues de mi.' en ingles?",
+    "activeRecallAnswer": "Repeat the sentence after me.",
+    "learningTip": "Memoriza repeat / repeated / repeated como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0069",
+    "word": "sing",
+    "meaningEs": "cantar",
+    "pronunciation": "sing",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "sing",
+    "pastSimple": "sang",
+    "pastParticiple": "sung",
+    "exampleEn": "We sing a song in class.",
+    "exampleEs": "Cantamos una cancion en clase.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I sing, you sing, he/she sings. Past simple: sang. Past participle: sung.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'sang'.",
+      "Memoriza el bloque completo: sing / sang / sung."
+    ],
+    "dailyUse": [
+      "We sing a song in class.",
+      "She sings in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0069_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'sing'?",
+        "options": [
+          "sang",
+          "singed",
+          "singd",
+          "sung"
+        ],
+        "correctAnswer": "sang",
+        "explanation": "El pasado simple de 'sing' es 'sang'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: sing / sang / sung. Example: We sing a song in class.",
+    "activeRecallPrompt": "Como dirias 'Cantamos una cancion en clase.' en ingles?",
+    "activeRecallAnswer": "We sing a song in class.",
+    "learningTip": "Memoriza sing / sang / sung como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0070",
+    "word": "rest",
+    "meaningEs": "descansar",
+    "pronunciation": "rest",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "rest",
+    "pastSimple": "rested",
+    "pastParticiple": "rested",
+    "exampleEn": "Rest after work if you are tired.",
+    "exampleEs": "Descansa despues del trabajo si estas cansado.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I rest, you rest, he/she rests. Past simple: rested. Past participle: rested.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: rested.",
+      "En tercera persona del presente usa 'rests'."
+    ],
+    "dailyUse": [
+      "Rest after work if you are tired.",
+      "She rests in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0070_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'rest'?",
+        "options": [
+          "rested",
+          "restd",
+          "rests",
+          "rest"
+        ],
+        "correctAnswer": "rested",
+        "explanation": "El pasado simple de 'rest' es 'rested'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: rest / rested / rested. Example: Rest after work if you are tired.",
+    "activeRecallPrompt": "Como dirias 'Descansa despues del trabajo si estas cansado.' en ingles?",
+    "activeRecallAnswer": "Rest after work if you are tired.",
+    "learningTip": "Memoriza rest / rested / rested como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0071",
+    "word": "store",
+    "meaningEs": "guardar / almacenar",
+    "pronunciation": "stor",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "store",
+    "pastSimple": "stored",
+    "pastParticiple": "stored",
+    "exampleEn": "Store the file in the correct folder.",
+    "exampleEs": "Guarda el archivo en la carpeta correcta.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I store, you store, he/she stores. Past simple: stored. Past participle: stored.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: stored.",
+      "En tercera persona del presente usa 'stores'."
+    ],
+    "dailyUse": [
+      "Store the file in the correct folder.",
+      "She stores in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0071_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'store'?",
+        "options": [
+          "stored",
+          "storeed",
+          "stores",
+          "store"
+        ],
+        "correctAnswer": "stored",
+        "explanation": "El pasado simple de 'store' es 'stored'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: store / stored / stored. Example: Store the file in the correct folder.",
+    "activeRecallPrompt": "Como dirias 'Guarda el archivo en la carpeta correcta.' en ingles?",
+    "activeRecallAnswer": "Store the file in the correct folder.",
+    "learningTip": "Memoriza store / stored / stored como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0072",
+    "word": "search",
+    "meaningEs": "buscar",
+    "pronunciation": "serch",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "search",
+    "pastSimple": "searched",
+    "pastParticiple": "searched",
+    "exampleEn": "Search for the hotel on the map.",
+    "exampleEs": "Busca el hotel en el mapa.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I search, you search, he/she searches. Past simple: searched. Past participle: searched.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: searched.",
+      "En tercera persona del presente usa 'searches'."
+    ],
+    "dailyUse": [
+      "Search for the hotel on the map.",
+      "She searches in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0072_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'search'?",
+        "options": [
+          "searched",
+          "searchd",
+          "searches",
+          "search"
+        ],
+        "correctAnswer": "searched",
+        "explanation": "El pasado simple de 'search' es 'searched'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: search / searched / searched. Example: Search for the hotel on the map.",
+    "activeRecallPrompt": "Como dirias 'Busca el hotel en el mapa.' en ingles?",
+    "activeRecallAnswer": "Search for the hotel on the map.",
+    "learningTip": "Memoriza search / searched / searched como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0073",
+    "word": "serve",
+    "meaningEs": "servir",
+    "pronunciation": "serv",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "serve",
+    "pastSimple": "served",
+    "pastParticiple": "served",
+    "exampleEn": "They serve breakfast at eight.",
+    "exampleEs": "Ellos sirven desayuno a las ocho.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I serve, you serve, he/she serves. Past simple: served. Past participle: served.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: served.",
+      "En tercera persona del presente usa 'serves'."
+    ],
+    "dailyUse": [
+      "They serve breakfast at eight.",
+      "She serves in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0073_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'serve'?",
+        "options": [
+          "served",
+          "serveed",
+          "serves",
+          "serve"
+        ],
+        "correctAnswer": "served",
+        "explanation": "El pasado simple de 'serve' es 'served'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: serve / served / served. Example: They serve breakfast at eight.",
+    "activeRecallPrompt": "Como dirias 'Ellos sirven desayuno a las ocho.' en ingles?",
+    "activeRecallAnswer": "They serve breakfast at eight.",
+    "learningTip": "Memoriza serve / served / served como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0074",
+    "word": "share",
+    "meaningEs": "compartir",
+    "pronunciation": "sher",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "share",
+    "pastSimple": "shared",
+    "pastParticiple": "shared",
+    "exampleEn": "Share your notes with a friend.",
+    "exampleEs": "Comparte tus notas con un amigo.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I share, you share, he/she shares. Past simple: shared. Past participle: shared.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: shared.",
+      "En tercera persona del presente usa 'shares'."
+    ],
+    "dailyUse": [
+      "Share your notes with a friend.",
+      "She shares in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0074_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'share'?",
+        "options": [
+          "shared",
+          "shareed",
+          "shares",
+          "share"
+        ],
+        "correctAnswer": "shared",
+        "explanation": "El pasado simple de 'share' es 'shared'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: share / shared / shared. Example: Share your notes with a friend.",
+    "activeRecallPrompt": "Como dirias 'Comparte tus notas con un amigo.' en ingles?",
+    "activeRecallAnswer": "Share your notes with a friend.",
+    "learningTip": "Memoriza share / shared / shared como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0075",
+    "word": "browse",
+    "meaningEs": "mirar / navegar",
+    "pronunciation": "brauz",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "browse",
+    "pastSimple": "browsed",
+    "pastParticiple": "browsed",
+    "exampleEn": "Browse the menu before you order.",
+    "exampleEs": "Mira el menu antes de pedir.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I browse, you browse, he/she browses. Past simple: browsed. Past participle: browsed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: browsed.",
+      "En tercera persona del presente usa 'browses'."
+    ],
+    "dailyUse": [
+      "Browse the menu before you order.",
+      "She browses in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0075_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'browse'?",
+        "options": [
+          "browsed",
+          "browseed",
+          "browses",
+          "browse"
+        ],
+        "correctAnswer": "browsed",
+        "explanation": "El pasado simple de 'browse' es 'browsed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: browse / browsed / browsed. Example: Browse the menu before you order.",
+    "activeRecallPrompt": "Como dirias 'Mira el menu antes de pedir.' en ingles?",
+    "activeRecallAnswer": "Browse the menu before you order.",
+    "learningTip": "Memoriza browse / browsed / browsed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0076",
+    "word": "shout",
+    "meaningEs": "gritar",
+    "pronunciation": "shaut",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "shout",
+    "pastSimple": "shouted",
+    "pastParticiple": "shouted",
+    "exampleEn": "Do not shout in the classroom.",
+    "exampleEs": "No grites en el aula.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I shout, you shout, he/she shouts. Past simple: shouted. Past participle: shouted.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: shouted.",
+      "En tercera persona del presente usa 'shouts'."
+    ],
+    "dailyUse": [
+      "Do not shout in the classroom.",
+      "She shouts in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0076_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'shout'?",
+        "options": [
+          "shouted",
+          "shoutd",
+          "shouts",
+          "shout"
+        ],
+        "correctAnswer": "shouted",
+        "explanation": "El pasado simple de 'shout' es 'shouted'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: shout / shouted / shouted. Example: Do not shout in the classroom.",
+    "activeRecallPrompt": "Como dirias 'No grites en el aula.' en ingles?",
+    "activeRecallAnswer": "Do not shout in the classroom.",
+    "learningTip": "Memoriza shout / shouted / shouted como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0077",
+    "word": "sign",
+    "meaningEs": "firmar",
+    "pronunciation": "sain",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "sign",
+    "pastSimple": "signed",
+    "pastParticiple": "signed",
+    "exampleEn": "Sign the form before you leave.",
+    "exampleEs": "Firma el formulario antes de irte.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I sign, you sign, he/she signs. Past simple: signed. Past participle: signed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: signed.",
+      "En tercera persona del presente usa 'signs'."
+    ],
+    "dailyUse": [
+      "Sign the form before you leave.",
+      "She signs in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0077_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'sign'?",
+        "options": [
+          "signed",
+          "signd",
+          "signs",
+          "sign"
+        ],
+        "correctAnswer": "signed",
+        "explanation": "El pasado simple de 'sign' es 'signed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: sign / signed / signed. Example: Sign the form before you leave.",
+    "activeRecallPrompt": "Como dirias 'Firma el formulario antes de irte.' en ingles?",
+    "activeRecallAnswer": "Sign the form before you leave.",
+    "learningTip": "Memoriza sign / signed / signed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0078",
+    "word": "smell",
+    "meaningEs": "oler",
+    "pronunciation": "smel",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "smell",
+    "pastSimple": "smelled/smelt",
+    "pastParticiple": "smelled/smelt",
+    "exampleEn": "The soup smells good.",
+    "exampleEs": "La sopa huele bien.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I smell, you smell, he/she smells. Past simple: smelled/smelt. Past participle: smelled/smelt.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'smelled/smelt'.",
+      "Memoriza el bloque completo: smell / smelled/smelt / smelled/smelt."
+    ],
+    "dailyUse": [
+      "The soup smells good.",
+      "She smells in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0078_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'smell'?",
+        "options": [
+          "smelled/smelt",
+          "smelled",
+          "smelld",
+          "smells"
+        ],
+        "correctAnswer": "smelled/smelt",
+        "explanation": "El pasado simple de 'smell' es 'smelled/smelt'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: smell / smelled/smelt / smelled/smelt. Example: The soup smells good.",
+    "activeRecallPrompt": "Como dirias 'La sopa huele bien.' en ingles?",
+    "activeRecallAnswer": "The soup smells good.",
+    "learningTip": "Memoriza smell / smelled/smelt / smelled/smelt como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0079",
+    "word": "smile",
+    "meaningEs": "sonreir",
+    "pronunciation": "smail",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "smile",
+    "pastSimple": "smiled",
+    "pastParticiple": "smiled",
+    "exampleEn": "She smiles when she sees her friend.",
+    "exampleEs": "Ella sonrie cuando ve a su amiga.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I smile, you smile, he/she smiles. Past simple: smiled. Past participle: smiled.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: smiled.",
+      "En tercera persona del presente usa 'smiles'."
+    ],
+    "dailyUse": [
+      "She smiles when she sees her friend.",
+      "She smiles in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0079_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'smile'?",
+        "options": [
+          "smiled",
+          "smileed",
+          "smiles",
+          "smile"
+        ],
+        "correctAnswer": "smiled",
+        "explanation": "El pasado simple de 'smile' es 'smiled'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: smile / smiled / smiled. Example: She smiles when she sees her friend.",
+    "activeRecallPrompt": "Como dirias 'Ella sonrie cuando ve a su amiga.' en ingles?",
+    "activeRecallAnswer": "She smiles when she sees her friend.",
+    "learningTip": "Memoriza smile / smiled / smiled como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0080",
+    "word": "snow",
+    "meaningEs": "nevar",
+    "pronunciation": "snou",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "snow",
+    "pastSimple": "snowed",
+    "pastParticiple": "snowed",
+    "exampleEn": "It snows in the mountains.",
+    "exampleEs": "Nieva en las montanas.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I snow, you snow, he/she snows. Past simple: snowed. Past participle: snowed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: snowed.",
+      "En tercera persona del presente usa 'snows'."
+    ],
+    "dailyUse": [
+      "It snows in the mountains.",
+      "She snows in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0080_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'snow'?",
+        "options": [
+          "snowed",
+          "snowd",
+          "snows",
+          "snow"
+        ],
+        "correctAnswer": "snowed",
+        "explanation": "El pasado simple de 'snow' es 'snowed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: snow / snowed / snowed. Example: It snows in the mountains.",
+    "activeRecallPrompt": "Como dirias 'Nieva en las montanas.' en ingles?",
+    "activeRecallAnswer": "It snows in the mountains.",
+    "learningTip": "Memoriza snow / snowed / snowed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0081",
+    "word": "solve",
+    "meaningEs": "resolver",
+    "pronunciation": "solv",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "solve",
+    "pastSimple": "solved",
+    "pastParticiple": "solved",
+    "exampleEn": "Solve the problem with your teacher.",
+    "exampleEs": "Resuelve el problema con tu profesor.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I solve, you solve, he/she solves. Past simple: solved. Past participle: solved.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: solved.",
+      "En tercera persona del presente usa 'solves'."
+    ],
+    "dailyUse": [
+      "Solve the problem with your teacher.",
+      "She solves in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0081_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'solve'?",
+        "options": [
+          "solved",
+          "solveed",
+          "solves",
+          "solve"
+        ],
+        "correctAnswer": "solved",
+        "explanation": "El pasado simple de 'solve' es 'solved'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: solve / solved / solved. Example: Solve the problem with your teacher.",
+    "activeRecallPrompt": "Como dirias 'Resuelve el problema con tu profesor.' en ingles?",
+    "activeRecallAnswer": "Solve the problem with your teacher.",
+    "learningTip": "Memoriza solve / solved / solved como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0082",
+    "word": "sound",
+    "meaningEs": "sonar",
+    "pronunciation": "saund",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "sound",
+    "pastSimple": "sounded",
+    "pastParticiple": "sounded",
+    "exampleEn": "That word sounds difficult.",
+    "exampleEs": "Esa palabra suena dificil.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I sound, you sound, he/she sounds. Past simple: sounded. Past participle: sounded.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: sounded.",
+      "En tercera persona del presente usa 'sounds'."
+    ],
+    "dailyUse": [
+      "That word sounds difficult.",
+      "She sounds in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0082_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'sound'?",
+        "options": [
+          "sounded",
+          "soundd",
+          "sounds",
+          "sound"
+        ],
+        "correctAnswer": "sounded",
+        "explanation": "El pasado simple de 'sound' es 'sounded'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: sound / sounded / sounded. Example: That word sounds difficult.",
+    "activeRecallPrompt": "Como dirias 'Esa palabra suena dificil.' en ingles?",
+    "activeRecallAnswer": "That word sounds difficult.",
+    "learningTip": "Memoriza sound / sounded / sounded como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0083",
+    "word": "spell",
+    "meaningEs": "deletrear",
+    "pronunciation": "spel",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "spell",
+    "pastSimple": "spelled/spelt",
+    "pastParticiple": "spelled/spelt",
+    "exampleEn": "Spell your last name, please.",
+    "exampleEs": "Deletrea tu apellido, por favor.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I spell, you spell, he/she spells. Past simple: spelled/spelt. Past participle: spelled/spelt.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'spelled/spelt'.",
+      "Memoriza el bloque completo: spell / spelled/spelt / spelled/spelt."
+    ],
+    "dailyUse": [
+      "Spell your last name, please.",
+      "She spells in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0083_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'spell'?",
+        "options": [
+          "spelled/spelt",
+          "spelled",
+          "spelld",
+          "spells"
+        ],
+        "correctAnswer": "spelled/spelt",
+        "explanation": "El pasado simple de 'spell' es 'spelled/spelt'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: spell / spelled/spelt / spelled/spelt. Example: Spell your last name, please.",
+    "activeRecallPrompt": "Como dirias 'Deletrea tu apellido, por favor.' en ingles?",
+    "activeRecallAnswer": "Spell your last name, please.",
+    "learningTip": "Memoriza spell / spelled/spelt / spelled/spelt como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0084",
+    "word": "stay",
+    "meaningEs": "quedarse",
+    "pronunciation": "stei",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "stay",
+    "pastSimple": "stayed",
+    "pastParticiple": "stayed",
+    "exampleEn": "Stay at home if you are sick.",
+    "exampleEs": "Quedate en casa si estas enfermo.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I stay, you stay, he/she stays. Past simple: stayed. Past participle: stayed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: stayed.",
+      "En tercera persona del presente usa 'stays'."
+    ],
+    "dailyUse": [
+      "Stay at home if you are sick.",
+      "She stays in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0084_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'stay'?",
+        "options": [
+          "stayed",
+          "stayd",
+          "stays",
+          "stay"
+        ],
+        "correctAnswer": "stayed",
+        "explanation": "El pasado simple de 'stay' es 'stayed'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: stay / stayed / stayed. Example: Stay at home if you are sick.",
+    "activeRecallPrompt": "Como dirias 'Quedate en casa si estas enfermo.' en ingles?",
+    "activeRecallAnswer": "Stay at home if you are sick.",
+    "learningTip": "Memoriza stay / stayed / stayed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0085",
+    "word": "suggest",
+    "meaningEs": "sugerir",
+    "pronunciation": "so-yechest",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "suggest",
+    "pastSimple": "suggested",
+    "pastParticiple": "suggested",
+    "exampleEn": "I suggest a cheaper hotel.",
+    "exampleEs": "Sugiero un hotel mas barato.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I suggest, you suggest, he/she suggests. Past simple: suggested. Past participle: suggested.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: suggested.",
+      "En tercera persona del presente usa 'suggests'."
+    ],
+    "dailyUse": [
+      "I suggest a cheaper hotel.",
+      "She suggests in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0085_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'suggest'?",
+        "options": [
+          "suggested",
+          "suggestd",
+          "suggests",
+          "suggest"
+        ],
+        "correctAnswer": "suggested",
+        "explanation": "El pasado simple de 'suggest' es 'suggested'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: suggest / suggested / suggested. Example: I suggest a cheaper hotel.",
+    "activeRecallPrompt": "Como dirias 'Sugiero un hotel mas barato.' en ingles?",
+    "activeRecallAnswer": "I suggest a cheaper hotel.",
+    "learningTip": "Memoriza suggest / suggested / suggested como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0086",
+    "word": "swim",
+    "meaningEs": "nadar",
+    "pronunciation": "suim",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "swim",
+    "pastSimple": "swam",
+    "pastParticiple": "swum",
+    "exampleEn": "They swim in the pool on Saturday.",
+    "exampleEs": "Ellos nadan en la piscina el sabado.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I swim, you swim, he/she swims. Past simple: swam. Past participle: swum.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'swam'.",
+      "Memoriza el bloque completo: swim / swam / swum."
+    ],
+    "dailyUse": [
+      "They swim in the pool on Saturday.",
+      "She swims in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0086_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'swim'?",
+        "options": [
+          "swam",
+          "swimed",
+          "swimd",
+          "swum"
+        ],
+        "correctAnswer": "swam",
+        "explanation": "El pasado simple de 'swim' es 'swam'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: swim / swam / swum. Example: They swim in the pool on Saturday.",
+    "activeRecallPrompt": "Como dirias 'Ellos nadan en la piscina el sabado.' en ingles?",
+    "activeRecallAnswer": "They swim in the pool on Saturday.",
+    "learningTip": "Memoriza swim / swam / swum como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0087",
+    "word": "throw",
+    "meaningEs": "lanzar / tirar",
+    "pronunciation": "zrou",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "throw",
+    "pastSimple": "threw",
+    "pastParticiple": "thrown",
+    "exampleEn": "Throw the ball to your brother.",
+    "exampleEs": "Lanza la pelota a tu hermano.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I throw, you throw, he/she throws. Past simple: threw. Past participle: thrown.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'threw'.",
+      "Memoriza el bloque completo: throw / threw / thrown."
+    ],
+    "dailyUse": [
+      "Throw the ball to your brother.",
+      "She throws in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0087_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'throw'?",
+        "options": [
+          "threw",
+          "throwed",
+          "throwd",
+          "thrown"
+        ],
+        "correctAnswer": "threw",
+        "explanation": "El pasado simple de 'throw' es 'threw'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: throw / threw / thrown. Example: Throw the ball to your brother.",
+    "activeRecallPrompt": "Como dirias 'Lanza la pelota a tu hermano.' en ingles?",
+    "activeRecallAnswer": "Throw the ball to your brother.",
+    "learningTip": "Memoriza throw / threw / thrown como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0088",
+    "word": "taste",
+    "meaningEs": "probar / saber a",
+    "pronunciation": "teist",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "taste",
+    "pastSimple": "tasted",
+    "pastParticiple": "tasted",
+    "exampleEn": "Taste the soup before you add salt.",
+    "exampleEs": "Prueba la sopa antes de agregar sal.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I taste, you taste, he/she tastes. Past simple: tasted. Past participle: tasted.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: tasted.",
+      "En tercera persona del presente usa 'tastes'."
+    ],
+    "dailyUse": [
+      "Taste the soup before you add salt.",
+      "She tastes in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0088_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'taste'?",
+        "options": [
+          "tasted",
+          "tasteed",
+          "tastes",
+          "taste"
+        ],
+        "correctAnswer": "tasted",
+        "explanation": "El pasado simple de 'taste' es 'tasted'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: taste / tasted / tasted. Example: Taste the soup before you add salt.",
+    "activeRecallPrompt": "Como dirias 'Prueba la sopa antes de agregar sal.' en ingles?",
+    "activeRecallAnswer": "Taste the soup before you add salt.",
+    "learningTip": "Memoriza taste / tasted / tasted como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0089",
+    "word": "touch",
+    "meaningEs": "tocar",
+    "pronunciation": "toch",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "touch",
+    "pastSimple": "touched",
+    "pastParticiple": "touched",
+    "exampleEn": "Do not touch the hot plate.",
+    "exampleEs": "No toques el plato caliente.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I touch, you touch, he/she touches. Past simple: touched. Past participle: touched.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: touched.",
+      "En tercera persona del presente usa 'touches'."
+    ],
+    "dailyUse": [
+      "Do not touch the hot plate.",
+      "She touches in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0089_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'touch'?",
+        "options": [
+          "touched",
+          "touchd",
+          "touches",
+          "touch"
+        ],
+        "correctAnswer": "touched",
+        "explanation": "El pasado simple de 'touch' es 'touched'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: touch / touched / touched. Example: Do not touch the hot plate.",
+    "activeRecallPrompt": "Como dirias 'No toques el plato caliente.' en ingles?",
+    "activeRecallAnswer": "Do not touch the hot plate.",
+    "learningTip": "Memoriza touch / touched / touched como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0090",
+    "word": "wake",
+    "meaningEs": "despertar / despertarse",
+    "pronunciation": "ueik",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "wake",
+    "pastSimple": "woke",
+    "pastParticiple": "woken",
+    "exampleEn": "I wake up early on weekdays.",
+    "exampleEs": "Me despierto temprano entre semana.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I wake, you wake, he/she wakes. Past simple: woke. Past participle: woken.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'woke'.",
+      "Memoriza el bloque completo: wake / woke / woken."
+    ],
+    "dailyUse": [
+      "I wake up early on weekdays.",
+      "She wakes in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0090_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'wake'?",
+        "options": [
+          "woke",
+          "wakeed",
+          "waked",
+          "woken"
+        ],
+        "correctAnswer": "woke",
+        "explanation": "El pasado simple de 'wake' es 'woke'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: wake / woke / woken. Example: I wake up early on weekdays.",
+    "activeRecallPrompt": "Como dirias 'Me despierto temprano entre semana.' en ingles?",
+    "activeRecallAnswer": "I wake up early on weekdays.",
+    "learningTip": "Memoriza wake / woke / woken como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0091",
+    "word": "translate",
+    "meaningEs": "traducir",
+    "pronunciation": "trans-leit",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "translate",
+    "pastSimple": "translated",
+    "pastParticiple": "translated",
+    "exampleEn": "Translate the sentence into Spanish.",
+    "exampleEs": "Traduce la frase al espanol.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I translate, you translate, he/she translates. Past simple: translated. Past participle: translated.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: translated.",
+      "En tercera persona del presente usa 'translates'."
+    ],
+    "dailyUse": [
+      "Translate the sentence into Spanish.",
+      "She translates in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0091_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'translate'?",
+        "options": [
+          "translated",
+          "translateed",
+          "translates",
+          "translate"
+        ],
+        "correctAnswer": "translated",
+        "explanation": "El pasado simple de 'translate' es 'translated'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: translate / translated / translated. Example: Translate the sentence into Spanish.",
+    "activeRecallPrompt": "Como dirias 'Traduce la frase al espanol.' en ingles?",
+    "activeRecallAnswer": "Translate the sentence into Spanish.",
+    "learningTip": "Memoriza translate / translated / translated como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0092",
+    "word": "trust",
+    "meaningEs": "confiar en",
+    "pronunciation": "trost",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "trust",
+    "pastSimple": "trusted",
+    "pastParticiple": "trusted",
+    "exampleEn": "I trust my teacher's advice.",
+    "exampleEs": "Confio en el consejo de mi profesor.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I trust, you trust, he/she trusts. Past simple: trusted. Past participle: trusted.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: trusted.",
+      "En tercera persona del presente usa 'trusts'."
+    ],
+    "dailyUse": [
+      "I trust my teacher's advice.",
+      "She trusts in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0092_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'trust'?",
+        "options": [
+          "trusted",
+          "trustd",
+          "trusts",
+          "trust"
+        ],
+        "correctAnswer": "trusted",
+        "explanation": "El pasado simple de 'trust' es 'trusted'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: trust / trusted / trusted. Example: I trust my teacher's advice.",
+    "activeRecallPrompt": "Como dirias 'Confio en el consejo de mi profesor.' en ingles?",
+    "activeRecallAnswer": "I trust my teacher's advice.",
+    "learningTip": "Memoriza trust / trusted / trusted como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0093",
+    "word": "type",
+    "meaningEs": "escribir a maquina / tipear",
+    "pronunciation": "taip",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "type",
+    "pastSimple": "typed",
+    "pastParticiple": "typed",
+    "exampleEn": "Type your email carefully.",
+    "exampleEs": "Escribe tu correo con cuidado.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I type, you type, he/she types. Past simple: typed. Past participle: typed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: typed.",
+      "En tercera persona del presente usa 'types'."
+    ],
+    "dailyUse": [
+      "Type your email carefully.",
+      "She types in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0093_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'type'?",
+        "options": [
+          "typed",
+          "typeed",
+          "types",
+          "type"
+        ],
+        "correctAnswer": "typed",
+        "explanation": "El pasado simple de 'type' es 'typed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: type / typed / typed. Example: Type your email carefully.",
+    "activeRecallPrompt": "Como dirias 'Escribe tu correo con cuidado.' en ingles?",
+    "activeRecallAnswer": "Type your email carefully.",
+    "learningTip": "Memoriza type / typed / typed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0094",
+    "word": "underline",
+    "meaningEs": "subrayar",
+    "pronunciation": "on-der-lain",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "underline",
+    "pastSimple": "underlined",
+    "pastParticiple": "underlined",
+    "exampleEn": "Underline the new words in the text.",
+    "exampleEs": "Subraya las palabras nuevas en el texto.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I underline, you underline, he/she underlines. Past simple: underlined. Past participle: underlined.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: underlined.",
+      "En tercera persona del presente usa 'underlines'."
+    ],
+    "dailyUse": [
+      "Underline the new words in the text.",
+      "She underlines in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0094_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'underline'?",
+        "options": [
+          "underlined",
+          "underlineed",
+          "underlines",
+          "underline"
+        ],
+        "correctAnswer": "underlined",
+        "explanation": "El pasado simple de 'underline' es 'underlined'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: underline / underlined / underlined. Example: Underline the new words in the text.",
+    "activeRecallPrompt": "Como dirias 'Subraya las palabras nuevas en el texto.' en ingles?",
+    "activeRecallAnswer": "Underline the new words in the text.",
+    "learningTip": "Memoriza underline / underlined / underlined como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0095",
+    "word": "teach",
+    "meaningEs": "ensenar",
+    "pronunciation": "tich",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "teach",
+    "pastSimple": "taught",
+    "pastParticiple": "taught",
+    "exampleEn": "My mother teaches me to cook.",
+    "exampleEs": "Mi madre me ensena a cocinar.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I teach, you teach, he/she teaches. Past simple: taught. Past participle: taught.",
+    "commonMistakes": [
+      "No usar una forma regular automatica si el pasado es 'taught'.",
+      "Memoriza el bloque completo: teach / taught / taught."
+    ],
+    "dailyUse": [
+      "My mother teaches me to cook.",
+      "She teaches in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0095_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'teach'?",
+        "options": [
+          "taught",
+          "teached",
+          "teachd",
+          "teaches"
+        ],
+        "correctAnswer": "taught",
+        "explanation": "El pasado simple de 'teach' es 'taught'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "irregular_verbs_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Irregular: teach / taught / taught. Example: My mother teaches me to cook.",
+    "activeRecallPrompt": "Como dirias 'Mi madre me ensena a cocinar.' en ingles?",
+    "activeRecallAnswer": "My mother teaches me to cook.",
+    "learningTip": "Memoriza teach / taught / taught como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0096",
+    "word": "visit",
+    "meaningEs": "visitar",
+    "pronunciation": "vi-zit",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "visit",
+    "pastSimple": "visited",
+    "pastParticiple": "visited",
+    "exampleEn": "We visit my aunt on Sunday.",
+    "exampleEs": "Visitamos a mi tia el domingo.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I visit, you visit, he/she visits. Past simple: visited. Past participle: visited.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: visited.",
+      "En tercera persona del presente usa 'visits'."
+    ],
+    "dailyUse": [
+      "We visit my aunt on Sunday.",
+      "She visits in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0096_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'visit'?",
+        "options": [
+          "visited",
+          "visitd",
+          "visits",
+          "visit"
+        ],
+        "correctAnswer": "visited",
+        "explanation": "El pasado simple de 'visit' es 'visited'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: visit / visited / visited. Example: We visit my aunt on Sunday.",
+    "activeRecallPrompt": "Como dirias 'Visitamos a mi tia el domingo.' en ingles?",
+    "activeRecallAnswer": "We visit my aunt on Sunday.",
+    "learningTip": "Memoriza visit / visited / visited como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0097",
+    "word": "heat",
+    "meaningEs": "calentar",
+    "pronunciation": "jit",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "heat",
+    "pastSimple": "heated",
+    "pastParticiple": "heated",
+    "exampleEn": "Heat the milk before breakfast.",
+    "exampleEs": "Calienta la leche antes del desayuno.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I heat, you heat, he/she heats. Past simple: heated. Past participle: heated.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: heated.",
+      "En tercera persona del presente usa 'heats'."
+    ],
+    "dailyUse": [
+      "Heat the milk before breakfast.",
+      "She heats in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0097_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'heat'?",
+        "options": [
+          "heated",
+          "heatd",
+          "heats",
+          "heat"
+        ],
+        "correctAnswer": "heated",
+        "explanation": "El pasado simple de 'heat' es 'heated'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: heat / heated / heated. Example: Heat the milk before breakfast.",
+    "activeRecallPrompt": "Como dirias 'Calienta la leche antes del desayuno.' en ingles?",
+    "activeRecallAnswer": "Heat the milk before breakfast.",
+    "learningTip": "Memoriza heat / heated / heated como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0098",
+    "word": "weigh",
+    "meaningEs": "pesar",
+    "pronunciation": "uei",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "weigh",
+    "pastSimple": "weighed",
+    "pastParticiple": "weighed",
+    "exampleEn": "Weigh the bag before the flight.",
+    "exampleEs": "Pesa la maleta antes del vuelo.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I weigh, you weigh, he/she weighs. Past simple: weighed. Past participle: weighed.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: weighed.",
+      "En tercera persona del presente usa 'weighs'."
+    ],
+    "dailyUse": [
+      "Weigh the bag before the flight.",
+      "She weighs in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0098_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'weigh'?",
+        "options": [
+          "weighed",
+          "weighd",
+          "weighs",
+          "weigh"
+        ],
+        "correctAnswer": "weighed",
+        "explanation": "El pasado simple de 'weigh' es 'weighed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: weigh / weighed / weighed. Example: Weigh the bag before the flight.",
+    "activeRecallPrompt": "Como dirias 'Pesa la maleta antes del vuelo.' en ingles?",
+    "activeRecallAnswer": "Weigh the bag before the flight.",
+    "learningTip": "Memoriza weigh / weighed / weighed como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0099",
+    "word": "wish",
+    "meaningEs": "desear",
+    "pronunciation": "uish",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "wish",
+    "pastSimple": "wished",
+    "pastParticiple": "wished",
+    "exampleEn": "I wish you a safe trip.",
+    "exampleEs": "Te deseo un viaje seguro.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I wish, you wish, he/she wishes. Past simple: wished. Past participle: wished.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: wished.",
+      "En tercera persona del presente usa 'wishes'."
+    ],
+    "dailyUse": [
+      "I wish you a safe trip.",
+      "She wishes in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0099_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'wish'?",
+        "options": [
+          "wished",
+          "wishd",
+          "wishes",
+          "wish"
+        ],
+        "correctAnswer": "wished",
+        "explanation": "El pasado simple de 'wish' es 'wished'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: wish / wished / wished. Example: I wish you a safe trip.",
+    "activeRecallPrompt": "Como dirias 'Te deseo un viaje seguro.' en ingles?",
+    "activeRecallAnswer": "I wish you a safe trip.",
+    "learningTip": "Memoriza wish / wished / wished como bloque y repitelo con una frase propia.",
+    "links": []
+  },
+  {
+    "id": "verb_0100",
+    "word": "worry",
+    "meaningEs": "preocuparse",
+    "pronunciation": "uo-ri",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "worry",
+    "pastSimple": "worried",
+    "pastParticiple": "worried",
+    "exampleEn": "Do not worry about small mistakes.",
+    "exampleEs": "No te preocupes por errores pequenos.",
+    "usage": "Se usa para expresar una accion practica en conversaciones A1/A2, rutinas, viajes, estudio o trabajo.",
+    "grammar": "Present simple: I worry, you worry, he/she worries. Past simple: worried. Past participle: worried.",
+    "commonMistakes": [
+      "No olvides la terminacion -ed en pasado: worried.",
+      "En tercera persona del presente usa 'worries'."
+    ],
+    "dailyUse": [
+      "Do not worry about small mistakes.",
+      "She worries in a simple daily sentence."
+    ],
+    "exercises": [
+      {
+        "id": "verb_0100_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'worry'?",
+        "options": [
+          "worried",
+          "worryed",
+          "worryd",
+          "worries"
+        ],
+        "correctAnswer": "worried",
+        "explanation": "El pasado simple de 'worry' es 'worried'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "basic_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Regular: worry / worried / worried. Example: Do not worry about small mistakes.",
+    "activeRecallPrompt": "Como dirias 'No te preocupes por errores pequenos.' en ingles?",
+    "activeRecallAnswer": "Do not worry about small mistakes.",
+    "learningTip": "Memoriza worry / worried / worried como bloque y repitelo con una frase propia.",
+    "links": []
+  }
+]
