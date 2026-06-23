@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "free_0701",
+    "word": "computer",
+    "meaningEs": "computadora",
+    "pronunciation": "com-piu-ter",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The computer is on the desk.",
+    "exampleEs": "La computadora est\u00e1 sobre el escritorio.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de computadora.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'computer' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The computer is on the desk.",
+      "I use the computer every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0701_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'computer' mean in Spanish?",
+        "options": [
+          "computadora",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "computadora",
+        "explanation": "'computer' significa 'computadora' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "technology_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: computadora. Example: The computer is on the desk.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La computadora est\u00e1 sobre el escritorio.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The computer is on the desk.",
+    "learningTip": "Usa 'computer' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0702",
+    "word": "laptop",
+    "meaningEs": "computadora port\u00e1til",
+    "pronunciation": "lap-top",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I take my laptop to class.",
+    "exampleEs": "Llevo mi computadora port\u00e1til a clase.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de computadora port\u00e1til.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'laptop' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "I take my laptop to class.",
+      "I use the laptop every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0702_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'laptop' mean in Spanish?",
+        "options": [
+          "computadora port\u00e1til",
+          "archivo",
+          "mensaje",
+          "cuenta"
+        ],
+        "correctAnswer": "computadora port\u00e1til",
+        "explanation": "'laptop' significa 'computadora port\u00e1til' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "devices",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: computadora port\u00e1til. Example: I take my laptop to class.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Llevo mi computadora port\u00e1til a clase.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I take my laptop to class.",
+    "learningTip": "Usa 'laptop' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0703",
+    "word": "tablet",
+    "meaningEs": "tableta",
+    "pronunciation": "ta-blet",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "She reads the lesson on her tablet.",
+    "exampleEs": "Ella lee la lecci\u00f3n en su tableta.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de tableta.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'tablet' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "She reads the lesson on her tablet.",
+      "I use the tablet every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0703_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'tablet' mean in Spanish?",
+        "options": [
+          "tableta",
+          "archivo",
+          "mensaje",
+          "cuenta"
+        ],
+        "correctAnswer": "tableta",
+        "explanation": "'tablet' significa 'tableta' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "devices",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: tableta. Example: She reads the lesson on her tablet.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Ella lee la lecci\u00f3n en su tableta.' en ingl\u00e9s?",
+    "activeRecallAnswer": "She reads the lesson on her tablet.",
+    "learningTip": "Usa 'tablet' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0704",
+    "word": "smartphone",
+    "meaningEs": "tel\u00e9fono inteligente",
+    "pronunciation": "smart-foun",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My smartphone has a good camera.",
+    "exampleEs": "Mi tel\u00e9fono inteligente tiene una buena c\u00e1mara.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de tel\u00e9fono inteligente.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'smartphone' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "My smartphone has a good camera.",
+      "I use the smartphone every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0704_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'smartphone' mean in Spanish?",
+        "options": [
+          "tel\u00e9fono inteligente",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "tel\u00e9fono inteligente",
+        "explanation": "'smartphone' significa 'tel\u00e9fono inteligente' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "phone",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: tel\u00e9fono inteligente. Example: My smartphone has a good camera.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Mi tel\u00e9fono inteligente tiene una buena c\u00e1mara.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My smartphone has a good camera.",
+    "learningTip": "Usa 'smartphone' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0705",
+    "word": "monitor",
+    "meaningEs": "monitor",
+    "pronunciation": "mo-ni-ter",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The monitor shows two documents.",
+    "exampleEs": "El monitor muestra dos documentos.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de monitor.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'monitor' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The monitor shows two documents.",
+      "I use the monitor every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0705_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'monitor' mean in Spanish?",
+        "options": [
+          "monitor",
+          "archivo",
+          "mensaje",
+          "cuenta"
+        ],
+        "correctAnswer": "monitor",
+        "explanation": "'monitor' significa 'monitor' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "devices",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: monitor. Example: The monitor shows two documents.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El monitor muestra dos documentos.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The monitor shows two documents.",
+    "learningTip": "Usa 'monitor' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0706",
+    "word": "webcam",
+    "meaningEs": "c\u00e1mara web",
+    "pronunciation": "ueb-cam",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Turn on the webcam for the meeting.",
+    "exampleEs": "Enciende la c\u00e1mara web para la reuni\u00f3n.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de c\u00e1mara web.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'webcam' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Turn on the webcam for the meeting.",
+      "I use the webcam every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0706_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'webcam' mean in Spanish?",
+        "options": [
+          "c\u00e1mara web",
+          "archivo",
+          "mensaje",
+          "cuenta"
+        ],
+        "correctAnswer": "c\u00e1mara web",
+        "explanation": "'webcam' significa 'c\u00e1mara web' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "devices",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: c\u00e1mara web. Example: Turn on the webcam for the meeting.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Enciende la c\u00e1mara web para la reuni\u00f3n.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Turn on the webcam for the meeting.",
+    "learningTip": "Usa 'webcam' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0707",
+    "word": "microphone",
+    "meaningEs": "micr\u00f3fono",
+    "pronunciation": "mai-cro-foun",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My microphone is ready for the call.",
+    "exampleEs": "Mi micr\u00f3fono est\u00e1 listo para la llamada.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de micr\u00f3fono.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'microphone' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "My microphone is ready for the call.",
+      "I use the microphone every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0707_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'microphone' mean in Spanish?",
+        "options": [
+          "micr\u00f3fono",
+          "archivo",
+          "mensaje",
+          "cuenta"
+        ],
+        "correctAnswer": "micr\u00f3fono",
+        "explanation": "'microphone' significa 'micr\u00f3fono' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "devices",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: micr\u00f3fono. Example: My microphone is ready for the call.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Mi micr\u00f3fono est\u00e1 listo para la llamada.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My microphone is ready for the call.",
+    "learningTip": "Usa 'microphone' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0708",
+    "word": "headphones",
+    "meaningEs": "audifonos",
+    "pronunciation": "jed-founs",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I use headphones to listen to the class.",
+    "exampleEs": "Uso audifonos para escuchar la clase.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de audifonos.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'headphones' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "I use headphones to listen to the class.",
+      "I use the headphones every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0708_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'headphones' mean in Spanish?",
+        "options": [
+          "audifonos",
+          "archivo",
+          "mensaje",
+          "cuenta"
+        ],
+        "correctAnswer": "audifonos",
+        "explanation": "'headphones' significa 'audifonos' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "devices",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: audifonos. Example: I use headphones to listen to the class.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Uso audifonos para escuchar la clase.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I use headphones to listen to the class.",
+    "learningTip": "Usa 'headphones' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0709",
+    "word": "speaker",
+    "meaningEs": "altavoz",
+    "pronunciation": "spi-ker",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The speaker is next to the monitor.",
+    "exampleEs": "El altavoz est\u00e1 junto al monitor.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de altavoz.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'speaker' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The speaker is next to the monitor.",
+      "I use the speaker every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0709_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'speaker' mean in Spanish?",
+        "options": [
+          "altavoz",
+          "archivo",
+          "mensaje",
+          "cuenta"
+        ],
+        "correctAnswer": "altavoz",
+        "explanation": "'speaker' significa 'altavoz' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "devices",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: altavoz. Example: The speaker is next to the monitor.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El altavoz est\u00e1 junto al monitor.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The speaker is next to the monitor.",
+    "learningTip": "Usa 'speaker' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0710",
+    "word": "router",
+    "meaningEs": "router",
+    "pronunciation": "rau-ter",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The router is in the living room.",
+    "exampleEs": "El router est\u00e1 en la sala.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de router.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'router' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The router is in the living room.",
+      "I use the router every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0710_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'router' mean in Spanish?",
+        "options": [
+          "router",
+          "bateria",
+          "llamada",
+          "teclado"
+        ],
+        "correctAnswer": "router",
+        "explanation": "'router' significa 'router' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "internet",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: router. Example: The router is in the living room.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El router est\u00e1 en la sala.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The router is in the living room.",
+    "learningTip": "Usa 'router' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0711",
+    "word": "cable",
+    "meaningEs": "cable",
+    "pronunciation": "kei-bol",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This cable connects the monitor.",
+    "exampleEs": "Este cable conecta el monitor.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de cable.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'cable' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "This cable connects the monitor.",
+      "I use the cable every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0711_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'cable' mean in Spanish?",
+        "options": [
+          "cable",
+          "archivo",
+          "mensaje",
+          "cuenta"
+        ],
+        "correctAnswer": "cable",
+        "explanation": "'cable' significa 'cable' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "devices",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: cable. Example: This cable connects the monitor.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Este cable conecta el monitor.' en ingl\u00e9s?",
+    "activeRecallAnswer": "This cable connects the monitor.",
+    "learningTip": "Usa 'cable' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0712",
+    "word": "plug",
+    "meaningEs": "enchufe",
+    "pronunciation": "plag",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The plug is behind the desk.",
+    "exampleEs": "El enchufe est\u00e1 detras del escritorio.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de enchufe.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'plug' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The plug is behind the desk.",
+      "I use the plug every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0712_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'plug' mean in Spanish?",
+        "options": [
+          "enchufe",
+          "archivo",
+          "mensaje",
+          "cuenta"
+        ],
+        "correctAnswer": "enchufe",
+        "explanation": "'plug' significa 'enchufe' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "devices",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: enchufe. Example: The plug is behind the desk.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El enchufe est\u00e1 detras del escritorio.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The plug is behind the desk.",
+    "learningTip": "Usa 'plug' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0713",
+    "word": "socket",
+    "meaningEs": "toma de corriente",
+    "pronunciation": "so-ket",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "There is a socket near the bed.",
+    "exampleEs": "Hay una toma de corriente cerca de la cama.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de toma de corriente.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'socket' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "There is a socket near the bed.",
+      "I use the socket every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0713_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'socket' mean in Spanish?",
+        "options": [
+          "toma de corriente",
+          "archivo",
+          "mensaje",
+          "cuenta"
+        ],
+        "correctAnswer": "toma de corriente",
+        "explanation": "'socket' significa 'toma de corriente' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "devices",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: toma de corriente. Example: There is a socket near the bed.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Hay una toma de corriente cerca de la cama.' en ingl\u00e9s?",
+    "activeRecallAnswer": "There is a socket near the bed.",
+    "learningTip": "Usa 'socket' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0714",
+    "word": "remote control",
+    "meaningEs": "control remoto",
+    "pronunciation": "ri-mout con-troul",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The remote control is on the sofa.",
+    "exampleEs": "El control remoto est\u00e1 sobre el sofa.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de control remoto.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'remote control' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The remote control is on the sofa.",
+      "I use the remote control every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0714_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'remote control' mean in Spanish?",
+        "options": [
+          "control remoto",
+          "archivo",
+          "mensaje",
+          "cuenta"
+        ],
+        "correctAnswer": "control remoto",
+        "explanation": "'remote control' significa 'control remoto' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "devices",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: control remoto. Example: The remote control is on the sofa.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El control remoto est\u00e1 sobre el sofa.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The remote control is on the sofa.",
+    "learningTip": "Usa 'remote control' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0715",
+    "word": "smartwatch",
+    "meaningEs": "reloj inteligente",
+    "pronunciation": "smart-uoch",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My smartwatch shows new messages.",
+    "exampleEs": "Mi reloj inteligente muestra mensajes nuevos.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de reloj inteligente.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'smartwatch' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "My smartwatch shows new messages.",
+      "I use the smartwatch every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0715_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'smartwatch' mean in Spanish?",
+        "options": [
+          "reloj inteligente",
+          "archivo",
+          "mensaje",
+          "cuenta"
+        ],
+        "correctAnswer": "reloj inteligente",
+        "explanation": "'smartwatch' significa 'reloj inteligente' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "devices",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: reloj inteligente. Example: My smartwatch shows new messages.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Mi reloj inteligente muestra mensajes nuevos.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My smartwatch shows new messages.",
+    "learningTip": "Usa 'smartwatch' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0716",
+    "word": "touchscreen",
+    "meaningEs": "pantalla tactil",
+    "pronunciation": "tach-scrin",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Use the touchscreen to choose an app.",
+    "exampleEs": "Usa la pantalla tactil para elegir una aplicaci\u00f3n.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de pantalla tactil.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'touchscreen' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Use the touchscreen to choose an app.",
+      "I use the touchscreen every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0716_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'touchscreen' mean in Spanish?",
+        "options": [
+          "pantalla tactil",
+          "archivo",
+          "mensaje",
+          "cuenta"
+        ],
+        "correctAnswer": "pantalla tactil",
+        "explanation": "'touchscreen' significa 'pantalla tactil' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "devices",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: pantalla tactil. Example: Use the touchscreen to choose an app.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Usa la pantalla tactil para elegir una aplicaci\u00f3n.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Use the touchscreen to choose an app.",
+    "learningTip": "Usa 'touchscreen' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0717",
+    "word": "memory",
+    "meaningEs": "memoria",
+    "pronunciation": "me-mo-ri",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The phone needs more memory.",
+    "exampleEs": "El tel\u00e9fono necesita m\u00e1s memoria.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de memoria.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'memory' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The phone needs more memory.",
+      "I use the memory every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0717_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'memory' mean in Spanish?",
+        "options": [
+          "memoria",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "memoria",
+        "explanation": "'memory' significa 'memoria' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "technology_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: memoria. Example: The phone needs more memory.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El tel\u00e9fono necesita m\u00e1s memoria.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The phone needs more memory.",
+    "learningTip": "Usa 'memory' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0718",
+    "word": "storage",
+    "meaningEs": "almacenamiento",
+    "pronunciation": "sto-rich",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This app uses little storage.",
+    "exampleEs": "Esta aplicaci\u00f3n usa poco almacenamiento.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de almacenamiento.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'storage' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "This app uses little storage.",
+      "I use the storage every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0718_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'storage' mean in Spanish?",
+        "options": [
+          "almacenamiento",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "almacenamiento",
+        "explanation": "'storage' significa 'almacenamiento' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "technology_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: almacenamiento. Example: This app uses little storage.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Esta aplicaci\u00f3n usa poco almacenamiento.' en ingl\u00e9s?",
+    "activeRecallAnswer": "This app uses little storage.",
+    "learningTip": "Usa 'storage' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0719",
+    "word": "cloud",
+    "meaningEs": "nube digital",
+    "pronunciation": "claud",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My photos are in the cloud.",
+    "exampleEs": "Mis fotos estan en la nube digital.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de nube digital.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'cloud' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "My photos are in the cloud.",
+      "I use the cloud every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0719_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'cloud' mean in Spanish?",
+        "options": [
+          "nube digital",
+          "bateria",
+          "llamada",
+          "teclado"
+        ],
+        "correctAnswer": "nube digital",
+        "explanation": "'cloud' significa 'nube digital' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "internet",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: nube digital. Example: My photos are in the cloud.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Mis fotos estan en la nube digital.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My photos are in the cloud.",
+    "learningTip": "Usa 'cloud' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0720",
+    "word": "browser",
+    "meaningEs": "navegador",
+    "pronunciation": "brau-ser",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Open the course in your browser.",
+    "exampleEs": "Abre el curso en tu navegador.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de navegador.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'browser' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Open the course in your browser.",
+      "I use the browser every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0720_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'browser' mean in Spanish?",
+        "options": [
+          "navegador",
+          "bateria",
+          "llamada",
+          "teclado"
+        ],
+        "correctAnswer": "navegador",
+        "explanation": "'browser' significa 'navegador' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "internet",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: navegador. Example: Open the course in your browser.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Abre el curso en tu navegador.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Open the course in your browser.",
+    "learningTip": "Usa 'browser' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0721",
+    "word": "tab",
+    "meaningEs": "pesta\u00f1a",
+    "pronunciation": "tab",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The video is open in another tab.",
+    "exampleEs": "El video est\u00e1 abierto en otra pesta\u00f1a.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de pesta\u00f1a.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'tab' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The video is open in another tab.",
+      "I use the tab every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0721_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'tab' mean in Spanish?",
+        "options": [
+          "pesta\u00f1a",
+          "bateria",
+          "llamada",
+          "teclado"
+        ],
+        "correctAnswer": "pesta\u00f1a",
+        "explanation": "'tab' significa 'pesta\u00f1a' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "internet",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: pesta\u00f1a. Example: The video is open in another tab.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El video est\u00e1 abierto en otra pesta\u00f1a.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The video is open in another tab.",
+    "learningTip": "Usa 'tab' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0722",
+    "word": "icon",
+    "meaningEs": "icono",
+    "pronunciation": "ai-con",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Tap the blue icon to start.",
+    "exampleEs": "Toca el icono azul para comenzar.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de icono.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'icon' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Tap the blue icon to start.",
+      "I use the icon every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0722_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'icon' mean in Spanish?",
+        "options": [
+          "icono",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "icono",
+        "explanation": "'icon' significa 'icono' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "apps",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: icono. Example: Tap the blue icon to start.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Toca el icono azul para comenzar.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Tap the blue icon to start.",
+    "learningTip": "Usa 'icon' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0723",
+    "word": "app",
+    "meaningEs": "aplicaci\u00f3n",
+    "pronunciation": "ap",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This app helps me study English.",
+    "exampleEs": "Esta aplicaci\u00f3n me ayuda a estudiar ingl\u00e9s.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de aplicaci\u00f3n.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'app' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "This app helps me study English.",
+      "I use the app every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0723_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'app' mean in Spanish?",
+        "options": [
+          "aplicaci\u00f3n",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "aplicaci\u00f3n",
+        "explanation": "'app' significa 'aplicaci\u00f3n' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "apps",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: aplicaci\u00f3n. Example: This app helps me study English.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Esta aplicaci\u00f3n me ayuda a estudiar ingl\u00e9s.' en ingl\u00e9s?",
+    "activeRecallAnswer": "This app helps me study English.",
+    "learningTip": "Usa 'app' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0724",
+    "word": "device",
+    "meaningEs": "dispositivo",
+    "pronunciation": "di-vais",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Connect only one device at a time.",
+    "exampleEs": "Conecta solo un dispositivo a la vez.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de dispositivo.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'device' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Connect only one device at a time.",
+      "I use the device every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0724_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'device' mean in Spanish?",
+        "options": [
+          "dispositivo",
+          "archivo",
+          "mensaje",
+          "cuenta"
+        ],
+        "correctAnswer": "dispositivo",
+        "explanation": "'device' significa 'dispositivo' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "devices",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: dispositivo. Example: Connect only one device at a time.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Conecta solo un dispositivo a la vez.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Connect only one device at a time.",
+    "learningTip": "Usa 'device' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0725",
+    "word": "profile",
+    "meaningEs": "perfil",
+    "pronunciation": "prou-fail",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Her profile has a new photo.",
+    "exampleEs": "Su perfil tiene una foto nueva.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de perfil.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'profile' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Her profile has a new photo.",
+      "I use the profile every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0725_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'profile' mean in Spanish?",
+        "options": [
+          "perfil",
+          "documento",
+          "cable",
+          "monitor"
+        ],
+        "correctAnswer": "perfil",
+        "explanation": "'profile' significa 'perfil' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "social_media_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: perfil. Example: Her profile has a new photo.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Su perfil tiene una foto nueva.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Her profile has a new photo.",
+    "learningTip": "Usa 'profile' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0726",
+    "word": "inbox",
+    "meaningEs": "bandeja de entrada",
+    "pronunciation": "in-boks",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "There are three emails in my inbox.",
+    "exampleEs": "Hay tres correos en mi bandeja de entrada.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de bandeja de entrada.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'inbox' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "There are three emails in my inbox.",
+      "I use the inbox every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0726_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'inbox' mean in Spanish?",
+        "options": [
+          "bandeja de entrada",
+          "pantalla",
+          "aplicaci\u00f3n",
+          "red"
+        ],
+        "correctAnswer": "bandeja de entrada",
+        "explanation": "'inbox' significa 'bandeja de entrada' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "email",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: bandeja de entrada. Example: There are three emails in my inbox.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Hay tres correos en mi bandeja de entrada.' en ingl\u00e9s?",
+    "activeRecallAnswer": "There are three emails in my inbox.",
+    "learningTip": "Usa 'inbox' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0727",
+    "word": "attachment",
+    "meaningEs": "archivo adjunto",
+    "pronunciation": "a-tach-ment",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The report is in the attachment.",
+    "exampleEs": "El informe est\u00e1 en el archivo adjunto.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de archivo adjunto.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'attachment' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The report is in the attachment.",
+      "I use the attachment every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0727_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'attachment' mean in Spanish?",
+        "options": [
+          "archivo adjunto",
+          "pantalla",
+          "aplicaci\u00f3n",
+          "red"
+        ],
+        "correctAnswer": "archivo adjunto",
+        "explanation": "'attachment' significa 'archivo adjunto' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "email",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: archivo adjunto. Example: The report is in the attachment.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El informe est\u00e1 en el archivo adjunto.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The report is in the attachment.",
+    "learningTip": "Usa 'attachment' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0728",
+    "word": "subject line",
+    "meaningEs": "l\u00ednea de asunto",
+    "pronunciation": "sab-yekt lain",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Write the meeting date in the subject line.",
+    "exampleEs": "Escribe la fecha de la reuni\u00f3n en la l\u00ednea de asunto.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de l\u00ednea de asunto.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'subject line' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Write the meeting date in the subject line.",
+      "I use the subject line every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0728_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'subject line' mean in Spanish?",
+        "options": [
+          "l\u00ednea de asunto",
+          "pantalla",
+          "aplicaci\u00f3n",
+          "red"
+        ],
+        "correctAnswer": "l\u00ednea de asunto",
+        "explanation": "'subject line' significa 'l\u00ednea de asunto' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "email",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: l\u00ednea de asunto. Example: Write the meeting date in the subject line.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Escribe la fecha de la reuni\u00f3n en la l\u00ednea de asunto.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Write the meeting date in the subject line.",
+    "learningTip": "Usa 'subject line' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0729",
+    "word": "spam",
+    "meaningEs": "correo no deseado",
+    "pronunciation": "spam",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "That strange email is probably spam.",
+    "exampleEs": "Ese correo extra\u00f1o probablemente es correo no deseado.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de correo no deseado.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'spam' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "That strange email is probably spam.",
+      "I use the spam every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0729_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'spam' mean in Spanish?",
+        "options": [
+          "correo no deseado",
+          "pantalla",
+          "aplicaci\u00f3n",
+          "red"
+        ],
+        "correctAnswer": "correo no deseado",
+        "explanation": "'spam' significa 'correo no deseado' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "email",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: correo no deseado. Example: That strange email is probably spam.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Ese correo extra\u00f1o probablemente es correo no deseado.' en ingl\u00e9s?",
+    "activeRecallAnswer": "That strange email is probably spam.",
+    "learningTip": "Usa 'spam' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0730",
+    "word": "chat",
+    "meaningEs": "chat",
+    "pronunciation": "chat",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Ask your question in the chat.",
+    "exampleEs": "Haz tu pregunta en el chat.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de chat.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'chat' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Ask your question in the chat.",
+      "I use the chat every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0730_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'chat' mean in Spanish?",
+        "options": [
+          "chat",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "chat",
+        "explanation": "'chat' significa 'chat' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "communication",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: chat. Example: Ask your question in the chat.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Haz tu pregunta en el chat.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Ask your question in the chat.",
+    "learningTip": "Usa 'chat' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0731",
+    "word": "group chat",
+    "meaningEs": "chat grupal",
+    "pronunciation": "grup chat",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "We plan the project in the group chat.",
+    "exampleEs": "Planeamos el proyecto en el chat grupal.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de chat grupal.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'group chat' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "We plan the project in the group chat.",
+      "I use the group chat every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0731_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'group chat' mean in Spanish?",
+        "options": [
+          "chat grupal",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "chat grupal",
+        "explanation": "'group chat' significa 'chat grupal' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "communication",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: chat grupal. Example: We plan the project in the group chat.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Planeamos el proyecto en el chat grupal.' en ingl\u00e9s?",
+    "activeRecallAnswer": "We plan the project in the group chat.",
+    "learningTip": "Usa 'group chat' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0732",
+    "word": "contact",
+    "meaningEs": "contacto",
+    "pronunciation": "con-tact",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Add the doctor as a new contact.",
+    "exampleEs": "Agrega al doctor como contacto nuevo.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de contacto.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'contact' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Add the doctor as a new contact.",
+      "I use the contact every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0732_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'contact' mean in Spanish?",
+        "options": [
+          "contacto",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "contacto",
+        "explanation": "'contact' significa 'contacto' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "phone",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: contacto. Example: Add the doctor as a new contact.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Agrega al doctor como contacto nuevo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Add the doctor as a new contact.",
+    "learningTip": "Usa 'contact' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0733",
+    "word": "signal",
+    "meaningEs": "se\u00f1al",
+    "pronunciation": "sig-nal",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The phone has no signal here.",
+    "exampleEs": "El tel\u00e9fono no tiene se\u00f1al aqui.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de se\u00f1al.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'signal' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The phone has no signal here.",
+      "I use the signal every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0733_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'signal' mean in Spanish?",
+        "options": [
+          "se\u00f1al",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "se\u00f1al",
+        "explanation": "'signal' significa 'se\u00f1al' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "phone",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: se\u00f1al. Example: The phone has no signal here.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El tel\u00e9fono no tiene se\u00f1al aqui.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The phone has no signal here.",
+    "learningTip": "Usa 'signal' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0734",
+    "word": "network",
+    "meaningEs": "red",
+    "pronunciation": "net-uork",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The office network is slow today.",
+    "exampleEs": "La red de la oficina est\u00e1 lenta hoy.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de red.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'network' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The office network is slow today.",
+      "I use the network every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0734_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'network' mean in Spanish?",
+        "options": [
+          "red",
+          "bateria",
+          "llamada",
+          "teclado"
+        ],
+        "correctAnswer": "red",
+        "explanation": "'network' significa 'red' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "internet",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: red. Example: The office network is slow today.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La red de la oficina est\u00e1 lenta hoy.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The office network is slow today.",
+    "learningTip": "Usa 'network' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0735",
+    "word": "data",
+    "meaningEs": "datos",
+    "pronunciation": "dei-ta",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The video uses a lot of data.",
+    "exampleEs": "El video usa muchos datos.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de datos.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'data' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The video uses a lot of data.",
+      "I use the data every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0735_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'data' mean in Spanish?",
+        "options": [
+          "datos",
+          "bateria",
+          "llamada",
+          "teclado"
+        ],
+        "correctAnswer": "datos",
+        "explanation": "'data' significa 'datos' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "internet",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: datos. Example: The video uses a lot of data.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El video usa muchos datos.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The video uses a lot of data.",
+    "learningTip": "Usa 'data' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0736",
+    "word": "mobile data",
+    "meaningEs": "datos moviles",
+    "pronunciation": "mou-bail dei-ta",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Turn off mobile data at home.",
+    "exampleEs": "Apaga los datos moviles en casa.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de datos moviles.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'mobile data' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Turn off mobile data at home.",
+      "I use the mobile data every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0736_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'mobile data' mean in Spanish?",
+        "options": [
+          "datos moviles",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "datos moviles",
+        "explanation": "'mobile data' significa 'datos moviles' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "phone",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: datos moviles. Example: Turn off mobile data at home.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Apaga los datos moviles en casa.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Turn off mobile data at home.",
+    "learningTip": "Usa 'mobile data' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0737",
+    "word": "QR code",
+    "meaningEs": "c\u00f3digo QR",
+    "pronunciation": "kiu-ar koud",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Scan the QR code to see the menu.",
+    "exampleEs": "Escanea el c\u00f3digo QR para ver el menu.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de c\u00f3digo QR.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'QR code' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Scan the QR code to see the menu.",
+      "I use the QR code every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0737_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'QR code' mean in Spanish?",
+        "options": [
+          "c\u00f3digo QR",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "c\u00f3digo QR",
+        "explanation": "'QR code' significa 'c\u00f3digo QR' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "technology_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: c\u00f3digo QR. Example: Scan the QR code to see the menu.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Escanea el c\u00f3digo QR para ver el menu.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Scan the QR code to see the menu.",
+    "learningTip": "Usa 'QR code' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0738",
+    "word": "blog",
+    "meaningEs": "blog",
+    "pronunciation": "blog",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I read a travel blog every week.",
+    "exampleEs": "Leo un blog de viajes cada semana.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de blog.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'blog' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "I read a travel blog every week.",
+      "I use the blog every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0738_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'blog' mean in Spanish?",
+        "options": [
+          "blog",
+          "bateria",
+          "llamada",
+          "teclado"
+        ],
+        "correctAnswer": "blog",
+        "explanation": "'blog' significa 'blog' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "internet",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: blog. Example: I read a travel blog every week.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Leo un blog de viajes cada semana.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I read a travel blog every week.",
+    "learningTip": "Usa 'blog' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0739",
+    "word": "podcast",
+    "meaningEs": "podcast",
+    "pronunciation": "pod-cast",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This podcast has short English lessons.",
+    "exampleEs": "Este podcast tiene lecci\u00f3nes cortas de ingl\u00e9s.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de podcast.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'podcast' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "This podcast has short English lessons.",
+      "I use the podcast every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0739_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'podcast' mean in Spanish?",
+        "options": [
+          "podcast",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "podcast",
+        "explanation": "'podcast' significa 'podcast' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "modern_life",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: podcast. Example: This podcast has short English lessons.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Este podcast tiene lecci\u00f3nes cortas de ingl\u00e9s.' en ingl\u00e9s?",
+    "activeRecallAnswer": "This podcast has short English lessons.",
+    "learningTip": "Usa 'podcast' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0740",
+    "word": "channel",
+    "meaningEs": "canal",
+    "pronunciation": "cha-nel",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The school has a video channel.",
+    "exampleEs": "La escuela tiene un canal de videos.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de canal.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'channel' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The school has a video channel.",
+      "I use the channel every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0740_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'channel' mean in Spanish?",
+        "options": [
+          "canal",
+          "documento",
+          "cable",
+          "monitor"
+        ],
+        "correctAnswer": "canal",
+        "explanation": "'channel' significa 'canal' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "social_media_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: canal. Example: The school has a video channel.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La escuela tiene un canal de videos.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The school has a video channel.",
+    "learningTip": "Usa 'channel' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0741",
+    "word": "comment",
+    "meaningEs": "comentario",
+    "pronunciation": "co-ment",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Her comment answers my question.",
+    "exampleEs": "Su comentario responde mi pregunta.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de comentario.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'comment' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Her comment answers my question.",
+      "I use the comment every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0741_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'comment' mean in Spanish?",
+        "options": [
+          "comentario",
+          "documento",
+          "cable",
+          "monitor"
+        ],
+        "correctAnswer": "comentario",
+        "explanation": "'comment' significa 'comentario' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "social_media_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: comentario. Example: Her comment answers my question.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Su comentario responde mi pregunta.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Her comment answers my question.",
+    "learningTip": "Usa 'comment' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0742",
+    "word": "emoji",
+    "meaningEs": "emoji",
+    "pronunciation": "i-mou-yi",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "He sends a happy emoji.",
+    "exampleEs": "\u00c9l env\u00eda un emoji feliz.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de emoji.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'emoji' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "He sends a happy emoji.",
+      "I use the emoji every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0742_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'emoji' mean in Spanish?",
+        "options": [
+          "emoji",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "emoji",
+        "explanation": "'emoji' significa 'emoji' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "communication",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: emoji. Example: He sends a happy emoji.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas '\u00c9l env\u00eda un emoji feliz.' en ingl\u00e9s?",
+    "activeRecallAnswer": "He sends a happy emoji.",
+    "learningTip": "Usa 'emoji' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0743",
+    "word": "hashtag",
+    "meaningEs": "etiqueta con numeral",
+    "pronunciation": "jash-tag",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Use this hashtag for the class project.",
+    "exampleEs": "Usa est\u00e1 etiqueta para el proyecto de clase.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de etiqueta con numeral.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'hashtag' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Use this hashtag for the class project.",
+      "I use the hashtag every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0743_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'hashtag' mean in Spanish?",
+        "options": [
+          "etiqueta con numeral",
+          "documento",
+          "cable",
+          "monitor"
+        ],
+        "correctAnswer": "etiqueta con numeral",
+        "explanation": "'hashtag' significa 'etiqueta con numeral' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "social_media_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: etiqueta con numeral. Example: Use this hashtag for the class project.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Usa est\u00e1 etiqueta para el proyecto de clase.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Use this hashtag for the class project.",
+    "learningTip": "Usa 'hashtag' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0744",
+    "word": "story",
+    "meaningEs": "historia temporal",
+    "pronunciation": "sto-ri",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "She shares a photo in her story.",
+    "exampleEs": "Ella comparte una foto en su historia temporal.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de historia temporal.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'story' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "She shares a photo in her story.",
+      "I use the story every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0744_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'story' mean in Spanish?",
+        "options": [
+          "historia temporal",
+          "documento",
+          "cable",
+          "monitor"
+        ],
+        "correctAnswer": "historia temporal",
+        "explanation": "'story' significa 'historia temporal' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "social_media_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: historia temporal. Example: She shares a photo in her story.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Ella comparte una foto en su historia temporal.' en ingl\u00e9s?",
+    "activeRecallAnswer": "She shares a photo in her story.",
+    "learningTip": "Usa 'story' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0745",
+    "word": "livestream",
+    "meaningEs": "transmision en vivo",
+    "pronunciation": "laiv-strim",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The concert livestream starts at eight.",
+    "exampleEs": "La transmision en vivo del concierto comienza a las ocho.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de transmision en vivo.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'livestream' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The concert livestream starts at eight.",
+      "I use the livestream every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0745_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'livestream' mean in Spanish?",
+        "options": [
+          "transmision en vivo",
+          "documento",
+          "cable",
+          "monitor"
+        ],
+        "correctAnswer": "transmision en vivo",
+        "explanation": "'livestream' significa 'transmision en vivo' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "social_media_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: transmision en vivo. Example: The concert livestream starts at eight.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La transmision en vivo del concierto comienza a las ocho.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The concert livestream starts at eight.",
+    "learningTip": "Usa 'livestream' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0746",
+    "word": "follower",
+    "meaningEs": "seguidor",
+    "pronunciation": "fo-lou-er",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Each follower can see the public post.",
+    "exampleEs": "Cada seguidor puede ver la publicaci\u00f3n publica.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de seguidor.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'follower' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Each follower can see the public post.",
+      "I use the follower every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0746_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'follower' mean in Spanish?",
+        "options": [
+          "seguidor",
+          "documento",
+          "cable",
+          "monitor"
+        ],
+        "correctAnswer": "seguidor",
+        "explanation": "'follower' significa 'seguidor' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "social_media_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: seguidor. Example: Each follower can see the public post.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Cada seguidor puede ver la publicaci\u00f3n publica.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Each follower can see the public post.",
+    "learningTip": "Usa 'follower' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0747",
+    "word": "subscriber",
+    "meaningEs": "suscriptor",
+    "pronunciation": "sab-scrai-ber",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Every subscriber receives a new video.",
+    "exampleEs": "Cada suscriptor recibe un video nuevo.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de suscriptor.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'subscriber' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Every subscriber receives a new video.",
+      "I use the subscriber every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0747_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'subscriber' mean in Spanish?",
+        "options": [
+          "suscriptor",
+          "documento",
+          "cable",
+          "monitor"
+        ],
+        "correctAnswer": "suscriptor",
+        "explanation": "'subscriber' significa 'suscriptor' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "social_media_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: suscriptor. Example: Every subscriber receives a new video.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Cada suscriptor recibe un video nuevo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Every subscriber receives a new video.",
+    "learningTip": "Usa 'subscriber' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0748",
+    "word": "playlist",
+    "meaningEs": "lista de reproduccion",
+    "pronunciation": "plei-list",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I made a playlist for studying.",
+    "exampleEs": "Hice una lista de reproduccion para estudiar.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de lista de reproduccion.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'playlist' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "I made a playlist for studying.",
+      "I use the playlist every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0748_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'playlist' mean in Spanish?",
+        "options": [
+          "lista de reproduccion",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "lista de reproduccion",
+        "explanation": "'playlist' significa 'lista de reproduccion' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "apps",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: lista de reproduccion. Example: I made a playlist for studying.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Hice una lista de reproduccion para estudiar.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I made a playlist for studying.",
+    "learningTip": "Usa 'playlist' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0749",
+    "word": "webinar",
+    "meaningEs": "seminario web",
+    "pronunciation": "ue-bi-nar",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The free webinar begins tomorrow.",
+    "exampleEs": "El seminario web gratuito comienza ma\u00f1ana.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de seminario web.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'webinar' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The free webinar begins tomorrow.",
+      "I use the webinar every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0749_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'webinar' mean in Spanish?",
+        "options": [
+          "seminario web",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "seminario web",
+        "explanation": "'webinar' significa 'seminario web' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "study_online",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: seminario web. Example: The free webinar begins tomorrow.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El seminario web gratuito comienza ma\u00f1ana.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The free webinar begins tomorrow.",
+    "learningTip": "Usa 'webinar' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0750",
+    "word": "online course",
+    "meaningEs": "curso en l\u00ednea",
+    "pronunciation": "on-lain cors",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My online course has ten lessons.",
+    "exampleEs": "Mi curso en l\u00ednea tiene diez lecci\u00f3nes.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de curso en l\u00ednea.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'online course' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "My online course has ten lessons.",
+      "I use the online course every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0750_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'online course' mean in Spanish?",
+        "options": [
+          "curso en l\u00ednea",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "curso en l\u00ednea",
+        "explanation": "'online course' significa 'curso en l\u00ednea' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "study_online",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: curso en l\u00ednea. Example: My online course has ten lessons.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Mi curso en l\u00ednea tiene diez lecci\u00f3nes.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My online course has ten lessons.",
+    "learningTip": "Usa 'online course' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0751",
+    "word": "login",
+    "meaningEs": "inicio de sesi\u00f3n",
+    "pronunciation": "log-in",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Use your email for the login.",
+    "exampleEs": "Usa tu correo para el inicio de sesi\u00f3n.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de inicio de sesi\u00f3n.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'login' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Use your email for the login.",
+      "I use the login every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0751_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'login' mean in Spanish?",
+        "options": [
+          "inicio de sesi\u00f3n",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "inicio de sesi\u00f3n",
+        "explanation": "'login' significa 'inicio de sesi\u00f3n' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "online_actions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: inicio de sesi\u00f3n. Example: Use your email for the login.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Usa tu correo para el inicio de sesi\u00f3n.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Use your email for the login.",
+    "learningTip": "Usa 'login' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0752",
+    "word": "logout",
+    "meaningEs": "cierre de sesi\u00f3n",
+    "pronunciation": "log-aut",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The logout is automatic on this device.",
+    "exampleEs": "El cierre de sesi\u00f3n es automatico en este dispositivo.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de cierre de sesi\u00f3n.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'logout' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The logout is automatic on this device.",
+      "I use the logout every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0752_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'logout' mean in Spanish?",
+        "options": [
+          "cierre de sesi\u00f3n",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "cierre de sesi\u00f3n",
+        "explanation": "'logout' significa 'cierre de sesi\u00f3n' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "online_actions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: cierre de sesi\u00f3n. Example: The logout is automatic on this device.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El cierre de sesi\u00f3n es automatico en este dispositivo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The logout is automatic on this device.",
+    "learningTip": "Usa 'logout' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0753",
+    "word": "access",
+    "meaningEs": "acceso",
+    "pronunciation": "ak-ses",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Students have access to the document.",
+    "exampleEs": "Los estudiantes tienen acceso al documento.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de acceso.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'access' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Students have access to the document.",
+      "I use the access every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0753_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'access' mean in Spanish?",
+        "options": [
+          "acceso",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "acceso",
+        "explanation": "'access' significa 'acceso' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "online_actions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: acceso. Example: Students have access to the document.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Los estudiantes tienen acceso al documento.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Students have access to the document.",
+    "learningTip": "Usa 'access' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0754",
+    "word": "permission",
+    "meaningEs": "permiso",
+    "pronunciation": "per-mi-shon",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The app asks for camera permission.",
+    "exampleEs": "La aplicaci\u00f3n pide permiso para usar la c\u00e1mara.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de permiso.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'permission' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The app asks for camera permission.",
+      "I use the permission every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0754_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'permission' mean in Spanish?",
+        "options": [
+          "permiso",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "permiso",
+        "explanation": "'permission' significa 'permiso' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "apps",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: permiso. Example: The app asks for camera permission.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La aplicaci\u00f3n pide permiso para usar la c\u00e1mara.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The app asks for camera permission.",
+    "learningTip": "Usa 'permission' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0755",
+    "word": "privacy",
+    "meaningEs": "privacidad",
+    "pronunciation": "prai-va-si",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Check your privacy before you post.",
+    "exampleEs": "Revisa tu privacidad antes de publicar.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de privacidad.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'privacy' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Check your privacy before you post.",
+      "I use the privacy every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0755_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'privacy' mean in Spanish?",
+        "options": [
+          "privacidad",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "privacidad",
+        "explanation": "'privacy' significa 'privacidad' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "modern_life",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: privacidad. Example: Check your privacy before you post.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Revisa tu privacidad antes de publicar.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Check your privacy before you post.",
+    "learningTip": "Usa 'privacy' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0756",
+    "word": "security",
+    "meaningEs": "seguridad",
+    "pronunciation": "si-kiu-ri-ti",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "A strong password improves security.",
+    "exampleEs": "Una contrase\u00f1a segura mejora la seguridad.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de seguridad.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'security' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "A strong password improves security.",
+      "I use the security every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0756_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'security' mean in Spanish?",
+        "options": [
+          "seguridad",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "seguridad",
+        "explanation": "'security' significa 'seguridad' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "modern_life",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: seguridad. Example: A strong password improves security.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Una contrase\u00f1a segura mejora la seguridad.' en ingl\u00e9s?",
+    "activeRecallAnswer": "A strong password improves security.",
+    "learningTip": "Usa 'security' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0757",
+    "word": "backup",
+    "meaningEs": "copia de seguridad",
+    "pronunciation": "bak-ap",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I keep a backup of my work files.",
+    "exampleEs": "Guardo una copia de seguridad de mis archivos de trabajo.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de copia de seguridad.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'backup' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "I keep a backup of my work files.",
+      "I use the backup every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0757_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'backup' mean in Spanish?",
+        "options": [
+          "copia de seguridad",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "copia de seguridad",
+        "explanation": "'backup' significa 'copia de seguridad' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "technology_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: copia de seguridad. Example: I keep a backup of my work files.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Guardo una copia de seguridad de mis archivos de trabajo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I keep a backup of my work files.",
+    "learningTip": "Usa 'backup' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0758",
+    "word": "code",
+    "meaningEs": "c\u00f3digo",
+    "pronunciation": "koud",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Enter the code from the message.",
+    "exampleEs": "Ingresa el c\u00f3digo del mensaje.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de c\u00f3digo.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'code' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Enter the code from the message.",
+      "I use the code every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0758_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'code' mean in Spanish?",
+        "options": [
+          "c\u00f3digo",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "c\u00f3digo",
+        "explanation": "'code' significa 'c\u00f3digo' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "technology_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: c\u00f3digo. Example: Enter the code from the message.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Ingresa el c\u00f3digo del mensaje.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Enter the code from the message.",
+    "learningTip": "Usa 'code' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0759",
+    "word": "PIN",
+    "meaningEs": "n\u00famero de identificacion personal",
+    "pronunciation": "pin",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Do not share your PIN with anyone.",
+    "exampleEs": "No compartas tu n\u00famero de identificacion con nadie.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de n\u00famero de identificacion personal.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'PIN' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Do not share your PIN with anyone.",
+      "I use the PIN every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0759_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'PIN' mean in Spanish?",
+        "options": [
+          "n\u00famero de identificacion personal",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "n\u00famero de identificacion personal",
+        "explanation": "'PIN' significa 'n\u00famero de identificacion personal' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "phone",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: n\u00famero de identificacion personal. Example: Do not share your PIN with anyone.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'No compartas tu n\u00famero de identificacion con nadie.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Do not share your PIN with anyone.",
+    "learningTip": "Usa 'PIN' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0760",
+    "word": "homepage",
+    "meaningEs": "p\u00e1gina de inicio",
+    "pronunciation": "joum-peich",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The news is on the homepage.",
+    "exampleEs": "La noticia est\u00e1 en la p\u00e1gina de inicio.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de p\u00e1gina de inicio.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'homepage' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The news is on the homepage.",
+      "I use the homepage every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0760_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'homepage' mean in Spanish?",
+        "options": [
+          "p\u00e1gina de inicio",
+          "bateria",
+          "llamada",
+          "teclado"
+        ],
+        "correctAnswer": "p\u00e1gina de inicio",
+        "explanation": "'homepage' significa 'p\u00e1gina de inicio' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "internet",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: p\u00e1gina de inicio. Example: The news is on the homepage.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La noticia est\u00e1 en la p\u00e1gina de inicio.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The news is on the homepage.",
+    "learningTip": "Usa 'homepage' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0761",
+    "word": "webpage",
+    "meaningEs": "p\u00e1gina web",
+    "pronunciation": "ueb-peich",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This webpage explains the exercise.",
+    "exampleEs": "Esta p\u00e1gina web explica el ejercicio.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de p\u00e1gina web.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'webpage' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "This webpage explains the exercise.",
+      "I use the webpage every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0761_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'webpage' mean in Spanish?",
+        "options": [
+          "p\u00e1gina web",
+          "bateria",
+          "llamada",
+          "teclado"
+        ],
+        "correctAnswer": "p\u00e1gina web",
+        "explanation": "'webpage' significa 'p\u00e1gina web' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "internet",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: p\u00e1gina web. Example: This webpage explains the exercise.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Esta p\u00e1gina web explica el ejercicio.' en ingl\u00e9s?",
+    "activeRecallAnswer": "This webpage explains the exercise.",
+    "learningTip": "Usa 'webpage' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0762",
+    "word": "search bar",
+    "meaningEs": "barra de b\u00fasqueda",
+    "pronunciation": "serch bar",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Type the word in the search bar.",
+    "exampleEs": "Escribe la palabra en la barra de b\u00fasqueda.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de barra de b\u00fasqueda.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'search bar' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Type the word in the search bar.",
+      "I use the search bar every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0762_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'search bar' mean in Spanish?",
+        "options": [
+          "barra de b\u00fasqueda",
+          "bateria",
+          "llamada",
+          "teclado"
+        ],
+        "correctAnswer": "barra de b\u00fasqueda",
+        "explanation": "'search bar' significa 'barra de b\u00fasqueda' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "internet",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: barra de b\u00fasqueda. Example: Type the word in the search bar.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Escribe la palabra en la barra de b\u00fasqueda.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Type the word in the search bar.",
+    "learningTip": "Usa 'search bar' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0763",
+    "word": "address bar",
+    "meaningEs": "barra de direcci\u00f3nes",
+    "pronunciation": "a-dres bar",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The website address is in the address bar.",
+    "exampleEs": "La direcci\u00f3n del sitio est\u00e1 en la barra de direcci\u00f3nes.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de barra de direcci\u00f3nes.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'address bar' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The website address is in the address bar.",
+      "I use the address bar every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0763_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'address bar' mean in Spanish?",
+        "options": [
+          "barra de direcci\u00f3nes",
+          "bateria",
+          "llamada",
+          "teclado"
+        ],
+        "correctAnswer": "barra de direcci\u00f3nes",
+        "explanation": "'address bar' significa 'barra de direcci\u00f3nes' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "internet",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: barra de direcci\u00f3nes. Example: The website address is in the address bar.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La direcci\u00f3n del sitio est\u00e1 en la barra de direcci\u00f3nes.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The website address is in the address bar.",
+    "learningTip": "Usa 'address bar' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0764",
+    "word": "cursor",
+    "meaningEs": "cursor",
+    "pronunciation": "ker-ser",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Move the cursor to the blue button.",
+    "exampleEs": "Mueve el cursor al boton azul.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de cursor.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'cursor' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "Move the cursor to the blue button.",
+      "I use the cursor every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0764_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'cursor' mean in Spanish?",
+        "options": [
+          "cursor",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "cursor",
+        "explanation": "'cursor' significa 'cursor' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "technology_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: cursor. Example: Move the cursor to the blue button.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Mueve el cursor al boton azul.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Move the cursor to the blue button.",
+    "learningTip": "Usa 'cursor' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0765",
+    "word": "document",
+    "meaningEs": "documento",
+    "pronunciation": "do-kiu-ment",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The document is ready to share.",
+    "exampleEs": "El documento est\u00e1 listo para compartir.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de documento.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'document' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The document is ready to share.",
+      "I use the document every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0765_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'document' mean in Spanish?",
+        "options": [
+          "documento",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "documento",
+        "explanation": "'document' significa 'documento' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "work_online",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: documento. Example: The document is ready to share.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El documento est\u00e1 listo para compartir.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The document is ready to share.",
+    "learningTip": "Usa 'document' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0766",
+    "word": "spreadsheet",
+    "meaningEs": "hoja de c\u00e1lculo",
+    "pronunciation": "spred-shit",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The prices are in a spreadsheet.",
+    "exampleEs": "Los precios estan en una hoja de c\u00e1lculo.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de hoja de c\u00e1lculo.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'spreadsheet' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The prices are in a spreadsheet.",
+      "I use the spreadsheet every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0766_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'spreadsheet' mean in Spanish?",
+        "options": [
+          "hoja de c\u00e1lculo",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "hoja de c\u00e1lculo",
+        "explanation": "'spreadsheet' significa 'hoja de c\u00e1lculo' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "work_online",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: hoja de c\u00e1lculo. Example: The prices are in a spreadsheet.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Los precios estan en una hoja de c\u00e1lculo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The prices are in a spreadsheet.",
+    "learningTip": "Usa 'spreadsheet' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0767",
+    "word": "slide",
+    "meaningEs": "diapositiva",
+    "pronunciation": "slaid",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The first slide shows the project title.",
+    "exampleEs": "La primera diapositiva muestra el t\u00edtulo del proyecto.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de diapositiva.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'slide' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The first slide shows the project title.",
+      "I use the slide every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0767_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'slide' mean in Spanish?",
+        "options": [
+          "diapositiva",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "diapositiva",
+        "explanation": "'slide' significa 'diapositiva' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "work_online",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: diapositiva. Example: The first slide shows the project title.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La primera diapositiva muestra el t\u00edtulo del proyecto.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The first slide shows the project title.",
+    "learningTip": "Usa 'slide' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0768",
+    "word": "calendar",
+    "meaningEs": "calendario",
+    "pronunciation": "ca-len-der",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The meeting is on my calendar.",
+    "exampleEs": "La reuni\u00f3n est\u00e1 en mi calendario.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de calendario.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'calendar' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The meeting is on my calendar.",
+      "I use the calendar every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0768_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'calendar' mean in Spanish?",
+        "options": [
+          "calendario",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "calendario",
+        "explanation": "'calendar' significa 'calendario' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "apps",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: calendario. Example: The meeting is on my calendar.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La reuni\u00f3n est\u00e1 en mi calendario.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The meeting is on my calendar.",
+    "learningTip": "Usa 'calendar' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0769",
+    "word": "videoconference",
+    "meaningEs": "videoconferencia",
+    "pronunciation": "vi-di-ou con-fe-rens",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "We have a videoconference with the client.",
+    "exampleEs": "Tenemos una videoconferencia con el cliente.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de videoconferencia.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'videoconference' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "We have a videoconference with the client.",
+      "I use the videoconference every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0769_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'videoconference' mean in Spanish?",
+        "options": [
+          "videoconferencia",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "videoconferencia",
+        "explanation": "'videoconference' significa 'videoconferencia' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "work_online",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: videoconferencia. Example: We have a videoconference with the client.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Tenemos una videoconferencia con el cliente.' en ingl\u00e9s?",
+    "activeRecallAnswer": "We have a videoconference with the client.",
+    "learningTip": "Usa 'videoconference' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0770",
+    "word": "virtual meeting",
+    "meaningEs": "reuni\u00f3n virtual",
+    "pronunciation": "ver-chu-al mi-ting",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The virtual meeting ends at noon.",
+    "exampleEs": "La reuni\u00f3n virtual termina al mediod\u00eda.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de reuni\u00f3n virtual.",
+    "grammar": "Es un sustantivo. Usa a/an con una unidad contable y the cuando el objeto ya es conocido.",
+    "commonMistakes": [
+      "No confundas 'virtual meeting' con una traducci\u00f3n literal fuera del contexto digital.",
+      "Practica la pronunciaci\u00f3n dentro del ejemplo completo, no como palabra aislada."
+    ],
+    "dailyUse": [
+      "The virtual meeting ends at noon.",
+      "I use the virtual meeting every day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0770_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'virtual meeting' mean in Spanish?",
+        "options": [
+          "reuni\u00f3n virtual",
+          "mensaje",
+          "archivo",
+          "dispositivo"
+        ],
+        "correctAnswer": "reuni\u00f3n virtual",
+        "explanation": "'virtual meeting' significa 'reuni\u00f3n virtual' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "work_online",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: reuni\u00f3n virtual. Example: The virtual meeting ends at noon.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La reuni\u00f3n virtual termina al mediod\u00eda.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The virtual meeting ends at noon.",
+    "learningTip": "Usa 'virtual meeting' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0771",
+    "word": "download",
+    "meaningEs": "descargar",
+    "pronunciation": "daun-loud",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "download",
+    "pastSimple": "downloaded",
+    "pastParticiple": "downloaded",
+    "exampleEn": "Download the file before class.",
+    "exampleEs": "Descarga el archivo antes de la clase.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de descargar.",
+    "grammar": "Es un verbo regular: download / downloaded / downloaded. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'download'.",
+      "Para el pasado usa 'downloaded', no la forma base."
+    ],
+    "dailyUse": [
+      "Download the file before class.",
+      "I need to download it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0771_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'download'?",
+        "options": [
+          "downloaded",
+          "download",
+          "did download",
+          "downloads"
+        ],
+        "correctAnswer": "downloaded",
+        "explanation": "El pasado simple de 'download' es 'downloaded'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "online_actions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: descargar. Example: Download the file before class.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Descarga el archivo antes de la clase.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Download the file before class.",
+    "learningTip": "Usa 'download' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0772",
+    "word": "upload",
+    "meaningEs": "subir un archivo",
+    "pronunciation": "ap-loud",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "upload",
+    "pastSimple": "uploaded",
+    "pastParticiple": "uploaded",
+    "exampleEn": "Upload your homework to the course.",
+    "exampleEs": "Sube tu tarea al curso.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de subir un archivo.",
+    "grammar": "Es un verbo regular: upload / uploaded / uploaded. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'upload'.",
+      "Para el pasado usa 'uploaded', no la forma base."
+    ],
+    "dailyUse": [
+      "Upload your homework to the course.",
+      "I need to upload it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0772_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'upload'?",
+        "options": [
+          "uploaded",
+          "upload",
+          "did upload",
+          "uploads"
+        ],
+        "correctAnswer": "uploaded",
+        "explanation": "El pasado simple de 'upload' es 'uploaded'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "online_actions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: subir un archivo. Example: Upload your homework to the course.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Sube tu tarea al curso.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Upload your homework to the course.",
+    "learningTip": "Usa 'upload' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0773",
+    "word": "delete",
+    "meaningEs": "eliminar",
+    "pronunciation": "di-lit",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "delete",
+    "pastSimple": "deleted",
+    "pastParticiple": "deleted",
+    "exampleEn": "Delete the old photo from the phone.",
+    "exampleEs": "Elimina la foto antigua del tel\u00e9fono.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de eliminar.",
+    "grammar": "Es un verbo regular: delete / deleted / deleted. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'delete'.",
+      "Para el pasado usa 'deleted', no la forma base."
+    ],
+    "dailyUse": [
+      "Delete the old photo from the phone.",
+      "I need to delete it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0773_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'delete'?",
+        "options": [
+          "deleted",
+          "delete",
+          "did delete",
+          "deletes"
+        ],
+        "correctAnswer": "deleted",
+        "explanation": "El pasado simple de 'delete' es 'deleted'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "online_actions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: eliminar. Example: Delete the old photo from the phone.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Elimina la foto antigua del tel\u00e9fono.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Delete the old photo from the phone.",
+    "learningTip": "Usa 'delete' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0774",
+    "word": "click",
+    "meaningEs": "hacer clic",
+    "pronunciation": "clik",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "click",
+    "pastSimple": "clicked",
+    "pastParticiple": "clicked",
+    "exampleEn": "Click the link in the email.",
+    "exampleEs": "Haz clic en el enlace del correo.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de hacer clic.",
+    "grammar": "Es un verbo regular: click / clicked / clicked. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'click'.",
+      "Para el pasado usa 'clicked', no la forma base."
+    ],
+    "dailyUse": [
+      "Click the link in the email.",
+      "I need to click it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0774_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'click'?",
+        "options": [
+          "clicked",
+          "click",
+          "did click",
+          "clicks"
+        ],
+        "correctAnswer": "clicked",
+        "explanation": "El pasado simple de 'click' es 'clicked'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "online_actions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: hacer clic. Example: Click the link in the email.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Haz clic en el enlace del correo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Click the link in the email.",
+    "learningTip": "Usa 'click' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0775",
+    "word": "install",
+    "meaningEs": "instalar",
+    "pronunciation": "in-stol",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "install",
+    "pastSimple": "installed",
+    "pastParticiple": "installed",
+    "exampleEn": "Install the app on your tablet.",
+    "exampleEs": "Instala la aplicaci\u00f3n en tu tableta.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de instalar.",
+    "grammar": "Es un verbo regular: install / installed / installed. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'install'.",
+      "Para el pasado usa 'installed', no la forma base."
+    ],
+    "dailyUse": [
+      "Install the app on your tablet.",
+      "I need to install it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0775_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'install'?",
+        "options": [
+          "installed",
+          "install",
+          "did install",
+          "installs"
+        ],
+        "correctAnswer": "installed",
+        "explanation": "El pasado simple de 'install' es 'installed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "apps",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: instalar. Example: Install the app on your tablet.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Instala la aplicaci\u00f3n en tu tableta.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Install the app on your tablet.",
+    "learningTip": "Usa 'install' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0776",
+    "word": "uninstall",
+    "meaningEs": "desinstalar",
+    "pronunciation": "an-in-stol",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "uninstall",
+    "pastSimple": "uninstalled",
+    "pastParticiple": "uninstalled",
+    "exampleEn": "Uninstall apps that you do not use.",
+    "exampleEs": "Desinstala las aplicaciones que no usas.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de desinstalar.",
+    "grammar": "Es un verbo regular: uninstall / uninstalled / uninstalled. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'uninstall'.",
+      "Para el pasado usa 'uninstalled', no la forma base."
+    ],
+    "dailyUse": [
+      "Uninstall apps that you do not use.",
+      "I need to uninstall it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0776_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'uninstall'?",
+        "options": [
+          "uninstalled",
+          "uninstall",
+          "did uninstall",
+          "uninstalls"
+        ],
+        "correctAnswer": "uninstalled",
+        "explanation": "El pasado simple de 'uninstall' es 'uninstalled'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "apps",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: desinstalar. Example: Uninstall apps that you do not use.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Desinstala las aplicaciones que no usas.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Uninstall apps that you do not use.",
+    "learningTip": "Usa 'uninstall' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0777",
+    "word": "stream",
+    "meaningEs": "transmitir en l\u00ednea",
+    "pronunciation": "strim",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "stream",
+    "pastSimple": "streamed",
+    "pastParticiple": "streamed",
+    "exampleEn": "They stream the class every Friday.",
+    "exampleEs": "Ellos transmiten la clase cada viernes.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de transmitir en l\u00ednea.",
+    "grammar": "Es un verbo regular: stream / streamed / streamed. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'stream'.",
+      "Para el pasado usa 'streamed', no la forma base."
+    ],
+    "dailyUse": [
+      "They stream the class every Friday.",
+      "I need to stream it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0777_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'stream'?",
+        "options": [
+          "streamed",
+          "stream",
+          "did stream",
+          "streams"
+        ],
+        "correctAnswer": "streamed",
+        "explanation": "El pasado simple de 'stream' es 'streamed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "online_actions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: transmitir en l\u00ednea. Example: They stream the class every Friday.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Ellos transmiten la clase cada viernes.' en ingl\u00e9s?",
+    "activeRecallAnswer": "They stream the class every Friday.",
+    "learningTip": "Usa 'stream' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0778",
+    "word": "scroll",
+    "meaningEs": "desplazarse por la pantalla",
+    "pronunciation": "scroul",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "scroll",
+    "pastSimple": "scrolled",
+    "pastParticiple": "scrolled",
+    "exampleEn": "Scroll down to read the next message.",
+    "exampleEs": "Despl\u00e1zate hacia abajo para leer el siguiente mensaje.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de desplazarse por la pantalla.",
+    "grammar": "Es un verbo regular: scroll / scrolled / scrolled. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'scroll'.",
+      "Para el pasado usa 'scrolled', no la forma base."
+    ],
+    "dailyUse": [
+      "Scroll down to read the next message.",
+      "I need to scroll it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0778_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'scroll'?",
+        "options": [
+          "scrolled",
+          "scroll",
+          "did scroll",
+          "scrolls"
+        ],
+        "correctAnswer": "scrolled",
+        "explanation": "El pasado simple de 'scroll' es 'scrolled'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "online_actions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: desplazarse por la pantalla. Example: Scroll down to read the next message.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Despl\u00e1zate hacia abajo para leer el siguiente mensaje.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Scroll down to read the next message.",
+    "learningTip": "Usa 'scroll' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0779",
+    "word": "swipe",
+    "meaningEs": "deslizar el dedo",
+    "pronunciation": "suaip",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "swipe",
+    "pastSimple": "swiped",
+    "pastParticiple": "swiped",
+    "exampleEn": "Swipe left to see another photo.",
+    "exampleEs": "Desliza el dedo a la izquierda para ver otra foto.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de deslizar el dedo.",
+    "grammar": "Es un verbo regular: swipe / swiped / swiped. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'swipe'.",
+      "Para el pasado usa 'swiped', no la forma base."
+    ],
+    "dailyUse": [
+      "Swipe left to see another photo.",
+      "I need to swipe it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0779_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'swipe'?",
+        "options": [
+          "swiped",
+          "swipe",
+          "did swipe",
+          "swipes"
+        ],
+        "correctAnswer": "swiped",
+        "explanation": "El pasado simple de 'swipe' es 'swiped'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "phone",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: deslizar el dedo. Example: Swipe left to see another photo.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Desliza el dedo a la izquierda para ver otra foto.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Swipe left to see another photo.",
+    "learningTip": "Usa 'swipe' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0780",
+    "word": "tap",
+    "meaningEs": "tocar la pantalla",
+    "pronunciation": "tap",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "tap",
+    "pastSimple": "tapped",
+    "pastParticiple": "tapped",
+    "exampleEn": "Tap the icon to open the app.",
+    "exampleEs": "Toca el icono para abrir la aplicaci\u00f3n.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de tocar la pantalla.",
+    "grammar": "Es un verbo regular: tap / tapped / tapped. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'tap'.",
+      "Para el pasado usa 'tapped', no la forma base."
+    ],
+    "dailyUse": [
+      "Tap the icon to open the app.",
+      "I need to tap it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0780_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'tap'?",
+        "options": [
+          "tapped",
+          "tap",
+          "did tap",
+          "taps"
+        ],
+        "correctAnswer": "tapped",
+        "explanation": "El pasado simple de 'tap' es 'tapped'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "phone",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: tocar la pantalla. Example: Tap the icon to open the app.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Toca el icono para abrir la aplicaci\u00f3n.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Tap the icon to open the app.",
+    "learningTip": "Usa 'tap' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0781",
+    "word": "attach",
+    "meaningEs": "adjuntar",
+    "pronunciation": "a-tach",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "attach",
+    "pastSimple": "attached",
+    "pastParticiple": "attached",
+    "exampleEn": "Attach the receipt to the email.",
+    "exampleEs": "Adjunta el recibo al correo.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de adjuntar.",
+    "grammar": "Es un verbo regular: attach / attached / attached. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'attach'.",
+      "Para el pasado usa 'attached', no la forma base."
+    ],
+    "dailyUse": [
+      "Attach the receipt to the email.",
+      "I need to attach it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0781_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'attach'?",
+        "options": [
+          "attached",
+          "attach",
+          "did attach",
+          "attachs"
+        ],
+        "correctAnswer": "attached",
+        "explanation": "El pasado simple de 'attach' es 'attached'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "email",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: adjuntar. Example: Attach the receipt to the email.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Adjunta el recibo al correo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Attach the receipt to the email.",
+    "learningTip": "Usa 'attach' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0782",
+    "word": "reply",
+    "meaningEs": "responder",
+    "pronunciation": "ri-plai",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "reply",
+    "pastSimple": "replied",
+    "pastParticiple": "replied",
+    "exampleEn": "Reply to the message this morning.",
+    "exampleEs": "Responde al mensaje esta ma\u00f1ana.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de responder.",
+    "grammar": "Es un verbo regular: reply / replied / replied. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'reply'.",
+      "Para el pasado usa 'replied', no la forma base."
+    ],
+    "dailyUse": [
+      "Reply to the message this morning.",
+      "I need to reply it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0782_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'reply'?",
+        "options": [
+          "replied",
+          "reply",
+          "did reply",
+          "replys"
+        ],
+        "correctAnswer": "replied",
+        "explanation": "El pasado simple de 'reply' es 'replied'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "communication",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: responder. Example: Reply to the message this morning.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Responde al mensaje esta ma\u00f1ana.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Reply to the message this morning.",
+    "learningTip": "Usa 'reply' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0783",
+    "word": "forward",
+    "meaningEs": "reenviar",
+    "pronunciation": "for-uard",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "forward",
+    "pastSimple": "forwarded",
+    "pastParticiple": "forwarded",
+    "exampleEn": "Forward the schedule to your team.",
+    "exampleEs": "Reenv\u00eda el horario a tu equipo.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de reenviar.",
+    "grammar": "Es un verbo regular: forward / forwarded / forwarded. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'forward'.",
+      "Para el pasado usa 'forwarded', no la forma base."
+    ],
+    "dailyUse": [
+      "Forward the schedule to your team.",
+      "I need to forward it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0783_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'forward'?",
+        "options": [
+          "forwarded",
+          "forward",
+          "did forward",
+          "forwards"
+        ],
+        "correctAnswer": "forwarded",
+        "explanation": "El pasado simple de 'forward' es 'forwarded'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "email",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: reenviar. Example: Forward the schedule to your team.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Reenv\u00eda el horario a tu equipo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Forward the schedule to your team.",
+    "learningTip": "Usa 'forward' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0784",
+    "word": "mute",
+    "meaningEs": "silenciar",
+    "pronunciation": "miut",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "mute",
+    "pastSimple": "muted",
+    "pastParticiple": "muted",
+    "exampleEn": "Mute your microphone during the presentation.",
+    "exampleEs": "Silencia tu micr\u00f3fono durante la presentacion.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de silenciar.",
+    "grammar": "Es un verbo regular: mute / muted / muted. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'mute'.",
+      "Para el pasado usa 'muted', no la forma base."
+    ],
+    "dailyUse": [
+      "Mute your microphone during the presentation.",
+      "I need to mute it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0784_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'mute'?",
+        "options": [
+          "muted",
+          "mute",
+          "did mute",
+          "mutes"
+        ],
+        "correctAnswer": "muted",
+        "explanation": "El pasado simple de 'mute' es 'muted'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "communication",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: silenciar. Example: Mute your microphone during the presentation.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Silencia tu micr\u00f3fono durante la presentacion.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Mute your microphone during the presentation.",
+    "learningTip": "Usa 'mute' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0785",
+    "word": "unmute",
+    "meaningEs": "activar el sonido",
+    "pronunciation": "an-miut",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "unmute",
+    "pastSimple": "unmuted",
+    "pastParticiple": "unmuted",
+    "exampleEn": "Unmute yourself when you want to speak.",
+    "exampleEs": "Activa tu sonido cuando quieras hablar.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de activar el sonido.",
+    "grammar": "Es un verbo regular: unmute / unmuted / unmuted. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'unmute'.",
+      "Para el pasado usa 'unmuted', no la forma base."
+    ],
+    "dailyUse": [
+      "Unmute yourself when you want to speak.",
+      "I need to unmute it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0785_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'unmute'?",
+        "options": [
+          "unmuted",
+          "unmute",
+          "did unmute",
+          "unmutes"
+        ],
+        "correctAnswer": "unmuted",
+        "explanation": "El pasado simple de 'unmute' es 'unmuted'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "communication",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: activar el sonido. Example: Unmute yourself when you want to speak.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Activa tu sonido cuando quieras hablar.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Unmute yourself when you want to speak.",
+    "learningTip": "Usa 'unmute' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0786",
+    "word": "report",
+    "meaningEs": "reportar",
+    "pronunciation": "ri-port",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "report",
+    "pastSimple": "reported",
+    "pastParticiple": "reported",
+    "exampleEn": "Report the false account to the app.",
+    "exampleEs": "Reporta la cuenta falsa en la aplicaci\u00f3n.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de reportar.",
+    "grammar": "Es un verbo regular: report / reported / reported. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'report'.",
+      "Para el pasado usa 'reported', no la forma base."
+    ],
+    "dailyUse": [
+      "Report the false account to the app.",
+      "I need to report it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0786_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'report'?",
+        "options": [
+          "reported",
+          "report",
+          "did report",
+          "reports"
+        ],
+        "correctAnswer": "reported",
+        "explanation": "El pasado simple de 'report' es 'reported'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "social_media_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: reportar. Example: Report the false account to the app.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Reporta la cuenta falsa en la aplicaci\u00f3n.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Report the false account to the app.",
+    "learningTip": "Usa 'report' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0787",
+    "word": "subscribe",
+    "meaningEs": "suscribirse",
+    "pronunciation": "sab-scraib",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "subscribe",
+    "pastSimple": "subscribed",
+    "pastParticiple": "subscribed",
+    "exampleEn": "Subscribe to the English channel.",
+    "exampleEs": "Suscr\u00edbete al canal de ingl\u00e9s.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de suscribirse.",
+    "grammar": "Es un verbo regular: subscribe / subscribed / subscribed. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'subscribe'.",
+      "Para el pasado usa 'subscribed', no la forma base."
+    ],
+    "dailyUse": [
+      "Subscribe to the English channel.",
+      "I need to subscribe it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0787_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'subscribe'?",
+        "options": [
+          "subscribed",
+          "subscribe",
+          "did subscribe",
+          "subscribes"
+        ],
+        "correctAnswer": "subscribed",
+        "explanation": "El pasado simple de 'subscribe' es 'subscribed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "social_media_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: suscribirse. Example: Subscribe to the English channel.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Suscr\u00edbete al canal de ingl\u00e9s.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Subscribe to the English channel.",
+    "learningTip": "Usa 'subscribe' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0788",
+    "word": "unsubscribe",
+    "meaningEs": "cancelar una suscripci\u00f3n",
+    "pronunciation": "an-sab-scraib",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "unsubscribe",
+    "pastSimple": "unsubscribed",
+    "pastParticiple": "unsubscribed",
+    "exampleEn": "Unsubscribe from emails you do not read.",
+    "exampleEs": "Cancela la suscripci\u00f3n a los correos que no lees.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de cancelar una suscripci\u00f3n.",
+    "grammar": "Es un verbo regular: unsubscribe / unsubscribed / unsubscribed. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'unsubscribe'.",
+      "Para el pasado usa 'unsubscribed', no la forma base."
+    ],
+    "dailyUse": [
+      "Unsubscribe from emails you do not read.",
+      "I need to unsubscribe it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0788_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'unsubscribe'?",
+        "options": [
+          "unsubscribed",
+          "unsubscribe",
+          "did unsubscribe",
+          "unsubscribes"
+        ],
+        "correctAnswer": "unsubscribed",
+        "explanation": "El pasado simple de 'unsubscribe' es 'unsubscribed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "email",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: cancelar una suscripci\u00f3n. Example: Unsubscribe from emails you do not read.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Cancela la suscripci\u00f3n a los correos que no lees.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Unsubscribe from emails you do not read.",
+    "learningTip": "Usa 'unsubscribe' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0789",
+    "word": "publish",
+    "meaningEs": "publicar",
+    "pronunciation": "pa-blish",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "publish",
+    "pastSimple": "published",
+    "pastParticiple": "published",
+    "exampleEn": "Publish the post after you check it.",
+    "exampleEs": "Publica la entrada despues de revisarla.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de publicar.",
+    "grammar": "Es un verbo regular: publish / published / published. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'publish'.",
+      "Para el pasado usa 'published', no la forma base."
+    ],
+    "dailyUse": [
+      "Publish the post after you check it.",
+      "I need to publish it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0789_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'publish'?",
+        "options": [
+          "published",
+          "publish",
+          "did publish",
+          "publishs"
+        ],
+        "correctAnswer": "published",
+        "explanation": "El pasado simple de 'publish' es 'published'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "social_media_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: publicar. Example: Publish the post after you check it.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Publica la entrada despues de revisarla.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Publish the post after you check it.",
+    "learningTip": "Usa 'publish' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0790",
+    "word": "edit",
+    "meaningEs": "editar",
+    "pronunciation": "e-dit",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "edit",
+    "pastSimple": "edited",
+    "pastParticiple": "edited",
+    "exampleEn": "Edit the document with your team.",
+    "exampleEs": "Edita el documento con tu equipo.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de editar.",
+    "grammar": "Es un verbo regular: edit / edited / edited. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'edit'.",
+      "Para el pasado usa 'edited', no la forma base."
+    ],
+    "dailyUse": [
+      "Edit the document with your team.",
+      "I need to edit it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0790_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'edit'?",
+        "options": [
+          "edited",
+          "edit",
+          "did edit",
+          "edits"
+        ],
+        "correctAnswer": "edited",
+        "explanation": "El pasado simple de 'edit' es 'edited'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "work_online",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: editar. Example: Edit the document with your team.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Edita el documento con tu equipo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Edit the document with your team.",
+    "learningTip": "Usa 'edit' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0791",
+    "word": "paste",
+    "meaningEs": "pegar texto",
+    "pronunciation": "peist",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "paste",
+    "pastSimple": "pasted",
+    "pastParticiple": "pasted",
+    "exampleEn": "Paste the address into the browser.",
+    "exampleEs": "Pega la direcci\u00f3n en el navegador.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de pegar texto.",
+    "grammar": "Es un verbo regular: paste / pasted / pasted. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'paste'.",
+      "Para el pasado usa 'pasted', no la forma base."
+    ],
+    "dailyUse": [
+      "Paste the address into the browser.",
+      "I need to paste it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0791_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'paste'?",
+        "options": [
+          "pasted",
+          "paste",
+          "did paste",
+          "pastes"
+        ],
+        "correctAnswer": "pasted",
+        "explanation": "El pasado simple de 'paste' es 'pasted'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "technology_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: pegar texto. Example: Paste the address into the browser.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Pega la direcci\u00f3n en el navegador.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Paste the address into the browser.",
+    "learningTip": "Usa 'paste' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0792",
+    "word": "restart",
+    "meaningEs": "reiniciar",
+    "pronunciation": "ri-start",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "restart",
+    "pastSimple": "restarted",
+    "pastParticiple": "restarted",
+    "exampleEn": "Restart the computer after the update.",
+    "exampleEs": "Reinicia la computadora despues de la actualizacion.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de reiniciar.",
+    "grammar": "Es un verbo regular: restart / restarted / restarted. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'restart'.",
+      "Para el pasado usa 'restarted', no la forma base."
+    ],
+    "dailyUse": [
+      "Restart the computer after the update.",
+      "I need to restart it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0792_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'restart'?",
+        "options": [
+          "restarted",
+          "restart",
+          "did restart",
+          "restarts"
+        ],
+        "correctAnswer": "restarted",
+        "explanation": "El pasado simple de 'restart' es 'restarted'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "devices",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: reiniciar. Example: Restart the computer after the update.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Reinicia la computadora despues de la actualizacion.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Restart the computer after the update.",
+    "learningTip": "Usa 'restart' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0793",
+    "word": "charge",
+    "meaningEs": "cargar una bateria",
+    "pronunciation": "charch",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "charge",
+    "pastSimple": "charged",
+    "pastParticiple": "charged",
+    "exampleEn": "Charge your phone before the trip.",
+    "exampleEs": "Carga tu tel\u00e9fono antes del viaje.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de cargar una bateria.",
+    "grammar": "Es un verbo regular: charge / charged / charged. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'charge'.",
+      "Para el pasado usa 'charged', no la forma base."
+    ],
+    "dailyUse": [
+      "Charge your phone before the trip.",
+      "I need to charge it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0793_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'charge'?",
+        "options": [
+          "charged",
+          "charge",
+          "did charge",
+          "charges"
+        ],
+        "correctAnswer": "charged",
+        "explanation": "El pasado simple de 'charge' es 'charged'."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "devices",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: cargar una bateria. Example: Charge your phone before the trip.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Carga tu tel\u00e9fono antes del viaje.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Charge your phone before the trip.",
+    "learningTip": "Usa 'charge' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0794",
+    "word": "scan",
+    "meaningEs": "escanear",
+    "pronunciation": "scan",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "scan",
+    "pastSimple": "scanned",
+    "pastParticiple": "scanned",
+    "exampleEn": "Scan the document and send it today.",
+    "exampleEs": "Escanea el documento y env\u00edalo hoy.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de escanear.",
+    "grammar": "Es un verbo regular: scan / scanned / scanned. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'scan'.",
+      "Para el pasado usa 'scanned', no la forma base."
+    ],
+    "dailyUse": [
+      "Scan the document and send it today.",
+      "I need to scan it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0794_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'scan'?",
+        "options": [
+          "scanned",
+          "scan",
+          "did scan",
+          "scans"
+        ],
+        "correctAnswer": "scanned",
+        "explanation": "El pasado simple de 'scan' es 'scanned'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "technology_basic",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: escanear. Example: Scan the document and send it today.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Escanea el documento y env\u00edalo hoy.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Scan the document and send it today.",
+    "learningTip": "Usa 'scan' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0795",
+    "word": "record",
+    "meaningEs": "grabar",
+    "pronunciation": "ri-cord",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "record",
+    "pastSimple": "recorded",
+    "pastParticiple": "recorded",
+    "exampleEn": "Record your voice for the exercise.",
+    "exampleEs": "Graba tu voz para el ejercicio.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de grabar.",
+    "grammar": "Es un verbo regular: record / recorded / recorded. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'record'.",
+      "Para el pasado usa 'recorded', no la forma base."
+    ],
+    "dailyUse": [
+      "Record your voice for the exercise.",
+      "I need to record it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0795_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'record'?",
+        "options": [
+          "recorded",
+          "record",
+          "did record",
+          "records"
+        ],
+        "correctAnswer": "recorded",
+        "explanation": "El pasado simple de 'record' es 'recorded'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "study_online",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: grabar. Example: Record your voice for the exercise.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Graba tu voz para el ejercicio.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Record your voice for the exercise.",
+    "learningTip": "Usa 'record' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0796",
+    "word": "disconnect",
+    "meaningEs": "desconectar",
+    "pronunciation": "dis-co-nekt",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "disconnect",
+    "pastSimple": "disconnected",
+    "pastParticiple": "disconnected",
+    "exampleEn": "Disconnect the cable carefully.",
+    "exampleEs": "Desconecta el cable con cuidado.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de desconectar.",
+    "grammar": "Es un verbo regular: disconnect / disconnected / disconnected. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'disconnect'.",
+      "Para el pasado usa 'disconnected', no la forma base."
+    ],
+    "dailyUse": [
+      "Disconnect the cable carefully.",
+      "I need to disconnect it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0796_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'disconnect'?",
+        "options": [
+          "disconnected",
+          "disconnect",
+          "did disconnect",
+          "disconnects"
+        ],
+        "correctAnswer": "disconnected",
+        "explanation": "El pasado simple de 'disconnect' es 'disconnected'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "devices",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: desconectar. Example: Disconnect the cable carefully.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Desconecta el cable con cuidado.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Disconnect the cable carefully.",
+    "learningTip": "Usa 'disconnect' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0797",
+    "word": "refresh",
+    "meaningEs": "actualizar una p\u00e1gina",
+    "pronunciation": "ri-fresh",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "refresh",
+    "pastSimple": "refreshed",
+    "pastParticiple": "refreshed",
+    "exampleEn": "Refresh the webpage to see the result.",
+    "exampleEs": "Actualiza la p\u00e1gina web para ver el resultado.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de actualizar una p\u00e1gina.",
+    "grammar": "Es un verbo regular: refresh / refreshed / refreshed. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'refresh'.",
+      "Para el pasado usa 'refreshed', no la forma base."
+    ],
+    "dailyUse": [
+      "Refresh the webpage to see the result.",
+      "I need to refresh it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0797_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'refresh'?",
+        "options": [
+          "refreshed",
+          "refresh",
+          "did refresh",
+          "refreshs"
+        ],
+        "correctAnswer": "refreshed",
+        "explanation": "El pasado simple de 'refresh' es 'refreshed'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "internet",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: actualizar una p\u00e1gina. Example: Refresh the webpage to see the result.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Actualiza la p\u00e1gina web para ver el resultado.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Refresh the webpage to see the result.",
+    "learningTip": "Usa 'refresh' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0798",
+    "word": "select",
+    "meaningEs": "selecci\u00f3nar",
+    "pronunciation": "si-lekt",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "select",
+    "pastSimple": "selected",
+    "pastParticiple": "selected",
+    "exampleEn": "Select the correct answer on the screen.",
+    "exampleEs": "Selecci\u00f3na la respuesta correcta en la pantalla.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de selecci\u00f3nar.",
+    "grammar": "Es un verbo regular: select / selected / selected. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'select'.",
+      "Para el pasado usa 'selected', no la forma base."
+    ],
+    "dailyUse": [
+      "Select the correct answer on the screen.",
+      "I need to select it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0798_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'select'?",
+        "options": [
+          "selected",
+          "select",
+          "did select",
+          "selects"
+        ],
+        "correctAnswer": "selected",
+        "explanation": "El pasado simple de 'select' es 'selected'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "online_actions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: selecci\u00f3nar. Example: Select the correct answer on the screen.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Selecci\u00f3na la respuesta correcta en la pantalla.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Select the correct answer on the screen.",
+    "learningTip": "Usa 'select' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0799",
+    "word": "drag",
+    "meaningEs": "arrastrar",
+    "pronunciation": "drag",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "drag",
+    "pastSimple": "dragged",
+    "pastParticiple": "dragged",
+    "exampleEn": "Drag the file into the folder.",
+    "exampleEs": "Arrastra el archivo dentro de la carpeta.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de arrastrar.",
+    "grammar": "Es un verbo regular: drag / dragged / dragged. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'drag'.",
+      "Para el pasado usa 'dragged', no la forma base."
+    ],
+    "dailyUse": [
+      "Drag the file into the folder.",
+      "I need to drag it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0799_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'drag'?",
+        "options": [
+          "dragged",
+          "drag",
+          "did drag",
+          "drags"
+        ],
+        "correctAnswer": "dragged",
+        "explanation": "El pasado simple de 'drag' es 'dragged'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "online_actions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: arrastrar. Example: Drag the file into the folder.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Arrastra el archivo dentro de la carpeta.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Drag the file into the folder.",
+    "learningTip": "Usa 'drag' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  },
+  {
+    "id": "free_0800",
+    "word": "log in",
+    "meaningEs": "iniciar sesi\u00f3n",
+    "pronunciation": "log-in",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "log in",
+    "pastSimple": "logged in",
+    "pastParticiple": "logged in",
+    "exampleEn": "Log in with your username and password.",
+    "exampleEs": "Inicia sesi\u00f3n con tu nombre de usuario y contrase\u00f1a.",
+    "usage": "Se usa en situaciones reales de tecnolog\u00eda, comunicaci\u00f3n o trabajo en l\u00ednea para hablar de iniciar sesi\u00f3n.",
+    "grammar": "Es un verbo regular: log in / logged in / logged in. En instrucciones se usa la forma base sin sujeto.",
+    "commonMistakes": [
+      "No uses una traducci\u00f3n literal si la acci\u00f3n digital se expresa con 'log in'.",
+      "Para el pasado usa 'logged in', no la forma base."
+    ],
+    "dailyUse": [
+      "Log in with your username and password.",
+      "I need to log in it today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0800_ex_001",
+        "type": "multiple_choice",
+        "question": "What is the past simple of 'log in'?",
+        "options": [
+          "logged in",
+          "log in",
+          "did log in",
+          "log ins"
+        ],
+        "correctAnswer": "logged in",
+        "explanation": "El pasado simple de 'log in' es 'logged in'."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "online_actions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso digital: iniciar sesi\u00f3n. Example: Log in with your username and password.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Inicia sesi\u00f3n con tu nombre de usuario y contrase\u00f1a.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Log in with your username and password.",
+    "learningTip": "Usa 'log in' hoy en una frase sobre tu tel\u00e9fono, estudio o trabajo.",
+    "links": []
+  }
+]
