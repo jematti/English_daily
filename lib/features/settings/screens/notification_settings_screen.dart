@@ -70,7 +70,7 @@ class _NotificationSettingsScreenState
               ),
               const SizedBox(height: 8),
               Text(
-                'shared_preferences se usa para guardar esta preferencia localmente sin base de datos.',
+                'Tus preferencias se guardan solo en este dispositivo.',
                 style: Theme.of(context).textTheme.bodySmall,
               ),
               const SizedBox(height: 6),

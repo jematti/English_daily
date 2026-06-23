@@ -390,11 +390,11 @@ void main() {
       final accessibleLessons = await contentPackService
           .loadAllAccessibleLessons();
 
-      expect(packs.length, 5);
-      expect(freeLessons.length, 45);
+      expect(packs.length, 15);
+      expect(freeLessons.length, 1005);
       expect(previewLessons.length, 3);
       expect(previewLessons.every((lesson) => lesson.isPremium), isTrue);
-      expect(accessibleLessons.length, 45);
+      expect(accessibleLessons.length, 1005);
       expect(
         accessibleLessons.every((lesson) => lesson.packId == 'free_basic_1000'),
         isTrue,
