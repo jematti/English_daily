@@ -1,0 +1,2882 @@
+[
+  {
+    "id": "free_0901",
+    "word": "I feel sick",
+    "meaningEs": "me siento enfermo",
+    "pronunciation": "ai fil sik",
+    "partOfSpeech": "phrase",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I feel sick and I need to sit down.",
+    "exampleEs": "Me siento enfermo y necesito sentarme.",
+    "usage": "Se usa como expresi\u00f3n completa en una situaci\u00f3n cotidiana o de emergencia.",
+    "grammar": "Es una frase fija. Aprende el bloque completo y cambia los detalles personales cuando sea necesario.",
+    "commonMistakes": [
+      "No traduzcas cada palabra de 'I feel sick' de forma aislada.",
+      "Practica la frase completa con una entonaci\u00f3n natural."
+    ],
+    "dailyUse": [
+      "I feel sick and I need to sit down.",
+      "Practice today: I feel sick"
+    ],
+    "exercises": [
+      {
+        "id": "free_0901_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'I feel sick' mean in Spanish?",
+        "options": [
+          "me siento enfermo",
+          "Estoy de acuerdo.",
+          "Hasta ma\u00f1ana.",
+          "No hay problema."
+        ],
+        "correctAnswer": "me siento enfermo",
+        "explanation": "'I feel sick' significa 'me siento enfermo' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "survival_english",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Frase esencial: I feel sick. Example: I feel sick and I need to sit down.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Me siento enfermo y necesito sentarme.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I feel sick and I need to sit down.",
+    "learningTip": "Repite 'I feel sick' como una unidad y \u00fasala en una situaci\u00f3n imaginaria.",
+    "links": []
+  },
+  {
+    "id": "free_0902",
+    "word": "I am lost",
+    "meaningEs": "estoy perdido",
+    "pronunciation": "ai am lost",
+    "partOfSpeech": "phrase",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I am lost. Can you show me the station?",
+    "exampleEs": "Estoy perdido. \u00bfPuede mostrarme la estaci\u00f3n?",
+    "usage": "Se usa como expresi\u00f3n completa en una situaci\u00f3n cotidiana o de emergencia.",
+    "grammar": "Es una frase fija. Aprende el bloque completo y cambia los detalles personales cuando sea necesario.",
+    "commonMistakes": [
+      "No traduzcas cada palabra de 'I am lost' de forma aislada.",
+      "Practica la frase completa con una entonaci\u00f3n natural."
+    ],
+    "dailyUse": [
+      "I am lost. Can you show me the station?",
+      "Practice today: I am lost"
+    ],
+    "exercises": [
+      {
+        "id": "free_0902_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'I am lost' mean in Spanish?",
+        "options": [
+          "estoy perdido",
+          "Estoy de acuerdo.",
+          "Hasta ma\u00f1ana.",
+          "No hay problema."
+        ],
+        "correctAnswer": "estoy perdido",
+        "explanation": "'I am lost' significa 'estoy perdido' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "survival_english",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Frase esencial: I am lost. Example: I am lost. Can you show me the station?",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Estoy perdido. \u00bfPuede mostrarme la estaci\u00f3n?' en ingl\u00e9s?",
+    "activeRecallAnswer": "I am lost. Can you show me the station?",
+    "learningTip": "Repite 'I am lost' como una unidad y \u00fasala en una situaci\u00f3n imaginaria.",
+    "links": []
+  },
+  {
+    "id": "free_0903",
+    "word": "please call an ambulance",
+    "meaningEs": "por favor, llame a una ambulancia",
+    "pronunciation": "plis col an am-biu-lans",
+    "partOfSpeech": "phrase",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Please call an ambulance. This is an emergency.",
+    "exampleEs": "Por favor, llame a una ambulancia. Es una emergencia.",
+    "usage": "Se usa como expresi\u00f3n completa en una situaci\u00f3n cotidiana o de emergencia.",
+    "grammar": "Es una frase fija. Aprende el bloque completo y cambia los detalles personales cuando sea necesario.",
+    "commonMistakes": [
+      "No traduzcas cada palabra de 'please call an ambulance' de forma aislada.",
+      "Practica la frase completa con una entonaci\u00f3n natural."
+    ],
+    "dailyUse": [
+      "Please call an ambulance. This is an emergency.",
+      "Practice today: please call an ambulance"
+    ],
+    "exercises": [
+      {
+        "id": "free_0903_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'please call an ambulance' mean in Spanish?",
+        "options": [
+          "por favor, llame a una ambulancia",
+          "Estoy de acuerdo.",
+          "Hasta ma\u00f1ana.",
+          "No hay problema."
+        ],
+        "correctAnswer": "por favor, llame a una ambulancia",
+        "explanation": "'please call an ambulance' significa 'por favor, llame a una ambulancia' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "survival_english",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Frase esencial: please call an ambulance. Example: Please call an ambulance. This is an emergency.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Por favor, llame a una ambulancia. Es una emergencia.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Please call an ambulance. This is an emergency.",
+    "learningTip": "Repite 'please call an ambulance' como una unidad y \u00fasala en una situaci\u00f3n imaginaria.",
+    "links": []
+  },
+  {
+    "id": "free_0904",
+    "word": "call the police",
+    "meaningEs": "llame a la polic\u00eda",
+    "pronunciation": "col de po-lis",
+    "partOfSpeech": "phrase",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Call the police if you are in danger.",
+    "exampleEs": "Llame a la polic\u00eda si est\u00e1 en peligro.",
+    "usage": "Se usa como expresi\u00f3n completa en una situaci\u00f3n cotidiana o de emergencia.",
+    "grammar": "Es una frase fija. Aprende el bloque completo y cambia los detalles personales cuando sea necesario.",
+    "commonMistakes": [
+      "No traduzcas cada palabra de 'call the police' de forma aislada.",
+      "Practica la frase completa con una entonaci\u00f3n natural."
+    ],
+    "dailyUse": [
+      "Call the police if you are in danger.",
+      "Practice today: call the police"
+    ],
+    "exercises": [
+      {
+        "id": "free_0904_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'call the police' mean in Spanish?",
+        "options": [
+          "llame a la polic\u00eda",
+          "Estoy de acuerdo.",
+          "Hasta ma\u00f1ana.",
+          "No hay problema."
+        ],
+        "correctAnswer": "llame a la polic\u00eda",
+        "explanation": "'call the police' significa 'llame a la polic\u00eda' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "survival_english",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Frase esencial: call the police. Example: Call the police if you are in danger.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Llame a la polic\u00eda si est\u00e1 en peligro.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Call the police if you are in danger.",
+    "learningTip": "Repite 'call the police' como una unidad y \u00fasala en una situaci\u00f3n imaginaria.",
+    "links": []
+  },
+  {
+    "id": "free_0905",
+    "word": "is it safe here?",
+    "meaningEs": "\u00bfes seguro aqu\u00ed?",
+    "pronunciation": "is it seif jir",
+    "partOfSpeech": "phrase",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Is it safe here at night?",
+    "exampleEs": "\u00bfEs seguro aqu\u00ed por la noche?",
+    "usage": "Se usa como expresi\u00f3n completa en una situaci\u00f3n cotidiana o de emergencia.",
+    "grammar": "Es una frase fija. Aprende el bloque completo y cambia los detalles personales cuando sea necesario.",
+    "commonMistakes": [
+      "No traduzcas cada palabra de 'is it safe here?' de forma aislada.",
+      "Practica la frase completa con una entonaci\u00f3n natural."
+    ],
+    "dailyUse": [
+      "Is it safe here at night?",
+      "Practice today: is it safe here?"
+    ],
+    "exercises": [
+      {
+        "id": "free_0905_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'is it safe here?' mean in Spanish?",
+        "options": [
+          "\u00bfes seguro aqu\u00ed?",
+          "Estoy de acuerdo.",
+          "Hasta ma\u00f1ana.",
+          "No hay problema."
+        ],
+        "correctAnswer": "\u00bfes seguro aqu\u00ed?",
+        "explanation": "'is it safe here?' significa '\u00bfes seguro aqu\u00ed?' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "survival_english",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Frase esencial: is it safe here?. Example: Is it safe here at night?",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas '\u00bfEs seguro aqu\u00ed por la noche?' en ingl\u00e9s?",
+    "activeRecallAnswer": "Is it safe here at night?",
+    "learningTip": "Repite 'is it safe here?' como una unidad y \u00fasala en una situaci\u00f3n imaginaria.",
+    "links": []
+  },
+  {
+    "id": "free_0906",
+    "word": "I need a doctor",
+    "meaningEs": "necesito un m\u00e9dico",
+    "pronunciation": "ai nid a doc-ter",
+    "partOfSpeech": "phrase",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I need a doctor for my child.",
+    "exampleEs": "Necesito un m\u00e9dico para mi hijo.",
+    "usage": "Se usa como expresi\u00f3n completa en una situaci\u00f3n cotidiana o de emergencia.",
+    "grammar": "Es una frase fija. Aprende el bloque completo y cambia los detalles personales cuando sea necesario.",
+    "commonMistakes": [
+      "No traduzcas cada palabra de 'I need a doctor' de forma aislada.",
+      "Practica la frase completa con una entonaci\u00f3n natural."
+    ],
+    "dailyUse": [
+      "I need a doctor for my child.",
+      "Practice today: I need a doctor"
+    ],
+    "exercises": [
+      {
+        "id": "free_0906_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'I need a doctor' mean in Spanish?",
+        "options": [
+          "necesito un m\u00e9dico",
+          "Estoy de acuerdo.",
+          "Hasta ma\u00f1ana.",
+          "No hay problema."
+        ],
+        "correctAnswer": "necesito un m\u00e9dico",
+        "explanation": "'I need a doctor' significa 'necesito un m\u00e9dico' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "survival_english",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Frase esencial: I need a doctor. Example: I need a doctor for my child.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Necesito un m\u00e9dico para mi hijo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I need a doctor for my child.",
+    "learningTip": "Repite 'I need a doctor' como una unidad y \u00fasala en una situaci\u00f3n imaginaria.",
+    "links": []
+  },
+  {
+    "id": "free_0907",
+    "word": "where is the nearest pharmacy?",
+    "meaningEs": "\u00bfd\u00f3nde est\u00e1 la farmacia m\u00e1s cercana?",
+    "pronunciation": "uer is de ni-rest far-ma-si",
+    "partOfSpeech": "phrase",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Where is the nearest pharmacy? I need medicine.",
+    "exampleEs": "\u00bfD\u00f3nde est\u00e1 la farmacia m\u00e1s cercana? Necesito medicina.",
+    "usage": "Se usa como expresi\u00f3n completa en una situaci\u00f3n cotidiana o de emergencia.",
+    "grammar": "Es una frase fija. Aprende el bloque completo y cambia los detalles personales cuando sea necesario.",
+    "commonMistakes": [
+      "No traduzcas cada palabra de 'where is the nearest pharmacy?' de forma aislada.",
+      "Practica la frase completa con una entonaci\u00f3n natural."
+    ],
+    "dailyUse": [
+      "Where is the nearest pharmacy? I need medicine.",
+      "Practice today: where is the nearest pharmacy?"
+    ],
+    "exercises": [
+      {
+        "id": "free_0907_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'where is the nearest pharmacy?' mean in Spanish?",
+        "options": [
+          "\u00bfd\u00f3nde est\u00e1 la farmacia m\u00e1s cercana?",
+          "Estoy de acuerdo.",
+          "Hasta ma\u00f1ana.",
+          "No hay problema."
+        ],
+        "correctAnswer": "\u00bfd\u00f3nde est\u00e1 la farmacia m\u00e1s cercana?",
+        "explanation": "'where is the nearest pharmacy?' significa '\u00bfd\u00f3nde est\u00e1 la farmacia m\u00e1s cercana?' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "survival_english",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Frase esencial: where is the nearest pharmacy?. Example: Where is the nearest pharmacy? I need medicine.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas '\u00bfD\u00f3nde est\u00e1 la farmacia m\u00e1s cercana? Necesito medicina.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Where is the nearest pharmacy? I need medicine.",
+    "learningTip": "Repite 'where is the nearest pharmacy?' como una unidad y \u00fasala en una situaci\u00f3n imaginaria.",
+    "links": []
+  },
+  {
+    "id": "free_0908",
+    "word": "can I pay by card?",
+    "meaningEs": "\u00bfpuedo pagar con tarjeta?",
+    "pronunciation": "can ai pei bai card",
+    "partOfSpeech": "phrase",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Can I pay by card, or do you need cash?",
+    "exampleEs": "\u00bfPuedo pagar con tarjeta o necesita efectivo?",
+    "usage": "Se usa como expresi\u00f3n completa en una situaci\u00f3n cotidiana o de emergencia.",
+    "grammar": "Es una frase fija. Aprende el bloque completo y cambia los detalles personales cuando sea necesario.",
+    "commonMistakes": [
+      "No traduzcas cada palabra de 'can I pay by card?' de forma aislada.",
+      "Practica la frase completa con una entonaci\u00f3n natural."
+    ],
+    "dailyUse": [
+      "Can I pay by card, or do you need cash?",
+      "Practice today: can I pay by card?"
+    ],
+    "exercises": [
+      {
+        "id": "free_0908_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'can I pay by card?' mean in Spanish?",
+        "options": [
+          "\u00bfpuedo pagar con tarjeta?",
+          "Muchas gracias.",
+          "Estoy listo.",
+          "Nos vemos luego."
+        ],
+        "correctAnswer": "\u00bfpuedo pagar con tarjeta?",
+        "explanation": "'can I pay by card?' significa '\u00bfpuedo pagar con tarjeta?' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "real_life_english",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Frase esencial: can I pay by card?. Example: Can I pay by card, or do you need cash?",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas '\u00bfPuedo pagar con tarjeta o necesita efectivo?' en ingl\u00e9s?",
+    "activeRecallAnswer": "Can I pay by card, or do you need cash?",
+    "learningTip": "Repite 'can I pay by card?' como una unidad y \u00fasala en una situaci\u00f3n imaginaria.",
+    "links": []
+  },
+  {
+    "id": "free_0909",
+    "word": "do you speak Spanish?",
+    "meaningEs": "\u00bfhabla espa\u00f1ol?",
+    "pronunciation": "du iu spik spa-nish",
+    "partOfSpeech": "phrase",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Do you speak Spanish? I need some help.",
+    "exampleEs": "\u00bfHabla espa\u00f1ol? Necesito un poco de ayuda.",
+    "usage": "Se usa como expresi\u00f3n completa en una situaci\u00f3n cotidiana o de emergencia.",
+    "grammar": "Es una frase fija. Aprende el bloque completo y cambia los detalles personales cuando sea necesario.",
+    "commonMistakes": [
+      "No traduzcas cada palabra de 'do you speak Spanish?' de forma aislada.",
+      "Practica la frase completa con una entonaci\u00f3n natural."
+    ],
+    "dailyUse": [
+      "Do you speak Spanish? I need some help.",
+      "Practice today: do you speak Spanish?"
+    ],
+    "exercises": [
+      {
+        "id": "free_0909_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'do you speak Spanish?' mean in Spanish?",
+        "options": [
+          "\u00bfhabla espa\u00f1ol?",
+          "Muchas gracias.",
+          "Estoy listo.",
+          "Nos vemos luego."
+        ],
+        "correctAnswer": "\u00bfhabla espa\u00f1ol?",
+        "explanation": "'do you speak Spanish?' significa '\u00bfhabla espa\u00f1ol?' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_questions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Frase esencial: do you speak Spanish?. Example: Do you speak Spanish? I need some help.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas '\u00bfHabla espa\u00f1ol? Necesito un poco de ayuda.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Do you speak Spanish? I need some help.",
+    "learningTip": "Repite 'do you speak Spanish?' como una unidad y \u00fasala en una situaci\u00f3n imaginaria.",
+    "links": []
+  },
+  {
+    "id": "free_0910",
+    "word": "I only speak a little English",
+    "meaningEs": "solo hablo un poco de ingl\u00e9s",
+    "pronunciation": "ai oun-li spik a li-tol ing-lish",
+    "partOfSpeech": "phrase",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I only speak a little English, so please speak slowly.",
+    "exampleEs": "Solo hablo un poco de ingl\u00e9s, as\u00ed que hable despacio.",
+    "usage": "Se usa como expresi\u00f3n completa en una situaci\u00f3n cotidiana o de emergencia.",
+    "grammar": "Es una frase fija. Aprende el bloque completo y cambia los detalles personales cuando sea necesario.",
+    "commonMistakes": [
+      "No traduzcas cada palabra de 'I only speak a little English' de forma aislada.",
+      "Practica la frase completa con una entonaci\u00f3n natural."
+    ],
+    "dailyUse": [
+      "I only speak a little English, so please speak slowly.",
+      "Practice today: I only speak a little English"
+    ],
+    "exercises": [
+      {
+        "id": "free_0910_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'I only speak a little English' mean in Spanish?",
+        "options": [
+          "solo hablo un poco de ingl\u00e9s",
+          "Muchas gracias.",
+          "Estoy listo.",
+          "Nos vemos luego."
+        ],
+        "correctAnswer": "solo hablo un poco de ingl\u00e9s",
+        "explanation": "'I only speak a little English' significa 'solo hablo un poco de ingl\u00e9s' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "real_life_english",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Frase esencial: I only speak a little English. Example: I only speak a little English, so please speak slowly.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Solo hablo un poco de ingl\u00e9s, as\u00ed que hable despacio.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I only speak a little English, so please speak slowly.",
+    "learningTip": "Repite 'I only speak a little English' como una unidad y \u00fasala en una situaci\u00f3n imaginaria.",
+    "links": []
+  },
+  {
+    "id": "free_0911",
+    "word": "please write the address",
+    "meaningEs": "por favor, escriba la direcci\u00f3n",
+    "pronunciation": "plis rait di a-dres",
+    "partOfSpeech": "phrase",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Please write the address on this paper.",
+    "exampleEs": "Por favor, escriba la direcci\u00f3n en este papel.",
+    "usage": "Se usa como expresi\u00f3n completa en una situaci\u00f3n cotidiana o de emergencia.",
+    "grammar": "Es una frase fija. Aprende el bloque completo y cambia los detalles personales cuando sea necesario.",
+    "commonMistakes": [
+      "No traduzcas cada palabra de 'please write the address' de forma aislada.",
+      "Practica la frase completa con una entonaci\u00f3n natural."
+    ],
+    "dailyUse": [
+      "Please write the address on this paper.",
+      "Practice today: please write the address"
+    ],
+    "exercises": [
+      {
+        "id": "free_0911_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'please write the address' mean in Spanish?",
+        "options": [
+          "por favor, escriba la direcci\u00f3n",
+          "Muchas gracias.",
+          "Estoy listo.",
+          "Nos vemos luego."
+        ],
+        "correctAnswer": "por favor, escriba la direcci\u00f3n",
+        "explanation": "'please write the address' significa 'por favor, escriba la direcci\u00f3n' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "real_life_english",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Frase esencial: please write the address. Example: Please write the address on this paper.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Por favor, escriba la direcci\u00f3n en este papel.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Please write the address on this paper.",
+    "learningTip": "Repite 'please write the address' como una unidad y \u00fasala en una situaci\u00f3n imaginaria.",
+    "links": []
+  },
+  {
+    "id": "free_0912",
+    "word": "can I charge my phone?",
+    "meaningEs": "\u00bfpuedo cargar mi tel\u00e9fono?",
+    "pronunciation": "can ai charch mai foun",
+    "partOfSpeech": "phrase",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Can I charge my phone near this table?",
+    "exampleEs": "\u00bfPuedo cargar mi tel\u00e9fono cerca de esta mesa?",
+    "usage": "Se usa como expresi\u00f3n completa en una situaci\u00f3n cotidiana o de emergencia.",
+    "grammar": "Es una frase fija. Aprende el bloque completo y cambia los detalles personales cuando sea necesario.",
+    "commonMistakes": [
+      "No traduzcas cada palabra de 'can I charge my phone?' de forma aislada.",
+      "Practica la frase completa con una entonaci\u00f3n natural."
+    ],
+    "dailyUse": [
+      "Can I charge my phone near this table?",
+      "Practice today: can I charge my phone?"
+    ],
+    "exercises": [
+      {
+        "id": "free_0912_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'can I charge my phone?' mean in Spanish?",
+        "options": [
+          "\u00bfpuedo cargar mi tel\u00e9fono?",
+          "Muchas gracias.",
+          "Estoy listo.",
+          "Nos vemos luego."
+        ],
+        "correctAnswer": "\u00bfpuedo cargar mi tel\u00e9fono?",
+        "explanation": "'can I charge my phone?' significa '\u00bfpuedo cargar mi tel\u00e9fono?' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "real_life_english",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Frase esencial: can I charge my phone?. Example: Can I charge my phone near this table?",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas '\u00bfPuedo cargar mi tel\u00e9fono cerca de esta mesa?' en ingl\u00e9s?",
+    "activeRecallAnswer": "Can I charge my phone near this table?",
+    "learningTip": "Repite 'can I charge my phone?' como una unidad y \u00fasala en una situaci\u00f3n imaginaria.",
+    "links": []
+  },
+  {
+    "id": "free_0913",
+    "word": "I missed my bus",
+    "meaningEs": "perd\u00ed mi autob\u00fas",
+    "pronunciation": "ai mist mai bas",
+    "partOfSpeech": "phrase",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I missed my bus, so I will be late.",
+    "exampleEs": "Perd\u00ed mi autob\u00fas, as\u00ed que llegar\u00e9 tarde.",
+    "usage": "Se usa como expresi\u00f3n completa en una situaci\u00f3n cotidiana o de emergencia.",
+    "grammar": "Es una frase fija. Aprende el bloque completo y cambia los detalles personales cuando sea necesario.",
+    "commonMistakes": [
+      "No traduzcas cada palabra de 'I missed my bus' de forma aislada.",
+      "Practica la frase completa con una entonaci\u00f3n natural."
+    ],
+    "dailyUse": [
+      "I missed my bus, so I will be late.",
+      "Practice today: I missed my bus"
+    ],
+    "exercises": [
+      {
+        "id": "free_0913_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'I missed my bus' mean in Spanish?",
+        "options": [
+          "perd\u00ed mi autob\u00fas",
+          "Muchas gracias.",
+          "Estoy listo.",
+          "Nos vemos luego."
+        ],
+        "correctAnswer": "perd\u00ed mi autob\u00fas",
+        "explanation": "'I missed my bus' significa 'perd\u00ed mi autob\u00fas' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "daily_conversation",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Frase esencial: I missed my bus. Example: I missed my bus, so I will be late.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Perd\u00ed mi autob\u00fas, as\u00ed que llegar\u00e9 tarde.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I missed my bus, so I will be late.",
+    "learningTip": "Repite 'I missed my bus' como una unidad y \u00fasala en una situaci\u00f3n imaginaria.",
+    "links": []
+  },
+  {
+    "id": "free_0914",
+    "word": "what is your phone number?",
+    "meaningEs": "\u00bfcu\u00e1l es su n\u00famero de tel\u00e9fono?",
+    "pronunciation": "uat is ior foun nam-ber",
+    "partOfSpeech": "phrase",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "What is your phone number? I will call you later.",
+    "exampleEs": "\u00bfCu\u00e1l es su n\u00famero de tel\u00e9fono? Lo llamar\u00e9 m\u00e1s tarde.",
+    "usage": "Se usa como expresi\u00f3n completa en una situaci\u00f3n cotidiana o de emergencia.",
+    "grammar": "Es una frase fija. Aprende el bloque completo y cambia los detalles personales cuando sea necesario.",
+    "commonMistakes": [
+      "No traduzcas cada palabra de 'what is your phone number?' de forma aislada.",
+      "Practica la frase completa con una entonaci\u00f3n natural."
+    ],
+    "dailyUse": [
+      "What is your phone number? I will call you later.",
+      "Practice today: what is your phone number?"
+    ],
+    "exercises": [
+      {
+        "id": "free_0914_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'what is your phone number?' mean in Spanish?",
+        "options": [
+          "\u00bfcu\u00e1l es su n\u00famero de tel\u00e9fono?",
+          "Muchas gracias.",
+          "Estoy listo.",
+          "Nos vemos luego."
+        ],
+        "correctAnswer": "\u00bfcu\u00e1l es su n\u00famero de tel\u00e9fono?",
+        "explanation": "'what is your phone number?' significa '\u00bfcu\u00e1l es su n\u00famero de tel\u00e9fono?' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "basic_questions",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Frase esencial: what is your phone number?. Example: What is your phone number? I will call you later.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas '\u00bfCu\u00e1l es su n\u00famero de tel\u00e9fono? Lo llamar\u00e9 m\u00e1s tarde.' en ingl\u00e9s?",
+    "activeRecallAnswer": "What is your phone number? I will call you later.",
+    "learningTip": "Repite 'what is your phone number?' como una unidad y \u00fasala en una situaci\u00f3n imaginaria.",
+    "links": []
+  },
+  {
+    "id": "free_0915",
+    "word": "see you tomorrow",
+    "meaningEs": "nos vemos ma\u00f1ana",
+    "pronunciation": "si iu tu-mo-rou",
+    "partOfSpeech": "phrase",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "See you tomorrow at the office.",
+    "exampleEs": "Nos vemos ma\u00f1ana en la oficina.",
+    "usage": "Se usa como expresi\u00f3n completa en una situaci\u00f3n cotidiana o de emergencia.",
+    "grammar": "Es una frase fija. Aprende el bloque completo y cambia los detalles personales cuando sea necesario.",
+    "commonMistakes": [
+      "No traduzcas cada palabra de 'see you tomorrow' de forma aislada.",
+      "Practica la frase completa con una entonaci\u00f3n natural."
+    ],
+    "dailyUse": [
+      "See you tomorrow at the office.",
+      "Practice today: see you tomorrow"
+    ],
+    "exercises": [
+      {
+        "id": "free_0915_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'see you tomorrow' mean in Spanish?",
+        "options": [
+          "nos vemos ma\u00f1ana",
+          "Muchas gracias.",
+          "Estoy listo.",
+          "Nos vemos luego."
+        ],
+        "correctAnswer": "nos vemos ma\u00f1ana",
+        "explanation": "'see you tomorrow' significa 'nos vemos ma\u00f1ana' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "daily_conversation",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Frase esencial: see you tomorrow. Example: See you tomorrow at the office.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Nos vemos ma\u00f1ana en la oficina.' en ingl\u00e9s?",
+    "activeRecallAnswer": "See you tomorrow at the office.",
+    "learningTip": "Repite 'see you tomorrow' como una unidad y \u00fasala en una situaci\u00f3n imaginaria.",
+    "links": []
+  },
+  {
+    "id": "free_0916",
+    "word": "apologize",
+    "meaningEs": "disculparse",
+    "pronunciation": "a-po-lo-yais",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "apologize",
+    "pastSimple": "apologized",
+    "pastParticiple": "apologized",
+    "exampleEn": "I apologize for the delay.",
+    "exampleEs": "Me disculpo por el retraso.",
+    "usage": "Se usa para hablar de la acci\u00f3n de disculparse en situaciones reales.",
+    "grammar": "Formas principales: apologize / apologized / apologized.",
+    "commonMistakes": [
+      "No olvides la forma de pasado 'apologized'.",
+      "En tercera persona del presente normalmente se a\u00f1ade -s o -es."
+    ],
+    "dailyUse": [
+      "I apologize for the delay.",
+      "I need to apologize today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0916_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'apologize' mean in Spanish?",
+        "options": [
+          "disculparse",
+          "esperar",
+          "buscar",
+          "cambiar"
+        ],
+        "correctAnswer": "disculparse",
+        "explanation": "'apologize' significa 'disculparse' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo: apologize / apologized / apologized. Example: I apologize for the delay.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Me disculpo por el retraso.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I apologize for the delay.",
+    "learningTip": "Memoriza apologize / apologized / apologized junto con el ejemplo.",
+    "links": []
+  },
+  {
+    "id": "free_0917",
+    "word": "practice",
+    "meaningEs": "practicar",
+    "pronunciation": "prak-tis",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "practice",
+    "pastSimple": "practiced",
+    "pastParticiple": "practiced",
+    "exampleEn": "I practice English every morning.",
+    "exampleEs": "Practico ingl\u00e9s cada ma\u00f1ana.",
+    "usage": "Se usa para hablar de la acci\u00f3n de practicar en situaciones reales.",
+    "grammar": "Formas principales: practice / practiced / practiced.",
+    "commonMistakes": [
+      "No olvides la forma de pasado 'practiced'.",
+      "En tercera persona del presente normalmente se a\u00f1ade -s o -es."
+    ],
+    "dailyUse": [
+      "I practice English every morning.",
+      "I need to practice today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0917_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'practice' mean in Spanish?",
+        "options": [
+          "practicar",
+          "esperar",
+          "buscar",
+          "cambiar"
+        ],
+        "correctAnswer": "practicar",
+        "explanation": "'practice' significa 'practicar' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo: practice / practiced / practiced. Example: I practice English every morning.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Practico ingl\u00e9s cada ma\u00f1ana.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I practice English every morning.",
+    "learningTip": "Memoriza practice / practiced / practiced junto con el ejemplo.",
+    "links": []
+  },
+  {
+    "id": "free_0918",
+    "word": "pronounce",
+    "meaningEs": "pronunciar",
+    "pronunciation": "pro-nauns",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "pronounce",
+    "pastSimple": "pronounced",
+    "pastParticiple": "pronounced",
+    "exampleEn": "Can you pronounce this word slowly?",
+    "exampleEs": "\u00bfPuede pronunciar esta palabra despacio?",
+    "usage": "Se usa para hablar de la acci\u00f3n de pronunciar en situaciones reales.",
+    "grammar": "Formas principales: pronounce / pronounced / pronounced.",
+    "commonMistakes": [
+      "No olvides la forma de pasado 'pronounced'.",
+      "En tercera persona del presente normalmente se a\u00f1ade -s o -es."
+    ],
+    "dailyUse": [
+      "Can you pronounce this word slowly?",
+      "I need to pronounce today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0918_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'pronounce' mean in Spanish?",
+        "options": [
+          "pronunciar",
+          "esperar",
+          "buscar",
+          "cambiar"
+        ],
+        "correctAnswer": "pronunciar",
+        "explanation": "'pronounce' significa 'pronunciar' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo: pronounce / pronounced / pronounced. Example: Can you pronounce this word slowly?",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas '\u00bfPuede pronunciar esta palabra despacio?' en ingl\u00e9s?",
+    "activeRecallAnswer": "Can you pronounce this word slowly?",
+    "learningTip": "Memoriza pronounce / pronounced / pronounced junto con el ejemplo.",
+    "links": []
+  },
+  {
+    "id": "free_0919",
+    "word": "mean",
+    "meaningEs": "significar",
+    "pronunciation": "min",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "mean",
+    "pastSimple": "meant",
+    "pastParticiple": "meant",
+    "exampleEn": "What does this sign mean?",
+    "exampleEs": "\u00bfQu\u00e9 significa este letrero?",
+    "usage": "Se usa para hablar de la acci\u00f3n de significar en situaciones reales.",
+    "grammar": "Formas principales: mean / meant / meant.",
+    "commonMistakes": [
+      "No olvides la forma de pasado 'meant'.",
+      "En tercera persona del presente normalmente se a\u00f1ade -s o -es."
+    ],
+    "dailyUse": [
+      "What does this sign mean?",
+      "I need to mean today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0919_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'mean' mean in Spanish?",
+        "options": [
+          "significar",
+          "esperar",
+          "buscar",
+          "cambiar"
+        ],
+        "correctAnswer": "significar",
+        "explanation": "'mean' significa 'significar' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo: mean / meant / meant. Example: What does this sign mean?",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas '\u00bfQu\u00e9 significa este letrero?' en ingl\u00e9s?",
+    "activeRecallAnswer": "What does this sign mean?",
+    "learningTip": "Memoriza mean / meant / meant junto con el ejemplo.",
+    "links": []
+  },
+  {
+    "id": "free_0920",
+    "word": "own",
+    "meaningEs": "poseer",
+    "pronunciation": "oun",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "own",
+    "pastSimple": "owned",
+    "pastParticiple": "owned",
+    "exampleEn": "They own a small cafe near the park.",
+    "exampleEs": "Ellos poseen un caf\u00e9 peque\u00f1o cerca del parque.",
+    "usage": "Se usa para hablar de la acci\u00f3n de poseer en situaciones reales.",
+    "grammar": "Formas principales: own / owned / owned.",
+    "commonMistakes": [
+      "No olvides la forma de pasado 'owned'.",
+      "En tercera persona del presente normalmente se a\u00f1ade -s o -es."
+    ],
+    "dailyUse": [
+      "They own a small cafe near the park.",
+      "I need to own today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0920_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'own' mean in Spanish?",
+        "options": [
+          "poseer",
+          "esperar",
+          "buscar",
+          "cambiar"
+        ],
+        "correctAnswer": "poseer",
+        "explanation": "'own' significa 'poseer' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo: own / owned / owned. Example: They own a small cafe near the park.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Ellos poseen un caf\u00e9 peque\u00f1o cerca del parque.' en ingl\u00e9s?",
+    "activeRecallAnswer": "They own a small cafe near the park.",
+    "learningTip": "Memoriza own / owned / owned junto con el ejemplo.",
+    "links": []
+  },
+  {
+    "id": "free_0921",
+    "word": "prefer",
+    "meaningEs": "preferir",
+    "pronunciation": "pri-fer",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "prefer",
+    "pastSimple": "preferred",
+    "pastParticiple": "preferred",
+    "exampleEn": "I prefer tea without sugar.",
+    "exampleEs": "Prefiero el t\u00e9 sin az\u00facar.",
+    "usage": "Se usa para hablar de la acci\u00f3n de preferir en situaciones reales.",
+    "grammar": "Formas principales: prefer / preferred / preferred.",
+    "commonMistakes": [
+      "No olvides la forma de pasado 'preferred'.",
+      "En tercera persona del presente normalmente se a\u00f1ade -s o -es."
+    ],
+    "dailyUse": [
+      "I prefer tea without sugar.",
+      "I need to prefer today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0921_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'prefer' mean in Spanish?",
+        "options": [
+          "preferir",
+          "esperar",
+          "buscar",
+          "cambiar"
+        ],
+        "correctAnswer": "preferir",
+        "explanation": "'prefer' significa 'preferir' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo: prefer / preferred / preferred. Example: I prefer tea without sugar.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Prefiero el t\u00e9 sin az\u00facar.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I prefer tea without sugar.",
+    "learningTip": "Memoriza prefer / preferred / preferred junto con el ejemplo.",
+    "links": []
+  },
+  {
+    "id": "free_0922",
+    "word": "depend",
+    "meaningEs": "depender",
+    "pronunciation": "di-pend",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "depend",
+    "pastSimple": "depended",
+    "pastParticiple": "depended",
+    "exampleEn": "The travel time depends on traffic.",
+    "exampleEs": "El tiempo de viaje depende del tr\u00e1fico.",
+    "usage": "Se usa para hablar de la acci\u00f3n de depender en situaciones reales.",
+    "grammar": "Formas principales: depend / depended / depended.",
+    "commonMistakes": [
+      "No olvides la forma de pasado 'depended'.",
+      "En tercera persona del presente normalmente se a\u00f1ade -s o -es."
+    ],
+    "dailyUse": [
+      "The travel time depends on traffic.",
+      "I need to depend today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0922_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'depend' mean in Spanish?",
+        "options": [
+          "depender",
+          "esperar",
+          "buscar",
+          "cambiar"
+        ],
+        "correctAnswer": "depender",
+        "explanation": "'depend' significa 'depender' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo: depend / depended / depended. Example: The travel time depends on traffic.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El tiempo de viaje depende del tr\u00e1fico.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The travel time depends on traffic.",
+    "learningTip": "Memoriza depend / depended / depended junto con el ejemplo.",
+    "links": []
+  },
+  {
+    "id": "free_0923",
+    "word": "include",
+    "meaningEs": "incluir",
+    "pronunciation": "in-klud",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "include",
+    "pastSimple": "included",
+    "pastParticiple": "included",
+    "exampleEn": "The price includes breakfast.",
+    "exampleEs": "El precio incluye el desayuno.",
+    "usage": "Se usa para hablar de la acci\u00f3n de incluir en situaciones reales.",
+    "grammar": "Formas principales: include / included / included.",
+    "commonMistakes": [
+      "No olvides la forma de pasado 'included'.",
+      "En tercera persona del presente normalmente se a\u00f1ade -s o -es."
+    ],
+    "dailyUse": [
+      "The price includes breakfast.",
+      "I need to include today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0923_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'include' mean in Spanish?",
+        "options": [
+          "incluir",
+          "esperar",
+          "buscar",
+          "cambiar"
+        ],
+        "correctAnswer": "incluir",
+        "explanation": "'include' significa 'incluir' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo: include / included / included. Example: The price includes breakfast.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El precio incluye el desayuno.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The price includes breakfast.",
+    "learningTip": "Memoriza include / included / included junto con el ejemplo.",
+    "links": []
+  },
+  {
+    "id": "free_0924",
+    "word": "cost",
+    "meaningEs": "costar",
+    "pronunciation": "cost",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "irregular",
+    "baseForm": "cost",
+    "pastSimple": "cost",
+    "pastParticiple": "cost",
+    "exampleEn": "The ticket costs ten dollars.",
+    "exampleEs": "El boleto cuesta diez d\u00f3lares.",
+    "usage": "Se usa para hablar de la acci\u00f3n de costar en situaciones reales.",
+    "grammar": "Formas principales: cost / cost / cost.",
+    "commonMistakes": [
+      "No olvides la forma de pasado 'cost'.",
+      "En tercera persona del presente normalmente se a\u00f1ade -s o -es."
+    ],
+    "dailyUse": [
+      "The ticket costs ten dollars.",
+      "I need to cost today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0924_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'cost' mean in Spanish?",
+        "options": [
+          "costar",
+          "esperar",
+          "buscar",
+          "cambiar"
+        ],
+        "correctAnswer": "costar",
+        "explanation": "'cost' significa 'costar' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo: cost / cost / cost. Example: The ticket costs ten dollars.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El boleto cuesta diez d\u00f3lares.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The ticket costs ten dollars.",
+    "learningTip": "Memoriza cost / cost / cost junto con el ejemplo.",
+    "links": []
+  },
+  {
+    "id": "free_0925",
+    "word": "seem",
+    "meaningEs": "parecer",
+    "pronunciation": "sim",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "seem",
+    "pastSimple": "seemed",
+    "pastParticiple": "seemed",
+    "exampleEn": "This exercise seems easy.",
+    "exampleEs": "Este ejercicio parece f\u00e1cil.",
+    "usage": "Se usa para hablar de la acci\u00f3n de parecer en situaciones reales.",
+    "grammar": "Formas principales: seem / seemed / seemed.",
+    "commonMistakes": [
+      "No olvides la forma de pasado 'seemed'.",
+      "En tercera persona del presente normalmente se a\u00f1ade -s o -es."
+    ],
+    "dailyUse": [
+      "This exercise seems easy.",
+      "I need to seem today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0925_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'seem' mean in Spanish?",
+        "options": [
+          "parecer",
+          "esperar",
+          "buscar",
+          "cambiar"
+        ],
+        "correctAnswer": "parecer",
+        "explanation": "'seem' significa 'parecer' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo: seem / seemed / seemed. Example: This exercise seems easy.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Este ejercicio parece f\u00e1cil.' en ingl\u00e9s?",
+    "activeRecallAnswer": "This exercise seems easy.",
+    "learningTip": "Memoriza seem / seemed / seemed junto con el ejemplo.",
+    "links": []
+  },
+  {
+    "id": "free_0926",
+    "word": "confirm",
+    "meaningEs": "confirmar",
+    "pronunciation": "con-ferm",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "confirm",
+    "pastSimple": "confirmed",
+    "pastParticiple": "confirmed",
+    "exampleEn": "Please confirm your reservation today.",
+    "exampleEs": "Por favor, confirme su reserva hoy.",
+    "usage": "Se usa para hablar de la acci\u00f3n de confirmar en situaciones reales.",
+    "grammar": "Formas principales: confirm / confirmed / confirmed.",
+    "commonMistakes": [
+      "No olvides la forma de pasado 'confirmed'.",
+      "En tercera persona del presente normalmente se a\u00f1ade -s o -es."
+    ],
+    "dailyUse": [
+      "Please confirm your reservation today.",
+      "I need to confirm today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0926_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'confirm' mean in Spanish?",
+        "options": [
+          "confirmar",
+          "esperar",
+          "buscar",
+          "cambiar"
+        ],
+        "correctAnswer": "confirmar",
+        "explanation": "'confirm' significa 'confirmar' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo: confirm / confirmed / confirmed. Example: Please confirm your reservation today.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Por favor, confirme su reserva hoy.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Please confirm your reservation today.",
+    "learningTip": "Memoriza confirm / confirmed / confirmed junto con el ejemplo.",
+    "links": []
+  },
+  {
+    "id": "free_0927",
+    "word": "reserve",
+    "meaningEs": "reservar",
+    "pronunciation": "ri-serv",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "reserve",
+    "pastSimple": "reserved",
+    "pastParticiple": "reserved",
+    "exampleEn": "We reserved a table for six.",
+    "exampleEs": "Reservamos una mesa para seis personas.",
+    "usage": "Se usa para hablar de la acci\u00f3n de reservar en situaciones reales.",
+    "grammar": "Formas principales: reserve / reserved / reserved.",
+    "commonMistakes": [
+      "No olvides la forma de pasado 'reserved'.",
+      "En tercera persona del presente normalmente se a\u00f1ade -s o -es."
+    ],
+    "dailyUse": [
+      "We reserved a table for six.",
+      "I need to reserve today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0927_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'reserve' mean in Spanish?",
+        "options": [
+          "reservar",
+          "esperar",
+          "buscar",
+          "cambiar"
+        ],
+        "correctAnswer": "reservar",
+        "explanation": "'reserve' significa 'reservar' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo: reserve / reserved / reserved. Example: We reserved a table for six.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Reservamos una mesa para seis personas.' en ingl\u00e9s?",
+    "activeRecallAnswer": "We reserved a table for six.",
+    "learningTip": "Memoriza reserve / reserved / reserved junto con el ejemplo.",
+    "links": []
+  },
+  {
+    "id": "free_0928",
+    "word": "pack",
+    "meaningEs": "empacar",
+    "pronunciation": "pak",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "pack",
+    "pastSimple": "packed",
+    "pastParticiple": "packed",
+    "exampleEn": "I pack my clothes before the trip.",
+    "exampleEs": "Empaco mi ropa antes del viaje.",
+    "usage": "Se usa para hablar de la acci\u00f3n de empacar en situaciones reales.",
+    "grammar": "Formas principales: pack / packed / packed.",
+    "commonMistakes": [
+      "No olvides la forma de pasado 'packed'.",
+      "En tercera persona del presente normalmente se a\u00f1ade -s o -es."
+    ],
+    "dailyUse": [
+      "I pack my clothes before the trip.",
+      "I need to pack today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0928_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'pack' mean in Spanish?",
+        "options": [
+          "empacar",
+          "esperar",
+          "buscar",
+          "cambiar"
+        ],
+        "correctAnswer": "empacar",
+        "explanation": "'pack' significa 'empacar' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo: pack / packed / packed. Example: I pack my clothes before the trip.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Empaco mi ropa antes del viaje.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I pack my clothes before the trip.",
+    "learningTip": "Memoriza pack / packed / packed junto con el ejemplo.",
+    "links": []
+  },
+  {
+    "id": "free_0929",
+    "word": "unpack",
+    "meaningEs": "desempacar",
+    "pronunciation": "an-pak",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "unpack",
+    "pastSimple": "unpacked",
+    "pastParticiple": "unpacked",
+    "exampleEn": "She unpacks her suitcase at the hotel.",
+    "exampleEs": "Ella desempaca su maleta en el hotel.",
+    "usage": "Se usa para hablar de la acci\u00f3n de desempacar en situaciones reales.",
+    "grammar": "Formas principales: unpack / unpacked / unpacked.",
+    "commonMistakes": [
+      "No olvides la forma de pasado 'unpacked'.",
+      "En tercera persona del presente normalmente se a\u00f1ade -s o -es."
+    ],
+    "dailyUse": [
+      "She unpacks her suitcase at the hotel.",
+      "I need to unpack today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0929_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'unpack' mean in Spanish?",
+        "options": [
+          "desempacar",
+          "esperar",
+          "buscar",
+          "cambiar"
+        ],
+        "correctAnswer": "desempacar",
+        "explanation": "'unpack' significa 'desempacar' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo: unpack / unpacked / unpacked. Example: She unpacks her suitcase at the hotel.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Ella desempaca su maleta en el hotel.' en ingl\u00e9s?",
+    "activeRecallAnswer": "She unpacks her suitcase at the hotel.",
+    "learningTip": "Memoriza unpack / unpacked / unpacked junto con el ejemplo.",
+    "links": []
+  },
+  {
+    "id": "free_0930",
+    "word": "lock",
+    "meaningEs": "cerrar con llave",
+    "pronunciation": "lok",
+    "partOfSpeech": "verb",
+    "isVerb": true,
+    "verbType": "regular",
+    "baseForm": "lock",
+    "pastSimple": "locked",
+    "pastParticiple": "locked",
+    "exampleEn": "Lock the door before you leave.",
+    "exampleEs": "Cierra la puerta con llave antes de salir.",
+    "usage": "Se usa para hablar de la acci\u00f3n de cerrar con llave en situaciones reales.",
+    "grammar": "Formas principales: lock / locked / locked.",
+    "commonMistakes": [
+      "No olvides la forma de pasado 'locked'.",
+      "En tercera persona del presente normalmente se a\u00f1ade -s o -es."
+    ],
+    "dailyUse": [
+      "Lock the door before you leave.",
+      "I need to lock today."
+    ],
+    "exercises": [
+      {
+        "id": "free_0930_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'lock' mean in Spanish?",
+        "options": [
+          "cerrar con llave",
+          "esperar",
+          "buscar",
+          "cambiar"
+        ],
+        "correctAnswer": "cerrar con llave",
+        "explanation": "'lock' significa 'cerrar con llave' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_verbs",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Verbo: lock / locked / locked. Example: Lock the door before you leave.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Cierra la puerta con llave antes de salir.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Lock the door before you leave.",
+    "learningTip": "Memoriza lock / locked / locked junto con el ejemplo.",
+    "links": []
+  },
+  {
+    "id": "free_0931",
+    "word": "correct",
+    "meaningEs": "correcto",
+    "pronunciation": "co-rekt",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Your answer is correct.",
+    "exampleEs": "Tu respuesta es correcta.",
+    "usage": "Se usa para expresar o nombrar 'correcto' en conversaciones cotidianas.",
+    "grammar": "Es un adjetivo. Puede aparecer despu\u00e9s de 'be' o antes de un sustantivo.",
+    "commonMistakes": [
+      "No memorices 'correct' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "Your answer is correct.",
+      "Use 'correct' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0931_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'correct' mean in Spanish?",
+        "options": [
+          "correcto",
+          "r\u00e1pido",
+          "amable",
+          "oscuro"
+        ],
+        "correctAnswer": "correcto",
+        "explanation": "'correct' significa 'correcto' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: correct. Example: Your answer is correct.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Tu respuesta es correcta.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Your answer is correct.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'correct'.",
+    "links": []
+  },
+  {
+    "id": "free_0932",
+    "word": "wrong",
+    "meaningEs": "incorrecto",
+    "pronunciation": "rong",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This phone number is wrong.",
+    "exampleEs": "Este n\u00famero de tel\u00e9fono es incorrecto.",
+    "usage": "Se usa para expresar o nombrar 'incorrecto' en conversaciones cotidianas.",
+    "grammar": "Es un adjetivo. Puede aparecer despu\u00e9s de 'be' o antes de un sustantivo.",
+    "commonMistakes": [
+      "No memorices 'wrong' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "This phone number is wrong.",
+      "Use 'wrong' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0932_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'wrong' mean in Spanish?",
+        "options": [
+          "incorrecto",
+          "r\u00e1pido",
+          "amable",
+          "oscuro"
+        ],
+        "correctAnswer": "incorrecto",
+        "explanation": "'wrong' significa 'incorrecto' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: wrong. Example: This phone number is wrong.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Este n\u00famero de tel\u00e9fono es incorrecto.' en ingl\u00e9s?",
+    "activeRecallAnswer": "This phone number is wrong.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'wrong'.",
+    "links": []
+  },
+  {
+    "id": "free_0933",
+    "word": "available",
+    "meaningEs": "disponible",
+    "pronunciation": "a-vei-la-bol",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Is this room available tonight?",
+    "exampleEs": "\u00bfEst\u00e1 disponible esta habitaci\u00f3n esta noche?",
+    "usage": "Se usa para expresar o nombrar 'disponible' en conversaciones cotidianas.",
+    "grammar": "Es un adjetivo. Puede aparecer despu\u00e9s de 'be' o antes de un sustantivo.",
+    "commonMistakes": [
+      "No memorices 'available' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "Is this room available tonight?",
+      "Use 'available' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0933_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'available' mean in Spanish?",
+        "options": [
+          "disponible",
+          "r\u00e1pido",
+          "amable",
+          "oscuro"
+        ],
+        "correctAnswer": "disponible",
+        "explanation": "'available' significa 'disponible' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: available. Example: Is this room available tonight?",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas '\u00bfEst\u00e1 disponible esta habitaci\u00f3n esta noche?' en ingl\u00e9s?",
+    "activeRecallAnswer": "Is this room available tonight?",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'available'.",
+    "links": []
+  },
+  {
+    "id": "free_0934",
+    "word": "closed",
+    "meaningEs": "cerrado",
+    "pronunciation": "clouzd",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The bank is closed on Sunday.",
+    "exampleEs": "El banco est\u00e1 cerrado el domingo.",
+    "usage": "Se usa para expresar o nombrar 'cerrado' en conversaciones cotidianas.",
+    "grammar": "Es un adjetivo. Puede aparecer despu\u00e9s de 'be' o antes de un sustantivo.",
+    "commonMistakes": [
+      "No memorices 'closed' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "The bank is closed on Sunday.",
+      "Use 'closed' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0934_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'closed' mean in Spanish?",
+        "options": [
+          "cerrado",
+          "r\u00e1pido",
+          "amable",
+          "oscuro"
+        ],
+        "correctAnswer": "cerrado",
+        "explanation": "'closed' significa 'cerrado' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: closed. Example: The bank is closed on Sunday.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El banco est\u00e1 cerrado el domingo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The bank is closed on Sunday.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'closed'.",
+    "links": []
+  },
+  {
+    "id": "free_0935",
+    "word": "possible",
+    "meaningEs": "posible",
+    "pronunciation": "po-si-bol",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Is it possible to change the date?",
+    "exampleEs": "\u00bfEs posible cambiar la fecha?",
+    "usage": "Se usa para expresar o nombrar 'posible' en conversaciones cotidianas.",
+    "grammar": "Es un adjetivo. Puede aparecer despu\u00e9s de 'be' o antes de un sustantivo.",
+    "commonMistakes": [
+      "No memorices 'possible' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "Is it possible to change the date?",
+      "Use 'possible' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0935_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'possible' mean in Spanish?",
+        "options": [
+          "posible",
+          "r\u00e1pido",
+          "amable",
+          "oscuro"
+        ],
+        "correctAnswer": "posible",
+        "explanation": "'possible' significa 'posible' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: possible. Example: Is it possible to change the date?",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas '\u00bfEs posible cambiar la fecha?' en ingl\u00e9s?",
+    "activeRecallAnswer": "Is it possible to change the date?",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'possible'.",
+    "links": []
+  },
+  {
+    "id": "free_0936",
+    "word": "impossible",
+    "meaningEs": "imposible",
+    "pronunciation": "im-po-si-bol",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "It is impossible to finish in one minute.",
+    "exampleEs": "Es imposible terminar en un minuto.",
+    "usage": "Se usa para expresar o nombrar 'imposible' en conversaciones cotidianas.",
+    "grammar": "Es un adjetivo. Puede aparecer despu\u00e9s de 'be' o antes de un sustantivo.",
+    "commonMistakes": [
+      "No memorices 'impossible' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "It is impossible to finish in one minute.",
+      "Use 'impossible' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0936_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'impossible' mean in Spanish?",
+        "options": [
+          "imposible",
+          "r\u00e1pido",
+          "amable",
+          "oscuro"
+        ],
+        "correctAnswer": "imposible",
+        "explanation": "'impossible' significa 'imposible' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: impossible. Example: It is impossible to finish in one minute.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Es imposible terminar en un minuto.' en ingl\u00e9s?",
+    "activeRecallAnswer": "It is impossible to finish in one minute.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'impossible'.",
+    "links": []
+  },
+  {
+    "id": "free_0937",
+    "word": "simple",
+    "meaningEs": "simple",
+    "pronunciation": "sim-pol",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This is a simple question.",
+    "exampleEs": "Esta es una pregunta simple.",
+    "usage": "Se usa para expresar o nombrar 'simple' en conversaciones cotidianas.",
+    "grammar": "Es un adjetivo. Puede aparecer despu\u00e9s de 'be' o antes de un sustantivo.",
+    "commonMistakes": [
+      "No memorices 'simple' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "This is a simple question.",
+      "Use 'simple' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0937_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'simple' mean in Spanish?",
+        "options": [
+          "simple",
+          "r\u00e1pido",
+          "amable",
+          "oscuro"
+        ],
+        "correctAnswer": "simple",
+        "explanation": "'simple' significa 'simple' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: simple. Example: This is a simple question.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Esta es una pregunta simple.' en ingl\u00e9s?",
+    "activeRecallAnswer": "This is a simple question.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'simple'.",
+    "links": []
+  },
+  {
+    "id": "free_0938",
+    "word": "different",
+    "meaningEs": "diferente",
+    "pronunciation": "di-fe-rent",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My new schedule is different.",
+    "exampleEs": "Mi nuevo horario es diferente.",
+    "usage": "Se usa para expresar o nombrar 'diferente' en conversaciones cotidianas.",
+    "grammar": "Es un adjetivo. Puede aparecer despu\u00e9s de 'be' o antes de un sustantivo.",
+    "commonMistakes": [
+      "No memorices 'different' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "My new schedule is different.",
+      "Use 'different' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0938_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'different' mean in Spanish?",
+        "options": [
+          "diferente",
+          "r\u00e1pido",
+          "amable",
+          "oscuro"
+        ],
+        "correctAnswer": "diferente",
+        "explanation": "'different' significa 'diferente' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: different. Example: My new schedule is different.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Mi nuevo horario es diferente.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My new schedule is different.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'different'.",
+    "links": []
+  },
+  {
+    "id": "free_0939",
+    "word": "same",
+    "meaningEs": "mismo",
+    "pronunciation": "seim",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "We are on the same bus.",
+    "exampleEs": "Estamos en el mismo autob\u00fas.",
+    "usage": "Se usa para expresar o nombrar 'mismo' en conversaciones cotidianas.",
+    "grammar": "Es un adjetivo. Puede aparecer despu\u00e9s de 'be' o antes de un sustantivo.",
+    "commonMistakes": [
+      "No memorices 'same' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "We are on the same bus.",
+      "Use 'same' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0939_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'same' mean in Spanish?",
+        "options": [
+          "mismo",
+          "r\u00e1pido",
+          "amable",
+          "oscuro"
+        ],
+        "correctAnswer": "mismo",
+        "explanation": "'same' significa 'mismo' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: same. Example: We are on the same bus.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Estamos en el mismo autob\u00fas.' en ingl\u00e9s?",
+    "activeRecallAnswer": "We are on the same bus.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'same'.",
+    "links": []
+  },
+  {
+    "id": "free_0940",
+    "word": "favorite",
+    "meaningEs": "favorito",
+    "pronunciation": "fei-vo-rit",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Blue is my favorite color.",
+    "exampleEs": "El azul es mi color favorito.",
+    "usage": "Se usa para expresar o nombrar 'favorito' en conversaciones cotidianas.",
+    "grammar": "Es un adjetivo. Puede aparecer despu\u00e9s de 'be' o antes de un sustantivo.",
+    "commonMistakes": [
+      "No memorices 'favorite' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "Blue is my favorite color.",
+      "Use 'favorite' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0940_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'favorite' mean in Spanish?",
+        "options": [
+          "favorito",
+          "r\u00e1pido",
+          "amable",
+          "oscuro"
+        ],
+        "correctAnswer": "favorito",
+        "explanation": "'favorite' significa 'favorito' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: favorite. Example: Blue is my favorite color.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El azul es mi color favorito.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Blue is my favorite color.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'favorite'.",
+    "links": []
+  },
+  {
+    "id": "free_0941",
+    "word": "broken",
+    "meaningEs": "roto",
+    "pronunciation": "brou-ken",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The elevator is broken today.",
+    "exampleEs": "El ascensor est\u00e1 roto hoy.",
+    "usage": "Se usa para expresar o nombrar 'roto' en conversaciones cotidianas.",
+    "grammar": "Es un adjetivo. Puede aparecer despu\u00e9s de 'be' o antes de un sustantivo.",
+    "commonMistakes": [
+      "No memorices 'broken' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "The elevator is broken today.",
+      "Use 'broken' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0941_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'broken' mean in Spanish?",
+        "options": [
+          "roto",
+          "r\u00e1pido",
+          "amable",
+          "oscuro"
+        ],
+        "correctAnswer": "roto",
+        "explanation": "'broken' significa 'roto' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: broken. Example: The elevator is broken today.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El ascensor est\u00e1 roto hoy.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The elevator is broken today.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'broken'.",
+    "links": []
+  },
+  {
+    "id": "free_0942",
+    "word": "careful",
+    "meaningEs": "cuidadoso",
+    "pronunciation": "ker-fol",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Be careful with the hot pan.",
+    "exampleEs": "Ten cuidado con la sart\u00e9n caliente.",
+    "usage": "Se usa para expresar o nombrar 'cuidadoso' en conversaciones cotidianas.",
+    "grammar": "Es un adjetivo. Puede aparecer despu\u00e9s de 'be' o antes de un sustantivo.",
+    "commonMistakes": [
+      "No memorices 'careful' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "Be careful with the hot pan.",
+      "Use 'careful' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0942_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'careful' mean in Spanish?",
+        "options": [
+          "cuidadoso",
+          "r\u00e1pido",
+          "amable",
+          "oscuro"
+        ],
+        "correctAnswer": "cuidadoso",
+        "explanation": "'careful' significa 'cuidadoso' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: careful. Example: Be careful with the hot pan.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Ten cuidado con la sart\u00e9n caliente.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Be careful with the hot pan.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'careful'.",
+    "links": []
+  },
+  {
+    "id": "free_0943",
+    "word": "noisy",
+    "meaningEs": "ruidoso",
+    "pronunciation": "noi-si",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The street is noisy at night.",
+    "exampleEs": "La calle es ruidosa por la noche.",
+    "usage": "Se usa para expresar o nombrar 'ruidoso' en conversaciones cotidianas.",
+    "grammar": "Es un adjetivo. Puede aparecer despu\u00e9s de 'be' o antes de un sustantivo.",
+    "commonMistakes": [
+      "No memorices 'noisy' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "The street is noisy at night.",
+      "Use 'noisy' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0943_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'noisy' mean in Spanish?",
+        "options": [
+          "ruidoso",
+          "r\u00e1pido",
+          "amable",
+          "oscuro"
+        ],
+        "correctAnswer": "ruidoso",
+        "explanation": "'noisy' significa 'ruidoso' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: noisy. Example: The street is noisy at night.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La calle es ruidosa por la noche.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The street is noisy at night.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'noisy'.",
+    "links": []
+  },
+  {
+    "id": "free_0944",
+    "word": "crowded",
+    "meaningEs": "lleno de gente",
+    "pronunciation": "crau-did",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The train is crowded this morning.",
+    "exampleEs": "El tren est\u00e1 lleno de gente esta ma\u00f1ana.",
+    "usage": "Se usa para expresar o nombrar 'lleno de gente' en conversaciones cotidianas.",
+    "grammar": "Es un adjetivo. Puede aparecer despu\u00e9s de 'be' o antes de un sustantivo.",
+    "commonMistakes": [
+      "No memorices 'crowded' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "The train is crowded this morning.",
+      "Use 'crowded' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0944_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'crowded' mean in Spanish?",
+        "options": [
+          "lleno de gente",
+          "r\u00e1pido",
+          "amable",
+          "oscuro"
+        ],
+        "correctAnswer": "lleno de gente",
+        "explanation": "'crowded' significa 'lleno de gente' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: crowded. Example: The train is crowded this morning.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El tren est\u00e1 lleno de gente esta ma\u00f1ana.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The train is crowded this morning.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'crowded'.",
+    "links": []
+  },
+  {
+    "id": "free_0945",
+    "word": "cheap",
+    "meaningEs": "barato",
+    "pronunciation": "chip",
+    "partOfSpeech": "adjective",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This restaurant is good and cheap.",
+    "exampleEs": "Este restaurante es bueno y barato.",
+    "usage": "Se usa para expresar o nombrar 'barato' en conversaciones cotidianas.",
+    "grammar": "Es un adjetivo. Puede aparecer despu\u00e9s de 'be' o antes de un sustantivo.",
+    "commonMistakes": [
+      "No memorices 'cheap' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "This restaurant is good and cheap.",
+      "Use 'cheap' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0945_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'cheap' mean in Spanish?",
+        "options": [
+          "barato",
+          "r\u00e1pido",
+          "amable",
+          "oscuro"
+        ],
+        "correctAnswer": "barato",
+        "explanation": "'cheap' significa 'barato' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_adjectives",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: cheap. Example: This restaurant is good and cheap.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Este restaurante es bueno y barato.' en ingl\u00e9s?",
+    "activeRecallAnswer": "This restaurant is good and cheap.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'cheap'.",
+    "links": []
+  },
+  {
+    "id": "free_0946",
+    "word": "key",
+    "meaningEs": "llave",
+    "pronunciation": "ki",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The key is in my bag.",
+    "exampleEs": "La llave est\u00e1 en mi bolso.",
+    "usage": "Se usa para expresar o nombrar 'llave' en conversaciones cotidianas.",
+    "grammar": "Es un sustantivo. Usa el art\u00edculo o posesivo adecuado seg\u00fan el contexto.",
+    "commonMistakes": [
+      "No memorices 'key' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "The key is in my bag.",
+      "Use 'key' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0946_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'key' mean in Spanish?",
+        "options": [
+          "llave",
+          "pregunta",
+          "ventana",
+          "calle"
+        ],
+        "correctAnswer": "llave",
+        "explanation": "'key' significa 'llave' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_nouns",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: key. Example: The key is in my bag.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La llave est\u00e1 en mi bolso.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The key is in my bag.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'key'.",
+    "links": []
+  },
+  {
+    "id": "free_0947",
+    "word": "money",
+    "meaningEs": "dinero",
+    "pronunciation": "ma-ni",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I need some money for the bus.",
+    "exampleEs": "Necesito dinero para el autob\u00fas.",
+    "usage": "Se usa para expresar o nombrar 'dinero' en conversaciones cotidianas.",
+    "grammar": "Es un sustantivo. Usa el art\u00edculo o posesivo adecuado seg\u00fan el contexto.",
+    "commonMistakes": [
+      "No memorices 'money' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "I need some money for the bus.",
+      "Use 'money' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0947_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'money' mean in Spanish?",
+        "options": [
+          "dinero",
+          "pregunta",
+          "ventana",
+          "calle"
+        ],
+        "correctAnswer": "dinero",
+        "explanation": "'money' significa 'dinero' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_nouns",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: money. Example: I need some money for the bus.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Necesito dinero para el autob\u00fas.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I need some money for the bus.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'money'.",
+    "links": []
+  },
+  {
+    "id": "free_0948",
+    "word": "job",
+    "meaningEs": "empleo",
+    "pronunciation": "yob",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "She has a new job in the city.",
+    "exampleEs": "Ella tiene un empleo nuevo en la ciudad.",
+    "usage": "Se usa para expresar o nombrar 'empleo' en conversaciones cotidianas.",
+    "grammar": "Es un sustantivo. Usa el art\u00edculo o posesivo adecuado seg\u00fan el contexto.",
+    "commonMistakes": [
+      "No memorices 'job' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "She has a new job in the city.",
+      "Use 'job' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0948_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'job' mean in Spanish?",
+        "options": [
+          "empleo",
+          "pregunta",
+          "ventana",
+          "calle"
+        ],
+        "correctAnswer": "empleo",
+        "explanation": "'job' significa 'empleo' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_nouns",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: job. Example: She has a new job in the city.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Ella tiene un empleo nuevo en la ciudad.' en ingl\u00e9s?",
+    "activeRecallAnswer": "She has a new job in the city.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'job'.",
+    "links": []
+  },
+  {
+    "id": "free_0949",
+    "word": "family",
+    "meaningEs": "familia",
+    "pronunciation": "fa-mi-li",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "My family lives near the beach.",
+    "exampleEs": "Mi familia vive cerca de la playa.",
+    "usage": "Se usa para expresar o nombrar 'familia' en conversaciones cotidianas.",
+    "grammar": "Es un sustantivo. Usa el art\u00edculo o posesivo adecuado seg\u00fan el contexto.",
+    "commonMistakes": [
+      "No memorices 'family' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "My family lives near the beach.",
+      "Use 'family' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0949_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'family' mean in Spanish?",
+        "options": [
+          "familia",
+          "pregunta",
+          "ventana",
+          "calle"
+        ],
+        "correctAnswer": "familia",
+        "explanation": "'family' significa 'familia' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_nouns",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: family. Example: My family lives near the beach.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Mi familia vive cerca de la playa.' en ingl\u00e9s?",
+    "activeRecallAnswer": "My family lives near the beach.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'family'.",
+    "links": []
+  },
+  {
+    "id": "free_0950",
+    "word": "food",
+    "meaningEs": "comida",
+    "pronunciation": "fud",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The food is ready for dinner.",
+    "exampleEs": "La comida est\u00e1 lista para la cena.",
+    "usage": "Se usa para expresar o nombrar 'comida' en conversaciones cotidianas.",
+    "grammar": "Es un sustantivo. Usa el art\u00edculo o posesivo adecuado seg\u00fan el contexto.",
+    "commonMistakes": [
+      "No memorices 'food' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "The food is ready for dinner.",
+      "Use 'food' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0950_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'food' mean in Spanish?",
+        "options": [
+          "comida",
+          "pregunta",
+          "ventana",
+          "calle"
+        ],
+        "correctAnswer": "comida",
+        "explanation": "'food' significa 'comida' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_nouns",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: food. Example: The food is ready for dinner.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La comida est\u00e1 lista para la cena.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The food is ready for dinner.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'food'.",
+    "links": []
+  },
+  {
+    "id": "free_0951",
+    "word": "information",
+    "meaningEs": "informaci\u00f3n",
+    "pronunciation": "in-for-mei-shon",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The receptionist gave me the information.",
+    "exampleEs": "La recepcionista me dio la informaci\u00f3n.",
+    "usage": "Se usa para expresar o nombrar 'informaci\u00f3n' en conversaciones cotidianas.",
+    "grammar": "Es un sustantivo. Usa el art\u00edculo o posesivo adecuado seg\u00fan el contexto.",
+    "commonMistakes": [
+      "No memorices 'information' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "The receptionist gave me the information.",
+      "Use 'information' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0951_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'information' mean in Spanish?",
+        "options": [
+          "informaci\u00f3n",
+          "pregunta",
+          "ventana",
+          "calle"
+        ],
+        "correctAnswer": "informaci\u00f3n",
+        "explanation": "'information' significa 'informaci\u00f3n' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_nouns",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: information. Example: The receptionist gave me the information.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La recepcionista me dio la informaci\u00f3n.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The receptionist gave me the information.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'information'.",
+    "links": []
+  },
+  {
+    "id": "free_0952",
+    "word": "time",
+    "meaningEs": "tiempo",
+    "pronunciation": "taim",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "I have time for a quick coffee.",
+    "exampleEs": "Tengo tiempo para tomar un caf\u00e9 r\u00e1pido.",
+    "usage": "Se usa para expresar o nombrar 'tiempo' en conversaciones cotidianas.",
+    "grammar": "Es un sustantivo. Usa el art\u00edculo o posesivo adecuado seg\u00fan el contexto.",
+    "commonMistakes": [
+      "No memorices 'time' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "I have time for a quick coffee.",
+      "Use 'time' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0952_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'time' mean in Spanish?",
+        "options": [
+          "tiempo",
+          "pregunta",
+          "ventana",
+          "calle"
+        ],
+        "correctAnswer": "tiempo",
+        "explanation": "'time' significa 'tiempo' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_nouns",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: time. Example: I have time for a quick coffee.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Tengo tiempo para tomar un caf\u00e9 r\u00e1pido.' en ingl\u00e9s?",
+    "activeRecallAnswer": "I have time for a quick coffee.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'time'.",
+    "links": []
+  },
+  {
+    "id": "free_0953",
+    "word": "place",
+    "meaningEs": "lugar",
+    "pronunciation": "pleis",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This is a quiet place to study.",
+    "exampleEs": "Este es un lugar tranquilo para estudiar.",
+    "usage": "Se usa para expresar o nombrar 'lugar' en conversaciones cotidianas.",
+    "grammar": "Es un sustantivo. Usa el art\u00edculo o posesivo adecuado seg\u00fan el contexto.",
+    "commonMistakes": [
+      "No memorices 'place' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "This is a quiet place to study.",
+      "Use 'place' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0953_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'place' mean in Spanish?",
+        "options": [
+          "lugar",
+          "pregunta",
+          "ventana",
+          "calle"
+        ],
+        "correctAnswer": "lugar",
+        "explanation": "'place' significa 'lugar' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_nouns",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: place. Example: This is a quiet place to study.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Este es un lugar tranquilo para estudiar.' en ingl\u00e9s?",
+    "activeRecallAnswer": "This is a quiet place to study.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'place'.",
+    "links": []
+  },
+  {
+    "id": "free_0954",
+    "word": "thing",
+    "meaningEs": "cosa",
+    "pronunciation": "ding",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The first thing I need is water.",
+    "exampleEs": "Lo primero que necesito es agua.",
+    "usage": "Se usa para expresar o nombrar 'cosa' en conversaciones cotidianas.",
+    "grammar": "Es un sustantivo. Usa el art\u00edculo o posesivo adecuado seg\u00fan el contexto.",
+    "commonMistakes": [
+      "No memorices 'thing' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "The first thing I need is water.",
+      "Use 'thing' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0954_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'thing' mean in Spanish?",
+        "options": [
+          "cosa",
+          "pregunta",
+          "ventana",
+          "calle"
+        ],
+        "correctAnswer": "cosa",
+        "explanation": "'thing' significa 'cosa' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_nouns",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: thing. Example: The first thing I need is water.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Lo primero que necesito es agua.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The first thing I need is water.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'thing'.",
+    "links": []
+  },
+  {
+    "id": "free_0955",
+    "word": "way",
+    "meaningEs": "camino o manera",
+    "pronunciation": "uei",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This is the fastest way to the station.",
+    "exampleEs": "Este es el camino m\u00e1s r\u00e1pido a la estaci\u00f3n.",
+    "usage": "Se usa para expresar o nombrar 'camino o manera' en conversaciones cotidianas.",
+    "grammar": "Es un sustantivo. Usa el art\u00edculo o posesivo adecuado seg\u00fan el contexto.",
+    "commonMistakes": [
+      "No memorices 'way' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "This is the fastest way to the station.",
+      "Use 'way' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0955_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'way' mean in Spanish?",
+        "options": [
+          "camino o manera",
+          "pregunta",
+          "ventana",
+          "calle"
+        ],
+        "correctAnswer": "camino o manera",
+        "explanation": "'way' significa 'camino o manera' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_nouns",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: way. Example: This is the fastest way to the station.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Este es el camino m\u00e1s r\u00e1pido a la estaci\u00f3n.' en ingl\u00e9s?",
+    "activeRecallAnswer": "This is the fastest way to the station.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'way'.",
+    "links": []
+  },
+  {
+    "id": "free_0956",
+    "word": "service",
+    "meaningEs": "servicio",
+    "pronunciation": "ser-vis",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The hotel service is very good.",
+    "exampleEs": "El servicio del hotel es muy bueno.",
+    "usage": "Se usa para expresar o nombrar 'servicio' en conversaciones cotidianas.",
+    "grammar": "Es un sustantivo. Usa el art\u00edculo o posesivo adecuado seg\u00fan el contexto.",
+    "commonMistakes": [
+      "No memorices 'service' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "The hotel service is very good.",
+      "Use 'service' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0956_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'service' mean in Spanish?",
+        "options": [
+          "servicio",
+          "pregunta",
+          "ventana",
+          "calle"
+        ],
+        "correctAnswer": "servicio",
+        "explanation": "'service' significa 'servicio' en este contexto."
+      }
+    ],
+    "level": "A2",
+    "isPremium": false,
+    "category": "common_nouns",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: service. Example: The hotel service is very good.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'El servicio del hotel es muy bueno.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The hotel service is very good.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'service'.",
+    "links": []
+  },
+  {
+    "id": "free_0957",
+    "word": "center",
+    "meaningEs": "centro",
+    "pronunciation": "sen-ter",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "The office is in the city center.",
+    "exampleEs": "La oficina est\u00e1 en el centro de la ciudad.",
+    "usage": "Se usa para expresar o nombrar 'centro' en conversaciones cotidianas.",
+    "grammar": "Es un sustantivo. Usa el art\u00edculo o posesivo adecuado seg\u00fan el contexto.",
+    "commonMistakes": [
+      "No memorices 'center' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "The office is in the city center.",
+      "Use 'center' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0957_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'center' mean in Spanish?",
+        "options": [
+          "centro",
+          "pregunta",
+          "ventana",
+          "calle"
+        ],
+        "correctAnswer": "centro",
+        "explanation": "'center' significa 'centro' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_nouns",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: center. Example: The office is in the city center.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'La oficina est\u00e1 en el centro de la ciudad.' en ingl\u00e9s?",
+    "activeRecallAnswer": "The office is in the city center.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'center'.",
+    "links": []
+  },
+  {
+    "id": "free_0958",
+    "word": "number",
+    "meaningEs": "n\u00famero",
+    "pronunciation": "nam-ber",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "Write your passport number here.",
+    "exampleEs": "Escriba aqu\u00ed su n\u00famero de pasaporte.",
+    "usage": "Se usa para expresar o nombrar 'n\u00famero' en conversaciones cotidianas.",
+    "grammar": "Es un sustantivo. Usa el art\u00edculo o posesivo adecuado seg\u00fan el contexto.",
+    "commonMistakes": [
+      "No memorices 'number' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "Write your passport number here.",
+      "Use 'number' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0958_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'number' mean in Spanish?",
+        "options": [
+          "n\u00famero",
+          "pregunta",
+          "ventana",
+          "calle"
+        ],
+        "correctAnswer": "n\u00famero",
+        "explanation": "'number' significa 'n\u00famero' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_nouns",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: number. Example: Write your passport number here.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Escriba aqu\u00ed su n\u00famero de pasaporte.' en ingl\u00e9s?",
+    "activeRecallAnswer": "Write your passport number here.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'number'.",
+    "links": []
+  },
+  {
+    "id": "free_0959",
+    "word": "country",
+    "meaningEs": "pa\u00eds",
+    "pronunciation": "can-tri",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "This is my first visit to the country.",
+    "exampleEs": "Esta es mi primera visita al pa\u00eds.",
+    "usage": "Se usa para expresar o nombrar 'pa\u00eds' en conversaciones cotidianas.",
+    "grammar": "Es un sustantivo. Usa el art\u00edculo o posesivo adecuado seg\u00fan el contexto.",
+    "commonMistakes": [
+      "No memorices 'country' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "This is my first visit to the country.",
+      "Use 'country' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0959_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'country' mean in Spanish?",
+        "options": [
+          "pa\u00eds",
+          "pregunta",
+          "ventana",
+          "calle"
+        ],
+        "correctAnswer": "pa\u00eds",
+        "explanation": "'country' significa 'pa\u00eds' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_nouns",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: country. Example: This is my first visit to the country.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Esta es mi primera visita al pa\u00eds.' en ingl\u00e9s?",
+    "activeRecallAnswer": "This is my first visit to the country.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'country'.",
+    "links": []
+  },
+  {
+    "id": "free_0960",
+    "word": "music",
+    "meaningEs": "m\u00fasica",
+    "pronunciation": "miu-sik",
+    "partOfSpeech": "noun",
+    "isVerb": false,
+    "verbType": null,
+    "baseForm": null,
+    "pastSimple": null,
+    "pastParticiple": null,
+    "exampleEn": "We listen to music after work.",
+    "exampleEs": "Escuchamos m\u00fasica despu\u00e9s del trabajo.",
+    "usage": "Se usa para expresar o nombrar 'm\u00fasica' en conversaciones cotidianas.",
+    "grammar": "Es un sustantivo. Usa el art\u00edculo o posesivo adecuado seg\u00fan el contexto.",
+    "commonMistakes": [
+      "No memorices 'music' sin una oraci\u00f3n de contexto.",
+      "Usa la pronunciaci\u00f3n indicada y evita leerla como si fuera espa\u00f1ol."
+    ],
+    "dailyUse": [
+      "We listen to music after work.",
+      "Use 'music' in a sentence about your day."
+    ],
+    "exercises": [
+      {
+        "id": "free_0960_ex_001",
+        "type": "multiple_choice",
+        "question": "What does 'music' mean in Spanish?",
+        "options": [
+          "m\u00fasica",
+          "pregunta",
+          "ventana",
+          "calle"
+        ],
+        "correctAnswer": "m\u00fasica",
+        "explanation": "'music' significa 'm\u00fasica' en este contexto."
+      }
+    ],
+    "level": "A1",
+    "isPremium": false,
+    "category": "common_nouns",
+    "packId": "free_basic_1000",
+    "shortNotificationText": "Uso esencial: music. Example: We listen to music after work.",
+    "activeRecallPrompt": "\u00bfC\u00f3mo dir\u00edas 'Escuchamos m\u00fasica despu\u00e9s del trabajo.' en ingl\u00e9s?",
+    "activeRecallAnswer": "We listen to music after work.",
+    "learningTip": "Crea hoy una oraci\u00f3n personal con 'music'.",
+    "links": []
+  }
+]

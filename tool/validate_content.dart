@@ -17,8 +17,16 @@ class Validator {
   final errors = <String>[];
   final ids = <String, LessonRef>{};
   final words = <String, LessonRef>{};
+  final lessonsByLevel = <String, int>{
+    for (final level in validLevels) level: 0,
+  };
+  final lessonsByPack = <String, int>{};
   var filesReviewed = 0;
   var lessonsReviewed = 0;
+  var freeLessons = 0;
+  var premiumLessons = 0;
+  var verbsReviewed = 0;
+  var phrasesReviewed = 0;
 
   void run() {
     final packsDir = Directory(packsPath);
@@ -80,7 +88,34 @@ class Validator {
         continue;
       }
       lessonsReviewed++;
+      countLesson(rawLesson);
       validateLesson(path, expectedPackId, index, rawLesson);
+    }
+  }
+
+  void countLesson(Map<String, dynamic> lesson) {
+    final isPremium = lesson['isPremium'];
+    if (isPremium == true) {
+      premiumLessons++;
+    } else if (isPremium == false) {
+      freeLessons++;
+    }
+
+    final level = stringValue(lesson['level']);
+    if (validLevels.contains(level)) {
+      lessonsByLevel[level] = (lessonsByLevel[level] ?? 0) + 1;
+    }
+
+    final packId = stringValue(lesson['packId']);
+    if (packId.isNotEmpty) {
+      lessonsByPack[packId] = (lessonsByPack[packId] ?? 0) + 1;
+    }
+
+    if (lesson['isVerb'] == true) {
+      verbsReviewed++;
+    }
+    if (stringValue(lesson['partOfSpeech']).toLowerCase() == 'phrase') {
+      phrasesReviewed++;
     }
   }
 
@@ -388,6 +423,21 @@ class Validator {
     stdout.writeln('Resumen:');
     stdout.writeln('- archivos revisados: $filesReviewed');
     stdout.writeln('- lecciones revisadas: $lessonsReviewed');
+    stdout.writeln('- total de lecciones: $lessonsReviewed');
+    stdout.writeln('- total gratis: $freeLessons');
+    stdout.writeln('- total premium: $premiumLessons');
+    stdout.writeln('- total por nivel:');
+    for (final level in ['A1', 'A2', 'B1', 'B2', 'C1']) {
+      stdout.writeln('  - $level: ${lessonsByLevel[level] ?? 0}');
+    }
+    stdout.writeln('- total por packId:');
+    final sortedPackIds = lessonsByPack.keys.toList()..sort();
+    for (final packId in sortedPackIds) {
+      stdout.writeln('  - $packId: ${lessonsByPack[packId]}');
+    }
+    stdout.writeln('- total de verbos: $verbsReviewed');
+    stdout.writeln('- total de frases: $phrasesReviewed');
+    stdout.writeln('- total de palabras unicas: ${words.length}');
     stdout.writeln('- errores encontrados: ${errors.length}');
     stdout.writeln('- resultado final: ${errors.isEmpty ? 'OK' : 'ERROR'}');
   }
